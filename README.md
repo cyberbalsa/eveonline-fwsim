@@ -23,22 +23,26 @@ Open **http://localhost:8091/**. Choose Caldari or Gallente, name your commander
 3. **End watch** resolves both sides together. Ships follow real stargate routes.
 4. When a system becomes vulnerable, issue **Assault I-Hub**. Ownership transfers after hub destruction and scheduled downtime.
 5. Keep your force supplied through **Industry**, assign reserve ships in **Fleet Fitting**, and fund joint operations in **Council**. Rest tired pilots.
+6. Open **OPS** to manage pilot groups, develop volunteer officers, set participation and replacement policies, and resolve requests before their deadlines. **Council** also offers negotiations, defensive compacts, workshop access, replacement assistance, aid, and reconciliation.
 
-Capture both bridgehead targets and hold them for four watches with readiness at least 35% and six surviving hulls. The standard campaign has a 120-watch limit, with 48- and 180-watch options. Victory can occur before the limit. The in-game handbook explains the mechanics.
+Capture both bridgehead targets and hold them for four watches with readiness at least 35% and six surviving hulls. The standard campaign has a 120-watch limit, with 48- and 180-watch options. Victory can occur before the limit. After the campaign report, **Continue in sandbox** keeps the same fleets, politics, calendar, and history while preserving the original result. The in-game handbook explains the mechanics.
 
-Actions autosave to this browser. **Export** creates a portable campaign file; **Import** validates it before replacing the current campaign. Starting or importing another campaign preserves the prior browser save under `eve-war-council-campaign-v1-backup`. Saves are local to the current browser and origin; export before clearing browser data or changing hosts.
+Actions autosave to this browser. **SAVE** opens a manager that keeps up to twelve named campaigns without replacing other slots. **Export** creates a portable campaign file; **Import** validates it before replacing the current campaign. Starting, loading, or importing another campaign preserves the prior browser save under `eve-war-council-campaign-v1-backup`. Saves from the first published version upgrade automatically while preserving their fleets, resources, geography, and current watch. Saves are local to the current browser and origin; export before clearing browser data or changing hosts.
 
-## Implemented first version
+## Implemented features
 
 - All **90 warzone systems and 110 internal gates**, real schematic positions, pan/zoom/search, occupancy/frontline/supply views, fog-filtered fleet counters, and system inspection.
 - Five combat doctrines, eight orders, four engagement stances, travel, combat losses, withdrawal, site pressure, advantage, infrastructure hub assaults, and delayed ownership transfers.
 - Independent corporation AI with separate finite wallets, reserves, attendance and strategic objectives. Real corporation/alliance names, logos and verified public character portraits appear in the council.
+- Six pilot cohorts with different preferences, enjoyment, workload, trust, participation, and retention. Three fictional volunteer officers develop fleet organization, logistics, and mentoring. Requests and disagreements produce choices, deadlines, promises, and remembered consequences.
+- Coalition counteroffers and refusals, finite aid and reciprocal favors, defensive compacts, allied workshop access, escrowed replacement assistance, scheduling rivalries, withdrawal, and reconciliation. Organizational priorities affect independent AI planning.
 - Manufacturing, procurement, material freight, capped LP settlement, reserve hangars, fleet formation/refitting, training, institution upgrades, morale, fatigue and coalition commitments.
 - Timed relocation of reserves and unfinished production, plus emergency evacuation from captured staging. A wiped force can return its pilots and rebuild.
-- Seeded deterministic campaigns, portable validated saves, operations and wallet journals, campaign outcomes, and responsive desktop/mobile controls.
+- Seeded deterministic campaigns, portable validated saves, named local saves, searchable paginated operations history, campaign outcomes with sandbox continuation, and responsive desktop/mobile controls.
+- Combat forecasts explain observed strength, pilot coverage, travel, and uncertainty without revealing unscouted forces or private orders.
 - Real 3D ship previews with keyboard/pointer orbit, reduced-motion support and an official painted-render fallback. Locally cached EVE interface sounds can be muted.
 
-This is the first playable slice of the [larger PRD](PRD.md), not every proposed feature. [Implementation scope and adaptations](design/implementation.md) distinguishes working rules from future content.
+This release completes the people-management and coalition interactions described in the [people and politics guide](docs/people-and-politics.md). The [larger PRD](PRD.md) also describes future scenario content and detailed MMO systems; [implementation scope and adaptations](design/implementation.md) records those boundaries. Fictional officers belong to the player-created corporation; real named EVE characters remain sourced corporation liaisons.
 
 ## Fidelity and research
 
@@ -64,13 +68,13 @@ npm run test:e2e
 npm run validate:research
 ```
 
-Node tests cover capture chronology, finite inventory, production and logistics, fog, deterministic replay, attendance, NPC campaigns, recovery and asset provenance. Browser tests exercise the actual industry, council, fitting, map, orders, saves and mobile controls. The E2E config packages the site and starts a static server on port 8091, testing `/eveonline-fwsim/` to match the GitHub Pages project path. Stop any existing server on that port before running the tests.
+Node tests cover capture chronology, finite inventory, production and logistics, fog, deterministic replay, differentiated attendance, promises, political agreements and escrow, NPC campaigns, recovery, save migration, sandbox continuation, and asset provenance. Browser tests exercise the actual people, industry, council, fitting, map, orders, named saves, and mobile controls. The E2E config packages the site and starts a static server on port 8091, testing `/eveonline-fwsim/` to match the GitHub Pages project path. Stop any existing server on that port before running the tests.
 
 ## Publishing
 
 The [Pages workflow](.github/workflows/pages.yml) runs the engine, asset, research and browser checks on pushes and pull requests to `main`. Successful pushes to `main` deploy automatically. The repository's **Settings → Pages → Source** must be **GitHub Actions**.
 
-`npm run build:pages` copies the game, local assets and supporting documentation into `_site/eveonline-fwsim/`. This is the deployment artifact; dependencies, tests and tooling are excluded. The same artifact is tested before uploading. Packaging does not compile or change the game's browser modules.
+`npm run build:pages` copies the game, local assets and supporting documentation into `_site/eveonline-fwsim/`. This is the deployment artifact; dependencies, tests and tooling are excluded. The same artifact is tested before uploading. Packaging adds a shared content-based cache key to module and stylesheet URLs so returning browsers load a consistent release. It does not compile the modules or modify source files.
 
 To run the browser checks against the live site:
 
@@ -78,7 +82,7 @@ To run the browser checks against the live site:
 PLAYWRIGHT_BASE_URL=https://cyberbalsa.github.io/eveonline-fwsim/ npm run test:e2e
 ```
 
-Key files: `rules.js` holds the tuning and roster; `engine.js` owns state/actions/AI/resolution; `game.js` binds the interface; `map.js` draws the real graph; `styles.css`, `map.css`, and `game-ui.css` theme it. `ship-viewer.js` loads the licensed local renderer bundle. [Asset provenance and optional rebuild instructions](ASSETS.md).
+Key files: `rules.js` holds the tuning and roster; `engine.js` owns state/actions/AI/resolution; `people.js` models pilot participation and requests; `diplomacy.js` owns agreements and political memory; `game.js` and `ui-social.js` bind the interface; `save-slots.js` manages named local saves; `map.js` draws the real graph. `styles.css`, `map.css`, and `game-ui.css` theme the interface. `ship-viewer.js` loads the licensed local renderer bundle. [Asset provenance and optional rebuild instructions](ASSETS.md).
 
 Research utilities use the Python standard library:
 

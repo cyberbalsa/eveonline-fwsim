@@ -5,8 +5,8 @@
   "newCampaignSetupVisible": true,
   "errors": [],
   "automatedSuites": {
-    "node": 30,
-    "browser": 8
+    "node": 72,
+    "browser": 15
   },
   "manualViewports": [
     [
@@ -38,5 +38,128 @@
       667
     ]
   ],
-  "scope": "Chromium technical and layout validation; campaign balance remains subject to playtesting."
+  "scope": "Chromium technical and layout validation; campaign balance remains subject to playtesting.",
+  "release": "0.2.0",
+  "layoutFindings": [
+    {
+      "width": 1440,
+      "height": 1000,
+      "documentOverflow": false,
+      "windows": {
+        "overview": true,
+        "industry": true,
+        "council": true,
+        "doctrines": true,
+        "log": true,
+        "manual": true,
+        "saves": true
+      },
+      "#issue-order": true,
+      "#end-turn": true
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "documentOverflow": false,
+      "windows": {
+        "overview": true,
+        "industry": true,
+        "council": true,
+        "doctrines": true,
+        "log": true,
+        "manual": true,
+        "saves": true
+      },
+      "#issue-order": true,
+      "#end-turn": true
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "documentOverflow": false,
+      "windows": {
+        "overview": true,
+        "industry": true,
+        "council": true,
+        "doctrines": true,
+        "log": true,
+        "manual": true,
+        "saves": true
+      },
+      "#issue-order": true,
+      "#end-turn": true
+    },
+    {
+      "width": 800,
+      "height": 900,
+      "documentOverflow": false,
+      "windows": {
+        "overview": true,
+        "industry": true,
+        "council": true,
+        "doctrines": true,
+        "log": true,
+        "manual": true,
+        "saves": true
+      },
+      "#issue-order": true,
+      "#end-turn": true
+    },
+    {
+      "width": 760,
+      "height": 844,
+      "documentOverflow": false,
+      "windows": {
+        "overview": true,
+        "industry": true,
+        "council": true,
+        "doctrines": true,
+        "log": true,
+        "manual": true,
+        "saves": true
+      },
+      "#issue-order": true,
+      "#end-turn": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "documentOverflow": false,
+      "windows": {
+        "overview": true,
+        "industry": true,
+        "council": true,
+        "doctrines": true,
+        "log": true,
+        "manual": true,
+        "saves": true
+      },
+      "#issue-order": true,
+      "#end-turn": true
+    },
+    {
+      "width": 320,
+      "height": 667,
+      "documentOverflow": false,
+      "windows": {
+        "overview": true,
+        "industry": true,
+        "council": true,
+        "doctrines": true,
+        "log": true,
+        "manual": true,
+        "saves": true
+      },
+      "#issue-order": true,
+      "#end-turn": true
+    }
+  ],
+  "coverage": [
+    "pilot participation, policies, requests, rest and officer development",
+    "negotiation counteroffers, treaty cancellation and finite favors",
+    "named saves, recovery protection, migration and corruption handling",
+    "industry, fleet fitting, map controls, orders and scouting boundaries",
+    "journal search, sandbox continuation and responsive command windows",
+    "consistent versioned modules and stylesheets for returning browsers"
+  ]
 }

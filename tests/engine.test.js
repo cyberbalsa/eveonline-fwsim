@@ -126,7 +126,7 @@ test('full 120-watch campaigns have autonomous pressure, losses, replenishment a
   for (const faction of ['caldari', 'gallente']) {
     const s = make({ faction, seed: `campaign-${faction}` }); let captures = 0, battles = 0, purchases = 0;
     while (!s.result) { advanceTurn(s); captures += s.lastTurn.captures.length; battles += s.lastTurn.battles.length; purchases += s.actors.reduce((n, a) => n + a.ledger.filter(e => e.turn === s.turn && e.reason.startsWith('procure:')).length, 0); }
-    assert.equal(s.turn, 120); assert(s.result.title); assert(captures > 0, `${faction}: NPCs must capture systems`); assert(battles > 0, `${faction}: NPCs must fight`);
+    assert(s.turn <= 120); if (s.turn < 120) { assert.equal(s.result.type, 'victory'); assert.equal(s.objective.holdProgress, RULES.holdTurns); } assert(s.result.title); assert(captures > 0, `${faction}: NPCs must capture systems`); assert(battles > 0, `${faction}: NPCs must fight`);
     assert(s.actors.some(a => a.lifetimeLosses > 0)); assert(s.actors.some(a => a.totalLP > 0)); assert(purchases > 0); assert.equal(validateCampaign(s), true);
   }
 });
@@ -161,6 +161,12 @@ test('rest, training and institutions affect finite attendance, production and s
 
 test('battle losses conserve physical deployed hulls and heavy doctrines only run eligible site classes', () => {
   const s = make({ seed: 'war-council-1' });
+  // Force a legal confrontation so accounting coverage does not depend on which
+  // objectives each organizational personality happens to choose first.
+  const hostile = s.actors.find(actor => actor.faction !== s.faction);
+  hostile.commitment = { targetId: s.player.stagingId, mission: 'patrol', remainingTurns: RULES.allyRequestTurns, fulfilledWatches: 0 };
+  for (const fleet of s.fleets.filter(fleet => fleet.ownerId === hostile.id)) fleet.systemId = s.player.stagingId;
+  for (const fleet of own(s)) queueOrder(s, fleet.id, { type: 'patrol', targetId: s.player.stagingId, stance: 'hold' });
   const initial = s.fleets.reduce((n, f) => n + f.ships, 0) + [s.player, ...s.actors].reduce((n, a) => n + Object.values(a.hangar).reduce((sum, stock) => sum + stock, 0), 0);
   let bought = 0;
   for (let i = 0; i < 20; i++) { advanceTurn(s); bought += s.actors.reduce((n, a) => n + a.ledger.filter(e => e.turn === s.turn && e.reason.startsWith('procure:')).reduce((sum, e) => sum + Number(e.reason.match(/^procure: (\d+)/)[1]), 0), 0); }

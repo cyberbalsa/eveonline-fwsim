@@ -1,7 +1,11 @@
 import { DOCTRINES, STANCES, ORDER_TYPES, RULES, NPC_ORGANIZATIONS } from './rules.js';
+import { initializePeople, validatePeople, getPeopleAttendanceModifier, applyPeopleAction, settlePeople } from './people.js';
+import { initializeDiplomacy, validateDiplomacy, applyDiplomacyAction, settleDiplomacy, getDiplomacyQuote, getDiplomacyPlanningBias, canRequestSupport, recordJointOperation } from './diplomacy.js';
 export { DOCTRINES, STANCES, ORDER_TYPES, RULES, NPC_ORGANIZATIONS } from './rules.js';
 
 const FACTIONS = ['caldari', 'gallente'];
+const CAMPAIGN_SCHEMA = 2;
+const MAX_SANDBOX_WATCH = 1_000_000;
 const clamp = (n, lo = 0, hi = 100) => Math.max(lo, Math.min(hi, n));
 const other = faction => faction === 'caldari' ? 'gallente' : 'caldari';
 const copy = value => JSON.parse(JSON.stringify(value));
@@ -15,7 +19,7 @@ function hash(text) { let n = 2166136261; for (const c of String(text)) n = Math
 // Stateless keyed rolls are independent of fleet/actor iteration order. Planners never read these rolls.
 const roll = (state, ...key) => hash([state.seed, state.turn, ...key].join('|')) / 4294967296;
 const nextId = (state, prefix) => `${prefix}-${state.nextId++}`;
-function log(state, type, title, text) { state.log.unshift({ id: nextId(state, 'event'), turn: state.turn, type, title, text }); state.log.length = Math.min(state.log.length, 180); }
+function log(state, type, title, text) { state.log.unshift({ id: nextId(state, 'event'), turn: state.turn, type, title, text }); state.log.length = Math.min(state.log.length, 2000); }
 export function getDoctrine(id) { const d = DOCTRINES.find(d => d.id === id); assert(d, `Unknown doctrine: ${id}.`); return d; }
 export function getSystem(state, id) { return state.systems[String(id)] || null; }
 export function getNeighbors(state, id) { return (getSystem(state, id)?.neighbors || []).map(id => getSystem(state, id)); }
@@ -35,11 +39,16 @@ export function findRoute(state, originId, targetId) {
   }
   return null;
 }
-function availablePilots(a) { return Math.floor(a.pilots * clamp(0.55 + a.morale * 0.005 - a.fatigue * 0.004 + (a.upgrades?.command || 0) * 0.04, 0.25, 1)); }
+function availablePilots(state, ownerId = 'player') {
+  const a = actor(state, ownerId);
+  const participation = clamp(0.55 + a.morale * 0.005 - a.fatigue * 0.004 + (a.upgrades?.command || 0) * 0.04, 0.25, 1);
+  const eligible = ownerId === 'player' && state.people ? state.people.cohorts.filter(cohort => cohort.restRemaining === 0).reduce((sum, cohort) => sum + cohort.count, 0) : a.pilots;
+  return Math.min(eligible, a.pilots, Math.floor(a.pilots * participation * getPeopleAttendanceModifier(state, ownerId)));
+}
 export function getReadiness(state, ownerId = 'player') {
   const a = actor(state, ownerId); const fleets = ownFleets(state, ownerId);
   const fieldedShips = fleets.reduce((n, f) => n + f.ships, 0), reserveShips = Object.values(a.hangar).reduce((n, c) => n + c, 0);
-  const ready = availablePilots(a);
+  const ready = availablePilots(state, ownerId);
   const materialScore = Math.min(100, (fieldedShips + reserveShips * 0.45) / 0.6);
   const score = Math.round(clamp(materialScore * 0.4 + a.morale * 0.25 + (100 - a.fatigue) * 0.2 + a.trust * 0.15));
   return { score, availablePilots: ready, assignedPilots: fieldedShips, freePilots: Math.max(0, ready - fieldedShips), fieldedShips, reserveShips, morale: a.morale, fatigue: a.fatigue, trust: a.trust };
@@ -93,9 +102,11 @@ export function createCampaign(snapshot, options = {}) {
     const second = newFleet(state, org.id, 'caracal', 7, base.id, `${org.ticker} Mainline`);
     a.fleetIds = [first.id, second.id];
   }
+  state.schemaVersion = CAMPAIGN_SCHEMA; state.sandbox = false; state.campaignReport = null;
   syncAllies(state);
   const targets = values(state).filter(s => s.occupier !== faction && getOperationalState(state, s.id) === 'frontline').sort((a, b) => findRoute(state, staging.id, a.id).length - findRoute(state, staging.id, b.id).length || b.vp / b.threshold - a.vp / a.threshold || a.id - b.id).slice(0, 2);
   state.objective = { title: 'Secure the bridgehead', description: `Capture ${targets.map(s => s.name).join(' and ')}, then hold both for ${RULES.holdTurns} watches with readiness of at least ${RULES.mandateReadiness}.`, targetIds: targets.map(s => s.id), holdProgress: 0, requiredHoldTurns: RULES.holdTurns, minimumReadiness: RULES.mandateReadiness, initialFriendlyCount: values(state).filter(s => s.occupier === faction).length };
+  initializePeople(state); initializeDiplomacy(state);
   log(state, 'briefing', 'The war council is yours', `${state.player.corporationName} stages in ${staging.name}. Your fleets, reserves and NPC strengths are an authored scenario; the opening map comes from 22 September 2026. Complete sites, defeat vulnerable hubs, then wait for the next scheduled downtime to transfer ownership.`);
   validateCampaign(state); return state;
 }
@@ -122,6 +133,7 @@ export function queueOrder(state, fleetId, order) {
   fleet.lastAction = `Ordered: ${order.type}`; return state;
 }
 export function getActionQuote(state, action) {
+  if (action.type?.startsWith('diplomacy')) return getDiplomacyQuote(state, action, simulationContext());
   const a = state.player; const d = action.doctrineId ? getDoctrine(action.doctrineId) : null;
   switch (action.type) {
     case 'procure': return { isk: d.cost * action.count, turns: Math.max(1, RULES.procurementTurns - Math.floor(a.upgrades.logistics / 2)), materials: 0 };
@@ -131,13 +143,14 @@ export function getActionQuote(state, action) {
     case 'training': return { isk: RULES.trainingCost, turns: RULES.trainingTurns };
     case 'upgrade': return { isk: RULES.upgradeBaseCosts[action.upgrade] * ((a.upgrades[action.upgrade] || 0) + 1), turns: 0 };
     case 'festival': return { isk: RULES.festivalCost, turns: 0 };
-    case 'allyRequest': return { isk: RULES.allyRequestCost, turns: RULES.allyRequestTurns };
+    case 'allyRequest': return getDiplomacyQuote(state, { ...action, type: 'diplomacyPropose', agreement: 'joint', offerISK: undefined });
     case 'setStaging': return { isk: RULES.relocationCost, turns: relocationTurns(state, a.stagingId, action.systemId) };
     default: return { isk: 0, turns: 0 };
   }
 }
 function spend(a, isk, reason, turn) { assert(Number.isFinite(isk) && isk >= 0 && a.wallet >= isk, 'Insufficient corporation ISK.'); a.wallet -= isk; a.ledger.unshift({ turn, isk: -isk, reason }); a.ledger.length = Math.min(a.ledger.length, 80); }
 function income(a, isk, reason, turn) { a.wallet += isk; a.ledger.unshift({ turn, isk, reason }); a.ledger.length = Math.min(a.ledger.length, 80); }
+function simulationContext() { return { log, spend, income, findRoute, orderError, getReadiness }; }
 export function performAction(state, action) {
   mustActive(state); assert(action && typeof action.type === 'string', 'Choose a corporation action.');
   // Apply on a draft so failed compound actions cannot charge money, consume stock or reserve pilots.
@@ -145,6 +158,7 @@ export function performAction(state, action) {
 }
 function applyAction(state, action, ownerId) {
   const a = actor(state, ownerId), isPlayer = ownerId === 'player', faction = actorFaction(state, ownerId);
+  if (isPlayer && (applyPeopleAction(state, action, simulationContext()) || applyDiplomacyAction(state, action, simulationContext()))) { syncAllies(state); return; }
   const announce = (title, text) => { if (isPlayer) log(state, 'management', title, text); };
   switch (action.type) {
     case 'procure': case 'manufacture': {
@@ -176,9 +190,12 @@ function applyAction(state, action, ownerId) {
     case 'rest': { a.resting = true; for (const f of ownFleets(state, ownerId)) f.order = { type: 'rest', targetId: f.systemId }; announce('Stand-down ordered', 'The corporation rests this watch. Deployed survivors regain readiness; hull losses require replacements.'); break; }
     case 'allyRequest': {
       assert(isPlayer, 'Only the player issues coalition requests.'); const ally = state.actors.find(a => a.id === action.allyId && a.faction === state.faction); assert(ally, 'Choose an allied corporation.'); assert(ally.cooldown === 0, 'This ally is still committed to its previous operation.'); assert(ally.trust >= 35, 'This ally needs at least 35 trust to accept an operation.');
+      const support = canRequestSupport(state, ally.id); assert(support.allowed, support.reason);
       const mission = action.mission || 'offensive'; assert(['offensive', 'defensive', 'patrol', 'advantage', 'hub'].includes(mission), 'Choose a military support mission.');
       const usable = ownFleets(state, ally.id).find(f => f.ships >= 3); assert(usable, 'This ally has no deployable formation and must rebuild.'); const error = orderError(state, usable, { type: mission, targetId: action.targetId }); assert(!error, error);
-      spend(a, RULES.allyRequestCost, `Joint operation: ${ally.name}`, state.turn); income(ally, RULES.allyRequestCost, 'Player-funded joint operation', state.turn); ally.commitment = { targetId: Number(action.targetId), mission, remainingTurns: RULES.allyRequestTurns, fulfilledWatches: 0 }; ally.cooldown = RULES.allyRequestCooldown; a.trust = clamp(a.trust + 2); announce('Joint operation agreed', `${ally.name} accepts ${mission} support in ${getSystem(state, action.targetId).name} for eight watches. It retains its ships, pilots and tactical withdrawal decisions.`); break;
+      assert(!state.diplomacy.organizations[ally.id].pending, 'Accept or decline this ally’s counteroffer before requesting another operation.');
+      const quote = getActionQuote(state, action); assert(quote.allowed, quote.reason);
+      spend(a, quote.requiredISK, `Joint operation: ${ally.name}`, state.turn); income(ally, quote.requiredISK, 'Player-funded joint operation', state.turn); ally.commitment = { targetId: Number(action.targetId), mission, remainingTurns: RULES.allyRequestTurns, fulfilledWatches: 0 }; ally.cooldown = RULES.allyRequestCooldown; a.trust = clamp(a.trust + 2); recordJointOperation(state, ally.id, 'agreed', simulationContext()); announce('Joint operation agreed', `${ally.name} accepts ${mission} support in ${getSystem(state, action.targetId).name} for eight watches. It retains its ships, pilots and tactical withdrawal decisions.`); break;
     }
     case 'setStaging': {
       const destination = getSystem(state, action.systemId); assert(destination && destination.occupier === faction, 'Choose a friendly staging system.'); assert(destination.id !== a.stagingId, 'The corporation is already staged there.');
@@ -266,6 +283,7 @@ function npcPlanning(state) {
         if (enemies > power + friends * 0.8) score -= (enemies - power - friends * 0.8) * 1.6;
         // Fixed organizational preferences vary spatial priorities without reading hidden data.
         score += (hash(`${a.id}:${s.id}`) % 9) - 4;
+        score += getDiplomacyPlanningBias(state, a.id, mission, s.id);
         if (f.order?.targetId === s.id && f.order.type === mission) score += 6;
         scored.push({ mission, id: s.id, score });
       }
@@ -287,7 +305,7 @@ function allocateAttendance(state) {
   for (const ownerId of ['player', ...state.actors.map(a => a.id)].sort()) {
     const a = actor(state, ownerId), fleets = ownFleets(state, ownerId).sort((x, y) => x.id.localeCompare(y.id));
     const demand = fleets.reduce((n, f) => n + (f.order.type === 'rest' ? 0 : f.ships), 0);
-    const supply = availablePilots(a), ratio = demand ? Math.min(1, supply / demand) : 1;
+    const supply = availablePilots(state, ownerId), ratio = demand ? Math.min(1, supply / demand) : 1;
     let used = 0;
     for (const f of fleets) { f.activeShips = f.order.type === 'rest' ? 0 : Math.floor(f.ships * ratio); used += f.activeShips; }
     for (const f of fleets) if (used < supply && f.order.type !== 'rest' && f.activeShips < f.ships) { f.activeShips++; used++; }
@@ -298,6 +316,7 @@ function moveFleets(state) {
     f.turnOriginId = f.systemId; f.movedHops = 0; f.engaged = false; f.withdrawn = false; f.operationDone = false;
     const order = f.order;
     if (order.type === 'rest') { f.lastAction = 'Resting'; continue; }
+    if (f.ships > 0 && f.activeShips === 0) { f.lastAction = 'Awaiting available pilots; the formation stays in place this watch.'; continue; }
     const error = orderError(state, f, order);
     if (error) { f.order = { type: 'rest', targetId: f.systemId }; f.lastAction = error; f.activeShips = 0; continue; }
     if (f.systemId !== order.targetId) {
@@ -475,7 +494,7 @@ function downtime(state) {
 function settleParticipation(state) {
   for (const ownerId of ['player', ...state.actors.map(a => a.id)].sort()) {
     const a = actor(state, ownerId), fleets = ownFleets(state, ownerId);
-    const active = fleets.filter(f => f.order.type !== 'rest' && !f.withdrawn && f.ships > 0);
+    const active = fleets.filter(f => f.order.type !== 'rest' && !f.withdrawn && f.ships > 0 && f.activeShips > 0);
     const proportion = active.length / Math.max(1, fleets.length);
     a.fatigue = clamp(a.fatigue + proportion * 7 - (1 - proportion) * 10 - (a.resting && proportion === 0 ? 4 : 0));
     a.morale = clamp(a.morale + (proportion === 0 ? 0.7 : a.fatigue > 65 ? -1.6 : 0.05));
@@ -484,7 +503,7 @@ function settleParticipation(state) {
     income(a, isk, 'Background industrial contracts (external income)', state.turn);
     if (ownerId === 'player') state.lastTurn.income += isk;
     for (const f of fleets) {
-      if (f.order.type === 'rest' || f.withdrawn) { f.readiness = clamp(f.readiness + 16 + a.upgrades.logistics * 2); f.damage = clamp(f.damage - 20); f.fatigue = clamp(f.fatigue - 18); }
+      if (f.order.type === 'rest' || f.withdrawn || f.activeShips === 0) { f.readiness = clamp(f.readiness + 16 + a.upgrades.logistics * 2); f.damage = clamp(f.damage - 20); f.fatigue = clamp(f.fatigue - 18); }
       else { f.readiness = clamp(f.readiness - 3 - (f.engaged ? 2 : 0) + a.upgrades.logistics); f.fatigue = clamp(f.fatigue + 8); }
       // Attendance is a per-watch reservation, not extra ships or permanently lost people.
       delete f.turnOriginId; delete f.movedHops;
@@ -496,6 +515,7 @@ function settleParticipation(state) {
         a.commitment.remainingTurns--;
         if (a.commitment.remainingTurns <= 0) {
           const honored = a.commitment.fulfilledWatches > 0; a.trust = clamp(a.trust + (honored ? 7 : -5));
+          if (a.faction === state.faction) recordJointOperation(state, a.id, honored ? 'fulfilled' : 'failed', simulationContext());
           if (a.faction === state.faction) { state.player.trust = clamp(state.player.trust + (honored ? 3 : -2)); log(state, 'council', `${a.name}: operation ${honored ? 'completed' : 'ended'}`, honored ? 'The ally reached its objective and supported the operation. Fulfilled agreements improve future coalition readiness.' : 'Travel, losses or changes in the front prevented effective support. Its finite resources and tactical judgment constrained the operation.'); }
           a.commitment = null;
         }
@@ -506,8 +526,9 @@ function settleParticipation(state) {
 function settleObjective(state) {
   const mandate = state.objective, readiness = getReadiness(state).score;
   const held = mandate.targetIds.filter(id => getSystem(state, id).occupier === state.faction).length;
-  if (held === mandate.targetIds.length && readiness >= mandate.minimumReadiness && getReadiness(state).fieldedShips >= 6) mandate.holdProgress++;
+  if (held === mandate.targetIds.length && readiness >= mandate.minimumReadiness && getReadiness(state).fieldedShips >= 6) mandate.holdProgress = Math.min(mandate.requiredHoldTurns, mandate.holdProgress + 1);
   else mandate.holdProgress = 0;
+  if (state.sandbox) return;
   const initialTargets = mandate.targetIds.map(id => getSystem(state, id));
   const territory = initialTargets.reduce((n, s) => n + (s.occupier === state.faction ? 1 : s.hubPending?.faction === state.faction ? 0.9 : s.vp / s.threshold * 0.65), 0) / mandate.targetIds.length;
   const score = Math.round(territory * 50 + readiness * 0.25 + state.player.trust * 0.25);
@@ -520,10 +541,49 @@ function settleObjective(state) {
 }
 export function advanceTurn(state) {
   mustActive(state); validateCampaign(state);
+  assert(state.turn < MAX_SANDBOX_WATCH, 'This campaign has reached its maximum supported watch. Export it and start a new campaign.');
   const draft = copy(state); draft.turn++;
   draft.lastTurn = { battles: [], captures: [], deliveries: [], losses: 0, income: 0, lp: 0 };
-  downtime(draft); npcPlanning(draft); allocateAttendance(draft); moveFleets(draft); resolveBattles(draft); resolveOperations(draft); resolveSupplies(draft); settleParticipation(draft); syncAllies(draft); settleObjective(draft); validateCampaign(draft);
+  downtime(draft); npcPlanning(draft); allocateAttendance(draft); moveFleets(draft); resolveBattles(draft); resolveOperations(draft); resolveSupplies(draft); settleParticipation(draft); settlePeople(draft, simulationContext()); settleDiplomacy(draft, simulationContext()); syncAllies(draft); settleObjective(draft); validateCampaign(draft);
   Object.assign(state, draft); return state;
+}
+export function continueSandbox(state) {
+  validateCampaign(state);
+  assert(state.result && !state.sandbox, 'Finish the campaign before continuing in sandbox mode.');
+  const draft = copy(state);
+  draft.campaignReport = { ...copy(draft.result), turn: draft.turn };
+  draft.sandbox = true; draft.result = null;
+  log(draft, 'briefing', 'Sandbox command continues', 'Your campaign report is preserved. Fleets, politics, industry and the watch calendar continue without another mandate deadline.');
+  validateCampaign(draft); Object.assign(state, draft); return state;
+}
+
+/** An estimate from the player's scouting picture, never private enemy orders or future rolls. */
+export function getCombatForecast(state, fleetId, targetId) {
+  const selected = fleetById(state, fleetId), target = getSystem(state, targetId);
+  assert(target, 'Select a warzone system for the forecast.');
+  const route = findRoute(state, selected.systemId, target.id);
+  const hops = route.length - 1, turns = Math.ceil(hops / getDoctrine(selected.doctrineId).speed);
+  const friendly = state.fleets.filter(f => f.faction === state.faction && f.ships > 0);
+  const scouted = friendly.some(f => f.systemId === target.id || getSystem(state, f.systemId).neighbors.includes(target.id))
+    || state.player.stagingId === target.id || getSystem(state, state.player.stagingId).neighbors.includes(target.id);
+  const reasons = [turns ? `${turns} travel watch${turns === 1 ? '' : 'es'}; the situation can change before arrival.` : 'The selected formation is already on station.'];
+  const readiness = getReadiness(state), own = ownFleets(state).filter(f => f.order.type !== 'rest' || f.id === selected.id);
+  const demand = own.reduce((n, f) => n + f.ships, 0);
+  const active = Math.min(selected.ships, Math.floor(selected.ships * Math.min(1, readiness.availablePilots / Math.max(1, demand))));
+  reasons.push(`${active} of ${selected.ships} hulls have estimated pilot coverage; fleet readiness is ${Math.round(selected.readiness)}%.`);
+  if (!selected.ships || active === 0) return { assessment: 'Formation unavailable', confidence: 'High', reasons: [...reasons, 'Assign replacement ships and restore pilot attendance before committing.'] };
+  if (!scouted) return { assessment: 'Unscouted target', confidence: 'Low', reasons: [...reasons, 'No friendly scouting coverage. Send a scout before estimating enemy strength.'] };
+  const observed = getVisibleFleets(state).filter(f => f.systemId === target.id && f.ships > 0 && f.id !== selected.id);
+  const estimate = f => f.ships * getDoctrine(f.doctrineId).power * (0.45 + f.readiness / 180);
+  const opposition = observed.filter(f => f.faction !== state.faction).reduce((n, f) => n + estimate(f), 0);
+  const localSupport = observed.filter(f => f.faction === state.faction).reduce((n, f) => n + estimate(f), 0);
+  const availablePower = estimate({ ...selected, ships: active }) * (1 - selected.damage * 0.003) + localSupport * 0.5;
+  const assessment = opposition === 0 ? 'No hostiles reported' : availablePower >= opposition * 1.35 ? 'Favorable on current reports' : availablePower >= opposition * 0.8 ? 'Contested engagement' : 'Outmatched on current reports';
+  reasons.push(opposition ? 'Comparison uses observed hull classes and readiness; enemy attendance and intentions are unknown.' : 'Scouts currently report no hostile formations here. Reinforcements may still arrive.');
+  if (localSupport) reasons.push('Allied formations are nearby; their support is discounted because their orders are independent.');
+  if (selected.stance === 'evade') reasons.push('Evade stance prioritizes escape and can give up objective time.');
+  reasons.push('This estimate predicts neither a guaranteed result nor an exact loss count.');
+  return { assessment, confidence: turns ? 'Low' : 'Medium', reasons };
 }
 function finite(n, name, min = 0, max = 1e15, integer = false) { assert(typeof n === 'number' && Number.isFinite(n) && n >= min && n <= max && (!integer || Number.isInteger(n)), `Invalid ${name}.`); }
 function safeObject(value, depth = 0) {
@@ -532,8 +592,9 @@ function safeObject(value, depth = 0) {
 }
 export function validateCampaign(state) {
   assert(state && typeof state === 'object' && state.version === RULES.version, 'Unsupported campaign version.'); safeObject(state);
+  assert(state.schemaVersion === undefined || state.schemaVersion === CAMPAIGN_SCHEMA, 'Unsupported campaign schema.');
   assert(FACTIONS.includes(state.faction), 'Invalid campaign faction.'); assert(typeof state.seed === 'string' && state.seed.length <= 500, 'Invalid campaign seed.');
-  finite(state.turn, 'watch', 0, 500, true); finite(state.maxTurns, 'campaign length', 8, 500, true); assert(state.turn <= state.maxTurns, 'Watch exceeds campaign length.'); finite(state.nextId, 'event sequence', 1, 1e8, true);
+  finite(state.turn, 'watch', 0, MAX_SANDBOX_WATCH, true); finite(state.maxTurns, 'campaign length', 8, 500, true); assert(state.sandbox === true || state.turn <= state.maxTurns, 'Watch exceeds campaign length.'); finite(state.nextId, 'event sequence', 1, 1e8, true);
   assert(state.systems && typeof state.systems === 'object' && !Array.isArray(state.systems) && values(state).length > 0 && values(state).length <= 200, 'Invalid warzone systems.');
   assert(Array.isArray(state.edges) && state.edges.length < 1000, 'Invalid gate graph.');
   const edges = new Set();
@@ -543,7 +604,7 @@ export function validateCampaign(state) {
     assert(s.advantage && typeof s.advantage === 'object', 'Invalid advantage.'); FACTIONS.forEach(f => finite(s.advantage[f], 'advantage', 0, 60));
     assert(Array.isArray(s.neighbors) && new Set(s.neighbors).size === s.neighbors.length, 'Invalid neighbor list.');
     for (const id of s.neighbors) assert(getSystem(state, id)?.neighbors.includes(s.id) && edges.has([s.id, id].sort((a, b) => a - b).join(':')), 'Asymmetric or invented gate adjacency.');
-    if (s.hubPending) { assert(s.vp === s.threshold && s.hubPending.faction === other(s.occupier), 'Invalid pending transfer.'); finite(s.hubPending.transferTurn, 'transfer watch', state.turn + 1, 504, true); assert(s.hubPending.transferTurn % RULES.downtimeEveryTurns === 0 && s.hubDamage >= RULES.hubStrength, 'Transfer must follow hub defeat at a scheduled downtime.'); }
+    if (s.hubPending) { assert(s.vp === s.threshold && s.hubPending.faction === other(s.occupier), 'Invalid pending transfer.'); finite(s.hubPending.transferTurn, 'transfer watch', state.turn + 1, MAX_SANDBOX_WATCH + 4, true); assert(s.hubPending.transferTurn % RULES.downtimeEveryTurns === 0 && s.hubDamage >= RULES.hubStrength, 'Transfer must follow hub defeat at a scheduled downtime.'); }
   }
   for (const edge of state.edges) assert(getSystem(state, edge[0]).neighbors.includes(edge[1]), 'Missing source stargate adjacency.');
   assert(Array.isArray(state.actors) && state.actors.length === NPC_ORGANIZATIONS.length, 'Invalid corporation roster.');
@@ -551,7 +612,7 @@ export function validateCampaign(state) {
   for (const a of state.actors) { const source = NPC_ORGANIZATIONS.find(n => n.id === a.id); assert(source && ['faction', 'name', 'corporationId', 'allianceId', 'allianceName', 'ticker'].every(key => a[key] === source[key]), 'Corporation identity does not match the scenario.'); }
   assert(state.player && typeof state.player.commanderName === 'string' && state.player.commanderName.length <= 60 && typeof state.player.corporationName === 'string' && state.player.corporationName.length <= 80, 'Invalid commander identity.');
   for (const a of [state.player, ...state.actors]) {
-    if (a.stagingBlockedTurns !== undefined) finite(a.stagingBlockedTurns, 'staging blockade', 0, 500, true);
+    if (a.stagingBlockedTurns !== undefined) finite(a.stagingBlockedTurns, 'staging blockade', 0, MAX_SANDBOX_WATCH, true);
     finite(a.wallet, 'wallet'); finite(a.lp, 'LP', 0, 1e12, true); finite(a.materials, 'industry kits', 0, 1e7, true); finite(a.pilots, 'pilot roster', 0, RULES.maxPilots, true); finite(a.cashoutUsed, 'LP broker volume', 0, RULES.cashoutCap, true); finite(a.festivalCooldown, 'community cooldown', 0, RULES.festivalCooldown, true);
     for (const key of ['morale', 'fatigue', 'trust']) finite(a[key], key, 0, 100);
     assert(getSystem(state, a.stagingId), 'Invalid staging system.'); assert(a.hangar && Object.keys(a.hangar).length === DOCTRINES.length, 'Invalid hangar.'); for (const d of DOCTRINES) finite(a.hangar[d.id], `${d.hull} stock`, 0, 1e6, true);
@@ -576,7 +637,7 @@ export function validateCampaign(state) {
   }
   for (const j of state.jobs) { if (j.evacuationRemainingTurns !== undefined) { finite(j.evacuationRemainingTurns, 'factory evacuation time', 1, j.remainingTurns, true); assert(getSystem(state, j.destinationId), 'Invalid factory evacuation destination.'); } assert(['manufacture', 'training'].includes(j.type), 'Invalid industry job.'); assert(j.count > 0 && (j.type !== 'manufacture' || j.doctrineId), 'Invalid production output.'); }
   assert(state.objective && Array.isArray(state.objective.targetIds) && state.objective.targetIds.length === 2 && new Set(state.objective.targetIds).size === 2 && state.objective.targetIds.every(id => getSystem(state, id)), 'Invalid mandate.'); finite(state.objective.holdProgress, 'mandate holding period', 0, RULES.holdTurns, true); assert(state.objective.requiredHoldTurns === RULES.holdTurns && state.objective.minimumReadiness === RULES.mandateReadiness, 'Invalid mandate rules.');
-  assert(Array.isArray(state.log) && state.log.length <= 180, 'Invalid campaign log.');
+  assert(Array.isArray(state.log) && state.log.length <= 2000, 'Invalid campaign log.');
   for (const entry of state.log) { assert(typeof entry.id === 'string' && typeof entry.type === 'string' && typeof entry.title === 'string' && entry.title.length <= 250 && typeof entry.text === 'string' && entry.text.length <= 4000, 'Invalid campaign report.'); finite(entry.turn, 'report watch', 0, state.turn, true); }
   assert(state.lastTurn && ['battles', 'captures', 'deliveries'].every(key => Array.isArray(state.lastTurn[key]) && state.lastTurn[key].length <= 200), 'Invalid last-watch report.');
   for (const key of ['losses', 'income', 'lp']) finite(state.lastTurn[key], 'last-watch accounting', 0, 1e15, true);
@@ -584,6 +645,15 @@ export function validateCampaign(state) {
   for (const battle of state.lastTurn.battles) assert(getSystem(state, battle.systemId) && typeof battle.text === 'string' && battle.losses && FACTIONS.every(key => Number.isInteger(battle.losses[key]) && battle.losses[key] >= 0) && Array.isArray(battle.fleets), 'Invalid battle report.');
   for (const capture of state.lastTurn.captures) assert(getSystem(state, capture.systemId) && FACTIONS.includes(capture.faction) && FACTIONS.includes(capture.previous), 'Invalid capture report.');
   if (state.result) { assert(['victory', 'partial', 'defeat'].includes(state.result.type) && typeof state.result.title === 'string' && typeof state.result.text === 'string', 'Invalid campaign result.'); finite(state.result.score, 'campaign score', 0, 100, true); }
+  if (state.schemaVersion === CAMPAIGN_SCHEMA) {
+    assert(typeof state.sandbox === 'boolean', 'Invalid sandbox mode.');
+    if (state.sandbox) {
+      assert(!state.result && state.campaignReport && ['victory', 'partial', 'defeat'].includes(state.campaignReport.type), 'Sandbox requires a preserved campaign report.');
+      assert(typeof state.campaignReport.title === 'string' && state.campaignReport.title.length <= 250 && typeof state.campaignReport.text === 'string' && state.campaignReport.text.length <= 4000, 'Invalid archived campaign report.');
+      finite(state.campaignReport.turn, 'campaign report watch', 0, Math.min(state.turn, state.maxTurns), true); finite(state.campaignReport.score, 'archived campaign score', 0, 100, true);
+    } else assert(state.campaignReport === null, 'Only sandbox campaigns have an archived result.');
+    validatePeople(state); validateDiplomacy(state);
+  } else assert(state.people === undefined && state.diplomacy === undefined && !state.sandbox && !state.campaignReport, 'Invalid legacy campaign extensions.');
   return true;
 }
 export function exportCampaign(state) { validateCampaign(state); const payload = JSON.stringify(state); return JSON.stringify({ format: 'new-eden-war-council', version: RULES.version, checksum: hash(payload).toString(16), state }, null, 2); }
@@ -600,5 +670,9 @@ export function importCampaign(text, snapshot) {
     for (const key of ['id', 'name', 'neighbors', 'position2D', 'position3D', 'constellationId', 'constellation', 'regionId', 'region', 'securityStatus', 'npcStationCount', 'originalFactionId', 'occupierFactionId', 'victoryPoints', 'victoryPointsThreshold']) assert(JSON.stringify(saved[key]) === JSON.stringify(source[key]), `Source geography or opening data was modified: ${source.name}.`);
     assert(saved.threshold === source.victoryPointsThreshold, 'Capture thresholds do not match the source snapshot.');
   }
-  syncAllies(state); return state;
+  if (state.schemaVersion === undefined) {
+    state.schemaVersion = CAMPAIGN_SCHEMA; state.sandbox = false; state.campaignReport = null;
+    initializePeople(state); initializeDiplomacy(state);
+  }
+  syncAllies(state); validateCampaign(state); return state;
 }

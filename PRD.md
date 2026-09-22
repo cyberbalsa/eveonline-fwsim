@@ -1,6 +1,6 @@
 # New Eden: War Council — product requirements and game design
 
-**Status:** research-backed design specification, 22 September 2026. A first playable browser version now exists; see [implemented scope and adaptations](design/implementation.md) and [play instructions](README.md). This document remains the broader design target. Numerical pacing, starting assets, AI weights, and victory thresholds below are proposals unless explicitly identified as observed data; executable rules take precedence for the current prototype.
+**Status:** research-backed design specification, 22 September 2026. The playable browser game includes the people and politics update: differentiated pilot groups, fictional volunteer officers, policy tradeoffs, requests and promises, negotiated coalition agreements, political memory and withdrawal, named saves, and sandbox continuation. See [implemented scope and adaptations](design/implementation.md) and [play instructions](README.md). This document remains the broader design target. Numerical pacing, starting assets, AI weights, and victory thresholds below are proposals unless explicitly identified as observed data; executable rules take precedence for the current prototype.
 
 ## 1. The game
 

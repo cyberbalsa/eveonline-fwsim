@@ -85,13 +85,16 @@ test('the council funds an independent allied commitment and enforces its cooldo
   const form = page.locator(`[data-ally-form="${ally.id}"]`);
   await form.locator('[name="mission"]').selectOption('patrol');
   await form.locator('[name="targetId"]').selectOption(String(initial.player.stagingId));
+  // Aideron's opening staging is more than five gates away, so the common
+  // negotiation rules add the disclosed 10M extended-deployment contribution.
+  await expect(form.locator('button[type="submit"]')).toHaveText('Fund operation · 45M ISK');
   await form.locator('button[type="submit"]').click();
   const state = await saved(page), funded = state.actors.find(actor => actor.id === ally.id);
-  expect(state.player.wallet).toBe(initial.player.wallet - 35_000_000);
-  expect(funded.wallet).toBe(initial.actors.find(actor => actor.id === ally.id).wallet + 35_000_000);
+  expect(state.player.wallet).toBe(initial.player.wallet - 45_000_000);
+  expect(funded.wallet).toBe(initial.actors.find(actor => actor.id === ally.id).wallet + 45_000_000);
   expect(funded.commitment).toMatchObject({ mission: 'patrol', targetId: initial.player.stagingId, remainingTurns: 8 });
   await expect(page.locator(`[data-ally-form="${ally.id}"] button[type="submit"]`)).toBeDisabled();
-  await expect(page.locator('.diplomacy-row').filter({ hasText: ally.name })).toContainText('Combat patrol');
+  await expect(page.locator('.diplomacy-row').filter({ has: page.locator(`[data-ally-form="${ally.id}"]`) })).toContainText('Combat patrol');
 });
 
 test('map search, zoom, layers, and fleet commands work without advancing until end watch', async ({ page }) => {
