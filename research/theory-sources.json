@@ -1,0 +1,400 @@
+[
+  {
+    "id": "TH-01",
+    "title": "Repeated Games I: Perfect Monitoring",
+    "url": "https://www.web.stanford.edu/~jdlevin/Econ%20286/Repeated%20Games%20I.pdf",
+    "publisher": "Jonathan Levin / Stanford University",
+    "publishedDate": "2006-05",
+    "kind": "author-course-notes",
+    "claims": [
+      "Repeated interaction can create future incentives for cooperation.",
+      "The familiar discounted prisoner's-dilemma incentive condition applies only with specified payoffs, monitoring, strategies, and horizon."
+    ],
+    "uncertainties": [
+      "Author notes are an authoritative introduction, not an empirical FW study.",
+      "No discount factor or equilibrium result is estimated for the proposed game."
+    ],
+    "accessedDate": "2026-09-22"
+  },
+  {
+    "id": "TH-02",
+    "title": "Repeated Games III: Imperfect Private Monitoring",
+    "url": "https://web.stanford.edu/~jdlevin/Econ%20286/Repeated%20Games%20III.pdf",
+    "publisher": "Jonathan Levin / Stanford University",
+    "publishedDate": "2006-05",
+    "kind": "author-course-notes",
+    "claims": [
+      "Private observations complicate coordinated punishment and cooperation.",
+      "Specific examples show why conclusions from perfect public observation cannot simply be imported."
+    ],
+    "uncertainties": [
+      "The course surveys results known in 2006; it is not a current exhaustive survey.",
+      "Proposed evidence-based trust updates are design choices, not a theorem from these notes."
+    ],
+    "accessedDate": "2026-09-22"
+  },
+  {
+    "id": "TH-03",
+    "title": "Are people conditionally cooperative? Evidence from a public goods experiment",
+    "url": "https://www.econ.uzh.ch/dam/jcr%3Affffffff-9758-127f-0000-00003449356a/ArePeopleCondCooperative.pdf",
+    "publisher": "Urs Fischbacher, Simon Gächter, Ernst Fehr / Economics Letters; author-university copy",
+    "publishedDate": "2001-06",
+    "kind": "original-experimental-paper",
+    "claims": [
+      "The public-goods experiment identifies heterogeneous contribution patterns, including conditional cooperators and free riders."
+    ],
+    "uncertainties": [
+      "Study proportions are not population estimates for EVE players or either militia.",
+      "Search-indexed original abstract and author publication listing were inspected; direct PDF open timed out.",
+      "Non-EVE laboratory setting limits external validity."
+    ],
+    "accessedDate": "2026-09-22"
+  },
+  {
+    "id": "TH-04",
+    "title": "Transcript from an interview with Elinor Ostrom and Oliver E. Williamson",
+    "url": "https://www.nobelprize.org/prizes/economic-sciences/2009/ostrom/164465-ostrom-williamson-interview-transcript/",
+    "publisher": "Nobel Prize / interview with original researchers",
+    "publishedDate": "2009",
+    "kind": "primary-researcher-interview",
+    "claims": [
+      "Ostrom explains that her institutional principles describe regularities among durable systems rather than one universal prescription.",
+      "She discusses polycentric arrangements with multiple decision centers."
+    ],
+    "uncertainties": [
+      "Precise publication day was not established.",
+      "Indexed transcript passages were inspected; subsequent direct open returned 403.",
+      "Applying these institutional insights to militia coalitions is an analogy, not an EVE finding."
+    ],
+    "accessedDate": "2026-09-22"
+  },
+  {
+    "id": "TH-05",
+    "title": "Pay for Performance and Beyond",
+    "url": "https://www.nobelprize.org/uploads/2018/06/holmstrom-lecture.pdf",
+    "publisher": "Bengt Holmström / Nobel Prize lecture",
+    "publishedDate": "2016-12-08",
+    "kind": "primary-researcher-lecture",
+    "claims": [
+      "Multitasking changes incentive design because agents allocate effort across interdependent activities.",
+      "Easy-to-measure and hard-to-measure tasks can compete for attention."
+    ],
+    "uncertainties": [
+      "Search-indexed section IV of the original lecture was inspected; direct PDF open returned 403.",
+      "The proposed project-reward system is an application, not an optimal-contract solution."
+    ],
+    "accessedDate": "2026-09-22"
+  },
+  {
+    "id": "TH-06",
+    "title": "Strategic Information Transmission",
+    "url": "https://www.haverford.edu/sites/default/files/CrawfordSobel1982.pdf",
+    "publisher": "Vincent P. Crawford and Joel Sobel / Econometrica; Haverford-hosted original-paper copy",
+    "publishedDate": "1982-11",
+    "kind": "original-theoretical-paper",
+    "claims": [
+      "A sender-receiver model with partly divergent interests permits partially informative communication.",
+      "Greater preference alignment can improve informativeness under the paper's assumptions."
+    ],
+    "uncertainties": [
+      "The model's scalar information and equilibrium assumptions do not directly describe the full EVE war.",
+      "No literal human deception rates or real named-player traits are inferred."
+    ],
+    "accessedDate": "2026-09-22"
+  },
+  {
+    "id": "TH-07",
+    "title": "The Motivational Pull of Video Games: A Self-Determination Theory Approach",
+    "url": "https://selfdeterminationtheory.org/SDT/documents/2006_RyanRigbyPrzybylski_MandE.pdf",
+    "publisher": "Richard M. Ryan, C. Scott Rigby, Andrew Przybylski / Motivation and Emotion",
+    "publishedDate": "2006",
+    "kind": "original-empirical-paper",
+    "claims": [
+      "Four studies relate perceived autonomy, competence, and relatedness to enjoyment and future game play.",
+      "The results motivate distinguishing several dimensions of engagement."
+    ],
+    "uncertainties": [
+      "This is not an EVE-specific burnout model.",
+      "No numeric fatigue or attendance coefficient in the proposed simulation is taken from this paper.",
+      "Relationships with fictional NPCs should not be equated with the paper's multiplayer social context."
+    ],
+    "accessedDate": "2026-09-22"
+  },
+  {
+    "id": "TH-08",
+    "title": "Deterministic Network Interdiction",
+    "url": "https://calhoun.nps.edu/bitstream/handle/10945/36730/WoodDetNetInt93.pdf?sequence=3",
+    "publisher": "R. Kevin Wood / Mathematical and Computer Modelling; Naval Postgraduate School archive",
+    "publishedDate": "1993-01",
+    "kind": "original-operations-research-paper",
+    "claims": [
+      "The interdiction model allocates limited resources to reduce an adversary's maximum feasible network flow.",
+      "The general problem is computationally difficult even under restricted resource assumptions."
+    ],
+    "uncertainties": [
+      "Indexed original abstract and introduction inspected; direct archive open returned 403.",
+      "Game cargo-flow constraints are proposals; stargates do not inherit the paper's hypothetical edge capacities.",
+      "Full EVE transport includes routes absent from an internal FW graph."
+    ],
+    "accessedDate": "2026-09-22"
+  },
+  {
+    "id": "TH-09",
+    "title": "Targeting, Deployment, and Loss-Tolerance in Lanchester Engagements",
+    "url": "https://faculty.nps.edu/mpatkins/docs/lanchester.pdf",
+    "publisher": "Michael P. Atkinson, Moshe Kress, Niall J. MacKay / Operations Research",
+    "publishedDate": "2020-12-09",
+    "kind": "original-theoretical-paper",
+    "claims": [
+      "The paper extends Lanchester analysis with targeting, deployment constraints, and loss tolerance.",
+      "Elementary square-law reasoning assumes targeting, simultaneous deployment, and fighting conditions that are not universal."
+    ],
+    "uncertainties": [
+      "Online-first publication is 2020-12-09; journal issue is January-February 2021.",
+      "This is not an empirically fitted EVE combat model.",
+      "Numerical military-force thresholds from the paper are not imported as game balance rules."
+    ],
+    "accessedDate": "2026-09-22"
+  },
+  {
+    "id": "TH-10",
+    "title": "Monte-Carlo Planning in Large POMDPs",
+    "url": "https://proceedings.neurips.cc/paper/2010/hash/edfbe1afcf9246bb0d40eb4d8027d90f-Abstract.html",
+    "publisher": "David Silver and Joel Veness / Advances in Neural Information Processing Systems 23",
+    "publishedDate": "2010",
+    "kind": "original-ai-paper",
+    "claims": [
+      "POMCP combines sampled beliefs and Monte Carlo planning using a generative simulator.",
+      "The paper reports results on particular large POMDP benchmarks."
+    ],
+    "uncertainties": [
+      "No browser runtime or FW campaign performance is established by this paper.",
+      "A multi-actor adaptive strategic game is not automatically a stationary single-agent POMDP."
+    ],
+    "accessedDate": "2026-09-22"
+  },
+  {
+    "id": "EV-01",
+    "title": "Loyalty Points",
+    "url": "https://support.eveonline.com/hc/en-us/articles/14141831188636-Loyalty-Points",
+    "publisher": "CCP / EVE Online Support",
+    "publishedDate": "2024-05-31",
+    "kind": "official-game-documentation",
+    "claims": [
+      "LP are earned through eligible activities and spent in issuing-corporation stores."
+    ],
+    "uncertainties": [
+      "Date is the displayed update date, not necessarily initial publication.",
+      "Store offers and conversion economics require dated game data."
+    ],
+    "accessedDate": "2026-09-22"
+  },
+  {
+    "id": "EV-02",
+    "title": "Viridian: Expansion Notes",
+    "url": "https://www.eveonline.com/de/news/view/viridian-expansion-notes",
+    "publisher": "CCP / EVE Online Team",
+    "publishedDate": "2023-06-09",
+    "kind": "official-patch-notes",
+    "claims": [
+      "Viridian introduced corporation LP tax income and LP wallets.",
+      "Corporation LP-store purchases can spend corporation LP and ISK."
+    ],
+    "uncertainties": [
+      "Launch rules do not establish all current tax rates or donation permissions.",
+      "The initial shared tax-rate description was superseded by independent LP tax capability.",
+      "The consulted locale URL contains English note text."
+    ],
+    "accessedDate": "2026-09-22"
+  },
+  {
+    "id": "EV-03",
+    "title": "A splash of color: Corporation Palette and a few fresh fields",
+    "url": "https://developers.eveonline.com/blog/a-splash-of-color-corporation-palette-and-a-few-fresh-fields",
+    "publisher": "EVE ESI Development Team",
+    "publishedDate": "2026-07-21",
+    "kind": "official-api-update",
+    "claims": [
+      "Corporation details gain an lp_tax_rate field alongside the existing ISK tax rate from the stated compatibility date.",
+      "The update also exposes corporation palette information and renames the enlistment faction field."
+    ],
+    "uncertainties": [
+      "API field names and response shapes must match the chosen compatibility version.",
+      "A public tax rate does not reveal a corporation's wallet, actual attendance, or internal agreements."
+    ],
+    "accessedDate": "2026-09-22"
+  },
+  {
+    "id": "EV-04",
+    "title": "Stronger Organizations",
+    "url": "https://www.eveonline.com/news/view/stronger-organizations",
+    "publisher": "CCP / EVE Online Team",
+    "publishedDate": "2023-11-01",
+    "kind": "official-feature-announcement",
+    "claims": [
+      "Corporation projects add automatic ISK rewards and contribution methods including scanning, complex capture/defense, manufacture, and remote repair.",
+      "The announcement describes a temporary LP-donation shutdown for Havoc."
+    ],
+    "uncertainties": [
+      "Donation shutdown was superseded by the February 2024 restoration.",
+      "Announcement describes intended November 2023 features; later detailed implementations should be checked."
+    ],
+    "accessedDate": "2026-09-22"
+  },
+  {
+    "id": "EV-05",
+    "title": "Havoc: Expansion Notes",
+    "url": "https://www.eveonline.com/news/view/havoc-expansion-notes",
+    "publisher": "CCP / EVE Online Team",
+    "publishedDate": "2023-11-10",
+    "kind": "official-patch-notes",
+    "claims": [
+      "Havoc disabled LP and EverMarks donations as announced in Stronger Organizations."
+    ],
+    "uncertainties": [
+      "Historical change only: LP donations were restored in February 2024.",
+      "Do not use the expansion page in isolation to infer present transfer permissions."
+    ],
+    "accessedDate": "2026-09-22"
+  },
+  {
+    "id": "EV-06",
+    "title": "Equinox: Expansion Notes",
+    "url": "https://www.eveonline.com/news/view/equinox-expansion-notes",
+    "publisher": "CCP / EVE Online Team",
+    "publishedDate": "2024-06-07",
+    "kind": "official-patch-notes",
+    "claims": [
+      "LP-store ship hull offers were removed.",
+      "Ship Loss and Earn LP project contributions support automated replacement programs and corporation LP buyback."
+    ],
+    "uncertainties": [
+      "Specific BPC recipes, offer costs, eligibility, and later changes must be checked separately.",
+      "No all-item economy or optimal SRP coverage is established."
+    ],
+    "accessedDate": "2026-09-22"
+  },
+  {
+    "id": "EV-07",
+    "title": "Manufacturing",
+    "url": "https://support.eveonline.com/hc/en-us/articles/203210292-Manufacturing",
+    "publisher": "CCP / EVE Online Support",
+    "publishedDate": "2024-08-29",
+    "kind": "official-game-documentation",
+    "claims": [
+      "Manufacturing converts input items using blueprints at appropriate facilities.",
+      "Inputs must be at the job location; blueprint quality and facility costs matter.",
+      "There is no universal finite facility job-slot pool."
+    ],
+    "uncertainties": [
+      "Date is the displayed update date.",
+      "Exact character job limits, formula coefficients, material rounding, and item recipes need catalog verification.",
+      "A single strategic production queue is a UI abstraction."
+    ],
+    "accessedDate": "2026-09-22"
+  },
+  {
+    "id": "EV-08",
+    "title": "Monthly Economic Report - August 2026",
+    "url": "https://www.eveonline.com/news/view/monthly-economic-report-august-2026",
+    "publisher": "EVE Online Economic Council",
+    "publishedDate": "2026-09-09",
+    "kind": "official-economic-report",
+    "claims": [
+      "The report offers raw economic data.",
+      "Reported mineral and module price trends illustrate changing economic conditions."
+    ],
+    "uncertainties": [
+      "No raw report series were independently analyzed for this section.",
+      "Regional and global aggregates do not identify militia wallets, industrial output, or motivation.",
+      "Nominal destruction values and price-index changes are not direct measures of military effectiveness."
+    ],
+    "accessedDate": "2026-09-22"
+  },
+  {
+    "id": "EV-09",
+    "title": "Military Campaigns",
+    "url": "https://support.eveonline.com/hc/en-us/articles/27857397762588-Military-Campaigns",
+    "publisher": "EVE Online Support",
+    "publishedDate": "2026-06-05",
+    "kind": "official-game-documentation",
+    "claims": [
+      "Military Campaigns contain seasonal multi-objective participation spanning combat and economic activities.",
+      "Campaigns can have lasting game-world outcomes."
+    ],
+    "uncertainties": [
+      "Date is the displayed update date.",
+      "Specific campaign objectives and outcomes are era-dependent; do not substitute a generic production contribution for official mechanics."
+    ],
+    "accessedDate": "2026-09-22"
+  },
+  {
+    "id": "EV-10",
+    "title": "Factional Warfare",
+    "url": "https://support.eveonline.com/hc/en-us/articles/203209072-Factional-Warfare",
+    "publisher": "CCP / EVE Online Support",
+    "publishedDate": "2024-05-24",
+    "kind": "official-game-documentation-with-conflict",
+    "claims": [
+      "The help page describes frontline, command operations, rearguard, LP rewards, and advantage activities.",
+      "Its displayed rearguard multiplier conflicts with the 2023 iteration article."
+    ],
+    "uncertainties": [
+      "The page is internally dated but contains stale mechanics.",
+      "Do not use its generic reward wording as the current site catalog.",
+      "Date is displayed update date."
+    ],
+    "accessedDate": "2026-09-22"
+  },
+  {
+    "id": "EV-11",
+    "title": "Feedback and Iteration: Factional Warfare",
+    "url": "https://www.eveonline.com/news/view/feedback-and-iteration-factional-warfare",
+    "publisher": "CCP / EVE Online Team",
+    "publishedDate": "2023-08-06",
+    "kind": "official-design-and-balance-update",
+    "claims": [
+      "CCP changed the rearguard LP multiplier from 0.5 to 0.01.",
+      "The article discusses corporation LP income and contemporary donation expansion."
+    ],
+    "uncertainties": [
+      "Donation rules subsequently changed in November 2023 and February 2024.",
+      "Each mechanic still needs later-patch chronology review for the pinned profile."
+    ],
+    "accessedDate": "2026-09-22"
+  },
+  {
+    "id": "EV-12",
+    "title": "Havoc Update – LP Trading & Ship Balance",
+    "url": "https://www.eveonline.com/news/view/havoc-update-lp-trading-and-ship-balance",
+    "publisher": "CCP / EVE Online Team",
+    "publishedDate": "2024-02-20",
+    "kind": "official-feature-update",
+    "claims": [
+      "LP donations returned following the Havoc-era pause.",
+      "A future LP-donation tax was discussed."
+    ],
+    "uncertainties": [
+      "A contemplated future tax does not establish a tax actually implemented.",
+      "Current transfer costs should be verified separately."
+    ],
+    "accessedDate": "2026-09-22"
+  },
+  {
+    "id": "EV-13",
+    "title": "Patch Notes - Version 21.06: 20 February 2024 entry",
+    "url": "https://www.eveonline.com/news/view/patch-notes-version-21-06",
+    "publisher": "CCP / EVE Online Team",
+    "publishedDate": "2024-06-03",
+    "kind": "official-patch-notes",
+    "claims": [
+      "The 2024-02-20.1 entry restores character-to-corporation and corporation-to-corporation LP donations.",
+      "The entry describes a donation tax as possible future work."
+    ],
+    "uncertainties": [
+      "Page update date is 2024-06-03; cited change occurred on 2024-02-20.",
+      "Later transfer-cost changes require additional dated evidence."
+    ],
+    "accessedDate": "2026-09-22"
+  }
+]

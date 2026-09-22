@@ -1,0 +1,799 @@
+{
+  "schemaVersion": 1,
+  "researchDate": "2026-09-22",
+  "intendedSnapshot": "2026-09-22 repository occupancy snapshot; roster observations have individual timestamps",
+  "counts": {
+    "contemporaryPlayerEntities": 9,
+    "npcMilitias": 2,
+    "historicalPlayerEntities": 7,
+    "pilotCandidates": 10
+  },
+  "rules": [
+    "Real names and logos required by user.",
+    "Current entity existence and current faction affiliation are separate facts.",
+    "No invented quotes or accusations are attributed to real identities. All generated behavior is simulated.",
+    "Corporation and alliance hierarchy must not double-count pilots.",
+    "Active roster is not exhaustive. Historical entries are excluded from the default contemporary roster.",
+    "Current CEO is a sourced organizational role; tactical FC ability is not inferred."
+  ],
+  "identityCollisionWarnings": [
+    {
+      "requestedName": "United Caldari Space Command",
+      "wrongTypeMatch": {
+        "type": "corporation",
+        "id": 98192633,
+        "name": "United Caldari Space Command"
+      },
+      "verifiedAlliance": {
+        "type": "alliance",
+        "id": 99011489,
+        "name": "United Caldari Space Command."
+      },
+      "note": "Trailing period distinguishes the alliance from the different same-base-name corporation."
+    }
+  ],
+  "entities": [
+    {
+      "entityType": "alliance",
+      "id": 99011489,
+      "name": "United Caldari Space Command.",
+      "ticker": "UCSC-",
+      "usage": "contemporary-player-roster",
+      "identityVerifiedAt": "2026-09-22T05:29:00.526799+00:00",
+      "identitySource": "https://esi.evetech.net/latest/alliances/99011489/?datasource=tranquility",
+      "sourceIds": [
+        "pol-ucsc-2022",
+        "pol-esi-alliances-99011489"
+      ],
+      "imageUrl": "https://images.evetech.net/alliances/99011489/logo?size=128",
+      "imageVerification": "Official image downloaded successfully; signature and SHA-256 verified; browser decoded at 128×128.",
+      "currentObservation": {
+        "faction_id": 500001,
+        "executor_corporation_id": 98639548
+      },
+      "factionEvidence": "Endpoint explicitly returns faction_id",
+      "simulationBehavior": "Authored game parameter, never a real quotation, endorsement, private motive or allegation",
+      "scenarioFactionId": 500001,
+      "manpowerRule": "Count corporation pilots once; alliance is an aggregate/diplomatic layer, not extra pilots.",
+      "localImage": "assets/identities/alliance-99011489.png",
+      "assetManifest": "../assets/identities/provenance.json"
+    },
+    {
+      "entityType": "corporation",
+      "id": 98639548,
+      "name": "United Caldari Navy",
+      "ticker": "UCN-",
+      "usage": "contemporary-player-roster",
+      "identityVerifiedAt": "2026-09-22T05:28:30.061519+00:00",
+      "identitySource": "https://esi.evetech.net/latest/corporations/98639548/?datasource=tranquility",
+      "sourceIds": [
+        "pol-ucn-2022",
+        "pol-esi-corporations-98639548"
+      ],
+      "imageUrl": "https://images.evetech.net/corporations/98639548/logo?size=128",
+      "imageVerification": "Official image downloaded successfully; signature and SHA-256 verified; browser decoded at 128×128.",
+      "currentObservation": {
+        "faction_id": 500001,
+        "alliance_id": 99011489,
+        "ceo_id": 2114096575,
+        "member_count": 103
+      },
+      "factionEvidence": "Endpoint explicitly returns faction_id",
+      "simulationBehavior": "Authored game parameter, never a real quotation, endorsement, private motive or allegation",
+      "scenarioFactionId": 500001,
+      "manpowerRule": "Count corporation pilots once; alliance is an aggregate/diplomatic layer, not extra pilots.",
+      "localImage": "assets/identities/corporation-98639548.png",
+      "assetManifest": "../assets/identities/provenance.json"
+    },
+    {
+      "entityType": "alliance",
+      "id": 99009856,
+      "name": "Ghostbirds",
+      "ticker": "GBRD.",
+      "usage": "contemporary-player-roster",
+      "identityVerifiedAt": "2026-09-22T05:29:00.526799+00:00",
+      "identitySource": "https://esi.evetech.net/latest/alliances/99009856/?datasource=tranquility",
+      "sourceIds": [
+        "pol-esi-alliances-99009856"
+      ],
+      "imageUrl": "https://images.evetech.net/alliances/99009856/logo?size=128",
+      "imageVerification": "Official image downloaded successfully; signature and SHA-256 verified; browser decoded at 128×128.",
+      "currentObservation": {
+        "faction_id": 500001,
+        "executor_corporation_id": 98688951
+      },
+      "factionEvidence": "Endpoint explicitly returns faction_id",
+      "simulationBehavior": "Authored game parameter, never a real quotation, endorsement, private motive or allegation",
+      "scenarioFactionId": 500001,
+      "manpowerRule": "Count corporation pilots once; alliance is an aggregate/diplomatic layer, not extra pilots.",
+      "localImage": "assets/identities/alliance-99009856.png",
+      "assetManifest": "../assets/identities/provenance.json"
+    },
+    {
+      "entityType": "corporation",
+      "id": 98688951,
+      "name": "Mercury Arms Inc.",
+      "ticker": "PROHG",
+      "usage": "contemporary-player-roster",
+      "identityVerifiedAt": "2026-09-22T05:28:30.061519+00:00",
+      "identitySource": "https://esi.evetech.net/latest/corporations/98688951/?datasource=tranquility",
+      "sourceIds": [
+        "pol-mercury-2024",
+        "pol-esi-corporations-98688951"
+      ],
+      "imageUrl": "https://images.evetech.net/corporations/98688951/logo?size=128",
+      "imageVerification": "Official image downloaded successfully; signature and SHA-256 verified; browser decoded at 128×128.",
+      "currentObservation": {
+        "faction_id": 500001,
+        "alliance_id": 99009856,
+        "ceo_id": 94065445,
+        "member_count": 54
+      },
+      "factionEvidence": "Endpoint explicitly returns faction_id",
+      "simulationBehavior": "Authored game parameter, never a real quotation, endorsement, private motive or allegation",
+      "scenarioFactionId": 500001,
+      "manpowerRule": "Count corporation pilots once; alliance is an aggregate/diplomatic layer, not extra pilots.",
+      "localImage": "assets/identities/corporation-98688951.png",
+      "assetManifest": "../assets/identities/provenance.json"
+    },
+    {
+      "entityType": "alliance",
+      "id": 99011730,
+      "name": "Aideron Robotics.",
+      "ticker": "AIDER",
+      "usage": "contemporary-player-roster",
+      "identityVerifiedAt": "2026-09-22T05:29:00.526799+00:00",
+      "identitySource": "https://esi.evetech.net/latest/alliances/99011730/?datasource=tranquility",
+      "sourceIds": [
+        "pol-esi-alliances-99011730"
+      ],
+      "imageUrl": "https://images.evetech.net/alliances/99011730/logo?size=128",
+      "imageVerification": "Official image downloaded successfully; signature and SHA-256 verified; browser decoded at 128×128.",
+      "currentObservation": {
+        "faction_id": 500004,
+        "executor_corporation_id": 1894214152
+      },
+      "factionEvidence": "Endpoint explicitly returns faction_id",
+      "simulationBehavior": "Authored game parameter, never a real quotation, endorsement, private motive or allegation",
+      "scenarioFactionId": 500004,
+      "manpowerRule": "Count corporation pilots once; alliance is an aggregate/diplomatic layer, not extra pilots.",
+      "localImage": "assets/identities/alliance-99011730.png",
+      "assetManifest": "../assets/identities/provenance.json"
+    },
+    {
+      "entityType": "corporation",
+      "id": 1894214152,
+      "name": "Aideron Robotics",
+      "ticker": "AIDER",
+      "usage": "contemporary-player-roster",
+      "identityVerifiedAt": "2026-09-22T05:28:30.061519+00:00",
+      "identitySource": "https://esi.evetech.net/latest/corporations/1894214152/?datasource=tranquility",
+      "sourceIds": [
+        "pol-aideron-2019",
+        "pol-esi-corporations-1894214152"
+      ],
+      "imageUrl": "https://images.evetech.net/corporations/1894214152/logo?size=128",
+      "imageVerification": "Official image downloaded successfully; signature and SHA-256 verified; browser decoded at 128×128.",
+      "currentObservation": {
+        "faction_id": 500004,
+        "alliance_id": 99011730,
+        "ceo_id": 2119255339,
+        "member_count": 80
+      },
+      "factionEvidence": "Endpoint explicitly returns faction_id",
+      "simulationBehavior": "Authored game parameter, never a real quotation, endorsement, private motive or allegation",
+      "scenarioFactionId": 500004,
+      "manpowerRule": "Count corporation pilots once; alliance is an aggregate/diplomatic layer, not extra pilots.",
+      "localImage": "assets/identities/corporation-1894214152.png",
+      "assetManifest": "../assets/identities/provenance.json"
+    },
+    {
+      "entityType": "alliance",
+      "id": 99011952,
+      "name": "Of Essence",
+      "ticker": "ESSNC",
+      "usage": "contemporary-player-roster",
+      "identityVerifiedAt": "2026-09-22T05:29:20.770272+00:00",
+      "identitySource": "https://esi.evetech.net/latest/alliances/99011952/?datasource=tranquility",
+      "sourceIds": [
+        "pol-esi-alliances-99011952"
+      ],
+      "imageUrl": "https://images.evetech.net/alliances/99011952/logo?size=128",
+      "imageVerification": "Official image downloaded successfully; signature and SHA-256 verified; browser decoded at 128×128.",
+      "currentObservation": {
+        "faction_id": 500004,
+        "executor_corporation_id": 98714140
+      },
+      "factionEvidence": "Endpoint explicitly returns faction_id",
+      "simulationBehavior": "Authored game parameter, never a real quotation, endorsement, private motive or allegation",
+      "scenarioFactionId": 500004,
+      "manpowerRule": "Count corporation pilots once; alliance is an aggregate/diplomatic layer, not extra pilots.",
+      "localImage": "assets/identities/alliance-99011952.png",
+      "assetManifest": "../assets/identities/provenance.json"
+    },
+    {
+      "entityType": "corporation",
+      "id": 1126669495,
+      "name": "Quantum Cats Syndicate",
+      "ticker": "QCATS",
+      "usage": "contemporary-player-roster",
+      "identityVerifiedAt": "2026-09-22T05:29:00.526799+00:00",
+      "identitySource": "https://esi.evetech.net/latest/corporations/1126669495/?datasource=tranquility",
+      "sourceIds": [
+        "pol-esi-corporations-1126669495"
+      ],
+      "imageUrl": "https://images.evetech.net/corporations/1126669495/logo?size=128",
+      "imageVerification": "Official image downloaded successfully; signature and SHA-256 verified; browser decoded at 128×128.",
+      "currentObservation": {
+        "faction_id": 500004,
+        "alliance_id": 99011952,
+        "ceo_id": 1115505592,
+        "member_count": 30
+      },
+      "factionEvidence": "Endpoint explicitly returns faction_id",
+      "simulationBehavior": "Authored game parameter, never a real quotation, endorsement, private motive or allegation",
+      "scenarioFactionId": 500004,
+      "manpowerRule": "Count corporation pilots once; alliance is an aggregate/diplomatic layer, not extra pilots.",
+      "localImage": "assets/identities/corporation-1126669495.png",
+      "assetManifest": "../assets/identities/provenance.json"
+    },
+    {
+      "entityType": "corporation",
+      "id": 98714140,
+      "name": "Fliet Pizza Delivery",
+      "ticker": "-FPD-",
+      "usage": "contemporary-player-roster",
+      "identityVerifiedAt": "2026-09-22T05:30:08.163108+00:00",
+      "identitySource": "https://esi.evetech.net/latest/corporations/98714140/?datasource=tranquility",
+      "sourceIds": [
+        "pol-esi-corporations-98714140"
+      ],
+      "imageUrl": "https://images.evetech.net/corporations/98714140/logo?size=128",
+      "imageVerification": "Official image downloaded successfully; signature and SHA-256 verified; browser decoded at 128×128.",
+      "currentObservation": {
+        "faction_id": 500004,
+        "alliance_id": 99011952,
+        "ceo_id": 91785706,
+        "member_count": 66
+      },
+      "factionEvidence": "Endpoint explicitly returns faction_id",
+      "simulationBehavior": "Authored game parameter, never a real quotation, endorsement, private motive or allegation",
+      "scenarioFactionId": 500004,
+      "manpowerRule": "Count corporation pilots once; alliance is an aggregate/diplomatic layer, not extra pilots.",
+      "localImage": "assets/identities/corporation-98714140.png",
+      "assetManifest": "../assets/identities/provenance.json"
+    },
+    {
+      "entityType": "corporation",
+      "id": 1000180,
+      "name": "State Protectorate",
+      "ticker": "SPROT",
+      "usage": "official-NPC-militia",
+      "identityVerifiedAt": "2026-09-22T05:28:30.061519+00:00",
+      "identitySource": "https://esi.evetech.net/latest/corporations/1000180/?datasource=tranquility",
+      "sourceIds": [
+        "pol-esi-corporations-1000180"
+      ],
+      "imageUrl": "https://images.evetech.net/corporations/1000180/logo?size=128",
+      "imageVerification": "Official image downloaded successfully; signature and SHA-256 verified; browser decoded at 128×128.",
+      "currentObservation": {
+        "faction_id": 500001,
+        "ceo_id": 3018995,
+        "member_count": 49360
+      },
+      "factionEvidence": "Endpoint explicitly returns faction_id",
+      "simulationBehavior": "Authored game parameter, never a real quotation, endorsement, private motive or allegation",
+      "scenarioFactionId": 500001,
+      "manpowerRule": "NPC membership is not an active-fleet count.",
+      "localImage": "assets/identities/corporation-1000180.png",
+      "assetManifest": "../assets/identities/provenance.json"
+    },
+    {
+      "entityType": "corporation",
+      "id": 1000181,
+      "name": "Federal Defense Union",
+      "ticker": "FEDEF",
+      "usage": "official-NPC-militia",
+      "identityVerifiedAt": "2026-09-22T05:28:30.061519+00:00",
+      "identitySource": "https://esi.evetech.net/latest/corporations/1000181/?datasource=tranquility",
+      "sourceIds": [
+        "pol-esi-corporations-1000181"
+      ],
+      "imageUrl": "https://images.evetech.net/corporations/1000181/logo?size=128",
+      "imageVerification": "Official image downloaded successfully; signature and SHA-256 verified; browser decoded at 128×128.",
+      "currentObservation": {
+        "faction_id": 500004,
+        "ceo_id": 3018997,
+        "member_count": 38962
+      },
+      "factionEvidence": "Endpoint explicitly returns faction_id",
+      "simulationBehavior": "Authored game parameter, never a real quotation, endorsement, private motive or allegation",
+      "scenarioFactionId": 500004,
+      "manpowerRule": "NPC membership is not an active-fleet count.",
+      "localImage": "assets/identities/corporation-1000181.png",
+      "assetManifest": "../assets/identities/provenance.json"
+    },
+    {
+      "entityType": "alliance",
+      "id": 99001742,
+      "name": "Templis CALSF",
+      "ticker": "CALSF",
+      "usage": "historical-codex-or-dated-scenario",
+      "identityVerifiedAt": "2026-09-22T05:28:30.061519+00:00",
+      "identitySource": "https://esi.evetech.net/latest/alliances/99001742/?datasource=tranquility",
+      "sourceIds": [
+        "pol-ccdm-2022",
+        "pol-esi-alliances-99001742"
+      ],
+      "imageUrl": "https://images.evetech.net/alliances/99001742/logo?size=128",
+      "imageVerification": "Typed identity verified; historical candidate image not downloaded. Current appearance would not establish historical appearance.",
+      "currentObservation": {
+        "executor_corporation_id": 98107258
+      },
+      "factionEvidence": "Endpoint omits faction_id; no faction-wide enrollment inferred",
+      "simulationBehavior": "Authored game parameter, never a real quotation, endorsement, private motive or allegation",
+      "historicalAffiliation": {
+        "factionId": 500001,
+        "evidenceDate": "2022-06-29",
+        "sourceIds": [
+          "pol-ccdm-2022"
+        ]
+      },
+      "eligibleForDefault2026Roster": false,
+      "eligibilityReason": "Historical faction affiliation does not establish current faction enrollment."
+    },
+    {
+      "entityType": "corporation",
+      "id": 98107258,
+      "name": "Caldari Colonial Defense Ministry",
+      "ticker": "CCDM",
+      "usage": "historical-codex-or-dated-scenario",
+      "identityVerifiedAt": "2026-09-22T05:28:30.061519+00:00",
+      "identitySource": "https://esi.evetech.net/latest/corporations/98107258/?datasource=tranquility",
+      "sourceIds": [
+        "pol-ccdm-2022",
+        "pol-esi-corporations-98107258"
+      ],
+      "imageUrl": "https://images.evetech.net/corporations/98107258/logo?size=128",
+      "imageVerification": "Typed identity verified; historical candidate image not downloaded. Current appearance would not establish historical appearance.",
+      "currentObservation": {
+        "alliance_id": 99001742,
+        "ceo_id": 1875163466,
+        "member_count": 15
+      },
+      "factionEvidence": "Endpoint omits faction_id; no faction-wide enrollment inferred",
+      "simulationBehavior": "Authored game parameter, never a real quotation, endorsement, private motive or allegation",
+      "historicalAffiliation": {
+        "factionId": 500001,
+        "evidenceDate": "2022-06-29",
+        "sourceIds": [
+          "pol-ccdm-2022"
+        ]
+      },
+      "eligibleForDefault2026Roster": false,
+      "eligibilityReason": "Historical faction affiliation does not establish current faction enrollment."
+    },
+    {
+      "entityType": "alliance",
+      "id": 99012831,
+      "name": "Ribbit.",
+      "ticker": "RIBBT",
+      "usage": "historical-codex-or-dated-scenario",
+      "identityVerifiedAt": "2026-09-22T05:28:30.061519+00:00",
+      "identitySource": "https://esi.evetech.net/latest/alliances/99012831/?datasource=tranquility",
+      "sourceIds": [
+        "pol-ribbit-2024",
+        "pol-ribbit-id",
+        "pol-esi-alliances-99012831"
+      ],
+      "imageUrl": "https://images.evetech.net/alliances/99012831/logo?size=128",
+      "imageVerification": "Typed identity verified; historical candidate image not downloaded. Current appearance would not establish historical appearance.",
+      "currentObservation": {
+        "executor_corporation_id": 98784118,
+        "corporationIds": [],
+        "corporationsSource": "https://esi.evetech.net/latest/alliances/99012831/corporations/?datasource=tranquility"
+      },
+      "factionEvidence": "Endpoint omits faction_id; no faction-wide enrollment inferred",
+      "simulationBehavior": "Authored game parameter, never a real quotation, endorsement, private motive or allegation",
+      "historicalAffiliation": {
+        "factionId": 500004,
+        "evidenceDate": "2024-08-20",
+        "sourceIds": [
+          "pol-ribbit-2024",
+          "pol-ribbit-id"
+        ]
+      },
+      "eligibleForDefault2026Roster": false,
+      "eligibilityReason": "Historical entity remains resolvable; current corporation list is empty."
+    },
+    {
+      "entityType": "corporation",
+      "id": 98751878,
+      "name": "The Frog Pond",
+      "ticker": "FPOND",
+      "usage": "historical-codex-or-dated-scenario",
+      "identityVerifiedAt": "2026-09-22T05:28:30.061519+00:00",
+      "identitySource": "https://esi.evetech.net/latest/corporations/98751878/?datasource=tranquility",
+      "sourceIds": [
+        "pol-ribbit-2024",
+        "pol-esi-corporations-98751878"
+      ],
+      "imageUrl": "https://images.evetech.net/corporations/98751878/logo?size=128",
+      "imageVerification": "Typed identity verified; historical candidate image not downloaded. Current appearance would not establish historical appearance.",
+      "currentObservation": {
+        "ceo_id": 1,
+        "member_count": 0
+      },
+      "factionEvidence": "Endpoint omits faction_id; no faction-wide enrollment inferred",
+      "simulationBehavior": "Authored game parameter, never a real quotation, endorsement, private motive or allegation",
+      "historicalAffiliation": {
+        "factionId": 500004,
+        "evidenceDate": "2024-08-20",
+        "sourceIds": [
+          "pol-ribbit-2024"
+        ]
+      },
+      "eligibleForDefault2026Roster": false,
+      "eligibilityReason": "Public endpoint currently reports zero members."
+    },
+    {
+      "entityType": "corporation",
+      "id": 98596389,
+      "name": "Sons of Luminaire",
+      "ticker": "GFSL",
+      "usage": "historical-codex-or-dated-scenario",
+      "identityVerifiedAt": "2026-09-22T05:28:30.061519+00:00",
+      "identitySource": "https://esi.evetech.net/latest/corporations/98596389/?datasource=tranquility",
+      "sourceIds": [
+        "pol-sons-2020",
+        "pol-esi-corporations-98596389"
+      ],
+      "imageUrl": "https://images.evetech.net/corporations/98596389/logo?size=128",
+      "imageVerification": "Typed identity verified; historical candidate image not downloaded. Current appearance would not establish historical appearance.",
+      "currentObservation": {
+        "ceo_id": 2114194920,
+        "member_count": 11
+      },
+      "factionEvidence": "Endpoint omits faction_id; no faction-wide enrollment inferred",
+      "simulationBehavior": "Authored game parameter, never a real quotation, endorsement, private motive or allegation",
+      "historicalAffiliation": {
+        "factionId": 500004,
+        "evidenceDate": "2020-08-10",
+        "sourceIds": [
+          "pol-sons-2020"
+        ]
+      },
+      "eligibleForDefault2026Roster": false,
+      "eligibilityReason": "Historical faction affiliation does not establish current faction enrollment."
+    },
+    {
+      "entityType": "corporation",
+      "id": 98773529,
+      "name": "Battle Toad Brigade",
+      "ticker": "CR0AK",
+      "usage": "historical-codex-or-dated-scenario",
+      "identityVerifiedAt": "2026-09-22T05:29:20.770272+00:00",
+      "identitySource": "https://esi.evetech.net/latest/corporations/98773529/?datasource=tranquility",
+      "sourceIds": [
+        "pol-toads-2025",
+        "pol-esi-corporations-98773529"
+      ],
+      "imageUrl": "https://images.evetech.net/corporations/98773529/logo?size=128",
+      "imageVerification": "Typed identity verified; historical candidate image not downloaded. Current appearance would not establish historical appearance.",
+      "currentObservation": {
+        "ceo_id": 1,
+        "member_count": 0
+      },
+      "factionEvidence": "Endpoint omits faction_id; no faction-wide enrollment inferred",
+      "simulationBehavior": "Authored game parameter, never a real quotation, endorsement, private motive or allegation",
+      "historicalAffiliation": {
+        "factionId": 500004,
+        "evidenceDate": "2025-05-21",
+        "sourceIds": [
+          "pol-toads-2025"
+        ]
+      },
+      "eligibleForDefault2026Roster": false,
+      "eligibilityReason": "Public endpoint currently reports zero members."
+    },
+    {
+      "entityType": "alliance",
+      "id": 99009845,
+      "name": "Sedition.",
+      "ticker": "SEDIT",
+      "usage": "historical-codex-or-dated-scenario",
+      "identityVerifiedAt": "2026-09-22T05:29:00.526799+00:00",
+      "identitySource": "https://esi.evetech.net/latest/alliances/99009845/?datasource=tranquility",
+      "sourceIds": [
+        "pol-sedition-2022",
+        "pol-esi-alliances-99009845"
+      ],
+      "imageUrl": "https://images.evetech.net/alliances/99009845/logo?size=128",
+      "imageVerification": "Typed identity verified; historical candidate image not downloaded. Current appearance would not establish historical appearance.",
+      "currentObservation": {
+        "executor_corporation_id": 98699596
+      },
+      "factionEvidence": "Endpoint omits faction_id; no faction-wide enrollment inferred",
+      "simulationBehavior": "Authored game parameter, never a real quotation, endorsement, private motive or allegation",
+      "historicalAffiliation": {
+        "factionId": 500004,
+        "evidenceDate": "2022-07-24",
+        "sourceIds": [
+          "pol-sedition-2022"
+        ]
+      },
+      "eligibleForDefault2026Roster": false,
+      "eligibilityReason": "Historical faction affiliation does not establish current faction enrollment."
+    }
+  ],
+  "pilotCandidates": [
+    {
+      "entityType": "character",
+      "id": 2114096575,
+      "name": "Abby Aurilen",
+      "ticker": null,
+      "usage": "contemporary-pilot-candidate",
+      "identityVerifiedAt": "2026-09-22T05:28:30.061519+00:00",
+      "identitySource": "https://esi.evetech.net/latest/characters/2114096575/?datasource=tranquility",
+      "sourceIds": [
+        "pol-brawl-invite-2025",
+        "pol-brawl-aar-2025",
+        "pol-esi-characters-2114096575"
+      ],
+      "imageUrl": "https://images.evetech.net/characters/2114096575/portrait?size=128",
+      "imageVerification": "Official image downloaded successfully; signature and SHA-256 verified; browser decoded at 128×128.",
+      "currentObservation": {
+        "faction_id": 500001,
+        "alliance_id": 99011489,
+        "corporation_id": 98639548
+      },
+      "factionEvidence": "Endpoint explicitly returns faction_id",
+      "simulationBehavior": "Authored game parameter, never a real quotation, endorsement, private motive or allegation",
+      "documentedRole": "Public 2025 event FC and current UCN CEO",
+      "roleEvidenceDate": "2025-12-06",
+      "historicalOrRoleFactionId": 500001,
+      "eligibleForDefault2026FactionRole": true,
+      "localImage": "assets/identities/character-2114096575.jpg",
+      "assetManifest": "../assets/identities/provenance.json"
+    },
+    {
+      "entityType": "character",
+      "id": 94065445,
+      "name": "Corvus Onzo",
+      "ticker": null,
+      "usage": "contemporary-pilot-candidate",
+      "identityVerifiedAt": "2026-09-22T05:28:30.061519+00:00",
+      "identitySource": "https://esi.evetech.net/latest/characters/94065445/?datasource=tranquility",
+      "sourceIds": [
+        "pol-brawl-aar-2025",
+        "pol-esi-characters-94065445"
+      ],
+      "imageUrl": "https://images.evetech.net/characters/94065445/portrait?size=128",
+      "imageVerification": "Official image downloaded successfully; signature and SHA-256 verified; browser decoded at 128×128.",
+      "currentObservation": {
+        "faction_id": 500001,
+        "alliance_id": 99009856,
+        "corporation_id": 98688951
+      },
+      "factionEvidence": "Endpoint explicitly returns faction_id",
+      "simulationBehavior": "Authored game parameter, never a real quotation, endorsement, private motive or allegation",
+      "documentedRole": "Public 2025 event co-FC and current Mercury Arms CEO",
+      "roleEvidenceDate": "2025-12-06",
+      "historicalOrRoleFactionId": 500001,
+      "eligibleForDefault2026FactionRole": true,
+      "localImage": "assets/identities/character-94065445.jpg",
+      "assetManifest": "../assets/identities/provenance.json"
+    },
+    {
+      "entityType": "character",
+      "id": 1458891505,
+      "name": "Nayrok Fenix",
+      "ticker": null,
+      "usage": "contemporary-pilot-candidate",
+      "identityVerifiedAt": "2026-09-22T05:28:30.061519+00:00",
+      "identitySource": "https://esi.evetech.net/latest/characters/1458891505/?datasource=tranquility",
+      "sourceIds": [
+        "pol-ucn-2022",
+        "pol-esi-characters-1458891505"
+      ],
+      "imageUrl": "https://images.evetech.net/characters/1458891505/portrait?size=128",
+      "imageVerification": "Official image downloaded successfully; signature and SHA-256 verified; browser decoded at 128×128.",
+      "currentObservation": {
+        "faction_id": 500001,
+        "alliance_id": 99011489,
+        "corporation_id": 98639548
+      },
+      "factionEvidence": "Endpoint explicitly returns faction_id",
+      "simulationBehavior": "Authored game parameter, never a real quotation, endorsement, private motive or allegation",
+      "documentedRole": "2022 UCN recruiter; current faction enrollment verified, not current supreme commander",
+      "roleEvidenceDate": "2022-04-04",
+      "historicalOrRoleFactionId": 500001,
+      "eligibleForDefault2026FactionRole": true,
+      "localImage": "assets/identities/character-1458891505.jpg",
+      "assetManifest": "../assets/identities/provenance.json"
+    },
+    {
+      "entityType": "character",
+      "id": 2119255339,
+      "name": "Orlais Placide",
+      "ticker": null,
+      "usage": "contemporary-pilot-candidate",
+      "identityVerifiedAt": "2026-09-22T05:30:08.163108+00:00",
+      "identitySource": "https://esi.evetech.net/latest/characters/2119255339/?datasource=tranquility",
+      "sourceIds": [
+        "pol-esi-characters-2119255339"
+      ],
+      "imageUrl": "https://images.evetech.net/characters/2119255339/portrait?size=128",
+      "imageVerification": "Official image downloaded successfully; signature and SHA-256 verified; browser decoded at 128×128.",
+      "currentObservation": {
+        "faction_id": 500004,
+        "alliance_id": 99011730,
+        "corporation_id": 1894214152
+      },
+      "factionEvidence": "Endpoint explicitly returns faction_id",
+      "simulationBehavior": "Authored game parameter, never a real quotation, endorsement, private motive or allegation",
+      "documentedRole": "Current Aideron Robotics CEO; tactical FC experience not established",
+      "roleEvidenceDate": null,
+      "historicalOrRoleFactionId": 500004,
+      "eligibleForDefault2026FactionRole": true,
+      "localImage": "assets/identities/character-2119255339.jpg",
+      "assetManifest": "../assets/identities/provenance.json"
+    },
+    {
+      "entityType": "character",
+      "id": 1115505592,
+      "name": "GoingOffRoading",
+      "ticker": null,
+      "usage": "contemporary-pilot-candidate",
+      "identityVerifiedAt": "2026-09-22T05:30:08.163108+00:00",
+      "identitySource": "https://esi.evetech.net/latest/characters/1115505592/?datasource=tranquility",
+      "sourceIds": [
+        "pol-esi-characters-1115505592"
+      ],
+      "imageUrl": "https://images.evetech.net/characters/1115505592/portrait?size=128",
+      "imageVerification": "Official image downloaded successfully; signature and SHA-256 verified; browser decoded at 128×128.",
+      "currentObservation": {
+        "faction_id": 500004,
+        "alliance_id": 99011952,
+        "corporation_id": 1126669495
+      },
+      "factionEvidence": "Endpoint explicitly returns faction_id",
+      "simulationBehavior": "Authored game parameter, never a real quotation, endorsement, private motive or allegation",
+      "documentedRole": "Current Quantum Cats Syndicate CEO; tactical FC experience not established",
+      "roleEvidenceDate": null,
+      "historicalOrRoleFactionId": 500004,
+      "eligibleForDefault2026FactionRole": true,
+      "localImage": "assets/identities/character-1115505592.jpg",
+      "assetManifest": "../assets/identities/provenance.json"
+    },
+    {
+      "entityType": "character",
+      "id": 755598436,
+      "name": "Scylus Black",
+      "ticker": null,
+      "usage": "historical-pilot-candidate",
+      "identityVerifiedAt": "2026-09-22T05:28:30.061519+00:00",
+      "identitySource": "https://esi.evetech.net/latest/characters/755598436/?datasource=tranquility",
+      "sourceIds": [
+        "pol-ccdm-2022",
+        "pol-esi-characters-755598436"
+      ],
+      "imageUrl": "https://images.evetech.net/characters/755598436/portrait?size=128",
+      "imageVerification": "Typed identity verified; historical candidate image not downloaded. Current appearance would not establish historical appearance.",
+      "currentObservation": {
+        "alliance_id": 99009845,
+        "corporation_id": 98221827
+      },
+      "factionEvidence": "Endpoint omits faction_id; no faction-wide enrollment inferred",
+      "simulationBehavior": "Authored game parameter, never a real quotation, endorsement, private motive or allegation",
+      "documentedRole": "Historical recruiter; post signature identifies retired Templis CEO/executor",
+      "roleEvidenceDate": "2022-06-29",
+      "historicalOrRoleFactionId": 500001,
+      "eligibleForDefault2026FactionRole": false
+    },
+    {
+      "entityType": "character",
+      "id": 91517843,
+      "name": "Sam Chadelanne",
+      "ticker": null,
+      "usage": "historical-pilot-candidate",
+      "identityVerifiedAt": "2026-09-22T05:28:30.061519+00:00",
+      "identitySource": "https://esi.evetech.net/latest/characters/91517843/?datasource=tranquility",
+      "sourceIds": [
+        "pol-brawl-invite-2025",
+        "pol-ribbit-2024",
+        "pol-esi-characters-91517843"
+      ],
+      "imageUrl": "https://images.evetech.net/characters/91517843/portrait?size=128",
+      "imageVerification": "Typed identity verified; historical candidate image not downloaded. Current appearance would not establish historical appearance.",
+      "currentObservation": {
+        "faction_id": 500010,
+        "alliance_id": 99015022,
+        "corporation_id": 98834150
+      },
+      "factionEvidence": "Endpoint explicitly returns faction_id",
+      "simulationBehavior": "Authored game parameter, never a real quotation, endorsement, private motive or allegation",
+      "documentedRole": "Historical RIBBIT recruiting and event contact",
+      "roleEvidenceDate": "2025-12-06",
+      "historicalOrRoleFactionId": 500004,
+      "eligibleForDefault2026FactionRole": false
+    },
+    {
+      "entityType": "character",
+      "id": 1535015364,
+      "name": "Rinai Vero",
+      "ticker": null,
+      "usage": "historical-pilot-candidate",
+      "identityVerifiedAt": "2026-09-22T05:28:30.061519+00:00",
+      "identitySource": "https://esi.evetech.net/latest/characters/1535015364/?datasource=tranquility",
+      "sourceIds": [
+        "pol-wings-2020",
+        "pol-esi-characters-1535015364"
+      ],
+      "imageUrl": "https://images.evetech.net/characters/1535015364/portrait?size=128",
+      "imageVerification": "Typed identity verified; historical candidate image not downloaded. Current appearance would not establish historical appearance.",
+      "currentObservation": {
+        "faction_id": 500010,
+        "corporation_id": 98750246
+      },
+      "factionEvidence": "Endpoint explicitly returns faction_id",
+      "simulationBehavior": "Authored game parameter, never a real quotation, endorsement, private motive or allegation",
+      "documentedRole": "Historical GalMil campaign spokesperson",
+      "roleEvidenceDate": "2020-03-24",
+      "historicalOrRoleFactionId": 500004,
+      "eligibleForDefault2026FactionRole": false
+    },
+    {
+      "entityType": "character",
+      "id": 1386146895,
+      "name": "Julianus Soter",
+      "ticker": null,
+      "usage": "historical-pilot-candidate",
+      "identityVerifiedAt": "2026-09-22T05:28:30.061519+00:00",
+      "identitySource": "https://esi.evetech.net/latest/characters/1386146895/?datasource=tranquility",
+      "sourceIds": [
+        "pol-wings-2020",
+        "pol-esi-characters-1386146895"
+      ],
+      "imageUrl": "https://images.evetech.net/characters/1386146895/portrait?size=128",
+      "imageVerification": "Typed identity verified; historical candidate image not downloaded. Current appearance would not establish historical appearance.",
+      "currentObservation": {
+        "faction_id": 500010,
+        "corporation_id": 98750246
+      },
+      "factionEvidence": "Endpoint explicitly returns faction_id",
+      "simulationBehavior": "Authored game parameter, never a real quotation, endorsement, private motive or allegation",
+      "documentedRole": "Historical Villore Accords executor, identified in his reply",
+      "roleEvidenceDate": "2020-03-25",
+      "historicalOrRoleFactionId": 500004,
+      "eligibleForDefault2026FactionRole": false
+    },
+    {
+      "entityType": "character",
+      "id": 923165274,
+      "name": "youngpuke2",
+      "ticker": null,
+      "usage": "historical-pilot-candidate",
+      "identityVerifiedAt": "2026-09-22T05:28:30.061519+00:00",
+      "identitySource": "https://esi.evetech.net/latest/characters/923165274/?datasource=tranquility",
+      "sourceIds": [
+        "pol-sedition-2022",
+        "pol-aideron-2019",
+        "pol-esi-characters-923165274"
+      ],
+      "imageUrl": "https://images.evetech.net/characters/923165274/portrait?size=128",
+      "imageVerification": "Typed identity verified; historical candidate image not downloaded. Current appearance would not establish historical appearance.",
+      "currentObservation": {
+        "alliance_id": 99009845,
+        "corporation_id": 98326241
+      },
+      "factionEvidence": "Endpoint omits faction_id; no faction-wide enrollment inferred",
+      "simulationBehavior": "Authored game parameter, never a real quotation, endorsement, private motive or allegation",
+      "documentedRole": "Historical Aideron/Sedition recruitment; current affiliation differs",
+      "roleEvidenceDate": "2022-07-24",
+      "historicalOrRoleFactionId": 500004,
+      "eligibleForDefault2026FactionRole": false
+    }
+  ],
+  "sourceLedger": "politics-sources.json"
+}

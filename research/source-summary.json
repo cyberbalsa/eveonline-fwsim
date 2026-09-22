@@ -1,0 +1,11 @@
+{
+  "sourceRecords": 130,
+  "uniqueUrls": 124,
+  "recordsByLedger": {
+    "mechanics-sources.json": 23,
+    "politics-sources.json": 55,
+    "theory-sources.json": 23,
+    "project-sources.json": 29
+  },
+  "note": "Multiple records may discuss the same source in different contexts. Counts are not independent confirmations."
+}

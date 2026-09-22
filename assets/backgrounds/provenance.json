@@ -1,0 +1,67 @@
+{
+  "copyright": "\u00a9 CCP Games",
+  "resource": "res:/dx9/scene/universe/c01_cube.dds",
+  "source": "https://resources.eveonline.com/a7/a74c90e0df6d352e_b2606d300e06f2aa952b1f325773a548",
+  "sourceMD5": "b2606d300e06f2aa952b1f325773a548",
+  "sourceSHA256": "fd9936bf08db34f0dda5fc71934e62047a6f0f04161b403ff28f68ef947a3fca",
+  "clientBuild": 3528119,
+  "clientIndex": "https://binaries.eveonline.com/eveonline_3528119.txt",
+  "resourceIndex": "https://binaries.eveonline.com/1d/1d34143a37d4b739_8c3e6b63b1f1ffbdd39c44736ba59aa9",
+  "sceneResource": "res:/dx9/scene/universe/c01_cube.black",
+  "sceneSource": "https://resources.eveonline.com/fe/fe75f82c85332114_f78c4c0239ab02f5fa03e47d12eb2322",
+  "sceneEvidence": "The original EveSpaceScene backgroundEffect resources bind c01_cube.dds to NebulaMap.",
+  "processing": "Decode signed BC6H; clip out-of-display-range linear values to [0,1]; standard sRGB transfer; JPEG encode. Cubemap faces additionally resized to 1024px. warzone.jpg is the original 2048px +X face.",
+  "limitations": "Actual EVE nebula texture. The client also layers separate stars and effects; this fan game does not reproduce the complete EVE background shader. No claim of exact regional or historical skybox assignment.",
+  "retrieved": "2026-09-22",
+  "files": [
+    {
+      "file": "assets/backgrounds/c01-px.jpg",
+      "face": "px",
+      "width": 1024,
+      "height": 1024,
+      "sha256": "d888d94dc57c1937ae4b632e2dac9a7ff9a573e5f2338477eb254a139d0306e3"
+    },
+    {
+      "file": "assets/backgrounds/warzone.jpg",
+      "face": "px",
+      "width": 2048,
+      "height": 2048,
+      "sha256": "d29a3e8142be623c255375e854827f25146066f8623e7c2bd36b9b4518eb8942"
+    },
+    {
+      "file": "assets/backgrounds/c01-nx.jpg",
+      "face": "nx",
+      "width": 1024,
+      "height": 1024,
+      "sha256": "5788ce3101eb56e57a1d1b4215e8c7fec0de5a0e86acafb5f0c1fd2ecfb485b2"
+    },
+    {
+      "file": "assets/backgrounds/c01-py.jpg",
+      "face": "py",
+      "width": 1024,
+      "height": 1024,
+      "sha256": "b37ee7c902a870bae45564e8f74721b6cb1757605722826a7a3c5f90630742c2"
+    },
+    {
+      "file": "assets/backgrounds/c01-ny.jpg",
+      "face": "ny",
+      "width": 1024,
+      "height": 1024,
+      "sha256": "963a71fc879a3927618a1aa22b1326bfab7cc6e7adea2044bad0332f6a9caf7f"
+    },
+    {
+      "file": "assets/backgrounds/c01-pz.jpg",
+      "face": "pz",
+      "width": 1024,
+      "height": 1024,
+      "sha256": "8c7d7c28d80e74532d18ce94d4e731d6c47aa52818dd7c68eea4a9fe424ec38c"
+    },
+    {
+      "file": "assets/backgrounds/c01-nz.jpg",
+      "face": "nz",
+      "width": 1024,
+      "height": 1024,
+      "sha256": "3fc490693ff66d6cc8e198b8b9947967221523c06aabcc467efead1c8209d309"
+    }
+  ]
+}

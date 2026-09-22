@@ -1,0 +1,4747 @@
+{
+  "schemaVersion": 1,
+  "scenarioId": "calgal-2026-09-22-predowntime",
+  "observation": {
+    "url": "https://esi.evetech.net/latest/fw/systems/?datasource=tranquility",
+    "httpDate": "2026-09-22T05:18:11Z",
+    "lastModified": "2026-09-22T05:11:32Z",
+    "expires": "2026-09-22T05:41:32Z",
+    "compatibilityDate": "2020-01-01",
+    "cacheStatus": "HIT",
+    "contentHashMeaning": "SHA-256 of decompressed saved response bytes; HTTP date is server response time, not an assertion of synchronous global state."
+  },
+  "geographyProvenance": {
+    "project": "../eveonline-risk",
+    "warning": "Sibling importer labels assembly time retrievedAt and may read older per-route cache entries; geography is inherited evidence, not a fresh per-gate audit. Raw gates are available for offline consistency checks.",
+    "sdeBuild": 3528119
+  },
+  "rulesetStatus": "Research candidate; exact unverified mechanics must remain explicit unknowns.",
+  "limitations": [
+    "Operational states are inferred from internal gate adjacency and recorded occupancy, not returned by this ESI route.",
+    "Occupancy is a cached point observation, not a claim about all of September 22 or subsequent downtime.",
+    "Internal graph centrality excludes routes through external systems, shipcasters, wormholes, and jump drives.",
+    "Original faction and occupier are separate. No corporation assets, active pilots, advantage, or current site list are inferred.",
+    "Station count is metadata, not proof that a pilot has docking access."
+  ],
+  "summary": {
+    "systems": 90,
+    "internalUndirectedEdges": 110,
+    "constellations": 15,
+    "regions": 5,
+    "connectedComponents": 1,
+    "externalDirectedGates": 31,
+    "uniqueExternalDestinations": 27,
+    "occupancy": {
+      "Caldari": 56,
+      "Gallente": 34
+    },
+    "originalFaction": {
+      "Gallente": 36,
+      "Caldari": 54
+    },
+    "derivedOperationalStates": {
+      "frontline": 22,
+      "command": 21,
+      "rearguard": 47
+    },
+    "vpThresholds": {
+      "75000": 90
+    },
+    "diameterInternalHops": 21,
+    "meanShortestPathInternalHops": 8.723845,
+    "topBetweenness": [
+      {
+        "id": 30045353,
+        "name": "Pynekastoh",
+        "score": 0.543752128
+      },
+      {
+        "id": 30045338,
+        "name": "Hikkoken",
+        "score": 0.505575417
+      },
+      {
+        "id": 30045344,
+        "name": "Nennamaila",
+        "score": 0.502468505
+      },
+      {
+        "id": 30003837,
+        "name": "Aldranette",
+        "score": 0.409644195
+      },
+      {
+        "id": 30004979,
+        "name": "Heydieles",
+        "score": 0.272301668
+      },
+      {
+        "id": 30045347,
+        "name": "Oinasiken",
+        "score": 0.268939394
+      },
+      {
+        "id": 30003836,
+        "name": "Vlillirier",
+        "score": 0.26664113
+      },
+      {
+        "id": 30045354,
+        "name": "Reitsato",
+        "score": 0.258512087
+      },
+      {
+        "id": 30004984,
+        "name": "Abune",
+        "score": 0.244850187
+      },
+      {
+        "id": 30045330,
+        "name": "Okkamon",
+        "score": 0.235955056
+      },
+      {
+        "id": 30045346,
+        "name": "Kedama",
+        "score": 0.213781069
+      },
+      {
+        "id": 30045349,
+        "name": "Rakapas",
+        "score": 0.204204971
+      }
+    ],
+    "articulationSystems": [
+      {
+        "id": 30002756,
+        "name": "Ishomilken",
+        "componentSizesWithoutNode": [
+          87,
+          2
+        ]
+      },
+      {
+        "id": 30002757,
+        "name": "Nikkishina",
+        "componentSizesWithoutNode": [
+          88,
+          1
+        ]
+      },
+      {
+        "id": 30002759,
+        "name": "Uuna",
+        "componentSizesWithoutNode": [
+          86,
+          3
+        ]
+      },
+      {
+        "id": 30002760,
+        "name": "Manjonakko",
+        "componentSizesWithoutNode": [
+          85,
+          4
+        ]
+      },
+      {
+        "id": 30002806,
+        "name": "Hasmijaala",
+        "componentSizesWithoutNode": [
+          88,
+          1
+        ]
+      },
+      {
+        "id": 30002807,
+        "name": "Nagamanen",
+        "componentSizesWithoutNode": [
+          86,
+          2,
+          1
+        ]
+      },
+      {
+        "id": 30002809,
+        "name": "Sujarento",
+        "componentSizesWithoutNode": [
+          86,
+          3
+        ]
+      },
+      {
+        "id": 30002811,
+        "name": "Onatoh",
+        "componentSizesWithoutNode": [
+          88,
+          1
+        ]
+      },
+      {
+        "id": 30003829,
+        "name": "Renarelle",
+        "componentSizesWithoutNode": [
+          85,
+          4
+        ]
+      },
+      {
+        "id": 30003836,
+        "name": "Vlillirier",
+        "componentSizesWithoutNode": [
+          83,
+          5,
+          1
+        ]
+      },
+      {
+        "id": 30003837,
+        "name": "Aldranette",
+        "componentSizesWithoutNode": [
+          78,
+          11
+        ]
+      },
+      {
+        "id": 30003839,
+        "name": "Evaulon",
+        "componentSizesWithoutNode": [
+          79,
+          10
+        ]
+      },
+      {
+        "id": 30003840,
+        "name": "Anchauttes",
+        "componentSizesWithoutNode": [
+          80,
+          8,
+          1
+        ]
+      },
+      {
+        "id": 30003851,
+        "name": "Reschard",
+        "componentSizesWithoutNode": [
+          86,
+          2,
+          1
+        ]
+      },
+      {
+        "id": 30003852,
+        "name": "Arderonne",
+        "componentSizesWithoutNode": [
+          85,
+          4
+        ]
+      },
+      {
+        "id": 30003853,
+        "name": "Mercomesier",
+        "componentSizesWithoutNode": [
+          88,
+          1
+        ]
+      },
+      {
+        "id": 30003854,
+        "name": "Alamel",
+        "componentSizesWithoutNode": [
+          88,
+          1
+        ]
+      },
+      {
+        "id": 30003857,
+        "name": "Odamia",
+        "componentSizesWithoutNode": [
+          82,
+          7
+        ]
+      },
+      {
+        "id": 30004979,
+        "name": "Heydieles",
+        "componentSizesWithoutNode": [
+          77,
+          9,
+          3
+        ]
+      },
+      {
+        "id": 30004982,
+        "name": "Indregulle",
+        "componentSizesWithoutNode": [
+          81,
+          8
+        ]
+      },
+      {
+        "id": 30004999,
+        "name": "Ladistier",
+        "componentSizesWithoutNode": [
+          88,
+          1
+        ]
+      },
+      {
+        "id": 30005000,
+        "name": "Old Man Star",
+        "componentSizesWithoutNode": [
+          87,
+          2
+        ]
+      },
+      {
+        "id": 30005295,
+        "name": "Murethand",
+        "componentSizesWithoutNode": [
+          82,
+          7
+        ]
+      },
+      {
+        "id": 30005296,
+        "name": "Melmaniel",
+        "componentSizesWithoutNode": [
+          83,
+          4,
+          2
+        ]
+      },
+      {
+        "id": 30005297,
+        "name": "Ouelletta",
+        "componentSizesWithoutNode": [
+          88,
+          1
+        ]
+      },
+      {
+        "id": 30005298,
+        "name": "Costolle",
+        "componentSizesWithoutNode": [
+          86,
+          3
+        ]
+      },
+      {
+        "id": 30005299,
+        "name": "Muetralle",
+        "componentSizesWithoutNode": [
+          87,
+          2
+        ]
+      },
+      {
+        "id": 30005320,
+        "name": "Hevrice",
+        "componentSizesWithoutNode": [
+          88,
+          1
+        ]
+      },
+      {
+        "id": 30045306,
+        "name": "Hykanima",
+        "componentSizesWithoutNode": [
+          88,
+          1
+        ]
+      },
+      {
+        "id": 30045308,
+        "name": "Kehjari",
+        "componentSizesWithoutNode": [
+          82,
+          7
+        ]
+      },
+      {
+        "id": 30045309,
+        "name": "Villasen",
+        "componentSizesWithoutNode": [
+          88,
+          1
+        ]
+      },
+      {
+        "id": 30045318,
+        "name": "Martoh",
+        "componentSizesWithoutNode": [
+          81,
+          8
+        ]
+      },
+      {
+        "id": 30045330,
+        "name": "Okkamon",
+        "componentSizesWithoutNode": [
+          77,
+          12
+        ]
+      },
+      {
+        "id": 30045331,
+        "name": "Vaaralen",
+        "componentSizesWithoutNode": [
+          88,
+          1
+        ]
+      },
+      {
+        "id": 30045332,
+        "name": "Asakai",
+        "componentSizesWithoutNode": [
+          86,
+          3
+        ]
+      },
+      {
+        "id": 30045334,
+        "name": "Mushikegi",
+        "componentSizesWithoutNode": [
+          84,
+          5
+        ]
+      },
+      {
+        "id": 30045338,
+        "name": "Hikkoken",
+        "componentSizesWithoutNode": [
+          48,
+          41
+        ]
+      },
+      {
+        "id": 30045346,
+        "name": "Kedama",
+        "componentSizesWithoutNode": [
+          88,
+          1
+        ]
+      },
+      {
+        "id": 30045349,
+        "name": "Rakapas",
+        "componentSizesWithoutNode": [
+          88,
+          1
+        ]
+      },
+      {
+        "id": 30045352,
+        "name": "Nisuwa",
+        "componentSizesWithoutNode": [
+          88,
+          1
+        ]
+      },
+      {
+        "id": 30045353,
+        "name": "Pynekastoh",
+        "componentSizesWithoutNode": [
+          47,
+          42
+        ]
+      },
+      {
+        "id": 30045354,
+        "name": "Reitsato",
+        "componentSizesWithoutNode": [
+          76,
+          13
+        ]
+      }
+    ],
+    "bridgeEdges": [
+      {
+        "ids": [
+          30002756,
+          30002757
+        ],
+        "names": [
+          "Ishomilken",
+          "Nikkishina"
+        ],
+        "componentSizesWithoutEdge": [
+          88,
+          2
+        ]
+      },
+      {
+        "ids": [
+          30002756,
+          30002759
+        ],
+        "names": [
+          "Ishomilken",
+          "Uuna"
+        ],
+        "componentSizesWithoutEdge": [
+          87,
+          3
+        ]
+      },
+      {
+        "ids": [
+          30002757,
+          30002758
+        ],
+        "names": [
+          "Nikkishina",
+          "Hasama"
+        ],
+        "componentSizesWithoutEdge": [
+          89,
+          1
+        ]
+      },
+      {
+        "ids": [
+          30002759,
+          30002760
+        ],
+        "names": [
+          "Uuna",
+          "Manjonakko"
+        ],
+        "componentSizesWithoutEdge": [
+          86,
+          4
+        ]
+      },
+      {
+        "ids": [
+          30002760,
+          30045334
+        ],
+        "names": [
+          "Manjonakko",
+          "Mushikegi"
+        ],
+        "componentSizesWithoutEdge": [
+          85,
+          5
+        ]
+      },
+      {
+        "ids": [
+          30002796,
+          30002806
+        ],
+        "names": [
+          "Hysera",
+          "Hasmijaala"
+        ],
+        "componentSizesWithoutEdge": [
+          89,
+          1
+        ]
+      },
+      {
+        "ids": [
+          30002806,
+          30002807
+        ],
+        "names": [
+          "Hasmijaala",
+          "Nagamanen"
+        ],
+        "componentSizesWithoutEdge": [
+          88,
+          2
+        ]
+      },
+      {
+        "ids": [
+          30002807,
+          30002808
+        ],
+        "names": [
+          "Nagamanen",
+          "Oto"
+        ],
+        "componentSizesWithoutEdge": [
+          89,
+          1
+        ]
+      },
+      {
+        "ids": [
+          30002811,
+          30002812
+        ],
+        "names": [
+          "Onatoh",
+          "Tannolen"
+        ],
+        "componentSizesWithoutEdge": [
+          89,
+          1
+        ]
+      },
+      {
+        "ids": [
+          30003829,
+          30003836
+        ],
+        "names": [
+          "Renarelle",
+          "Vlillirier"
+        ],
+        "componentSizesWithoutEdge": [
+          85,
+          5
+        ]
+      },
+      {
+        "ids": [
+          30003836,
+          30003841
+        ],
+        "names": [
+          "Vlillirier",
+          "Alsavoinon"
+        ],
+        "componentSizesWithoutEdge": [
+          89,
+          1
+        ]
+      },
+      {
+        "ids": [
+          30003837,
+          30003839
+        ],
+        "names": [
+          "Aldranette",
+          "Evaulon"
+        ],
+        "componentSizesWithoutEdge": [
+          79,
+          11
+        ]
+      },
+      {
+        "ids": [
+          30003839,
+          30003840
+        ],
+        "names": [
+          "Evaulon",
+          "Anchauttes"
+        ],
+        "componentSizesWithoutEdge": [
+          80,
+          10
+        ]
+      },
+      {
+        "ids": [
+          30003840,
+          30003842
+        ],
+        "names": [
+          "Anchauttes",
+          "Esesier"
+        ],
+        "componentSizesWithoutEdge": [
+          89,
+          1
+        ]
+      },
+      {
+        "ids": [
+          30003840,
+          30003857
+        ],
+        "names": [
+          "Anchauttes",
+          "Odamia"
+        ],
+        "componentSizesWithoutEdge": [
+          82,
+          8
+        ]
+      },
+      {
+        "ids": [
+          30003850,
+          30003851
+        ],
+        "names": [
+          "Alparena",
+          "Reschard"
+        ],
+        "componentSizesWithoutEdge": [
+          89,
+          1
+        ]
+      },
+      {
+        "ids": [
+          30003851,
+          30003852
+        ],
+        "names": [
+          "Reschard",
+          "Arderonne"
+        ],
+        "componentSizesWithoutEdge": [
+          86,
+          4
+        ]
+      },
+      {
+        "ids": [
+          30003851,
+          30003853
+        ],
+        "names": [
+          "Reschard",
+          "Mercomesier"
+        ],
+        "componentSizesWithoutEdge": [
+          88,
+          2
+        ]
+      },
+      {
+        "ids": [
+          30003853,
+          30003856
+        ],
+        "names": [
+          "Mercomesier",
+          "Athounon"
+        ],
+        "componentSizesWithoutEdge": [
+          89,
+          1
+        ]
+      },
+      {
+        "ids": [
+          30003854,
+          30003855
+        ],
+        "names": [
+          "Alamel",
+          "Mantenault"
+        ],
+        "componentSizesWithoutEdge": [
+          89,
+          1
+        ]
+      },
+      {
+        "ids": [
+          30004979,
+          30004982
+        ],
+        "names": [
+          "Heydieles",
+          "Indregulle"
+        ],
+        "componentSizesWithoutEdge": [
+          81,
+          9
+        ]
+      },
+      {
+        "ids": [
+          30004979,
+          30005000
+        ],
+        "names": [
+          "Heydieles",
+          "Old Man Star"
+        ],
+        "componentSizesWithoutEdge": [
+          87,
+          3
+        ]
+      },
+      {
+        "ids": [
+          30004982,
+          30005295
+        ],
+        "names": [
+          "Indregulle",
+          "Murethand"
+        ],
+        "componentSizesWithoutEdge": [
+          82,
+          8
+        ]
+      },
+      {
+        "ids": [
+          30004997,
+          30004999
+        ],
+        "names": [
+          "Vifrevaert",
+          "Ladistier"
+        ],
+        "componentSizesWithoutEdge": [
+          89,
+          1
+        ]
+      },
+      {
+        "ids": [
+          30004999,
+          30005000
+        ],
+        "names": [
+          "Ladistier",
+          "Old Man Star"
+        ],
+        "componentSizesWithoutEdge": [
+          88,
+          2
+        ]
+      },
+      {
+        "ids": [
+          30005295,
+          30005296
+        ],
+        "names": [
+          "Murethand",
+          "Melmaniel"
+        ],
+        "componentSizesWithoutEdge": [
+          83,
+          7
+        ]
+      },
+      {
+        "ids": [
+          30005296,
+          30005297
+        ],
+        "names": [
+          "Melmaniel",
+          "Ouelletta"
+        ],
+        "componentSizesWithoutEdge": [
+          88,
+          2
+        ]
+      },
+      {
+        "ids": [
+          30005296,
+          30005298
+        ],
+        "names": [
+          "Melmaniel",
+          "Costolle"
+        ],
+        "componentSizesWithoutEdge": [
+          86,
+          4
+        ]
+      },
+      {
+        "ids": [
+          30005297,
+          30005300
+        ],
+        "names": [
+          "Ouelletta",
+          "Loes"
+        ],
+        "componentSizesWithoutEdge": [
+          89,
+          1
+        ]
+      },
+      {
+        "ids": [
+          30005298,
+          30005299
+        ],
+        "names": [
+          "Costolle",
+          "Muetralle"
+        ],
+        "componentSizesWithoutEdge": [
+          87,
+          3
+        ]
+      },
+      {
+        "ids": [
+          30005299,
+          30005320
+        ],
+        "names": [
+          "Muetralle",
+          "Hevrice"
+        ],
+        "componentSizesWithoutEdge": [
+          88,
+          2
+        ]
+      },
+      {
+        "ids": [
+          30005320,
+          30005321
+        ],
+        "names": [
+          "Hevrice",
+          "Jovainnon"
+        ],
+        "componentSizesWithoutEdge": [
+          89,
+          1
+        ]
+      },
+      {
+        "ids": [
+          30045306,
+          30045310
+        ],
+        "names": [
+          "Hykanima",
+          "Sarenemi"
+        ],
+        "componentSizesWithoutEdge": [
+          89,
+          1
+        ]
+      },
+      {
+        "ids": [
+          30045308,
+          30045318
+        ],
+        "names": [
+          "Kehjari",
+          "Martoh"
+        ],
+        "componentSizesWithoutEdge": [
+          82,
+          8
+        ]
+      },
+      {
+        "ids": [
+          30045309,
+          30045312
+        ],
+        "names": [
+          "Villasen",
+          "Korasen"
+        ],
+        "componentSizesWithoutEdge": [
+          89,
+          1
+        ]
+      },
+      {
+        "ids": [
+          30045330,
+          30045354
+        ],
+        "names": [
+          "Okkamon",
+          "Reitsato"
+        ],
+        "componentSizesWithoutEdge": [
+          77,
+          13
+        ]
+      },
+      {
+        "ids": [
+          30045331,
+          30045335
+        ],
+        "names": [
+          "Vaaralen",
+          "Teskanen"
+        ],
+        "componentSizesWithoutEdge": [
+          89,
+          1
+        ]
+      },
+      {
+        "ids": [
+          30045338,
+          30045353
+        ],
+        "names": [
+          "Hikkoken",
+          "Pynekastoh"
+        ],
+        "componentSizesWithoutEdge": [
+          48,
+          42
+        ]
+      },
+      {
+        "ids": [
+          30045346,
+          30045350
+        ],
+        "names": [
+          "Kedama",
+          "Teimo"
+        ],
+        "componentSizesWithoutEdge": [
+          89,
+          1
+        ]
+      },
+      {
+        "ids": [
+          30045348,
+          30045352
+        ],
+        "names": [
+          "Notoras",
+          "Nisuwa"
+        ],
+        "componentSizesWithoutEdge": [
+          89,
+          1
+        ]
+      },
+      {
+        "ids": [
+          30045349,
+          30045351
+        ],
+        "names": [
+          "Rakapas",
+          "Iwisoda"
+        ],
+        "componentSizesWithoutEdge": [
+          89,
+          1
+        ]
+      }
+    ]
+  },
+  "systems": [
+    {
+      "id": 30004984,
+      "name": "Abune",
+      "constellationId": 20000729,
+      "constellation": "Jeon",
+      "regionId": 10000064,
+      "region": "Essence",
+      "securityStatus": 0.28563404083251953,
+      "npcStationCount": 0,
+      "originalFactionId": 500004,
+      "occupierFactionId": 500001,
+      "contestedState": "contested",
+      "victoryPoints": 7183,
+      "victoryPointsThreshold": 75000,
+      "contestedPercent": 9.577333,
+      "derivedOperationalState": "frontline",
+      "position2D": {
+        "x": -1.9722867249304627e+17,
+        "y": 9.65598709080539e+16
+      },
+      "position3D": {
+        "x": -2.1126590104115347e+17,
+        "y": 5.580652849031512e+16,
+        "z": 8.141639674703722e+16
+      },
+      "neighbors": [
+        30004979,
+        30045347
+      ],
+      "externalGateCount": 0,
+      "unweightedBetweenness": 958.833333333,
+      "normalizedBetweenness": 0.244850187
+    },
+    {
+      "id": 30045340,
+      "name": "Aivonen",
+      "constellationId": 20000785,
+      "constellation": "Ishaga",
+      "regionId": 10000069,
+      "region": "Black Rise",
+      "securityStatus": 0.3773302435874939,
+      "npcStationCount": 1,
+      "originalFactionId": 500001,
+      "occupierFactionId": 500001,
+      "contestedState": "uncontested",
+      "victoryPoints": 0,
+      "victoryPointsThreshold": 75000,
+      "contestedPercent": 0.0,
+      "derivedOperationalState": "command",
+      "position2D": {
+        "x": -1.6435722707753856e+17,
+        "y": 2.1366439520080013e+17
+      },
+      "position3D": {
+        "x": -2.3182890018908304e+17,
+        "y": 1.0585108159198214e+17,
+        "z": 1.3915498687225843e+17
+      },
+      "neighbors": [
+        30045320,
+        30045342
+      ],
+      "externalGateCount": 0,
+      "unweightedBetweenness": 514.833333333,
+      "normalizedBetweenness": 0.131469186
+    },
+    {
+      "id": 30045342,
+      "name": "Akidagi",
+      "constellationId": 20000785,
+      "constellation": "Ishaga",
+      "regionId": 10000069,
+      "region": "Black Rise",
+      "securityStatus": 0.4449388384819031,
+      "npcStationCount": 0,
+      "originalFactionId": 500001,
+      "occupierFactionId": 500001,
+      "contestedState": "uncontested",
+      "victoryPoints": 0,
+      "victoryPointsThreshold": 75000,
+      "contestedPercent": 0.0,
+      "derivedOperationalState": "frontline",
+      "position2D": {
+        "x": -1.725750884314155e+17,
+        "y": 2.0955546452386166e+17
+      },
+      "position3D": {
+        "x": -2.1979420499282637e+17,
+        "y": 1.0908344730434718e+17,
+        "z": 1.362468544361733e+17
+      },
+      "neighbors": [
+        30045339,
+        30045340,
+        30045344
+      ],
+      "externalGateCount": 0,
+      "unweightedBetweenness": 571.833333333,
+      "normalizedBetweenness": 0.146024855
+    },
+    {
+      "id": 30003854,
+      "name": "Alamel",
+      "constellationId": 20000563,
+      "constellation": "Serthoulde",
+      "regionId": 10000048,
+      "region": "Placid",
+      "securityStatus": 0.17091254889965057,
+      "npcStationCount": 0,
+      "originalFactionId": 500004,
+      "occupierFactionId": 500004,
+      "contestedState": "contested",
+      "victoryPoints": 37531,
+      "victoryPointsThreshold": 75000,
+      "contestedPercent": 50.041333,
+      "derivedOperationalState": "frontline",
+      "position2D": {
+        "x": -2.5269923663171552e+17,
+        "y": 1.9517420715457702e+17
+      },
+      "position3D": {
+        "x": -2.6802259808461238e+17,
+        "y": 6.0715637970335976e+16,
+        "z": 1.3346356843612174e+17
+      },
+      "neighbors": [
+        30003852,
+        30003855,
+        30003857
+      ],
+      "externalGateCount": 0,
+      "unweightedBetweenness": 88.0,
+      "normalizedBetweenness": 0.02247191
+    },
+    {
+      "id": 30003837,
+      "name": "Aldranette",
+      "constellationId": 20000561,
+      "constellation": "Amevync",
+      "regionId": 10000048,
+      "region": "Placid",
+      "securityStatus": 0.36751049757003784,
+      "npcStationCount": 1,
+      "originalFactionId": 500004,
+      "occupierFactionId": 500004,
+      "contestedState": "contested",
+      "victoryPoints": 17641,
+      "victoryPointsThreshold": 75000,
+      "contestedPercent": 23.521333,
+      "derivedOperationalState": "frontline",
+      "position2D": {
+        "x": -2.30100117908554e+17,
+        "y": 1.910652764776386e+17
+      },
+      "position3D": {
+        "x": -2.4166433171280925e+17,
+        "y": 1.1585695173693373e+17,
+        "z": 1.3165094885378922e+17
+      },
+      "neighbors": [
+        30003836,
+        30003839,
+        30045344
+      ],
+      "externalGateCount": 0,
+      "unweightedBetweenness": 1604.166666667,
+      "normalizedBetweenness": 0.409644195
+    },
+    {
+      "id": 30003850,
+      "name": "Alparena",
+      "constellationId": 20000563,
+      "constellation": "Serthoulde",
+      "regionId": 10000048,
+      "region": "Placid",
+      "securityStatus": 0.1465722620487213,
+      "npcStationCount": 1,
+      "originalFactionId": 500004,
+      "occupierFactionId": 500004,
+      "contestedState": "contested",
+      "victoryPoints": 67983,
+      "victoryPointsThreshold": 75000,
+      "contestedPercent": 90.644,
+      "derivedOperationalState": "frontline",
+      "position2D": {
+        "x": -2.6913495933946938e+17,
+        "y": 1.910652764776386e+17
+      },
+      "position3D": {
+        "x": -2.975725657086554e+17,
+        "y": 4.636894515480404e+16,
+        "z": 1.3264148697588368e+17
+      },
+      "neighbors": [
+        30003851
+      ],
+      "externalGateCount": 1,
+      "unweightedBetweenness": 0.0,
+      "normalizedBetweenness": 0.0
+    },
+    {
+      "id": 30003841,
+      "name": "Alsavoinon",
+      "constellationId": 20000561,
+      "constellation": "Amevync",
+      "regionId": 10000048,
+      "region": "Placid",
+      "securityStatus": 0.26636627316474915,
+      "npcStationCount": 0,
+      "originalFactionId": 500004,
+      "occupierFactionId": 500001,
+      "contestedState": "contested",
+      "victoryPoints": 5002,
+      "victoryPointsThreshold": 75000,
+      "contestedPercent": 6.669333,
+      "derivedOperationalState": "command",
+      "position2D": {
+        "x": -2.198277912162078e+17,
+        "y": 1.8490188046223088e+17
+      },
+      "position3D": {
+        "x": -2.55919702718e+17,
+        "y": 1.18072986408e+17,
+        "z": 1.22562455169e+17
+      },
+      "neighbors": [
+        30003836
+      ],
+      "externalGateCount": 2,
+      "unweightedBetweenness": 0.0,
+      "normalizedBetweenness": 0.0
+    },
+    {
+      "id": 30003840,
+      "name": "Anchauttes",
+      "constellationId": 20000561,
+      "constellation": "Amevync",
+      "regionId": 10000048,
+      "region": "Placid",
+      "securityStatus": 0.3395961821079254,
+      "npcStationCount": 1,
+      "originalFactionId": 500004,
+      "occupierFactionId": 500004,
+      "contestedState": "contested",
+      "victoryPoints": 29201,
+      "victoryPointsThreshold": 75000,
+      "contestedPercent": 38.934667,
+      "derivedOperationalState": "frontline",
+      "position2D": {
+        "x": -2.4242690993936938e+17,
+        "y": 1.910652764776386e+17
+      },
+      "position3D": {
+        "x": -2.531027436027632e+17,
+        "y": 1.045503628928513e+17,
+        "z": 1.3682278467701946e+17
+      },
+      "neighbors": [
+        30003839,
+        30003842,
+        30003857
+      ],
+      "externalGateCount": 0,
+      "unweightedBetweenness": 728.0,
+      "normalizedBetweenness": 0.185903984
+    },
+    {
+      "id": 30003852,
+      "name": "Arderonne",
+      "constellationId": 20000563,
+      "constellation": "Serthoulde",
+      "regionId": 10000048,
+      "region": "Placid",
+      "securityStatus": 0.17470920085906982,
+      "npcStationCount": 0,
+      "originalFactionId": 500004,
+      "occupierFactionId": 500001,
+      "contestedState": "contested",
+      "victoryPoints": 12,
+      "victoryPointsThreshold": 75000,
+      "contestedPercent": 0.016,
+      "derivedOperationalState": "frontline",
+      "position2D": {
+        "x": -2.56808167308654e+17,
+        "y": 1.910652764776386e+17
+      },
+      "position3D": {
+        "x": -2.7296156085371702e+17,
+        "y": 6.174545420075282e+16,
+        "z": 1.3188314507934866e+17
+      },
+      "neighbors": [
+        30003851,
+        30003854,
+        30003857
+      ],
+      "externalGateCount": 0,
+      "unweightedBetweenness": 340.0,
+      "normalizedBetweenness": 0.086823289
+    },
+    {
+      "id": 30045332,
+      "name": "Asakai",
+      "constellationId": 20000786,
+      "constellation": "Kurala",
+      "regionId": 10000069,
+      "region": "Black Rise",
+      "securityStatus": 0.2563743591308594,
+      "npcStationCount": 1,
+      "originalFactionId": 500001,
+      "occupierFactionId": 500001,
+      "contestedState": "uncontested",
+      "victoryPoints": 0,
+      "victoryPointsThreshold": 75000,
+      "contestedPercent": 0.0,
+      "derivedOperationalState": "rearguard",
+      "position2D": {
+        "x": -1.931197418161078e+17,
+        "y": 2.2188225655467706e+17
+      },
+      "position3D": {
+        "x": -1.8866045831693456e+17,
+        "y": 7.945000562761221e+16,
+        "z": 1.395636682869233e+17
+      },
+      "neighbors": [
+        30045330,
+        30045331,
+        30045333,
+        30045334,
+        30045336,
+        30045337
+      ],
+      "externalGateCount": 0,
+      "unweightedBetweenness": 336.5,
+      "normalizedBetweenness": 0.08592952
+    },
+    {
+      "id": 30045311,
+      "name": "Ashitsu",
+      "constellationId": 20000781,
+      "constellation": "Urpiken",
+      "regionId": 10000069,
+      "region": "Black Rise",
+      "securityStatus": 0.2648882269859314,
+      "npcStationCount": 0,
+      "originalFactionId": 500001,
+      "occupierFactionId": 500001,
+      "contestedState": "uncontested",
+      "victoryPoints": 0,
+      "victoryPointsThreshold": 75000,
+      "contestedPercent": 0.0,
+      "derivedOperationalState": "rearguard",
+      "position2D": {
+        "x": -2.1366439520080013e+17,
+        "y": 2.383179792624309e+17
+      },
+      "position3D": {
+        "x": -2.5970541228877248e+17,
+        "y": 7.373920888786963e+16,
+        "z": 1.818814829375075e+17
+      },
+      "neighbors": [
+        30045306,
+        30045308,
+        30045313
+      ],
+      "externalGateCount": 0,
+      "unweightedBetweenness": 168.0,
+      "normalizedBetweenness": 0.042900919
+    },
+    {
+      "id": 30003856,
+      "name": "Athounon",
+      "constellationId": 20000563,
+      "constellation": "Serthoulde",
+      "regionId": 10000048,
+      "region": "Placid",
+      "securityStatus": 0.07620590925216675,
+      "npcStationCount": 0,
+      "originalFactionId": 500004,
+      "occupierFactionId": 500001,
+      "contestedState": "uncontested",
+      "victoryPoints": 0,
+      "victoryPointsThreshold": 75000,
+      "contestedPercent": 0.0,
+      "derivedOperationalState": "rearguard",
+      "position2D": {
+        "x": -2.7118942467793862e+17,
+        "y": 1.9722867249304627e+17
+      },
+      "position3D": {
+        "x": -2.7751443725591722e+17,
+        "y": 5.474570508446018e+16,
+        "z": 1.408025347004027e+17
+      },
+      "neighbors": [
+        30003853
+      ],
+      "externalGateCount": 1,
+      "unweightedBetweenness": 0.0,
+      "normalizedBetweenness": 0.0
+    },
+    {
+      "id": 30003827,
+      "name": "Aubenall",
+      "constellationId": 20000559,
+      "constellation": "Pegeler",
+      "regionId": 10000048,
+      "region": "Placid",
+      "securityStatus": 0.4318512976169586,
+      "npcStationCount": 2,
+      "originalFactionId": 500004,
+      "occupierFactionId": 500004,
+      "contestedState": "contested",
+      "victoryPoints": 4150,
+      "victoryPointsThreshold": 75000,
+      "contestedPercent": 5.533333,
+      "derivedOperationalState": "frontline",
+      "position2D": {
+        "x": -2.4242690993936938e+17,
+        "y": 1.8284741512376166e+17
+      },
+      "position3D": {
+        "x": -2.50322392067e+17,
+        "y": 1.02235154349e+17,
+        "z": 1.14280078627e+17
+      },
+      "neighbors": [
+        30003825,
+        30003829
+      ],
+      "externalGateCount": 2,
+      "unweightedBetweenness": 43.0,
+      "normalizedBetweenness": 0.010980592
+    },
+    {
+      "id": 30005298,
+      "name": "Costolle",
+      "constellationId": 20000775,
+      "constellation": "Woenckee",
+      "regionId": 10000068,
+      "region": "Verge Vendor",
+      "securityStatus": 0.20681016147136688,
+      "npcStationCount": 2,
+      "originalFactionId": 500004,
+      "occupierFactionId": 500004,
+      "contestedState": "uncontested",
+      "victoryPoints": 0,
+      "victoryPointsThreshold": 75000,
+      "contestedPercent": 0.0,
+      "derivedOperationalState": "rearguard",
+      "position2D": {
+        "x": -2.6913495933946938e+17,
+        "y": 8.628754421570774e+16
+      },
+      "position3D": {
+        "x": -2.3768293375986272e+17,
+        "y": 5.497258518989586e+16,
+        "z": 6.999381675256558e+16
+      },
+      "neighbors": [
+        30005296,
+        30005299
+      ],
+      "externalGateCount": 0,
+      "unweightedBetweenness": 258.0,
+      "normalizedBetweenness": 0.065883555
+    },
+    {
+      "id": 30004985,
+      "name": "Deven",
+      "constellationId": 20000729,
+      "constellation": "Jeon",
+      "regionId": 10000064,
+      "region": "Essence",
+      "securityStatus": 0.3177724778652191,
+      "npcStationCount": 1,
+      "originalFactionId": 500004,
+      "occupierFactionId": 500004,
+      "contestedState": "uncontested",
+      "victoryPoints": 0,
+      "victoryPointsThreshold": 75000,
+      "contestedPercent": 0.0,
+      "derivedOperationalState": "command",
+      "position2D": {
+        "x": -1.7873848444682317e+17,
+        "y": 1.0683219760040006e+17
+      },
+      "position3D": {
+        "x": -2.0344148708196973e+17,
+        "y": 4.077522964904329e+16,
+        "z": 8.205386594908992e+16
+      },
+      "neighbors": [
+        30002807,
+        30004980
+      ],
+      "externalGateCount": 0,
+      "unweightedBetweenness": 133.166666667,
+      "normalizedBetweenness": 0.034005788
+    },
+    {
+      "id": 30045319,
+      "name": "Eha",
+      "constellationId": 20000783,
+      "constellation": "Inolari",
+      "regionId": 10000069,
+      "region": "Black Rise",
+      "securityStatus": 0.3971850872039795,
+      "npcStationCount": 1,
+      "originalFactionId": 500001,
+      "occupierFactionId": 500001,
+      "contestedState": "uncontested",
+      "victoryPoints": 0,
+      "victoryPointsThreshold": 75000,
+      "contestedPercent": 0.0,
+      "derivedOperationalState": "rearguard",
+      "position2D": {
+        "x": -1.807929497852924e+17,
+        "y": 2.506447712932463e+17
+      },
+      "position3D": {
+        "x": -2.44109162501361e+17,
+        "y": 9.699680525632314e+16,
+        "z": 1.478268880517155e+17
+      },
+      "neighbors": [
+        30003838,
+        30045316,
+        30045318
+      ],
+      "externalGateCount": 0,
+      "unweightedBetweenness": 524.0,
+      "normalizedBetweenness": 0.13381001
+    },
+    {
+      "id": 30045336,
+      "name": "Elunala",
+      "constellationId": 20000786,
+      "constellation": "Kurala",
+      "regionId": 10000069,
+      "region": "Black Rise",
+      "securityStatus": 0.252598375082016,
+      "npcStationCount": 0,
+      "originalFactionId": 500001,
+      "occupierFactionId": 500001,
+      "contestedState": "uncontested",
+      "victoryPoints": 0,
+      "victoryPointsThreshold": 75000,
+      "contestedPercent": 0.0,
+      "derivedOperationalState": "rearguard",
+      "position2D": {
+        "x": -1.931197418161078e+17,
+        "y": 2.2804565257008474e+17
+      },
+      "position3D": {
+        "x": -1.9313766109581382e+17,
+        "y": 7.034572179953635e+16,
+        "z": 1.3329839202033208e+17
+      },
+      "neighbors": [
+        30045332,
+        30045333
+      ],
+      "externalGateCount": 0,
+      "unweightedBetweenness": 0.0,
+      "normalizedBetweenness": 0.0
+    },
+    {
+      "id": 30045339,
+      "name": "Enaluri",
+      "constellationId": 20000785,
+      "constellation": "Ishaga",
+      "regionId": 10000069,
+      "region": "Black Rise",
+      "securityStatus": 0.3277980387210846,
+      "npcStationCount": 2,
+      "originalFactionId": 500001,
+      "occupierFactionId": 500001,
+      "contestedState": "uncontested",
+      "victoryPoints": 0,
+      "victoryPointsThreshold": 75000,
+      "contestedPercent": 0.0,
+      "derivedOperationalState": "frontline",
+      "position2D": {
+        "x": -1.807929497852924e+17,
+        "y": 2.0750099918539245e+17
+      },
+      "position3D": {
+        "x": -2.2787517331394458e+17,
+        "y": 1.0468838569953179e+17,
+        "z": 1.2027941769265027e+17
+      },
+      "neighbors": [
+        30045341,
+        30045342,
+        30045344
+      ],
+      "externalGateCount": 0,
+      "unweightedBetweenness": 27.166666667,
+      "normalizedBetweenness": 0.006937351
+    },
+    {
+      "id": 30002810,
+      "name": "Eranakko",
+      "constellationId": 20000412,
+      "constellation": "Isoma",
+      "regionId": 10000033,
+      "region": "The Citadel",
+      "securityStatus": 0.32403257489204407,
+      "npcStationCount": 2,
+      "originalFactionId": 500001,
+      "occupierFactionId": 500004,
+      "contestedState": "contested",
+      "victoryPoints": 47620,
+      "victoryPointsThreshold": 75000,
+      "contestedPercent": 63.493333,
+      "derivedOperationalState": "command",
+      "position2D": {
+        "x": -1.3559471233896931e+17,
+        "y": 2.0339206850845395e+17
+      },
+      "position3D": {
+        "x": -1.868528684449207e+17,
+        "y": 6.259763813581917e+16,
+        "z": 1.0814599904434691e+17
+      },
+      "neighbors": [
+        30002809,
+        30002811
+      ],
+      "externalGateCount": 0,
+      "unweightedBetweenness": 0.0,
+      "normalizedBetweenness": 0.0
+    },
+    {
+      "id": 30003842,
+      "name": "Esesier",
+      "constellationId": 20000561,
+      "constellation": "Amevync",
+      "regionId": 10000048,
+      "region": "Placid",
+      "securityStatus": 0.29069796204566956,
+      "npcStationCount": 3,
+      "originalFactionId": 500004,
+      "occupierFactionId": 500004,
+      "contestedState": "contested",
+      "victoryPoints": 6039,
+      "victoryPointsThreshold": 75000,
+      "contestedPercent": 8.052,
+      "derivedOperationalState": "command",
+      "position2D": {
+        "x": -2.4242690993936938e+17,
+        "y": 1.9722867249304627e+17
+      },
+      "position3D": {
+        "x": -2.6425148772147827e+17,
+        "y": 1.0335124198108829e+17,
+        "z": 1.3194232340895416e+17
+      },
+      "neighbors": [
+        30003840
+      ],
+      "externalGateCount": 0,
+      "unweightedBetweenness": 0.0,
+      "normalizedBetweenness": 0.0
+    },
+    {
+      "id": 30003825,
+      "name": "Eugales",
+      "constellationId": 20000559,
+      "constellation": "Pegeler",
+      "regionId": 10000048,
+      "region": "Placid",
+      "securityStatus": 0.40425172448158264,
+      "npcStationCount": 2,
+      "originalFactionId": 500004,
+      "occupierFactionId": 500004,
+      "contestedState": "contested",
+      "victoryPoints": 23928,
+      "victoryPointsThreshold": 75000,
+      "contestedPercent": 31.904,
+      "derivedOperationalState": "command",
+      "position2D": {
+        "x": -2.3420904858549245e+17,
+        "y": 1.7873848444682317e+17
+      },
+      "position3D": {
+        "x": -2.4612284943068086e+17,
+        "y": 1.0172453908733326e+17,
+        "z": 1.1651463440252064e+17
+      },
+      "neighbors": [
+        30003826,
+        30003827,
+        30003828
+      ],
+      "externalGateCount": 1,
+      "unweightedBetweenness": 1.5,
+      "normalizedBetweenness": 0.000383044
+    },
+    {
+      "id": 30003839,
+      "name": "Evaulon",
+      "constellationId": 20000561,
+      "constellation": "Amevync",
+      "regionId": 10000048,
+      "region": "Placid",
+      "securityStatus": 0.3668360114097595,
+      "npcStationCount": 2,
+      "originalFactionId": 500004,
+      "occupierFactionId": 500004,
+      "contestedState": "contested",
+      "victoryPoints": 23111,
+      "victoryPointsThreshold": 75000,
+      "contestedPercent": 30.814667,
+      "derivedOperationalState": "command",
+      "position2D": {
+        "x": -2.3626351392396166e+17,
+        "y": 1.910652764776386e+17
+      },
+      "position3D": {
+        "x": -2.4527869748473536e+17,
+        "y": 1.0733780302152181e+17,
+        "z": 1.3222110307370912e+17
+      },
+      "neighbors": [
+        30003837,
+        30003840
+      ],
+      "externalGateCount": 0,
+      "unweightedBetweenness": 790.0,
+      "normalizedBetweenness": 0.201736466
+    },
+    {
+      "id": 30004980,
+      "name": "Fliet",
+      "constellationId": 20000729,
+      "constellation": "Jeon",
+      "regionId": 10000064,
+      "region": "Essence",
+      "securityStatus": 0.3455105423927307,
+      "npcStationCount": 2,
+      "originalFactionId": 500004,
+      "occupierFactionId": 500004,
+      "contestedState": "uncontested",
+      "victoryPoints": 0,
+      "victoryPointsThreshold": 75000,
+      "contestedPercent": 0.0,
+      "derivedOperationalState": "command",
+      "position2D": {
+        "x": -1.8490188046223088e+17,
+        "y": 1.0683219760040006e+17
+      },
+      "position3D": {
+        "x": -2.065987142355427e+17,
+        "y": 4.374412382854091e+16,
+        "z": 7.980962123007086e+16
+      },
+      "neighbors": [
+        30004979,
+        30004985
+      ],
+      "externalGateCount": 1,
+      "unweightedBetweenness": 178.5,
+      "normalizedBetweenness": 0.045582227
+    },
+    {
+      "id": 30003826,
+      "name": "Frarie",
+      "constellationId": 20000559,
+      "constellation": "Pegeler",
+      "regionId": 10000048,
+      "region": "Placid",
+      "securityStatus": 0.3574551045894623,
+      "npcStationCount": 7,
+      "originalFactionId": 500004,
+      "occupierFactionId": 500004,
+      "contestedState": "contested",
+      "victoryPoints": 16516,
+      "victoryPointsThreshold": 75000,
+      "contestedPercent": 22.021333,
+      "derivedOperationalState": "command",
+      "position2D": {
+        "x": -2.239367218931463e+17,
+        "y": 1.7462955376988474e+17
+      },
+      "position3D": {
+        "x": -2.3972073115336576e+17,
+        "y": 1.0429796694335422e+17,
+        "z": 1.1512268563915542e+17
+      },
+      "neighbors": [
+        30003825,
+        30003828
+      ],
+      "externalGateCount": 1,
+      "unweightedBetweenness": 0.0,
+      "normalizedBetweenness": 0.0
+    },
+    {
+      "id": 30045341,
+      "name": "Hallanen",
+      "constellationId": 20000785,
+      "constellation": "Ishaga",
+      "regionId": 10000069,
+      "region": "Black Rise",
+      "securityStatus": 0.36436110734939575,
+      "npcStationCount": 1,
+      "originalFactionId": 500001,
+      "occupierFactionId": 500001,
+      "contestedState": "contested",
+      "victoryPoints": 681,
+      "victoryPointsThreshold": 75000,
+      "contestedPercent": 0.908,
+      "derivedOperationalState": "command",
+      "position2D": {
+        "x": -1.869563458007001e+17,
+        "y": 2.054465338469232e+17
+      },
+      "position3D": {
+        "x": -2.2490145000697024e+17,
+        "y": 1.0039201464946186e+17,
+        "z": 1.075120474676569e+17
+      },
+      "neighbors": [
+        30045338,
+        30045339
+      ],
+      "externalGateCount": 0,
+      "unweightedBetweenness": 24.5,
+      "normalizedBetweenness": 0.006256384
+    },
+    {
+      "id": 30002758,
+      "name": "Hasama",
+      "constellationId": 20000404,
+      "constellation": "Ieyama",
+      "regionId": 10000033,
+      "region": "The Citadel",
+      "securityStatus": 0.2714402377605438,
+      "npcStationCount": 0,
+      "originalFactionId": 500001,
+      "occupierFactionId": 500001,
+      "contestedState": "uncontested",
+      "victoryPoints": 0,
+      "victoryPointsThreshold": 75000,
+      "contestedPercent": 0.0,
+      "derivedOperationalState": "rearguard",
+      "position2D": {
+        "x": -7.601521752336158e+16,
+        "y": 2.239367218931463e+17
+      },
+      "position3D": {
+        "x": -1.694799530200979e+17,
+        "y": 4.261046783679182e+16,
+        "z": 1.4865865659116893e+17
+      },
+      "neighbors": [
+        30002757
+      ],
+      "externalGateCount": 1,
+      "unweightedBetweenness": 0.0,
+      "normalizedBetweenness": 0.0
+    },
+    {
+      "id": 30002806,
+      "name": "Hasmijaala",
+      "constellationId": 20000412,
+      "constellation": "Isoma",
+      "regionId": 10000033,
+      "region": "The Citadel",
+      "securityStatus": 0.33582890033721924,
+      "npcStationCount": 3,
+      "originalFactionId": 500001,
+      "occupierFactionId": 500001,
+      "contestedState": "contested",
+      "victoryPoints": 6410,
+      "victoryPointsThreshold": 75000,
+      "contestedPercent": 8.546667,
+      "derivedOperationalState": "frontline",
+      "position2D": {
+        "x": -1.4381257369284624e+17,
+        "y": 1.869563458007001e+17
+      },
+      "position3D": {
+        "x": -1.8559362951321002e+17,
+        "y": 6.499109859270042e+16,
+        "z": 1.0177928182638667e+17
+      },
+      "neighbors": [
+        30002796,
+        30002807
+      ],
+      "externalGateCount": 0,
+      "unweightedBetweenness": 88.0,
+      "normalizedBetweenness": 0.02247191
+    },
+    {
+      "id": 30005320,
+      "name": "Hevrice",
+      "constellationId": 20000778,
+      "constellation": "Obray",
+      "regionId": 10000068,
+      "region": "Verge Vendor",
+      "securityStatus": 0.4186093807220459,
+      "npcStationCount": 2,
+      "originalFactionId": 500004,
+      "occupierFactionId": 500004,
+      "contestedState": "uncontested",
+      "victoryPoints": 0,
+      "victoryPointsThreshold": 75000,
+      "contestedPercent": 0.0,
+      "derivedOperationalState": "rearguard",
+      "position2D": {
+        "x": -2.7940728603181555e+17,
+        "y": 9.450540556958467e+16
+      },
+      "position3D": {
+        "x": -2.363170943811329e+17,
+        "y": 4.934698426900667e+16,
+        "z": 5.525342107027175e+16
+      },
+      "neighbors": [
+        30005299,
+        30005321
+      ],
+      "externalGateCount": 1,
+      "unweightedBetweenness": 88.0,
+      "normalizedBetweenness": 0.02247191
+    },
+    {
+      "id": 30004979,
+      "name": "Heydieles",
+      "constellationId": 20000729,
+      "constellation": "Jeon",
+      "regionId": 10000064,
+      "region": "Essence",
+      "securityStatus": 0.3066251873970032,
+      "npcStationCount": 2,
+      "originalFactionId": 500004,
+      "occupierFactionId": 500004,
+      "contestedState": "contested",
+      "victoryPoints": 2701,
+      "victoryPointsThreshold": 75000,
+      "contestedPercent": 3.601333,
+      "derivedOperationalState": "frontline",
+      "position2D": {
+        "x": -1.9722867249304627e+17,
+        "y": 1.027232669234616e+17
+      },
+      "position3D": {
+        "x": -2.133529450456474e+17,
+        "y": 5.196785969372703e+16,
+        "z": 7.831619237208187e+16
+      },
+      "neighbors": [
+        30004980,
+        30004982,
+        30004984,
+        30005000
+      ],
+      "externalGateCount": 2,
+      "unweightedBetweenness": 1066.333333333,
+      "normalizedBetweenness": 0.272301668
+    },
+    {
+      "id": 30045338,
+      "name": "Hikkoken",
+      "constellationId": 20000785,
+      "constellation": "Ishaga",
+      "regionId": 10000069,
+      "region": "Black Rise",
+      "securityStatus": 0.3427550792694092,
+      "npcStationCount": 0,
+      "originalFactionId": 500001,
+      "occupierFactionId": 500001,
+      "contestedState": "uncontested",
+      "victoryPoints": 0,
+      "victoryPointsThreshold": 75000,
+      "contestedPercent": 0.0,
+      "derivedOperationalState": "frontline",
+      "position2D": {
+        "x": -1.9517420715457702e+17,
+        "y": 2.054465338469232e+17
+      },
+      "position3D": {
+        "x": -2.192336171116724e+17,
+        "y": 1.143881559771136e+17,
+        "z": 1.0217420468535107e+17
+      },
+      "neighbors": [
+        30045341,
+        30045343,
+        30045344,
+        30045353
+      ],
+      "externalGateCount": 0,
+      "unweightedBetweenness": 1979.833333333,
+      "normalizedBetweenness": 0.505575417
+    },
+    {
+      "id": 30045345,
+      "name": "Hirri",
+      "constellationId": 20000782,
+      "constellation": "Okakuola",
+      "regionId": 10000069,
+      "region": "Black Rise",
+      "securityStatus": 0.33550402522087097,
+      "npcStationCount": 0,
+      "originalFactionId": 500001,
+      "occupierFactionId": 500001,
+      "contestedState": "uncontested",
+      "victoryPoints": 0,
+      "victoryPointsThreshold": 75000,
+      "contestedPercent": 0.0,
+      "derivedOperationalState": "rearguard",
+      "position2D": {
+        "x": -2.198277912162078e+17,
+        "y": 2.1160992986233088e+17
+      },
+      "position3D": {
+        "x": -2.022232359274822e+17,
+        "y": 5.772690608382467e+16,
+        "z": 1.1328267290246024e+17
+      },
+      "neighbors": [
+        30045346,
+        30045352,
+        30045353
+      ],
+      "externalGateCount": 0,
+      "unweightedBetweenness": 517.333333333,
+      "normalizedBetweenness": 0.132107593
+    },
+    {
+      "id": 30045306,
+      "name": "Hykanima",
+      "constellationId": 20000781,
+      "constellation": "Urpiken",
+      "regionId": 10000069,
+      "region": "Black Rise",
+      "securityStatus": 0.2468593716621399,
+      "npcStationCount": 2,
+      "originalFactionId": 500001,
+      "occupierFactionId": 500001,
+      "contestedState": "uncontested",
+      "victoryPoints": 0,
+      "victoryPointsThreshold": 75000,
+      "contestedPercent": 0.0,
+      "derivedOperationalState": "rearguard",
+      "position2D": {
+        "x": -2.1366439520080013e+17,
+        "y": 2.506447712932463e+17
+      },
+      "position3D": {
+        "x": -2.6464696646915696e+17,
+        "y": 6.906996769152932e+16,
+        "z": 1.833047991336583e+17
+      },
+      "neighbors": [
+        30045309,
+        30045310,
+        30045311
+      ],
+      "externalGateCount": 0,
+      "unweightedBetweenness": 89.0,
+      "normalizedBetweenness": 0.022727273
+    },
+    {
+      "id": 30002796,
+      "name": "Hysera",
+      "constellationId": 20000410,
+      "constellation": "Otawasa",
+      "regionId": 10000033,
+      "region": "The Citadel",
+      "securityStatus": 0.3971828520298004,
+      "npcStationCount": 3,
+      "originalFactionId": 500001,
+      "occupierFactionId": 500001,
+      "contestedState": "uncontested",
+      "victoryPoints": 0,
+      "victoryPointsThreshold": 75000,
+      "contestedPercent": 0.0,
+      "derivedOperationalState": "command",
+      "position2D": {
+        "x": -1.4175810835437701e+17,
+        "y": 1.807929497852924e+17
+      },
+      "position3D": {
+        "x": -1.7998960943437837e+17,
+        "y": 6.3892780257654696e+16,
+        "z": 9.595565305584166e+16
+      },
+      "neighbors": [
+        30002806
+      ],
+      "externalGateCount": 2,
+      "unweightedBetweenness": 0.0,
+      "normalizedBetweenness": 0.0
+    },
+    {
+      "id": 30045313,
+      "name": "Ienakkamon",
+      "constellationId": 20000781,
+      "constellation": "Urpiken",
+      "regionId": 10000069,
+      "region": "Black Rise",
+      "securityStatus": 0.10798808932304382,
+      "npcStationCount": 1,
+      "originalFactionId": 500001,
+      "occupierFactionId": 500001,
+      "contestedState": "uncontested",
+      "victoryPoints": 0,
+      "victoryPointsThreshold": 75000,
+      "contestedPercent": 0.0,
+      "derivedOperationalState": "rearguard",
+      "position2D": {
+        "x": -2.0955546452386166e+17,
+        "y": 2.4242690993936938e+17
+      },
+      "position3D": {
+        "x": -2.7056398500045235e+17,
+        "y": 7.728115610244389e+16,
+        "z": 1.7996398457486035e+17
+      },
+      "neighbors": [
+        30045307,
+        30045311
+      ],
+      "externalGateCount": 0,
+      "unweightedBetweenness": 1.0,
+      "normalizedBetweenness": 0.000255363
+    },
+    {
+      "id": 30045337,
+      "name": "Ikoskio",
+      "constellationId": 20000786,
+      "constellation": "Kurala",
+      "regionId": 10000069,
+      "region": "Black Rise",
+      "securityStatus": 0.28331223130226135,
+      "npcStationCount": 0,
+      "originalFactionId": 500001,
+      "occupierFactionId": 500001,
+      "contestedState": "uncontested",
+      "victoryPoints": 0,
+      "victoryPointsThreshold": 75000,
+      "contestedPercent": 0.0,
+      "derivedOperationalState": "rearguard",
+      "position2D": {
+        "x": -1.869563458007001e+17,
+        "y": 2.2188225655467706e+17
+      },
+      "position3D": {
+        "x": -1.967966470331226e+17,
+        "y": 8.27022969154061e+16,
+        "z": 1.4002549841638165e+17
+      },
+      "neighbors": [
+        30045332,
+        30045333
+      ],
+      "externalGateCount": 1,
+      "unweightedBetweenness": 0.0,
+      "normalizedBetweenness": 0.0
+    },
+    {
+      "id": 30045343,
+      "name": "Immuri",
+      "constellationId": 20000785,
+      "constellation": "Ishaga",
+      "regionId": 10000069,
+      "region": "Black Rise",
+      "securityStatus": 0.4211598038673401,
+      "npcStationCount": 0,
+      "originalFactionId": 500001,
+      "occupierFactionId": 500004,
+      "contestedState": "vulnerable",
+      "victoryPoints": 75347,
+      "victoryPointsThreshold": 75000,
+      "contestedPercent": 100.462667,
+      "derivedOperationalState": "frontline",
+      "position2D": {
+        "x": -1.910652764776386e+17,
+        "y": 1.9928313783151552e+17
+      },
+      "position3D": {
+        "x": -2.4540850951732714e+17,
+        "y": 1.1290719791544227e+17,
+        "z": 1.1496809242895656e+17
+      },
+      "neighbors": [
+        30045338,
+        30045344
+      ],
+      "externalGateCount": 0,
+      "unweightedBetweenness": 0.0,
+      "normalizedBetweenness": 0.0
+    },
+    {
+      "id": 30004982,
+      "name": "Indregulle",
+      "constellationId": 20000729,
+      "constellation": "Jeon",
+      "regionId": 10000064,
+      "region": "Essence",
+      "securityStatus": 0.2419786900281906,
+      "npcStationCount": 0,
+      "originalFactionId": 500004,
+      "occupierFactionId": 500004,
+      "contestedState": "contested",
+      "victoryPoints": 675,
+      "victoryPointsThreshold": 75000,
+      "contestedPercent": 0.9,
+      "derivedOperationalState": "command",
+      "position2D": {
+        "x": -2.0339206850845395e+17,
+        "y": 9.861433624652314e+16
+      },
+      "position3D": {
+        "x": -2.197104073732506e+17,
+        "y": 5.528748010364744e+16,
+        "z": 7.730545239847509e+16
+      },
+      "neighbors": [
+        30004979,
+        30005295
+      ],
+      "externalGateCount": 0,
+      "unweightedBetweenness": 648.0,
+      "normalizedBetweenness": 0.165474974
+    },
+    {
+      "id": 30045316,
+      "name": "Innia",
+      "constellationId": 20000783,
+      "constellation": "Inolari",
+      "regionId": 10000069,
+      "region": "Black Rise",
+      "securityStatus": 0.3171389698982239,
+      "npcStationCount": 1,
+      "originalFactionId": 500001,
+      "occupierFactionId": 500001,
+      "contestedState": "uncontested",
+      "victoryPoints": 0,
+      "victoryPointsThreshold": 75000,
+      "contestedPercent": 0.0,
+      "derivedOperationalState": "rearguard",
+      "position2D": {
+        "x": -1.7462955376988474e+17,
+        "y": 2.4653584061630784e+17
+      },
+      "position3D": {
+        "x": -2.3350196743582723e+17,
+        "y": 1.0042216643016778e+17,
+        "z": 1.6748052718252253e+17
+      },
+      "neighbors": [
+        30045314,
+        30045318,
+        30045319,
+        30045320
+      ],
+      "externalGateCount": 0,
+      "unweightedBetweenness": 447.333333333,
+      "normalizedBetweenness": 0.11423221
+    },
+    {
+      "id": 30045317,
+      "name": "Iralaja",
+      "constellationId": 20000783,
+      "constellation": "Inolari",
+      "regionId": 10000069,
+      "region": "Black Rise",
+      "securityStatus": 0.3197668790817261,
+      "npcStationCount": 2,
+      "originalFactionId": 500001,
+      "occupierFactionId": 500001,
+      "contestedState": "uncontested",
+      "victoryPoints": 0,
+      "victoryPointsThreshold": 75000,
+      "contestedPercent": 0.0,
+      "derivedOperationalState": "rearguard",
+      "position2D": {
+        "x": -1.869563458007001e+17,
+        "y": 2.4037244460090016e+17
+      },
+      "position3D": {
+        "x": -2.3797083003173286e+17,
+        "y": 9.944664268189115e+16,
+        "z": 1.8024396896520842e+17
+      },
+      "neighbors": [
+        30045315,
+        30045318
+      ],
+      "externalGateCount": 0,
+      "unweightedBetweenness": 11.5,
+      "normalizedBetweenness": 0.00293667
+    },
+    {
+      "id": 30002756,
+      "name": "Ishomilken",
+      "constellationId": 20000404,
+      "constellation": "Ieyama",
+      "regionId": 10000033,
+      "region": "The Citadel",
+      "securityStatus": 0.3746381998062134,
+      "npcStationCount": 6,
+      "originalFactionId": 500001,
+      "occupierFactionId": 500001,
+      "contestedState": "uncontested",
+      "victoryPoints": 0,
+      "victoryPointsThreshold": 75000,
+      "contestedPercent": 0.0,
+      "derivedOperationalState": "rearguard",
+      "position2D": {
+        "x": -8.834200955417698e+16,
+        "y": 2.239367218931463e+17
+      },
+      "position3D": {
+        "x": -1.6816828932730384e+17,
+        "y": 4.761250408813986e+16,
+        "z": 1.4176174744643267e+17
+      },
+      "neighbors": [
+        30002757,
+        30002759
+      ],
+      "externalGateCount": 1,
+      "unweightedBetweenness": 174.0,
+      "normalizedBetweenness": 0.044433095
+    },
+    {
+      "id": 30045351,
+      "name": "Iwisoda",
+      "constellationId": 20000782,
+      "constellation": "Okakuola",
+      "regionId": 10000069,
+      "region": "Black Rise",
+      "securityStatus": 0.2383604645729065,
+      "npcStationCount": 0,
+      "originalFactionId": 500001,
+      "occupierFactionId": 500001,
+      "contestedState": "uncontested",
+      "victoryPoints": 0,
+      "victoryPointsThreshold": 75000,
+      "contestedPercent": 0.0,
+      "derivedOperationalState": "rearguard",
+      "position2D": {
+        "x": -2.0750099918539245e+17,
+        "y": 2.1366439520080013e+17
+      },
+      "position3D": {
+        "x": -2.0950987706616243e+17,
+        "y": 6.31883095470411e+16,
+        "z": 1.2387732284677933e+17
+      },
+      "neighbors": [
+        30045349
+      ],
+      "externalGateCount": 0,
+      "unweightedBetweenness": 0.0,
+      "normalizedBetweenness": 0.0
+    },
+    {
+      "id": 30005321,
+      "name": "Jovainnon",
+      "constellationId": 20000778,
+      "constellation": "Obray",
+      "regionId": 10000068,
+      "region": "Verge Vendor",
+      "securityStatus": 0.2981414198875427,
+      "npcStationCount": 2,
+      "originalFactionId": 500004,
+      "occupierFactionId": 500004,
+      "contestedState": "uncontested",
+      "victoryPoints": 0,
+      "victoryPointsThreshold": 75000,
+      "contestedPercent": 0.0,
+      "derivedOperationalState": "rearguard",
+      "position2D": {
+        "x": -2.7324389001640787e+17,
+        "y": 9.861433624652314e+16
+      },
+      "position3D": {
+        "x": -2.3126761733198778e+17,
+        "y": 5.409938458972955e+16,
+        "z": 6.013257282274826e+16
+      },
+      "neighbors": [
+        30005320
+      ],
+      "externalGateCount": 1,
+      "unweightedBetweenness": 0.0,
+      "normalizedBetweenness": 0.0
+    },
+    {
+      "id": 30045346,
+      "name": "Kedama",
+      "constellationId": 20000782,
+      "constellation": "Okakuola",
+      "regionId": 10000069,
+      "region": "Black Rise",
+      "securityStatus": 0.3384644091129303,
+      "npcStationCount": 0,
+      "originalFactionId": 500001,
+      "occupierFactionId": 500001,
+      "contestedState": "contested",
+      "victoryPoints": 50,
+      "victoryPointsThreshold": 75000,
+      "contestedPercent": 0.066667,
+      "derivedOperationalState": "command",
+      "position2D": {
+        "x": -2.239367218931463e+17,
+        "y": 2.1571886053926938e+17
+      },
+      "position3D": {
+        "x": -1.909033891428655e+17,
+        "y": 5.5947320176539224e+16,
+        "z": 1.2010754485757e+17
+      },
+      "neighbors": [
+        30002813,
+        30045345,
+        30045350,
+        30045352,
+        30045354
+      ],
+      "externalGateCount": 0,
+      "unweightedBetweenness": 837.166666667,
+      "normalizedBetweenness": 0.213781069
+    },
+    {
+      "id": 30045308,
+      "name": "Kehjari",
+      "constellationId": 20000781,
+      "constellation": "Urpiken",
+      "regionId": 10000069,
+      "region": "Black Rise",
+      "securityStatus": 0.2475813925266266,
+      "npcStationCount": 1,
+      "originalFactionId": 500001,
+      "occupierFactionId": 500001,
+      "contestedState": "contested",
+      "victoryPoints": 25,
+      "victoryPointsThreshold": 75000,
+      "contestedPercent": 0.033333,
+      "derivedOperationalState": "rearguard",
+      "position2D": {
+        "x": -2.0133760316998474e+17,
+        "y": 2.383179792624309e+17
+      },
+      "position3D": {
+        "x": -2.524017945721317e+17,
+        "y": 6.745045658239845e+16,
+        "z": 1.8883361026467795e+17
+      },
+      "neighbors": [
+        30045309,
+        30045311,
+        30045318
+      ],
+      "externalGateCount": 0,
+      "unweightedBetweenness": 575.0,
+      "normalizedBetweenness": 0.146833504
+    },
+    {
+      "id": 30045314,
+      "name": "Kinakka",
+      "constellationId": 20000783,
+      "constellation": "Inolari",
+      "regionId": 10000069,
+      "region": "Black Rise",
+      "securityStatus": 0.4156230092048645,
+      "npcStationCount": 1,
+      "originalFactionId": 500001,
+      "occupierFactionId": 500001,
+      "contestedState": "contested",
+      "victoryPoints": 25,
+      "victoryPointsThreshold": 75000,
+      "contestedPercent": 0.033333,
+      "derivedOperationalState": "rearguard",
+      "position2D": {
+        "x": -1.7462955376988474e+17,
+        "y": 2.4037244460090016e+17
+      },
+      "position3D": {
+        "x": -2.2170986127510304e+17,
+        "y": 1.0237869177553216e+17,
+        "z": 1.585891272058159e+17
+      },
+      "neighbors": [
+        30045315,
+        30045316,
+        30045318
+      ],
+      "externalGateCount": 1,
+      "unweightedBetweenness": 75.5,
+      "normalizedBetweenness": 0.019279877
+    },
+    {
+      "id": 30045312,
+      "name": "Korasen",
+      "constellationId": 20000781,
+      "constellation": "Urpiken",
+      "regionId": 10000069,
+      "region": "Black Rise",
+      "securityStatus": 0.1289910525083542,
+      "npcStationCount": 0,
+      "originalFactionId": 500001,
+      "occupierFactionId": 500001,
+      "contestedState": "uncontested",
+      "victoryPoints": 0,
+      "victoryPointsThreshold": 75000,
+      "contestedPercent": 0.0,
+      "derivedOperationalState": "rearguard",
+      "position2D": {
+        "x": -1.9517420715457702e+17,
+        "y": 2.506447712932463e+17
+      },
+      "position3D": {
+        "x": -2.6170523054517354e+17,
+        "y": 7.225074180664986e+16,
+        "z": 2.0671829352744125e+17
+      },
+      "neighbors": [
+        30045309
+      ],
+      "externalGateCount": 0,
+      "unweightedBetweenness": 0.0,
+      "normalizedBetweenness": 0.0
+    },
+    {
+      "id": 30004999,
+      "name": "Ladistier",
+      "constellationId": 20000731,
+      "constellation": "Vieres",
+      "regionId": 10000064,
+      "region": "Essence",
+      "securityStatus": 0.28499987721443176,
+      "npcStationCount": 1,
+      "originalFactionId": 500004,
+      "occupierFactionId": 500004,
+      "contestedState": "uncontested",
+      "victoryPoints": 0,
+      "victoryPointsThreshold": 75000,
+      "contestedPercent": 0.0,
+      "derivedOperationalState": "rearguard",
+      "position2D": {
+        "x": -2.3215458324702323e+17,
+        "y": 1.027232669234616e+17
+      },
+      "position3D": {
+        "x": -2.5513063870483302e+17,
+        "y": 1.7954421519958072e+16,
+        "z": 5.38812805679007e+16
+      },
+      "neighbors": [
+        30004997,
+        30005000
+      ],
+      "externalGateCount": 1,
+      "unweightedBetweenness": 88.0,
+      "normalizedBetweenness": 0.02247191
+    },
+    {
+      "id": 30005300,
+      "name": "Loes",
+      "constellationId": 20000775,
+      "constellation": "Woenckee",
+      "regionId": 10000068,
+      "region": "Verge Vendor",
+      "securityStatus": 0.26593613624572754,
+      "npcStationCount": 2,
+      "originalFactionId": 500004,
+      "occupierFactionId": 500004,
+      "contestedState": "uncontested",
+      "victoryPoints": 0,
+      "victoryPointsThreshold": 75000,
+      "contestedPercent": 0.0,
+      "derivedOperationalState": "rearguard",
+      "position2D": {
+        "x": -2.7940728603181555e+17,
+        "y": 8.012414820030005e+16
+      },
+      "position3D": {
+        "x": -2.456161846420337e+17,
+        "y": 4.182913355622411e+16,
+        "z": 6.482412176626969e+16
+      },
+      "neighbors": [
+        30005297
+      ],
+      "externalGateCount": 1,
+      "unweightedBetweenness": 0.0,
+      "normalizedBetweenness": 0.0
+    },
+    {
+      "id": 30002760,
+      "name": "Manjonakko",
+      "constellationId": 20000404,
+      "constellation": "Ieyama",
+      "regionId": 10000033,
+      "region": "The Citadel",
+      "securityStatus": 0.33471736311912537,
+      "npcStationCount": 1,
+      "originalFactionId": 500001,
+      "occupierFactionId": 500001,
+      "contestedState": "uncontested",
+      "victoryPoints": 0,
+      "victoryPointsThreshold": 75000,
+      "contestedPercent": 0.0,
+      "derivedOperationalState": "rearguard",
+      "position2D": {
+        "x": -7.806968286183082e+16,
+        "y": 2.177733258777386e+17
+      },
+      "position3D": {
+        "x": -1.7800238288119997e+17,
+        "y": 4.8683820188793656e+16,
+        "z": 1.3295328408750131e+17
+      },
+      "neighbors": [
+        30002759,
+        30045334
+      ],
+      "externalGateCount": 0,
+      "unweightedBetweenness": 340.0,
+      "normalizedBetweenness": 0.086823289
+    },
+    {
+      "id": 30003855,
+      "name": "Mantenault",
+      "constellationId": 20000563,
+      "constellation": "Serthoulde",
+      "regionId": 10000048,
+      "region": "Placid",
+      "securityStatus": 0.1371496021747589,
+      "npcStationCount": 0,
+      "originalFactionId": 500004,
+      "occupierFactionId": 500004,
+      "contestedState": "contested",
+      "victoryPoints": 10360,
+      "victoryPointsThreshold": 75000,
+      "contestedPercent": 13.813333,
+      "derivedOperationalState": "command",
+      "position2D": {
+        "x": -2.56808167308654e+17,
+        "y": 1.9928313783151552e+17
+      },
+      "position3D": {
+        "x": -2.6395003431086608e+17,
+        "y": 5.865550270266043e+16,
+        "z": 1.3786464403580386e+17
+      },
+      "neighbors": [
+        30003854
+      ],
+      "externalGateCount": 1,
+      "unweightedBetweenness": 0.0,
+      "normalizedBetweenness": 0.0
+    },
+    {
+      "id": 30045318,
+      "name": "Martoh",
+      "constellationId": 20000783,
+      "constellation": "Inolari",
+      "regionId": 10000069,
+      "region": "Black Rise",
+      "securityStatus": 0.38283687829971313,
+      "npcStationCount": 0,
+      "originalFactionId": 500001,
+      "occupierFactionId": 500001,
+      "contestedState": "contested",
+      "victoryPoints": 14814,
+      "victoryPointsThreshold": 75000,
+      "contestedPercent": 19.752,
+      "derivedOperationalState": "rearguard",
+      "position2D": {
+        "x": -1.869563458007001e+17,
+        "y": 2.4653584061630784e+17
+      },
+      "position3D": {
+        "x": -2.372198341618247e+17,
+        "y": 1.0243715134547494e+17,
+        "z": 1.770405720305074e+17
+      },
+      "neighbors": [
+        30045308,
+        30045314,
+        30045316,
+        30045317,
+        30045319
+      ],
+      "externalGateCount": 0,
+      "unweightedBetweenness": 751.0,
+      "normalizedBetweenness": 0.191777324
+    },
+    {
+      "id": 30005296,
+      "name": "Melmaniel",
+      "constellationId": 20000775,
+      "constellation": "Woenckee",
+      "regionId": 10000068,
+      "region": "Verge Vendor",
+      "securityStatus": 0.25525304675102234,
+      "npcStationCount": 4,
+      "originalFactionId": 500004,
+      "occupierFactionId": 500004,
+      "contestedState": "uncontested",
+      "victoryPoints": 0,
+      "victoryPointsThreshold": 75000,
+      "contestedPercent": 0.0,
+      "derivedOperationalState": "rearguard",
+      "position2D": {
+        "x": -2.7118942467793862e+17,
+        "y": 8.012414820030005e+16
+      },
+      "position3D": {
+        "x": -2.3375791854163866e+17,
+        "y": 4.526312573967079e+16,
+        "z": 6.588583720571944e+16
+      },
+      "neighbors": [
+        30005295,
+        30005297,
+        30005298
+      ],
+      "externalGateCount": 0,
+      "unweightedBetweenness": 506.0,
+      "normalizedBetweenness": 0.129213483
+    },
+    {
+      "id": 30003853,
+      "name": "Mercomesier",
+      "constellationId": 20000563,
+      "constellation": "Serthoulde",
+      "regionId": 10000048,
+      "region": "Placid",
+      "securityStatus": 0.12296725809574127,
+      "npcStationCount": 1,
+      "originalFactionId": 500004,
+      "occupierFactionId": 500001,
+      "contestedState": "uncontested",
+      "victoryPoints": 0,
+      "victoryPointsThreshold": 75000,
+      "contestedPercent": 0.0,
+      "derivedOperationalState": "command",
+      "position2D": {
+        "x": -2.6502602866253094e+17,
+        "y": 1.9722867249304627e+17
+      },
+      "position3D": {
+        "x": -2.7701617396566406e+17,
+        "y": 5.1749301666898664e+16,
+        "z": 1.305563263196384e+17
+      },
+      "neighbors": [
+        30003851,
+        30003856
+      ],
+      "externalGateCount": 0,
+      "unweightedBetweenness": 88.0,
+      "normalizedBetweenness": 0.02247191
+    },
+    {
+      "id": 30003828,
+      "name": "Moclinamaud",
+      "constellationId": 20000559,
+      "constellation": "Pegeler",
+      "regionId": 10000048,
+      "region": "Placid",
+      "securityStatus": 0.39432084560394287,
+      "npcStationCount": 3,
+      "originalFactionId": 500004,
+      "occupierFactionId": 500004,
+      "contestedState": "contested",
+      "victoryPoints": 2605,
+      "victoryPointsThreshold": 75000,
+      "contestedPercent": 3.473333,
+      "derivedOperationalState": "frontline",
+      "position2D": {
+        "x": -2.2599118723161552e+17,
+        "y": 1.807929497852924e+17
+      },
+      "position3D": {
+        "x": -2.4728137337849523e+17,
+        "y": 9.54679177296821e+16,
+        "z": 1.2492174597454398e+17
+      },
+      "neighbors": [
+        30003825,
+        30003826,
+        30003829
+      ],
+      "externalGateCount": 0,
+      "unweightedBetweenness": 129.0,
+      "normalizedBetweenness": 0.032941777
+    },
+    {
+      "id": 30005299,
+      "name": "Muetralle",
+      "constellationId": 20000775,
+      "constellation": "Woenckee",
+      "regionId": 10000068,
+      "region": "Verge Vendor",
+      "securityStatus": 0.2399638593196869,
+      "npcStationCount": 0,
+      "originalFactionId": 500004,
+      "occupierFactionId": 500004,
+      "contestedState": "contested",
+      "victoryPoints": 15833,
+      "victoryPointsThreshold": 75000,
+      "contestedPercent": 21.110667,
+      "derivedOperationalState": "rearguard",
+      "position2D": {
+        "x": -2.7324389001640787e+17,
+        "y": 9.03964748926462e+16
+      },
+      "position3D": {
+        "x": -2.403964558643277e+17,
+        "y": 5.344374677984157e+16,
+        "z": 6.532333408782823e+16
+      },
+      "neighbors": [
+        30005298,
+        30005320
+      ],
+      "externalGateCount": 0,
+      "unweightedBetweenness": 174.0,
+      "normalizedBetweenness": 0.044433095
+    },
+    {
+      "id": 30005295,
+      "name": "Murethand",
+      "constellationId": 20000775,
+      "constellation": "Woenckee",
+      "regionId": 10000068,
+      "region": "Verge Vendor",
+      "securityStatus": 0.2864525318145752,
+      "npcStationCount": 1,
+      "originalFactionId": 500004,
+      "occupierFactionId": 500004,
+      "contestedState": "uncontested",
+      "victoryPoints": 0,
+      "victoryPointsThreshold": 75000,
+      "contestedPercent": 0.0,
+      "derivedOperationalState": "rearguard",
+      "position2D": {
+        "x": -2.6502602866253094e+17,
+        "y": 8.012414820030005e+16
+      },
+      "position3D": {
+        "x": -2.2006409426687856e+17,
+        "y": 5.994938870007779e+16,
+        "z": 7.120116797179896e+16
+      },
+      "neighbors": [
+        30004982,
+        30005296
+      ],
+      "externalGateCount": 1,
+      "unweightedBetweenness": 574.0,
+      "normalizedBetweenness": 0.146578141
+    },
+    {
+      "id": 30045334,
+      "name": "Mushikegi",
+      "constellationId": 20000786,
+      "constellation": "Kurala",
+      "regionId": 10000069,
+      "region": "Black Rise",
+      "securityStatus": 0.4336119592189789,
+      "npcStationCount": 0,
+      "originalFactionId": 500001,
+      "occupierFactionId": 500001,
+      "contestedState": "uncontested",
+      "victoryPoints": 0,
+      "victoryPointsThreshold": 75000,
+      "contestedPercent": 0.0,
+      "derivedOperationalState": "rearguard",
+      "position2D": {
+        "x": -2.0750099918539245e+17,
+        "y": 2.2599118723161552e+17
+      },
+      "position3D": {
+        "x": -1.8643824195430442e+17,
+        "y": 7.781866093900782e+16,
+        "z": 1.3798337917498402e+17
+      },
+      "neighbors": [
+        30002760,
+        30045330,
+        30045331,
+        30045332
+      ],
+      "externalGateCount": 0,
+      "unweightedBetweenness": 498.0,
+      "normalizedBetweenness": 0.127170582
+    },
+    {
+      "id": 30002807,
+      "name": "Nagamanen",
+      "constellationId": 20000412,
+      "constellation": "Isoma",
+      "regionId": 10000033,
+      "region": "The Citadel",
+      "securityStatus": 0.30472588539123535,
+      "npcStationCount": 0,
+      "originalFactionId": 500001,
+      "occupierFactionId": 500004,
+      "contestedState": "contested",
+      "victoryPoints": 40562,
+      "victoryPointsThreshold": 75000,
+      "contestedPercent": 54.082667,
+      "derivedOperationalState": "frontline",
+      "position2D": {
+        "x": -1.4381257369284624e+17,
+        "y": 1.931197418161078e+17
+      },
+      "position3D": {
+        "x": -1.8866432564849712e+17,
+        "y": 6.716049010904951e+16,
+        "z": 1.044017484628307e+17
+      },
+      "neighbors": [
+        30002806,
+        30002808,
+        30002809,
+        30004985
+      ],
+      "externalGateCount": 0,
+      "unweightedBetweenness": 355.166666667,
+      "normalizedBetweenness": 0.090696289
+    },
+    {
+      "id": 30045344,
+      "name": "Nennamaila",
+      "constellationId": 20000785,
+      "constellation": "Ishaga",
+      "regionId": 10000069,
+      "region": "Black Rise",
+      "securityStatus": 0.2742577791213989,
+      "npcStationCount": 1,
+      "originalFactionId": 500001,
+      "occupierFactionId": 500004,
+      "contestedState": "contested",
+      "victoryPoints": 27281,
+      "victoryPointsThreshold": 75000,
+      "contestedPercent": 36.374667,
+      "derivedOperationalState": "frontline",
+      "position2D": {
+        "x": -1.8284741512376166e+17,
+        "y": 2.0133760316998474e+17
+      },
+      "position3D": {
+        "x": -2.3600626980391437e+17,
+        "y": 1.0436890407436533e+17,
+        "z": 1.1836995845749022e+17
+      },
+      "neighbors": [
+        30003837,
+        30045338,
+        30045339,
+        30045342,
+        30045343
+      ],
+      "externalGateCount": 0,
+      "unweightedBetweenness": 1967.666666667,
+      "normalizedBetweenness": 0.502468505
+    },
+    {
+      "id": 30002757,
+      "name": "Nikkishina",
+      "constellationId": 20000404,
+      "constellation": "Ieyama",
+      "regionId": 10000033,
+      "region": "The Citadel",
+      "securityStatus": 0.37077683210372925,
+      "npcStationCount": 1,
+      "originalFactionId": 500001,
+      "occupierFactionId": 500001,
+      "contestedState": "uncontested",
+      "victoryPoints": 0,
+      "victoryPointsThreshold": 75000,
+      "contestedPercent": 0.0,
+      "derivedOperationalState": "rearguard",
+      "position2D": {
+        "x": -8.217861353876928e+16,
+        "y": 2.239367218931463e+17
+      },
+      "position3D": {
+        "x": -1.6820544131212826e+17,
+        "y": 5.081963643318978e+16,
+        "z": 1.4498595116785536e+17
+      },
+      "neighbors": [
+        30002756,
+        30002758
+      ],
+      "externalGateCount": 0,
+      "unweightedBetweenness": 88.0,
+      "normalizedBetweenness": 0.02247191
+    },
+    {
+      "id": 30045352,
+      "name": "Nisuwa",
+      "constellationId": 20000782,
+      "constellation": "Okakuola",
+      "regionId": 10000069,
+      "region": "Black Rise",
+      "securityStatus": 0.3094325363636017,
+      "npcStationCount": 1,
+      "originalFactionId": 500001,
+      "occupierFactionId": 500001,
+      "contestedState": "contested",
+      "victoryPoints": 50,
+      "victoryPointsThreshold": 75000,
+      "contestedPercent": 0.066667,
+      "derivedOperationalState": "rearguard",
+      "position2D": {
+        "x": -2.2804565257008474e+17,
+        "y": 2.1160992986233088e+17
+      },
+      "position3D": {
+        "x": -1.9450142263253085e+17,
+        "y": 6.180190062335664e+16,
+        "z": 1.1681985081040565e+17
+      },
+      "neighbors": [
+        30045345,
+        30045346,
+        30045347,
+        30045348
+      ],
+      "externalGateCount": 0,
+      "unweightedBetweenness": 253.166666667,
+      "normalizedBetweenness": 0.064649302
+    },
+    {
+      "id": 30045348,
+      "name": "Notoras",
+      "constellationId": 20000782,
+      "constellation": "Okakuola",
+      "regionId": 10000069,
+      "region": "Black Rise",
+      "securityStatus": 0.18879063427448273,
+      "npcStationCount": 3,
+      "originalFactionId": 500001,
+      "occupierFactionId": 500001,
+      "contestedState": "contested",
+      "victoryPoints": 325,
+      "victoryPointsThreshold": 75000,
+      "contestedPercent": 0.433333,
+      "derivedOperationalState": "rearguard",
+      "position2D": {
+        "x": -2.3215458324702323e+17,
+        "y": 2.0750099918539245e+17
+      },
+      "position3D": {
+        "x": -1.9748562988176963e+17,
+        "y": 5.711099204760011e+16,
+        "z": 1.1414994672449445e+17
+      },
+      "neighbors": [
+        30045352
+      ],
+      "externalGateCount": 0,
+      "unweightedBetweenness": 0.0,
+      "normalizedBetweenness": 0.0
+    },
+    {
+      "id": 30003857,
+      "name": "Odamia",
+      "constellationId": 20000563,
+      "constellation": "Serthoulde",
+      "regionId": 10000048,
+      "region": "Placid",
+      "securityStatus": 0.2204286754131317,
+      "npcStationCount": 0,
+      "originalFactionId": 500004,
+      "occupierFactionId": 500001,
+      "contestedState": "uncontested",
+      "victoryPoints": 0,
+      "victoryPointsThreshold": 75000,
+      "contestedPercent": 0.0,
+      "derivedOperationalState": "frontline",
+      "position2D": {
+        "x": -2.485903059547771e+17,
+        "y": 1.910652764776386e+17
+      },
+      "position3D": {
+        "x": -2.6345330124083354e+17,
+        "y": 6.614839773202125e+16,
+        "z": 1.3343336129757846e+17
+      },
+      "neighbors": [
+        30003840,
+        30003852,
+        30003854
+      ],
+      "externalGateCount": 0,
+      "unweightedBetweenness": 574.0,
+      "normalizedBetweenness": 0.146578141
+    },
+    {
+      "id": 30003838,
+      "name": "Oicx",
+      "constellationId": 20000561,
+      "constellation": "Amevync",
+      "regionId": 10000048,
+      "region": "Placid",
+      "securityStatus": 0.33004504442214966,
+      "npcStationCount": 1,
+      "originalFactionId": 500004,
+      "occupierFactionId": 500001,
+      "contestedState": "contested",
+      "victoryPoints": 303,
+      "victoryPointsThreshold": 75000,
+      "contestedPercent": 0.404,
+      "derivedOperationalState": "command",
+      "position2D": {
+        "x": -2.2188225655467706e+17,
+        "y": 1.910652764776386e+17
+      },
+      "position3D": {
+        "x": -2.4861507812981536e+17,
+        "y": 1.2408136000366437e+17,
+        "z": 1.3548412142326451e+17
+      },
+      "neighbors": [
+        30003836,
+        30045319
+      ],
+      "externalGateCount": 0,
+      "unweightedBetweenness": 580.166666667,
+      "normalizedBetweenness": 0.148152877
+    },
+    {
+      "id": 30045347,
+      "name": "Oinasiken",
+      "constellationId": 20000782,
+      "constellation": "Okakuola",
+      "regionId": 10000069,
+      "region": "Black Rise",
+      "securityStatus": 0.23371365666389465,
+      "npcStationCount": 0,
+      "originalFactionId": 500001,
+      "occupierFactionId": 500001,
+      "contestedState": "contested",
+      "victoryPoints": 3601,
+      "victoryPointsThreshold": 75000,
+      "contestedPercent": 4.801333,
+      "derivedOperationalState": "command",
+      "position2D": {
+        "x": -2.239367218931463e+17,
+        "y": 2.0750099918539245e+17
+      },
+      "position3D": {
+        "x": -2.0220004411047686e+17,
+        "y": 5.969408291728362e+16,
+        "z": 1.0134643362182448e+17
+      },
+      "neighbors": [
+        30004984,
+        30045352,
+        30045353
+      ],
+      "externalGateCount": 0,
+      "unweightedBetweenness": 1053.166666667,
+      "normalizedBetweenness": 0.268939394
+    },
+    {
+      "id": 30045307,
+      "name": "Okagaiken",
+      "constellationId": 20000781,
+      "constellation": "Urpiken",
+      "regionId": 10000069,
+      "region": "Black Rise",
+      "securityStatus": 0.14007709920406342,
+      "npcStationCount": 1,
+      "originalFactionId": 500001,
+      "occupierFactionId": 500001,
+      "contestedState": "contested",
+      "victoryPoints": 2704,
+      "victoryPointsThreshold": 75000,
+      "contestedPercent": 3.605333,
+      "derivedOperationalState": "rearguard",
+      "position2D": {
+        "x": -2.054465338469232e+17,
+        "y": 2.4653584061630784e+17
+      },
+      "position3D": {
+        "x": -2.6240476114424867e+17,
+        "y": 7.56009446152239e+16,
+        "z": 1.8732119173870282e+17
+      },
+      "neighbors": [
+        30045309,
+        30045313
+      ],
+      "externalGateCount": 1,
+      "unweightedBetweenness": 2.0,
+      "normalizedBetweenness": 0.000510725
+    },
+    {
+      "id": 30045330,
+      "name": "Okkamon",
+      "constellationId": 20000786,
+      "constellation": "Kurala",
+      "regionId": 10000069,
+      "region": "Black Rise",
+      "securityStatus": 0.2853636145591736,
+      "npcStationCount": 2,
+      "originalFactionId": 500001,
+      "occupierFactionId": 500001,
+      "contestedState": "uncontested",
+      "victoryPoints": 0,
+      "victoryPointsThreshold": 75000,
+      "contestedPercent": 0.0,
+      "derivedOperationalState": "rearguard",
+      "position2D": {
+        "x": -2.0339206850845395e+17,
+        "y": 2.2188225655467706e+17
+      },
+      "position3D": {
+        "x": -1.8791763074677936e+17,
+        "y": 7.86680684808704e+16,
+        "z": 1.3413477613420478e+17
+      },
+      "neighbors": [
+        30045332,
+        30045334,
+        30045354
+      ],
+      "externalGateCount": 0,
+      "unweightedBetweenness": 924.0,
+      "normalizedBetweenness": 0.235955056
+    },
+    {
+      "id": 30005000,
+      "name": "Old Man Star",
+      "constellationId": 20000731,
+      "constellation": "Vieres",
+      "regionId": 10000064,
+      "region": "Essence",
+      "securityStatus": 0.335686594247818,
+      "npcStationCount": 2,
+      "originalFactionId": 500004,
+      "occupierFactionId": 500004,
+      "contestedState": "uncontested",
+      "victoryPoints": 0,
+      "victoryPointsThreshold": 75000,
+      "contestedPercent": 0.0,
+      "derivedOperationalState": "command",
+      "position2D": {
+        "x": -2.1160992986233088e+17,
+        "y": 1.027232669234616e+17
+      },
+      "position3D": {
+        "x": -2.1968827803256323e+17,
+        "y": 3.670561398010305e+16,
+        "z": 6.745786642097101e+16
+      },
+      "neighbors": [
+        30004979,
+        30004999
+      ],
+      "externalGateCount": 1,
+      "unweightedBetweenness": 174.0,
+      "normalizedBetweenness": 0.044433095
+    },
+    {
+      "id": 30002811,
+      "name": "Onatoh",
+      "constellationId": 20000412,
+      "constellation": "Isoma",
+      "regionId": 10000033,
+      "region": "The Citadel",
+      "securityStatus": 0.2964249849319458,
+      "npcStationCount": 2,
+      "originalFactionId": 500001,
+      "occupierFactionId": 500004,
+      "contestedState": "contested",
+      "victoryPoints": 8836,
+      "victoryPointsThreshold": 75000,
+      "contestedPercent": 11.781333,
+      "derivedOperationalState": "command",
+      "position2D": {
+        "x": -1.4175810835437701e+17,
+        "y": 2.054465338469232e+17
+      },
+      "position3D": {
+        "x": -1.9088096754640547e+17,
+        "y": 7.022624958448769e+16,
+        "z": 1.115962192557753e+17
+      },
+      "neighbors": [
+        30002809,
+        30002810,
+        30002812
+      ],
+      "externalGateCount": 0,
+      "unweightedBetweenness": 88.0,
+      "normalizedBetweenness": 0.02247191
+    },
+    {
+      "id": 30002808,
+      "name": "Oto",
+      "constellationId": 20000412,
+      "constellation": "Isoma",
+      "regionId": 10000033,
+      "region": "The Citadel",
+      "securityStatus": 0.39809027314186096,
+      "npcStationCount": 2,
+      "originalFactionId": 500001,
+      "occupierFactionId": 500004,
+      "contestedState": "contested",
+      "victoryPoints": 1785,
+      "victoryPointsThreshold": 75000,
+      "contestedPercent": 2.38,
+      "derivedOperationalState": "command",
+      "position2D": {
+        "x": -1.4997596970825395e+17,
+        "y": 1.8901081113916934e+17
+      },
+      "position3D": {
+        "x": -1.8229351803381008e+17,
+        "y": 7.326544153671725e+16,
+        "z": 1.0776028787547083e+17
+      },
+      "neighbors": [
+        30002807
+      ],
+      "externalGateCount": 0,
+      "unweightedBetweenness": 0.0,
+      "normalizedBetweenness": 0.0
+    },
+    {
+      "id": 30005297,
+      "name": "Ouelletta",
+      "constellationId": 20000775,
+      "constellation": "Woenckee",
+      "regionId": 10000068,
+      "region": "Verge Vendor",
+      "securityStatus": 0.4185788333415985,
+      "npcStationCount": 3,
+      "originalFactionId": 500004,
+      "occupierFactionId": 500004,
+      "contestedState": "contested",
+      "victoryPoints": 625,
+      "victoryPointsThreshold": 75000,
+      "contestedPercent": 0.833333,
+      "derivedOperationalState": "rearguard",
+      "position2D": {
+        "x": -2.752983553548771e+17,
+        "y": 7.396075218489235e+16
+      },
+      "position3D": {
+        "x": -2.3962253220474067e+17,
+        "y": 3.760532772519909e+16,
+        "z": 5.9224692348716984e+16
+      },
+      "neighbors": [
+        30005296,
+        30005300
+      ],
+      "externalGateCount": 1,
+      "unweightedBetweenness": 88.0,
+      "normalizedBetweenness": 0.02247191
+    },
+    {
+      "id": 30045320,
+      "name": "Pavanakka",
+      "constellationId": 20000783,
+      "constellation": "Inolari",
+      "regionId": 10000069,
+      "region": "Black Rise",
+      "securityStatus": 0.3956485092639923,
+      "npcStationCount": 1,
+      "originalFactionId": 500001,
+      "occupierFactionId": 500001,
+      "contestedState": "uncontested",
+      "victoryPoints": 0,
+      "victoryPointsThreshold": 75000,
+      "contestedPercent": 0.0,
+      "derivedOperationalState": "rearguard",
+      "position2D": {
+        "x": -1.623027617390693e+17,
+        "y": 2.383179792624309e+17
+      },
+      "position3D": {
+        "x": -2.2981993931337344e+17,
+        "y": 9.961956218704992e+16,
+        "z": 1.49872074282185e+17
+      },
+      "neighbors": [
+        30045316,
+        30045340
+      ],
+      "externalGateCount": 0,
+      "unweightedBetweenness": 463.833333333,
+      "normalizedBetweenness": 0.118445693
+    },
+    {
+      "id": 30045333,
+      "name": "Prism",
+      "constellationId": 20000786,
+      "constellation": "Kurala",
+      "regionId": 10000069,
+      "region": "Black Rise",
+      "securityStatus": 0.23508723080158234,
+      "npcStationCount": 1,
+      "originalFactionId": 500001,
+      "occupierFactionId": 500001,
+      "contestedState": "uncontested",
+      "victoryPoints": 0,
+      "victoryPointsThreshold": 75000,
+      "contestedPercent": 0.0,
+      "derivedOperationalState": "rearguard",
+      "position2D": {
+        "x": -1.869563458007001e+17,
+        "y": 2.2804565257008474e+17
+      },
+      "position3D": {
+        "x": -1.976470123757007e+17,
+        "y": 7.975962593368408e+16,
+        "z": 1.4175885021772453e+17
+      },
+      "neighbors": [
+        30045332,
+        30045336,
+        30045337
+      ],
+      "externalGateCount": 0,
+      "unweightedBetweenness": 0.5,
+      "normalizedBetweenness": 0.000127681
+    },
+    {
+      "id": 30045353,
+      "name": "Pynekastoh",
+      "constellationId": 20000782,
+      "constellation": "Okakuola",
+      "regionId": 10000069,
+      "region": "Black Rise",
+      "securityStatus": 0.23963281512260437,
+      "npcStationCount": 0,
+      "originalFactionId": 500001,
+      "occupierFactionId": 500001,
+      "contestedState": "contested",
+      "victoryPoints": 773,
+      "victoryPointsThreshold": 75000,
+      "contestedPercent": 1.030667,
+      "derivedOperationalState": "command",
+      "position2D": {
+        "x": -2.1160992986233088e+17,
+        "y": 2.0750099918539245e+17
+      },
+      "position3D": {
+        "x": -2.1829470938929414e+17,
+        "y": 5.789048279828787e+16,
+        "z": 1.0874697905266176e+17
+      },
+      "neighbors": [
+        30045338,
+        30045345,
+        30045347,
+        30045349
+      ],
+      "externalGateCount": 0,
+      "unweightedBetweenness": 2129.333333333,
+      "normalizedBetweenness": 0.543752128
+    },
+    {
+      "id": 30045315,
+      "name": "Raihbaka",
+      "constellationId": 20000783,
+      "constellation": "Inolari",
+      "regionId": 10000069,
+      "region": "Black Rise",
+      "securityStatus": 0.3798002004623413,
+      "npcStationCount": 0,
+      "originalFactionId": 500001,
+      "occupierFactionId": 500001,
+      "contestedState": "uncontested",
+      "victoryPoints": 0,
+      "victoryPointsThreshold": 75000,
+      "contestedPercent": 0.0,
+      "derivedOperationalState": "rearguard",
+      "position2D": {
+        "x": -1.807929497852924e+17,
+        "y": 2.3626351392396166e+17
+      },
+      "position3D": {
+        "x": -2.1860753384336803e+17,
+        "y": 1.0068826350312053e+17,
+        "z": 1.723024445911721e+17
+      },
+      "neighbors": [
+        30045314,
+        30045317
+      ],
+      "externalGateCount": 1,
+      "unweightedBetweenness": 0.5,
+      "normalizedBetweenness": 0.000127681
+    },
+    {
+      "id": 30045349,
+      "name": "Rakapas",
+      "constellationId": 20000782,
+      "constellation": "Okakuola",
+      "regionId": 10000069,
+      "region": "Black Rise",
+      "securityStatus": 0.22278037667274475,
+      "npcStationCount": 2,
+      "originalFactionId": 500001,
+      "occupierFactionId": 500001,
+      "contestedState": "contested",
+      "victoryPoints": 175,
+      "victoryPointsThreshold": 75000,
+      "contestedPercent": 0.233333,
+      "derivedOperationalState": "rearguard",
+      "position2D": {
+        "x": -2.1366439520080013e+17,
+        "y": 2.1571886053926938e+17
+      },
+      "position3D": {
+        "x": -2.2289033329957376e+17,
+        "y": 6.3435216421685656e+16,
+        "z": 1.270636628746025e+17
+      },
+      "neighbors": [
+        30045351,
+        30045353,
+        30045354
+      ],
+      "externalGateCount": 0,
+      "unweightedBetweenness": 799.666666667,
+      "normalizedBetweenness": 0.204204971
+    },
+    {
+      "id": 30045354,
+      "name": "Reitsato",
+      "constellationId": 20000782,
+      "constellation": "Okakuola",
+      "regionId": 10000069,
+      "region": "Black Rise",
+      "securityStatus": 0.18951047956943512,
+      "npcStationCount": 0,
+      "originalFactionId": 500001,
+      "occupierFactionId": 500001,
+      "contestedState": "uncontested",
+      "victoryPoints": 0,
+      "victoryPointsThreshold": 75000,
+      "contestedPercent": 0.0,
+      "derivedOperationalState": "rearguard",
+      "position2D": {
+        "x": -2.1160992986233088e+17,
+        "y": 2.2188225655467706e+17
+      },
+      "position3D": {
+        "x": -1.9789430508512054e+17,
+        "y": 6.562116409681139e+16,
+        "z": 1.2507186540420635e+17
+      },
+      "neighbors": [
+        30045330,
+        30045346,
+        30045349
+      ],
+      "externalGateCount": 0,
+      "unweightedBetweenness": 1012.333333333,
+      "normalizedBetweenness": 0.258512087
+    },
+    {
+      "id": 30003829,
+      "name": "Renarelle",
+      "constellationId": 20000559,
+      "constellation": "Pegeler",
+      "regionId": 10000048,
+      "region": "Placid",
+      "securityStatus": 0.30996254086494446,
+      "npcStationCount": 2,
+      "originalFactionId": 500004,
+      "occupierFactionId": 500001,
+      "contestedState": "contested",
+      "victoryPoints": 8402,
+      "victoryPointsThreshold": 75000,
+      "contestedPercent": 11.202667,
+      "derivedOperationalState": "frontline",
+      "position2D": {
+        "x": -2.3420904858549245e+17,
+        "y": 1.8490188046223088e+17
+      },
+      "position3D": {
+        "x": -2.4886079620647267e+17,
+        "y": 1.1396228512294318e+17,
+        "z": 1.2080700550261176e+17
+      },
+      "neighbors": [
+        30003827,
+        30003828,
+        30003836
+      ],
+      "externalGateCount": 0,
+      "unweightedBetweenness": 340.5,
+      "normalizedBetweenness": 0.08695097
+    },
+    {
+      "id": 30003851,
+      "name": "Reschard",
+      "constellationId": 20000563,
+      "constellation": "Serthoulde",
+      "regionId": 10000048,
+      "region": "Placid",
+      "securityStatus": 0.12791763246059418,
+      "npcStationCount": 0,
+      "originalFactionId": 500004,
+      "occupierFactionId": 500001,
+      "contestedState": "contested",
+      "victoryPoints": 239,
+      "victoryPointsThreshold": 75000,
+      "contestedPercent": 0.318667,
+      "derivedOperationalState": "frontline",
+      "position2D": {
+        "x": -2.629715633240617e+17,
+        "y": 1.910652764776386e+17
+      },
+      "position3D": {
+        "x": -2.8157714287915664e+17,
+        "y": 5.420879615690984e+16,
+        "z": 1.3011026708521962e+17
+      },
+      "neighbors": [
+        30003850,
+        30003852,
+        30003853
+      ],
+      "externalGateCount": 0,
+      "unweightedBetweenness": 260.0,
+      "normalizedBetweenness": 0.06639428
+    },
+    {
+      "id": 30045310,
+      "name": "Sarenemi",
+      "constellationId": 20000781,
+      "constellation": "Urpiken",
+      "regionId": 10000069,
+      "region": "Black Rise",
+      "securityStatus": 0.2168523222208023,
+      "npcStationCount": 1,
+      "originalFactionId": 500001,
+      "occupierFactionId": 500001,
+      "contestedState": "uncontested",
+      "victoryPoints": 0,
+      "victoryPointsThreshold": 75000,
+      "contestedPercent": 0.0,
+      "derivedOperationalState": "rearguard",
+      "position2D": {
+        "x": -2.239367218931463e+17,
+        "y": 2.506447712932463e+17
+      },
+      "position3D": {
+        "x": -2.4910996312660445e+17,
+        "y": 7.16087855303648e+16,
+        "z": 1.8391465183553568e+17
+      },
+      "neighbors": [
+        30045306
+      ],
+      "externalGateCount": 1,
+      "unweightedBetweenness": 0.0,
+      "normalizedBetweenness": 0.0
+    },
+    {
+      "id": 30002809,
+      "name": "Sujarento",
+      "constellationId": 20000412,
+      "constellation": "Isoma",
+      "regionId": 10000033,
+      "region": "The Citadel",
+      "securityStatus": 0.3111356794834137,
+      "npcStationCount": 2,
+      "originalFactionId": 500001,
+      "occupierFactionId": 500004,
+      "contestedState": "uncontested",
+      "victoryPoints": 0,
+      "victoryPointsThreshold": 75000,
+      "contestedPercent": 0.0,
+      "derivedOperationalState": "frontline",
+      "position2D": {
+        "x": -1.3970364301590778e+17,
+        "y": 1.9722867249304627e+17
+      },
+      "position3D": {
+        "x": -1.893221732657676e+17,
+        "y": 7.055728095102456e+16,
+        "z": 1.1015147053298981e+17
+      },
+      "neighbors": [
+        30002807,
+        30002810,
+        30002811,
+        30002813
+      ],
+      "externalGateCount": 0,
+      "unweightedBetweenness": 553.166666667,
+      "normalizedBetweenness": 0.141258086
+    },
+    {
+      "id": 30002813,
+      "name": "Tama",
+      "constellationId": 20000412,
+      "constellation": "Isoma",
+      "regionId": 10000033,
+      "region": "The Citadel",
+      "securityStatus": 0.2825556993484497,
+      "npcStationCount": 1,
+      "originalFactionId": 500001,
+      "occupierFactionId": 500001,
+      "contestedState": "contested",
+      "victoryPoints": 6278,
+      "victoryPointsThreshold": 75000,
+      "contestedPercent": 8.370667,
+      "derivedOperationalState": "frontline",
+      "position2D": {
+        "x": -1.3354024700050008e+17,
+        "y": 1.9722867249304627e+17
+      },
+      "position3D": {
+        "x": -1.9368867177118506e+17,
+        "y": 7.74524465861002e+16,
+        "z": 1.1268218280222926e+17
+      },
+      "neighbors": [
+        30002809,
+        30045346
+      ],
+      "externalGateCount": 1,
+      "unweightedBetweenness": 544.666666667,
+      "normalizedBetweenness": 0.139087504
+    },
+    {
+      "id": 30002812,
+      "name": "Tannolen",
+      "constellationId": 20000412,
+      "constellation": "Isoma",
+      "regionId": 10000033,
+      "region": "The Citadel",
+      "securityStatus": 0.3036259412765503,
+      "npcStationCount": 3,
+      "originalFactionId": 500001,
+      "occupierFactionId": 500004,
+      "contestedState": "contested",
+      "victoryPoints": 1884,
+      "victoryPointsThreshold": 75000,
+      "contestedPercent": 2.512,
+      "derivedOperationalState": "rearguard",
+      "position2D": {
+        "x": -1.479215043697847e+17,
+        "y": 2.0750099918539245e+17
+      },
+      "position3D": {
+        "x": -1.8987817294756698e+17,
+        "y": 6.5906220372572136e+16,
+        "z": 1.1460386001248939e+17
+      },
+      "neighbors": [
+        30002811
+      ],
+      "externalGateCount": 1,
+      "unweightedBetweenness": 0.0,
+      "normalizedBetweenness": 0.0
+    },
+    {
+      "id": 30045350,
+      "name": "Teimo",
+      "constellationId": 20000782,
+      "constellation": "Okakuola",
+      "regionId": 10000069,
+      "region": "Black Rise",
+      "securityStatus": 0.27320823073387146,
+      "npcStationCount": 0,
+      "originalFactionId": 500001,
+      "occupierFactionId": 500001,
+      "contestedState": "contested",
+      "victoryPoints": 69,
+      "victoryPointsThreshold": 75000,
+      "contestedPercent": 0.092,
+      "derivedOperationalState": "rearguard",
+      "position2D": {
+        "x": -2.239367218931463e+17,
+        "y": 2.2188225655467706e+17
+      },
+      "position3D": {
+        "x": -1.8875228562336867e+17,
+        "y": 5.797151382753348e+16,
+        "z": 1.1447916844339107e+17
+      },
+      "neighbors": [
+        30045346
+      ],
+      "externalGateCount": 0,
+      "unweightedBetweenness": 0.0,
+      "normalizedBetweenness": 0.0
+    },
+    {
+      "id": 30045335,
+      "name": "Teskanen",
+      "constellationId": 20000786,
+      "constellation": "Kurala",
+      "regionId": 10000069,
+      "region": "Black Rise",
+      "securityStatus": 0.2871720492839813,
+      "npcStationCount": 1,
+      "originalFactionId": 500001,
+      "occupierFactionId": 500001,
+      "contestedState": "uncontested",
+      "victoryPoints": 0,
+      "victoryPointsThreshold": 75000,
+      "contestedPercent": 0.0,
+      "derivedOperationalState": "rearguard",
+      "position2D": {
+        "x": -1.9722867249304627e+17,
+        "y": 2.3420904858549245e+17
+      },
+      "position3D": {
+        "x": -1.849563452398072e+17,
+        "y": 7.508282087859654e+16,
+        "z": 1.4477226291119846e+17
+      },
+      "neighbors": [
+        30045331
+      ],
+      "externalGateCount": 0,
+      "unweightedBetweenness": 0.0,
+      "normalizedBetweenness": 0.0
+    },
+    {
+      "id": 30002759,
+      "name": "Uuna",
+      "constellationId": 20000404,
+      "constellation": "Ieyama",
+      "regionId": 10000033,
+      "region": "The Citadel",
+      "securityStatus": 0.3835015594959259,
+      "npcStationCount": 2,
+      "originalFactionId": 500001,
+      "occupierFactionId": 500001,
+      "contestedState": "uncontested",
+      "victoryPoints": 0,
+      "victoryPointsThreshold": 75000,
+      "contestedPercent": 0.0,
+      "derivedOperationalState": "rearguard",
+      "position2D": {
+        "x": -8.423307887723851e+16,
+        "y": 2.177733258777386e+17
+      },
+      "position3D": {
+        "x": -1.7527530949814714e+17,
+        "y": 4.9603489980943064e+16,
+        "z": 1.3081730245911819e+17
+      },
+      "neighbors": [
+        30002756,
+        30002760
+      ],
+      "externalGateCount": 0,
+      "unweightedBetweenness": 258.0,
+      "normalizedBetweenness": 0.065883555
+    },
+    {
+      "id": 30045331,
+      "name": "Vaaralen",
+      "constellationId": 20000786,
+      "constellation": "Kurala",
+      "regionId": 10000069,
+      "region": "Black Rise",
+      "securityStatus": 0.3134974241256714,
+      "npcStationCount": 0,
+      "originalFactionId": 500001,
+      "occupierFactionId": 500001,
+      "contestedState": "uncontested",
+      "victoryPoints": 0,
+      "victoryPointsThreshold": 75000,
+      "contestedPercent": 0.0,
+      "derivedOperationalState": "rearguard",
+      "position2D": {
+        "x": -1.9928313783151552e+17,
+        "y": 2.2804565257008474e+17
+      },
+      "position3D": {
+        "x": -1.738256719127361e+17,
+        "y": 7.673769629421262e+16,
+        "z": 1.4686241950823526e+17
+      },
+      "neighbors": [
+        30045332,
+        30045334,
+        30045335
+      ],
+      "externalGateCount": 0,
+      "unweightedBetweenness": 88.0,
+      "normalizedBetweenness": 0.02247191
+    },
+    {
+      "id": 30004997,
+      "name": "Vifrevaert",
+      "constellationId": 20000731,
+      "constellation": "Vieres",
+      "regionId": 10000064,
+      "region": "Essence",
+      "securityStatus": 0.39499419927597046,
+      "npcStationCount": 0,
+      "originalFactionId": 500004,
+      "occupierFactionId": 500004,
+      "contestedState": "contested",
+      "victoryPoints": 15,
+      "victoryPointsThreshold": 75000,
+      "contestedPercent": 0.02,
+      "derivedOperationalState": "rearguard",
+      "position2D": {
+        "x": -2.2599118723161552e+17,
+        "y": 9.861433624652314e+16
+      },
+      "position3D": {
+        "x": -2.4602548916058243e+17,
+        "y": 1.977209170942411e+16,
+        "z": 5.5507993090204056e+16
+      },
+      "neighbors": [
+        30004999
+      ],
+      "externalGateCount": 1,
+      "unweightedBetweenness": 0.0,
+      "normalizedBetweenness": 0.0
+    },
+    {
+      "id": 30045309,
+      "name": "Villasen",
+      "constellationId": 20000781,
+      "constellation": "Urpiken",
+      "regionId": 10000069,
+      "region": "Black Rise",
+      "securityStatus": 0.14069336652755737,
+      "npcStationCount": 1,
+      "originalFactionId": 500001,
+      "occupierFactionId": 500001,
+      "contestedState": "uncontested",
+      "victoryPoints": 0,
+      "victoryPointsThreshold": 75000,
+      "contestedPercent": 0.0,
+      "derivedOperationalState": "rearguard",
+      "position2D": {
+        "x": -2.0133760316998474e+17,
+        "y": 2.506447712932463e+17
+      },
+      "position3D": {
+        "x": -2.6181939056958285e+17,
+        "y": 7.320057215177109e+16,
+        "z": 1.9906036996748624e+17
+      },
+      "neighbors": [
+        30045306,
+        30045307,
+        30045308,
+        30045312
+      ],
+      "externalGateCount": 0,
+      "unweightedBetweenness": 256.0,
+      "normalizedBetweenness": 0.065372829
+    },
+    {
+      "id": 30003836,
+      "name": "Vlillirier",
+      "constellationId": 20000561,
+      "constellation": "Amevync",
+      "regionId": 10000048,
+      "region": "Placid",
+      "securityStatus": 0.2893091142177582,
+      "npcStationCount": 11,
+      "originalFactionId": 500004,
+      "occupierFactionId": 500001,
+      "contestedState": "uncontested",
+      "victoryPoints": 0,
+      "victoryPointsThreshold": 75000,
+      "contestedPercent": 0.0,
+      "derivedOperationalState": "frontline",
+      "position2D": {
+        "x": -2.2599118723161552e+17,
+        "y": 1.869563458007001e+17
+      },
+      "position3D": {
+        "x": -2.4890411321341443e+17,
+        "y": 1.200354501644417e+17,
+        "z": 1.2600097802309325e+17
+      },
+      "neighbors": [
+        30003829,
+        30003837,
+        30003838,
+        30003841
+      ],
+      "externalGateCount": 0,
+      "unweightedBetweenness": 1044.166666667,
+      "normalizedBetweenness": 0.26664113
+    }
+  ],
+  "edges": [
+    [
+      30002756,
+      30002757
+    ],
+    [
+      30002756,
+      30002759
+    ],
+    [
+      30002757,
+      30002758
+    ],
+    [
+      30002759,
+      30002760
+    ],
+    [
+      30002760,
+      30045334
+    ],
+    [
+      30002796,
+      30002806
+    ],
+    [
+      30002806,
+      30002807
+    ],
+    [
+      30002807,
+      30002808
+    ],
+    [
+      30002807,
+      30002809
+    ],
+    [
+      30002807,
+      30004985
+    ],
+    [
+      30002809,
+      30002810
+    ],
+    [
+      30002809,
+      30002811
+    ],
+    [
+      30002809,
+      30002813
+    ],
+    [
+      30002810,
+      30002811
+    ],
+    [
+      30002811,
+      30002812
+    ],
+    [
+      30002813,
+      30045346
+    ],
+    [
+      30003825,
+      30003826
+    ],
+    [
+      30003825,
+      30003827
+    ],
+    [
+      30003825,
+      30003828
+    ],
+    [
+      30003826,
+      30003828
+    ],
+    [
+      30003827,
+      30003829
+    ],
+    [
+      30003828,
+      30003829
+    ],
+    [
+      30003829,
+      30003836
+    ],
+    [
+      30003836,
+      30003837
+    ],
+    [
+      30003836,
+      30003838
+    ],
+    [
+      30003836,
+      30003841
+    ],
+    [
+      30003837,
+      30003839
+    ],
+    [
+      30003837,
+      30045344
+    ],
+    [
+      30003838,
+      30045319
+    ],
+    [
+      30003839,
+      30003840
+    ],
+    [
+      30003840,
+      30003842
+    ],
+    [
+      30003840,
+      30003857
+    ],
+    [
+      30003850,
+      30003851
+    ],
+    [
+      30003851,
+      30003852
+    ],
+    [
+      30003851,
+      30003853
+    ],
+    [
+      30003852,
+      30003854
+    ],
+    [
+      30003852,
+      30003857
+    ],
+    [
+      30003853,
+      30003856
+    ],
+    [
+      30003854,
+      30003855
+    ],
+    [
+      30003854,
+      30003857
+    ],
+    [
+      30004979,
+      30004980
+    ],
+    [
+      30004979,
+      30004982
+    ],
+    [
+      30004979,
+      30004984
+    ],
+    [
+      30004979,
+      30005000
+    ],
+    [
+      30004980,
+      30004985
+    ],
+    [
+      30004982,
+      30005295
+    ],
+    [
+      30004984,
+      30045347
+    ],
+    [
+      30004997,
+      30004999
+    ],
+    [
+      30004999,
+      30005000
+    ],
+    [
+      30005295,
+      30005296
+    ],
+    [
+      30005296,
+      30005297
+    ],
+    [
+      30005296,
+      30005298
+    ],
+    [
+      30005297,
+      30005300
+    ],
+    [
+      30005298,
+      30005299
+    ],
+    [
+      30005299,
+      30005320
+    ],
+    [
+      30005320,
+      30005321
+    ],
+    [
+      30045306,
+      30045309
+    ],
+    [
+      30045306,
+      30045310
+    ],
+    [
+      30045306,
+      30045311
+    ],
+    [
+      30045307,
+      30045309
+    ],
+    [
+      30045307,
+      30045313
+    ],
+    [
+      30045308,
+      30045309
+    ],
+    [
+      30045308,
+      30045311
+    ],
+    [
+      30045308,
+      30045318
+    ],
+    [
+      30045309,
+      30045312
+    ],
+    [
+      30045311,
+      30045313
+    ],
+    [
+      30045314,
+      30045315
+    ],
+    [
+      30045314,
+      30045316
+    ],
+    [
+      30045314,
+      30045318
+    ],
+    [
+      30045315,
+      30045317
+    ],
+    [
+      30045316,
+      30045318
+    ],
+    [
+      30045316,
+      30045319
+    ],
+    [
+      30045316,
+      30045320
+    ],
+    [
+      30045317,
+      30045318
+    ],
+    [
+      30045318,
+      30045319
+    ],
+    [
+      30045320,
+      30045340
+    ],
+    [
+      30045330,
+      30045332
+    ],
+    [
+      30045330,
+      30045334
+    ],
+    [
+      30045330,
+      30045354
+    ],
+    [
+      30045331,
+      30045332
+    ],
+    [
+      30045331,
+      30045334
+    ],
+    [
+      30045331,
+      30045335
+    ],
+    [
+      30045332,
+      30045333
+    ],
+    [
+      30045332,
+      30045334
+    ],
+    [
+      30045332,
+      30045336
+    ],
+    [
+      30045332,
+      30045337
+    ],
+    [
+      30045333,
+      30045336
+    ],
+    [
+      30045333,
+      30045337
+    ],
+    [
+      30045338,
+      30045341
+    ],
+    [
+      30045338,
+      30045343
+    ],
+    [
+      30045338,
+      30045344
+    ],
+    [
+      30045338,
+      30045353
+    ],
+    [
+      30045339,
+      30045341
+    ],
+    [
+      30045339,
+      30045342
+    ],
+    [
+      30045339,
+      30045344
+    ],
+    [
+      30045340,
+      30045342
+    ],
+    [
+      30045342,
+      30045344
+    ],
+    [
+      30045343,
+      30045344
+    ],
+    [
+      30045345,
+      30045346
+    ],
+    [
+      30045345,
+      30045352
+    ],
+    [
+      30045345,
+      30045353
+    ],
+    [
+      30045346,
+      30045350
+    ],
+    [
+      30045346,
+      30045352
+    ],
+    [
+      30045346,
+      30045354
+    ],
+    [
+      30045347,
+      30045352
+    ],
+    [
+      30045347,
+      30045353
+    ],
+    [
+      30045348,
+      30045352
+    ],
+    [
+      30045349,
+      30045351
+    ],
+    [
+      30045349,
+      30045353
+    ],
+    [
+      30045349,
+      30045354
+    ]
+  ],
+  "externalGates": [
+    {
+      "fromSystemId": 30002756,
+      "fromSystemName": "Ishomilken",
+      "toSystemId": 30002755,
+      "gateId": 50001801,
+      "destinationGateId": 50000993,
+      "gateName": "Stargate (Usi)"
+    },
+    {
+      "fromSystemId": 30002758,
+      "fromSystemName": "Hasama",
+      "toSystemId": 30001388,
+      "gateId": 50013643,
+      "destinationGateId": 50013644,
+      "gateName": "Stargate (Mara)"
+    },
+    {
+      "fromSystemId": 30002796,
+      "fromSystemName": "Hysera",
+      "toSystemId": 30002795,
+      "gateId": 50004916,
+      "destinationGateId": 50004471,
+      "gateName": "Stargate (Oshaima)"
+    },
+    {
+      "fromSystemId": 30002796,
+      "fromSystemName": "Hysera",
+      "toSystemId": 30002799,
+      "gateId": 50004917,
+      "destinationGateId": 50006295,
+      "gateName": "Stargate (Oisio)"
+    },
+    {
+      "fromSystemId": 30002812,
+      "fromSystemName": "Tannolen",
+      "toSystemId": 30005334,
+      "gateId": 50013613,
+      "destinationGateId": 50013614,
+      "gateName": "Stargate (Tierijev)"
+    },
+    {
+      "fromSystemId": 30002813,
+      "fromSystemName": "Tama",
+      "toSystemId": 30001376,
+      "gateId": 50014002,
+      "destinationGateId": 50014001,
+      "gateName": "Stargate (Nourvukaiken)"
+    },
+    {
+      "fromSystemId": 30003825,
+      "fromSystemName": "Eugales",
+      "toSystemId": 30003824,
+      "gateId": 50007821,
+      "destinationGateId": 50007627,
+      "gateName": "Stargate (Archavoinet)"
+    },
+    {
+      "fromSystemId": 30003826,
+      "fromSystemName": "Frarie",
+      "toSystemId": 30003790,
+      "gateId": 50013640,
+      "destinationGateId": 50013639,
+      "gateName": "Stargate (Vey)"
+    },
+    {
+      "fromSystemId": 30003827,
+      "fromSystemName": "Aubenall",
+      "toSystemId": 30003824,
+      "gateId": 50008190,
+      "destinationGateId": 50007628,
+      "gateName": "Stargate (Archavoinet)"
+    },
+    {
+      "fromSystemId": 30003827,
+      "fromSystemName": "Aubenall",
+      "toSystemId": 30003833,
+      "gateId": 50013540,
+      "destinationGateId": 50013539,
+      "gateName": "Stargate (Oulley)"
+    },
+    {
+      "fromSystemId": 30003841,
+      "fromSystemName": "Alsavoinon",
+      "toSystemId": 30004046,
+      "gateId": 50014037,
+      "destinationGateId": 50014038,
+      "gateName": "Stargate (F7C-H0)"
+    },
+    {
+      "fromSystemId": 30003841,
+      "fromSystemName": "Alsavoinon",
+      "toSystemId": 30100000,
+      "gateId": 50016563,
+      "destinationGateId": 50016567,
+      "gateName": "Stargate (Zarzakh)"
+    },
+    {
+      "fromSystemId": 30003850,
+      "fromSystemName": "Alparena",
+      "toSystemId": 30003835,
+      "gateId": 50010011,
+      "destinationGateId": 50009527,
+      "gateName": "Stargate (Maut)"
+    },
+    {
+      "fromSystemId": 30003855,
+      "fromSystemName": "Mantenault",
+      "toSystemId": 30002039,
+      "gateId": 50014058,
+      "destinationGateId": 50014057,
+      "gateName": "Stargate (RQH-MY)"
+    },
+    {
+      "fromSystemId": 30003856,
+      "fromSystemName": "Athounon",
+      "toSystemId": 30045322,
+      "gateId": 50016559,
+      "destinationGateId": 50016558,
+      "gateName": "Stargate (Samanuni)"
+    },
+    {
+      "fromSystemId": 30004979,
+      "fromSystemName": "Heydieles",
+      "toSystemId": 30004977,
+      "gateId": 50003310,
+      "destinationGateId": 50003058,
+      "gateName": "Stargate (Yvangier)"
+    },
+    {
+      "fromSystemId": 30004979,
+      "fromSystemName": "Heydieles",
+      "toSystemId": 30004981,
+      "gateId": 50003312,
+      "destinationGateId": 50006764,
+      "gateName": "Stargate (Actee)"
+    },
+    {
+      "fromSystemId": 30004980,
+      "fromSystemName": "Fliet",
+      "toSystemId": 30004981,
+      "gateId": 50004967,
+      "destinationGateId": 50006765,
+      "gateName": "Stargate (Actee)"
+    },
+    {
+      "fromSystemId": 30004997,
+      "fromSystemName": "Vifrevaert",
+      "toSystemId": 30004995,
+      "gateId": 50004659,
+      "destinationGateId": 50003888,
+      "gateName": "Stargate (Allamotte)"
+    },
+    {
+      "fromSystemId": 30004999,
+      "fromSystemName": "Ladistier",
+      "toSystemId": 30005008,
+      "gateId": 50013588,
+      "destinationGateId": 50013587,
+      "gateName": "Stargate (Aeschee)"
+    },
+    {
+      "fromSystemId": 30005000,
+      "fromSystemName": "Old Man Star",
+      "toSystemId": 30004993,
+      "gateId": 50006126,
+      "destinationGateId": 50003539,
+      "gateName": "Stargate (Villore)"
+    },
+    {
+      "fromSystemId": 30005295,
+      "fromSystemName": "Murethand",
+      "toSystemId": 30004975,
+      "gateId": 50003288,
+      "destinationGateId": 50002781,
+      "gateName": "Stargate (Mesybier)"
+    },
+    {
+      "fromSystemId": 30005297,
+      "fromSystemName": "Ouelletta",
+      "toSystemId": 30005308,
+      "gateId": 50003818,
+      "destinationGateId": 50004363,
+      "gateName": "Stargate (Jufvitte)"
+    },
+    {
+      "fromSystemId": 30005300,
+      "fromSystemName": "Loes",
+      "toSystemId": 30003787,
+      "gateId": 50004132,
+      "destinationGateId": 50004204,
+      "gateName": "Stargate (Agoze)"
+    },
+    {
+      "fromSystemId": 30005320,
+      "fromSystemName": "Hevrice",
+      "toSystemId": 30005319,
+      "gateId": 50008530,
+      "destinationGateId": 50008216,
+      "gateName": "Stargate (Raneilles)"
+    },
+    {
+      "fromSystemId": 30005321,
+      "fromSystemName": "Jovainnon",
+      "toSystemId": 30005008,
+      "gateId": 50013718,
+      "destinationGateId": 50013717,
+      "gateName": "Stargate (Aeschee)"
+    },
+    {
+      "fromSystemId": 30045307,
+      "fromSystemName": "Okagaiken",
+      "toSystemId": 30004055,
+      "gateId": 50016245,
+      "destinationGateId": 50016246,
+      "gateName": "Stargate (W-4NUU)"
+    },
+    {
+      "fromSystemId": 30045310,
+      "fromSystemName": "Sarenemi",
+      "toSystemId": 30001440,
+      "gateId": 50016243,
+      "destinationGateId": 50016244,
+      "gateName": "Stargate (Karjataimon)"
+    },
+    {
+      "fromSystemId": 30045314,
+      "fromSystemName": "Kinakka",
+      "toSystemId": 30045324,
+      "gateId": 50016271,
+      "destinationGateId": 50016272,
+      "gateName": "Stargate (Onnamon)"
+    },
+    {
+      "fromSystemId": 30045315,
+      "fromSystemName": "Raihbaka",
+      "toSystemId": 30001435,
+      "gateId": 50016267,
+      "destinationGateId": 50016268,
+      "gateName": "Stargate (Ohbochi)"
+    },
+    {
+      "fromSystemId": 30045337,
+      "fromSystemName": "Ikoskio",
+      "toSystemId": 30045322,
+      "gateId": 50016326,
+      "destinationGateId": 50016325,
+      "gateName": "Stargate (Samanuni)"
+    }
+  ],
+  "unobserved": {
+    "corporationAssets": null,
+    "pilotAvailability": null,
+    "advantage": null,
+    "activeSites": null,
+    "structureAccess": null,
+    "coalitionDiplomacy": null
+  }
+}

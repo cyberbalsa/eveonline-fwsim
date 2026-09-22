@@ -1,0 +1,373 @@
+[
+  {
+    "id": "fwmech-01",
+    "title": "Uprising \u2013 Expansion Now Live!",
+    "url": "https://www.eveonline.com/news/view/uprising-expansion-now-live",
+    "publisher": "CCP Games / EVE Online",
+    "publishedDate": "2022-11-08",
+    "accessedDate": "2026-09-22",
+    "kind": "primary-developer-announcement",
+    "claims": [
+      "Operational system roles and LP geography."
+    ],
+    "uncertainties": [
+      "Later patches supersede launch rewards."
+    ]
+  },
+  {
+    "id": "fwmech-02",
+    "title": "Patch Notes - Version 20.10 - Uprising",
+    "url": "https://www.eveonline.com/news/view/patch-notes-version-20-10",
+    "publisher": "CCP Games / EVE Online",
+    "publishedDate": "2022-11-08",
+    "accessedDate": "2026-09-22",
+    "kind": "primary-patch-notes",
+    "claims": [
+      "Warzone exclusions; docking; eligibility; advantage objectives."
+    ],
+    "uncertainties": [
+      "Historical baseline; apply later patches.",
+      "Page update metadata and listed releases differ."
+    ]
+  },
+  {
+    "id": "fwmech-03",
+    "title": "Factional Warfare",
+    "url": "https://support.eveonline.com/hc/en-us/articles/203209072-Factional-Warfare",
+    "publisher": "EVE Online Support",
+    "publishedDate": null,
+    "accessedDate": "2026-09-22",
+    "kind": "primary-support",
+    "claims": [
+      "Orientation only; identified stale/conflicting passages."
+    ],
+    "uncertainties": [
+      "Updated 2024-05-24; several rules remain obsolete."
+    ],
+    "updatedDate": "2024-05-24"
+  },
+  {
+    "id": "fwmech-04",
+    "title": "Feedback and Iteration: Factional Warfare",
+    "url": "https://www.eveonline.com/news/view/feedback-and-iteration-factional-warfare",
+    "publisher": "CCP Games / EVE Online",
+    "publishedDate": "2023-08-06",
+    "accessedDate": "2026-09-22",
+    "kind": "primary-developer-analysis",
+    "claims": [
+      "Rearguard rewards; battlefield VP; corporation LP."
+    ],
+    "uncertainties": [
+      "Historical change record, not a complete current specification."
+    ]
+  },
+  {
+    "id": "fwmech-05",
+    "title": "Patch Notes - Version 21.03",
+    "url": "https://www.eveonline.com/news/view/patch-notes-version-21-03",
+    "publisher": "CCP Games / EVE Online",
+    "publishedDate": null,
+    "accessedDate": "2026-09-22",
+    "kind": "primary-patch-notes",
+    "claims": [
+      "Direct enlistment; ceasefires; Intaki security."
+    ],
+    "uncertainties": [
+      "Rolling page updated 2023-04-18; retirement rules later changed."
+    ],
+    "initialReleaseDate": "2023-03-14",
+    "updatedDate": "2023-04-18",
+    "dateNote": "Initial software release and rolling-page update are distinct; original page publication date not established."
+  },
+  {
+    "id": "fwmech-06",
+    "title": "Faction warfare",
+    "url": "https://wiki.eveuniversity.org/Faction_warfare",
+    "publisher": "EVE University",
+    "publishedDate": null,
+    "accessedDate": "2026-09-22",
+    "kind": "community-maintained-secondary",
+    "claims": [
+      "Capture state machine; timer reference; contradictions."
+    ],
+    "uncertainties": [
+      "Mixed eras; threshold, buffer and transfer timing require validation.",
+      "Publication date not established."
+    ]
+  },
+  {
+    "id": "fwmech-07",
+    "title": "Faction warfare strategy and tactics",
+    "url": "https://wiki.eveuniversity.org/Faction_warfare_strategy_and_tactics",
+    "publisher": "EVE University",
+    "publishedDate": null,
+    "accessedDate": "2026-09-22",
+    "kind": "community-training",
+    "claims": [
+      "Stocking replacements; cross-racial hull use."
+    ],
+    "uncertainties": [
+      "Explicit outdated-content warning; no verified publication date."
+    ]
+  },
+  {
+    "id": "fwmech-08",
+    "title": "Faction Warfare Complexes",
+    "url": "https://my.minmatar.org/learning/guides/faction-warfare-plexing/",
+    "publisher": "Minmatar Fleet",
+    "publishedDate": null,
+    "accessedDate": "2026-09-22",
+    "kind": "participant-guide",
+    "claims": [
+      "Baseline plex table and payout-cap distinction."
+    ],
+    "uncertainties": [
+      "Participant guide; numeric parameters require patch/client corroboration.",
+      "Small NVY-2 frontline LP arithmetic discrepancy.",
+      "Publication date not established."
+    ]
+  },
+  {
+    "id": "fwmech-09",
+    "title": "Patch Notes - Version 22.02",
+    "url": "https://www.eveonline.com/news/view/patch-notes-version-22-02",
+    "publisher": "CCP Games / EVE Online",
+    "publishedDate": null,
+    "accessedDate": "2026-09-22",
+    "kind": "primary-patch-notes",
+    "claims": [
+      "Reward scaling; battlefield eligibility; deployable rebalance."
+    ],
+    "uncertainties": [
+      "Rolling page updated 2025-05-15; inspect individual patch dates."
+    ],
+    "initialReleaseDate": "2024-11-12",
+    "updatedDate": "2025-05-15",
+    "dateNote": "Initial software release and rolling-page update are distinct; original page publication date not established."
+  },
+  {
+    "id": "fwmech-10",
+    "title": "Catalyst: Expansion Notes",
+    "url": "https://www.eveonline.com/news/view/catalyst-expansion-notes",
+    "publisher": "CCP Games / EVE Online",
+    "publishedDate": "2025-11-14",
+    "accessedDate": "2026-09-22",
+    "kind": "primary-expansion-notes",
+    "claims": [
+      "Dual-faction NPCs and war-HQ mining incentives."
+    ],
+    "uncertainties": [
+      "Published before 2025-11-18 deployment; apply subsequent corrections."
+    ]
+  },
+  {
+    "id": "fwmech-11",
+    "title": "Patch Notes - Version 23.02",
+    "url": "https://www.eveonline.com/news/view/patch-notes-version-23-02",
+    "publisher": "CCP Games / EVE Online",
+    "publishedDate": null,
+    "accessedDate": "2026-09-22",
+    "kind": "primary-patch-notes",
+    "claims": [
+      "Defensive LP equality; stable exception; standings changes."
+    ],
+    "uncertainties": [
+      "Rolling page updated 2026-06-05; use individual effective dates."
+    ],
+    "initialReleaseDate": "2025-11-18",
+    "updatedDate": "2026-06-05",
+    "dateNote": "Initial software release and rolling-page update are distinct; original page publication date not established."
+  },
+  {
+    "id": "fwmech-12",
+    "title": "Cradle of War: Expansion Notes",
+    "url": "https://www.eveonline.com/news/view/cradle-of-war-expansion-notes",
+    "publisher": "EVE Online Team",
+    "publishedDate": "2026-06-05",
+    "accessedDate": "2026-09-22",
+    "kind": "primary-expansion-notes",
+    "claims": [
+      "Seasonal parameters; corporation standing conditions."
+    ],
+    "uncertainties": [
+      "Launch 2026-06-09; battlefield and research-site rules later changed.",
+      "Seasonal duration requires tracking."
+    ]
+  },
+  {
+    "id": "fwmech-13",
+    "title": "Patch Notes - Version 24.01",
+    "url": "https://www.eveonline.com/news/view/patch-notes-version-24-01",
+    "publisher": "EVE Online Team",
+    "publishedDate": null,
+    "accessedDate": "2026-09-22",
+    "kind": "primary-patch-notes",
+    "claims": [
+      "July battlefield reversal and research-site correction."
+    ],
+    "uncertainties": [
+      "Last update observed 2026-09-21, before snapshot-day deployment."
+    ],
+    "initialReleaseDate": "2026-06-09",
+    "updatedDate": "2026-09-21",
+    "dateNote": "Initial software release and rolling-page update are distinct; original page publication date not established."
+  },
+  {
+    "id": "fwmech-14",
+    "title": "Cradle of War In Focus",
+    "url": "https://www.eveonline.com/news/view/cradle-of-war-in-focus",
+    "publisher": "EVE Online Team",
+    "publishedDate": "2026-05-26",
+    "accessedDate": "2026-09-22",
+    "kind": "primary-expansion-preview",
+    "claims": [
+      "Seasonal site concepts and restrictions."
+    ],
+    "uncertainties": [
+      "Preview does not establish final or currently deployed parameters."
+    ]
+  },
+  {
+    "id": "fwmech-15",
+    "title": "Faction Warfare Advantage",
+    "url": "https://my.minmatar.org/learning/guides/faction-warfare-advantage/",
+    "publisher": "Minmatar Fleet",
+    "publishedDate": null,
+    "accessedDate": "2026-09-22",
+    "kind": "participant-guide",
+    "claims": [
+      "Two-sided advantage and approximate objective effects."
+    ],
+    "uncertainties": [
+      "Exact formula, caps and decay remain unverified.",
+      "Publication date not established."
+    ]
+  },
+  {
+    "id": "fwmech-16",
+    "title": "Faction Warfare Battlefields",
+    "url": "https://my.minmatar.org/learning/guides/faction-warfare-battlefields/",
+    "publisher": "Minmatar Fleet",
+    "publishedDate": null,
+    "accessedDate": "2026-09-22",
+    "kind": "participant-guide",
+    "claims": [
+      "Control-point roles, geometry and observed pacing."
+    ],
+    "uncertainties": [
+      "Southern-warzone experience; northern timings need corroboration.",
+      "Racial NPC weakness text conflicts with June omni-resistance patch.",
+      "Publication date not established."
+    ]
+  },
+  {
+    "id": "fwmech-17",
+    "title": "Factional Warfare Overhaul",
+    "url": "https://www.eveonline.com/news/view/factional-warfare-overhaul",
+    "publisher": "CCP Games / EVE Online",
+    "publishedDate": "2022-12-09",
+    "accessedDate": "2026-09-22",
+    "kind": "primary-developer-analysis",
+    "claims": [
+      "Battlefield incentive and participation design concerns."
+    ],
+    "uncertainties": [
+      "Intent and historical observations, not current exact parameters."
+    ]
+  },
+  {
+    "id": "fwmech-18",
+    "title": "Standings & Awoxing Update",
+    "url": "https://www.eveonline.com/news/view/standings-and-awoxing-update",
+    "publisher": "EVE Online Team",
+    "publishedDate": "2026-03-10",
+    "accessedDate": "2026-09-22",
+    "kind": "primary-developer-analysis",
+    "claims": [
+      "Friendly-fire policy and same-militia incentive conflict."
+    ],
+    "uncertainties": [
+      "Some announced measures required later deployment confirmation."
+    ]
+  },
+  {
+    "id": "fwmech-19",
+    "title": "Interstellar Shipcaster Live Now",
+    "url": "https://www.eveonline.com/news/view/introducing-the-interstellar-shipcaster",
+    "publisher": "CCP Games / EVE Online",
+    "publishedDate": "2023-05-04",
+    "accessedDate": "2026-09-22",
+    "kind": "primary-developer-announcement",
+    "claims": [
+      "One-way deployment and destructible destination infrastructure."
+    ],
+    "uncertainties": [
+      "Launch timings/material requirements are not verified for September 2026."
+    ]
+  },
+  {
+    "id": "fwmech-20",
+    "title": "Pirate Insurgencies and Aligning with Pirates",
+    "url": "https://support.eveonline.com/hc/en-us/articles/11159823457052-Pirate-Insurgencies-and-Aligning-with-Pirates",
+    "publisher": "EVE Online Support",
+    "publishedDate": null,
+    "accessedDate": "2026-09-22",
+    "kind": "primary-support",
+    "claims": [
+      "Corruption, suppression, FOB and pirate deployment relationship."
+    ],
+    "uncertainties": [
+      "Updated 2026-04-07; FOB vulnerability sentence is ambiguous.",
+      "September announced changes not represented."
+    ],
+    "updatedDate": "2026-04-07"
+  },
+  {
+    "id": "fwmech-21",
+    "title": "Major Update: Force Projection Revamped",
+    "url": "https://www.eveonline.com/news/view/major-update-force-projection-revamped",
+    "publisher": "EVE Online Team",
+    "publishedDate": "2026-09-15",
+    "accessedDate": "2026-09-22",
+    "kind": "primary-future-update-announcement",
+    "claims": [
+      "Announced September 22 insurgency revisions."
+    ],
+    "uncertainties": [
+      "Pre-downtime snapshot does not confirm deployment.",
+      "No complete exact numeric specification supplied."
+    ]
+  },
+  {
+    "id": "fwmech-22",
+    "title": "Military Campaigns",
+    "url": "https://support.eveonline.com/hc/en-us/articles/27857397762588-Military-Campaigns",
+    "publisher": "EVE Online Support",
+    "publishedDate": null,
+    "accessedDate": "2026-09-22",
+    "kind": "primary-support",
+    "claims": [
+      "Seasonal multi-activity campaign objectives."
+    ],
+    "uncertainties": [
+      "Updated 2026-06-05; individual objective schedules are dynamic."
+    ],
+    "updatedDate": "2026-06-05"
+  },
+  {
+    "id": "fwmech-23",
+    "title": "New Player Fleet Guide",
+    "url": "https://my.minmatar.org/learning/guides/new-player-fleet-guide/",
+    "publisher": "Minmatar Fleet",
+    "publishedDate": null,
+    "accessedDate": "2026-09-22",
+    "kind": "participant-practice-primary",
+    "claims": [
+      "Doctrine, broadcasts, staging and support organization."
+    ],
+    "uncertainties": [
+      "Organization-specific practices; doctrines change.",
+      "Publication date not established."
+    ]
+  }
+]

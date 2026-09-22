@@ -1,0 +1,91 @@
+id,name,constellation,region,originalFactionId,occupierFactionId,victoryPoints,victoryPointsThreshold,contestedPercent,derivedOperationalState,externalGateCount,normalizedBetweenness
+30004984,Abune,Jeon,Essence,500004,500001,7183,75000,9.577333,frontline,0,0.244850187
+30045340,Aivonen,Ishaga,Black Rise,500001,500001,0,75000,0.0,command,0,0.131469186
+30045342,Akidagi,Ishaga,Black Rise,500001,500001,0,75000,0.0,frontline,0,0.146024855
+30003854,Alamel,Serthoulde,Placid,500004,500004,37531,75000,50.041333,frontline,0,0.02247191
+30003837,Aldranette,Amevync,Placid,500004,500004,17641,75000,23.521333,frontline,0,0.409644195
+30003850,Alparena,Serthoulde,Placid,500004,500004,67983,75000,90.644,frontline,1,0.0
+30003841,Alsavoinon,Amevync,Placid,500004,500001,5002,75000,6.669333,command,2,0.0
+30003840,Anchauttes,Amevync,Placid,500004,500004,29201,75000,38.934667,frontline,0,0.185903984
+30003852,Arderonne,Serthoulde,Placid,500004,500001,12,75000,0.016,frontline,0,0.086823289
+30045332,Asakai,Kurala,Black Rise,500001,500001,0,75000,0.0,rearguard,0,0.08592952
+30045311,Ashitsu,Urpiken,Black Rise,500001,500001,0,75000,0.0,rearguard,0,0.042900919
+30003856,Athounon,Serthoulde,Placid,500004,500001,0,75000,0.0,rearguard,1,0.0
+30003827,Aubenall,Pegeler,Placid,500004,500004,4150,75000,5.533333,frontline,2,0.010980592
+30005298,Costolle,Woenckee,Verge Vendor,500004,500004,0,75000,0.0,rearguard,0,0.065883555
+30004985,Deven,Jeon,Essence,500004,500004,0,75000,0.0,command,0,0.034005788
+30045319,Eha,Inolari,Black Rise,500001,500001,0,75000,0.0,rearguard,0,0.13381001
+30045336,Elunala,Kurala,Black Rise,500001,500001,0,75000,0.0,rearguard,0,0.0
+30045339,Enaluri,Ishaga,Black Rise,500001,500001,0,75000,0.0,frontline,0,0.006937351
+30002810,Eranakko,Isoma,The Citadel,500001,500004,47620,75000,63.493333,command,0,0.0
+30003842,Esesier,Amevync,Placid,500004,500004,6039,75000,8.052,command,0,0.0
+30003825,Eugales,Pegeler,Placid,500004,500004,23928,75000,31.904,command,1,0.000383044
+30003839,Evaulon,Amevync,Placid,500004,500004,23111,75000,30.814667,command,0,0.201736466
+30004980,Fliet,Jeon,Essence,500004,500004,0,75000,0.0,command,1,0.045582227
+30003826,Frarie,Pegeler,Placid,500004,500004,16516,75000,22.021333,command,1,0.0
+30045341,Hallanen,Ishaga,Black Rise,500001,500001,681,75000,0.908,command,0,0.006256384
+30002758,Hasama,Ieyama,The Citadel,500001,500001,0,75000,0.0,rearguard,1,0.0
+30002806,Hasmijaala,Isoma,The Citadel,500001,500001,6410,75000,8.546667,frontline,0,0.02247191
+30005320,Hevrice,Obray,Verge Vendor,500004,500004,0,75000,0.0,rearguard,1,0.02247191
+30004979,Heydieles,Jeon,Essence,500004,500004,2701,75000,3.601333,frontline,2,0.272301668
+30045338,Hikkoken,Ishaga,Black Rise,500001,500001,0,75000,0.0,frontline,0,0.505575417
+30045345,Hirri,Okakuola,Black Rise,500001,500001,0,75000,0.0,rearguard,0,0.132107593
+30045306,Hykanima,Urpiken,Black Rise,500001,500001,0,75000,0.0,rearguard,0,0.022727273
+30002796,Hysera,Otawasa,The Citadel,500001,500001,0,75000,0.0,command,2,0.0
+30045313,Ienakkamon,Urpiken,Black Rise,500001,500001,0,75000,0.0,rearguard,0,0.000255363
+30045337,Ikoskio,Kurala,Black Rise,500001,500001,0,75000,0.0,rearguard,1,0.0
+30045343,Immuri,Ishaga,Black Rise,500001,500004,75347,75000,100.462667,frontline,0,0.0
+30004982,Indregulle,Jeon,Essence,500004,500004,675,75000,0.9,command,0,0.165474974
+30045316,Innia,Inolari,Black Rise,500001,500001,0,75000,0.0,rearguard,0,0.11423221
+30045317,Iralaja,Inolari,Black Rise,500001,500001,0,75000,0.0,rearguard,0,0.00293667
+30002756,Ishomilken,Ieyama,The Citadel,500001,500001,0,75000,0.0,rearguard,1,0.044433095
+30045351,Iwisoda,Okakuola,Black Rise,500001,500001,0,75000,0.0,rearguard,0,0.0
+30005321,Jovainnon,Obray,Verge Vendor,500004,500004,0,75000,0.0,rearguard,1,0.0
+30045346,Kedama,Okakuola,Black Rise,500001,500001,50,75000,0.066667,command,0,0.213781069
+30045308,Kehjari,Urpiken,Black Rise,500001,500001,25,75000,0.033333,rearguard,0,0.146833504
+30045314,Kinakka,Inolari,Black Rise,500001,500001,25,75000,0.033333,rearguard,1,0.019279877
+30045312,Korasen,Urpiken,Black Rise,500001,500001,0,75000,0.0,rearguard,0,0.0
+30004999,Ladistier,Vieres,Essence,500004,500004,0,75000,0.0,rearguard,1,0.02247191
+30005300,Loes,Woenckee,Verge Vendor,500004,500004,0,75000,0.0,rearguard,1,0.0
+30002760,Manjonakko,Ieyama,The Citadel,500001,500001,0,75000,0.0,rearguard,0,0.086823289
+30003855,Mantenault,Serthoulde,Placid,500004,500004,10360,75000,13.813333,command,1,0.0
+30045318,Martoh,Inolari,Black Rise,500001,500001,14814,75000,19.752,rearguard,0,0.191777324
+30005296,Melmaniel,Woenckee,Verge Vendor,500004,500004,0,75000,0.0,rearguard,0,0.129213483
+30003853,Mercomesier,Serthoulde,Placid,500004,500001,0,75000,0.0,command,0,0.02247191
+30003828,Moclinamaud,Pegeler,Placid,500004,500004,2605,75000,3.473333,frontline,0,0.032941777
+30005299,Muetralle,Woenckee,Verge Vendor,500004,500004,15833,75000,21.110667,rearguard,0,0.044433095
+30005295,Murethand,Woenckee,Verge Vendor,500004,500004,0,75000,0.0,rearguard,1,0.146578141
+30045334,Mushikegi,Kurala,Black Rise,500001,500001,0,75000,0.0,rearguard,0,0.127170582
+30002807,Nagamanen,Isoma,The Citadel,500001,500004,40562,75000,54.082667,frontline,0,0.090696289
+30045344,Nennamaila,Ishaga,Black Rise,500001,500004,27281,75000,36.374667,frontline,0,0.502468505
+30002757,Nikkishina,Ieyama,The Citadel,500001,500001,0,75000,0.0,rearguard,0,0.02247191
+30045352,Nisuwa,Okakuola,Black Rise,500001,500001,50,75000,0.066667,rearguard,0,0.064649302
+30045348,Notoras,Okakuola,Black Rise,500001,500001,325,75000,0.433333,rearguard,0,0.0
+30003857,Odamia,Serthoulde,Placid,500004,500001,0,75000,0.0,frontline,0,0.146578141
+30003838,Oicx,Amevync,Placid,500004,500001,303,75000,0.404,command,0,0.148152877
+30045347,Oinasiken,Okakuola,Black Rise,500001,500001,3601,75000,4.801333,command,0,0.268939394
+30045307,Okagaiken,Urpiken,Black Rise,500001,500001,2704,75000,3.605333,rearguard,1,0.000510725
+30045330,Okkamon,Kurala,Black Rise,500001,500001,0,75000,0.0,rearguard,0,0.235955056
+30005000,Old Man Star,Vieres,Essence,500004,500004,0,75000,0.0,command,1,0.044433095
+30002811,Onatoh,Isoma,The Citadel,500001,500004,8836,75000,11.781333,command,0,0.02247191
+30002808,Oto,Isoma,The Citadel,500001,500004,1785,75000,2.38,command,0,0.0
+30005297,Ouelletta,Woenckee,Verge Vendor,500004,500004,625,75000,0.833333,rearguard,1,0.02247191
+30045320,Pavanakka,Inolari,Black Rise,500001,500001,0,75000,0.0,rearguard,0,0.118445693
+30045333,Prism,Kurala,Black Rise,500001,500001,0,75000,0.0,rearguard,0,0.000127681
+30045353,Pynekastoh,Okakuola,Black Rise,500001,500001,773,75000,1.030667,command,0,0.543752128
+30045315,Raihbaka,Inolari,Black Rise,500001,500001,0,75000,0.0,rearguard,1,0.000127681
+30045349,Rakapas,Okakuola,Black Rise,500001,500001,175,75000,0.233333,rearguard,0,0.204204971
+30045354,Reitsato,Okakuola,Black Rise,500001,500001,0,75000,0.0,rearguard,0,0.258512087
+30003829,Renarelle,Pegeler,Placid,500004,500001,8402,75000,11.202667,frontline,0,0.08695097
+30003851,Reschard,Serthoulde,Placid,500004,500001,239,75000,0.318667,frontline,0,0.06639428
+30045310,Sarenemi,Urpiken,Black Rise,500001,500001,0,75000,0.0,rearguard,1,0.0
+30002809,Sujarento,Isoma,The Citadel,500001,500004,0,75000,0.0,frontline,0,0.141258086
+30002813,Tama,Isoma,The Citadel,500001,500001,6278,75000,8.370667,frontline,1,0.139087504
+30002812,Tannolen,Isoma,The Citadel,500001,500004,1884,75000,2.512,rearguard,1,0.0
+30045350,Teimo,Okakuola,Black Rise,500001,500001,69,75000,0.092,rearguard,0,0.0
+30045335,Teskanen,Kurala,Black Rise,500001,500001,0,75000,0.0,rearguard,0,0.0
+30002759,Uuna,Ieyama,The Citadel,500001,500001,0,75000,0.0,rearguard,0,0.065883555
+30045331,Vaaralen,Kurala,Black Rise,500001,500001,0,75000,0.0,rearguard,0,0.02247191
+30004997,Vifrevaert,Vieres,Essence,500004,500004,15,75000,0.02,rearguard,1,0.0
+30045309,Villasen,Urpiken,Black Rise,500001,500001,0,75000,0.0,rearguard,0,0.065372829
+30003836,Vlillirier,Amevync,Placid,500004,500001,0,75000,0.0,frontline,0,0.26664113

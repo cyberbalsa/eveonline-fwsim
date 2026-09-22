@@ -1,0 +1,42 @@
+{
+  "date": "2026-09-22",
+  "resultDialog": "CAMPAIGN REPORT",
+  "endTurnDisabled": true,
+  "newCampaignSetupVisible": true,
+  "errors": [],
+  "automatedSuites": {
+    "node": 30,
+    "browser": 8
+  },
+  "manualViewports": [
+    [
+      1440,
+      1000
+    ],
+    [
+      1280,
+      720
+    ],
+    [
+      1024,
+      768
+    ],
+    [
+      800,
+      900
+    ],
+    [
+      760,
+      844
+    ],
+    [
+      390,
+      844
+    ],
+    [
+      320,
+      667
+    ]
+  ],
+  "scope": "Chromium technical and layout validation; campaign balance remains subject to playtesting."
+}

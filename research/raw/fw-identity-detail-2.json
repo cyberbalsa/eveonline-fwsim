@@ -1,0 +1,198 @@
+[
+  {
+    "category": "alliances",
+    "id": 99009845,
+    "url": "https://esi.evetech.net/latest/alliances/99009845/?datasource=tranquility",
+    "data": {
+      "creator_corporation_id": 98609590,
+      "creator_id": 95703000,
+      "date_founded": "2020-03-16T13:18:58Z",
+      "executor_corporation_id": 98699596,
+      "name": "Sedition.",
+      "ticker": "SEDIT"
+    }
+  },
+  {
+    "category": "alliances",
+    "id": 99011306,
+    "url": "https://esi.evetech.net/latest/alliances/99011306/?datasource=tranquility",
+    "data": {
+      "creator_corporation_id": 98661758,
+      "creator_id": 170381092,
+      "date_founded": "2022-01-10T18:26:24Z",
+      "executor_corporation_id": 98740953,
+      "name": "Federation Front Line",
+      "ticker": "FED-F"
+    }
+  },
+  {
+    "category": "alliances",
+    "id": 99011489,
+    "url": "https://esi.evetech.net/latest/alliances/99011489/?datasource=tranquility",
+    "data": {
+      "creator_corporation_id": 98639548,
+      "creator_id": 1458891505,
+      "date_founded": "2022-04-08T16:47:41Z",
+      "executor_corporation_id": 98639548,
+      "faction_id": 500001,
+      "name": "United Caldari Space Command.",
+      "ticker": "UCSC-"
+    }
+  },
+  {
+    "category": "alliances",
+    "id": 99009856,
+    "url": "https://esi.evetech.net/latest/alliances/99009856/?datasource=tranquility",
+    "data": {
+      "creator_corporation_id": 98635108,
+      "creator_id": 90556363,
+      "date_founded": "2020-03-20T23:20:42Z",
+      "executor_corporation_id": 98688951,
+      "faction_id": 500001,
+      "name": "Ghostbirds",
+      "ticker": "GBRD."
+    }
+  },
+  {
+    "category": "corporations",
+    "id": 98125391,
+    "url": "https://esi.evetech.net/latest/corporations/98125391/?datasource=tranquility",
+    "data": {
+      "name": "Justified Chaos",
+      "ticker": "JUSTK",
+      "description": "<i>\"This will be a fight against overwhelming odds from which survival cannot be expected. We will do what damage we can.\" </i><br><br>Justified Chaos (JUSTK) is a PvP corporation, proud member of the Gallente Militia, engaged in faction warfare. <br><br>Thank you to all who served in JUSTK and put meaning into Militia &gt; Corp, Inclusive &gt; Exclusive, and \"Undock and Fight\"",
+      "url": "",
+      "date_founded": "2012-07-10T02:14:00Z",
+      "ceo_id": 1067660374,
+      "creator_id": 1067660374,
+      "home_station_id": 60010333,
+      "member_count": 1,
+      "tax_rate": 0.1,
+      "shares": 1000,
+      "war_eligible": false
+    }
+  },
+  {
+    "category": "corporations",
+    "id": 98715004,
+    "url": "https://esi.evetech.net/latest/corporations/98715004/?datasource=tranquility",
+    "data": {
+      "name": "Blue Canary",
+      "ticker": "BRDHS",
+      "description": "<font size=\"12\" color=\"#bfffffff\"></font><font size=\"12\" color=\"#ff007fff\"><b>I'm your only friend<br>I'm not your only friend<br>But I'm a little glowing friend<br>But really I'm not actually your friend<br>But I am</b><br><br><br><br></font><font size=\"12\" color=\"#99ffffff\">We're currently recruiting!<br>Join our public channel </font><font size=\"12\" color=\"#ff6868e1\"><a href=\"joinChannel:player_5daa9761f4bd11ec96769abe94f5a39b\">Blue Canary Public</a></font><font size=\"12\" color=\"#99ffffff\"> <br><br>Or better yet...<br><br></font><font size=\"12\" color=\"#ffffe400\"><loc><a href=\"http://discord.gg/jyxypsSbTf\">Join our Discord</a></loc></font>",
+      "url": "https://discord.gg/jyxypsSbTf",
+      "date_founded": "2022-06-06T13:09:49Z",
+      "ceo_id": 1845121228,
+      "creator_id": 1845121228,
+      "alliance_id": 99013113,
+      "home_station_id": 60004825,
+      "member_count": 70,
+      "tax_rate": 0.05,
+      "shares": 1000,
+      "war_eligible": false
+    }
+  },
+  {
+    "category": "corporations",
+    "id": 98198874,
+    "url": "https://esi.evetech.net/latest/corporations/98198874/?datasource=tranquility",
+    "data": {
+      "name": "Black Fox Marauders",
+      "ticker": "BLFOX",
+      "description": "<font size=\"12\" color=\"#bfffffff\">We've seen things you people wouldn't believe. Attack ships on fire off the shoulder of Martoh. We've watched antimatter charges glitter in the dark near the Hikk gate. All those moments will be lost in time... like tears in rain... time to die.<br><br>CEO: </font><font size=\"12\" color=\"#ffd98d00\"><a href=\"showinfo:1377//212228898\">Roy Henry</a><br></font><font size=\"12\" color=\"#bfffffff\"> <br>Diplomatic contact:<loc> </font><font size=\"12\" color=\"#ffd98d00\"><a href=\"showinfo:1377//212228898\">Roy Henry</a></font><font size=\"12\" color=\"#bfffffff\"> </loc><br><br>Assistant Recruiter  </font><font size=\"12\" color=\"#ffd98d00\"><a href=\"showinfo:1373//949726808\">MP2008</a></font><font size=\"12\" color=\"#bfffffff\"> <br><br>Public Channel: </font><font size=\"12\" color=\"#ff6868e1\"><a href=\"joinChannel:-51300974\">BLFOX</a></font><font size=\"12\" color=\"#bfffffff\"> </font>",
+      "url": "https://zkillboard.com/corporation/98198874/",
+      "date_founded": "2013-05-05T13:04:12Z",
+      "ceo_id": 212228898,
+      "creator_id": 683117546,
+      "alliance_id": 99006625,
+      "home_station_id": 60015073,
+      "member_count": 35,
+      "tax_rate": 0.055,
+      "shares": 1000,
+      "war_eligible": true
+    }
+  },
+  {
+    "category": "corporations",
+    "id": 98177721,
+    "url": "https://esi.evetech.net/latest/corporations/98177721/?datasource=tranquility",
+    "data": {
+      "name": "Rapid Withdrawal",
+      "ticker": "RDRAW",
+      "description": "<font size=\"12\" color=\"#bfffffff\">We Specialize In Pulling Out !<br><br>We are currently involved in Faction Warfare, Small Gang Low Sec PvP, and Missioning. Recruiting is open if your interested in joining us contact any of the following listed below<br><br></font><font size=\"12\" color=\"#ffffa600\"><loc><a href=\"showinfo:1379//94130484\">Papa Bearfis</loc>h</a><br><loc><a href=\"showinfo:1377//94658656\">Assetaline Arseslutery</a><br><a href=\"showinfo:1377//95728117\">Carl Xyr</a></loc><a href=\"showinfo:1377//94658656\"> </a><br><loc><a href=\"showinfo:1378//93794087\">Justin Ner</loc>o</a><br><loc><a href=\"showinfo:1379//95912137\">Death Zeppelin</a></loc><br></font><font size=\"12\" color=\"#bfffffff\">------------------------------------------------------------------------<br><br>Corp diplos: </font><font size=\"12\" color=\"#ffffa600\"><loc><a href=\"showinfo:1380//1820441846\">Tek Stalker</a></loc></font><font size=\"12\" color=\"#bfffffff\">, </font><font size=\"12\" color=\"#ffffa600\"><loc><a href=\"showinfo:1379//990775202\">BigDaddy Toothbrush</a></loc></font><font size=\"12\" color=\"#bfffffff\">, <br><br>Public Channel: </font><font size=\"12\" color=\"#fff7931e\"><a href=\"joinChannel:-44684674//None//None\">Rapid Withdrawal Bar &amp; Grill</a></font><font size=\"12\" color=\"#bfffffff\">  <br>Corp Website: </font><font size=\"12\" color=\"#ffffa600\"><a href=\"http://rdraw.penisout.com\">http://rdraw.penisout.com</a></font><font size=\"12\" color=\"#bfffffff\"> <br>Corp Killboard: </font><font size=\"12\" color=\"#ffffa600\"><a href=\"https://zkillboard.com/corporation/98177721/\">https://zkillboard.com/corporation/98177721/</a></font><font size=\"12\" color=\"#bfffffff\"> <br><br>---------------------------------------------<br><br></font><font size=\"12\" color=\"#ffffa600\"><a href=\"http://i.imgur.com/9Em7NMx.jpg\">RDRAW Recruitment AD</a></font><font size=\"12\" color=\"#bfffffff\"> <br><br></font><font size=\"12\" color=\"#ffffa600\"><a href=\"https://www.youtube.com/watch?v=nOImPB95cMk\">REKT</a></font><font size=\"12\" color=\"#bfffffff\"> </font>",
+      "url": "http://rdraw.penisout.com",
+      "date_founded": "2013-02-18T20:07:01Z",
+      "ceo_id": 1820441846,
+      "creator_id": 1820441846,
+      "alliance_id": 99006625,
+      "home_station_id": 60015072,
+      "member_count": 45,
+      "tax_rate": 0.1,
+      "shares": 1000,
+      "war_eligible": true
+    }
+  },
+  {
+    "category": "corporations",
+    "id": 1126669495,
+    "url": "https://esi.evetech.net/latest/corporations/1126669495/?datasource=tranquility",
+    "data": {
+      "name": "Quantum Cats Syndicate",
+      "ticker": "QCATS",
+      "description": "<font size=\"13\" color=\"#99ffffff\"></font><font size=\"12\" color=\"#bfffffff\">Quantum Cats Syndicate (QCATS) is a privateer corporation authorized by themselves to shoot whoever crosses the space in lowsec. Goes without saying, QCATS is a NBSI corporation. <br><br>Diplomacy, recruitment and standings inquiries, contact: <br><br>US TZ: </font><font size=\"12\" color=\"#ffd98d00\"><loc><a href=\"showinfo:1378//1115505592\">GoingOffRoading</a></loc><br><br></font><font size=\"12\" color=\"#bfffffff\">Public Channel: .QCATS</font>",
+      "url": "http://www.qcats.com/",
+      "date_founded": "2008-11-04T21:55:00Z",
+      "ceo_id": 1115505592,
+      "creator_id": 1067660374,
+      "alliance_id": 99011952,
+      "faction_id": 500004,
+      "home_station_id": 60010939,
+      "member_count": 30,
+      "tax_rate": 0.05,
+      "shares": 6000,
+      "war_eligible": false
+    }
+  },
+  {
+    "category": "alliances",
+    "id": 99011489,
+    "url": "https://esi.evetech.net/latest/alliances/99011489/?datasource=tranquility",
+    "data": {
+      "creator_corporation_id": 98639548,
+      "creator_id": 1458891505,
+      "date_founded": "2022-04-08T16:47:41Z",
+      "executor_corporation_id": 98639548,
+      "faction_id": 500001,
+      "name": "United Caldari Space Command.",
+      "ticker": "UCSC-"
+    }
+  },
+  {
+    "category": "alliances",
+    "id": 99009856,
+    "url": "https://esi.evetech.net/latest/alliances/99009856/?datasource=tranquility",
+    "data": {
+      "creator_corporation_id": 98635108,
+      "creator_id": 90556363,
+      "date_founded": "2020-03-20T23:20:42Z",
+      "executor_corporation_id": 98688951,
+      "faction_id": 500001,
+      "name": "Ghostbirds",
+      "ticker": "GBRD."
+    }
+  },
+  {
+    "category": "alliances",
+    "id": 99011730,
+    "url": "https://esi.evetech.net/latest/alliances/99011730/?datasource=tranquility",
+    "data": {
+      "creator_corporation_id": 1894214152,
+      "creator_id": 619916062,
+      "date_founded": "2022-08-23T02:48:37Z",
+      "executor_corporation_id": 1894214152,
+      "faction_id": 500004,
+      "name": "Aideron Robotics.",
+      "ticker": "AIDER"
+    }
+  }
+]

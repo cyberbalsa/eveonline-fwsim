@@ -1,0 +1,321 @@
+{
+  "researchDate": "2026-09-22",
+  "sourceService": "https://images.evetech.net",
+  "terms": "https://support.eveonline.com/hc/en-us/articles/8563917741084-EVE-Online-Content-Creation-Terms-of-Use",
+  "rights": "CCP and applicable original rights holders; these image files are not relicensed as project code.",
+  "limitations": "Current official images of verified typed identities, not evidence of historical appearance, active pilots, endorsement, or real AI behavior.",
+  "assets": [
+    {
+      "entityType": "alliance",
+      "id": 99011489,
+      "name": "United Caldari Space Command.",
+      "usage": "contemporary-player-roster",
+      "file": "assets/identities/alliance-99011489.png",
+      "url": "https://images.evetech.net/alliances/99011489/logo?size=128",
+      "resolvedUrl": "https://images.evetech.net/alliances/99011489/logo?size=128",
+      "contentType": "image/png",
+      "retrievedAt": "2026-09-22T05:39:01.902077+00:00",
+      "httpDate": "Tue, 22 Sep 2026 05:39:01 GMT",
+      "etag": "6b/6b171419736f6248_8d62d74a89e21d312fba069322ff41b8",
+      "sha256": "c4901b7a793ce469ec5c60cc033590569b9459f84da1fb05e320788cd09b24cc",
+      "bytes": 13539,
+      "historicalAppearanceVerified": false,
+      "sourceIds": [
+        "pol-ucsc-2022",
+        "pol-esi-alliances-99011489"
+      ]
+    },
+    {
+      "entityType": "corporation",
+      "id": 98639548,
+      "name": "United Caldari Navy",
+      "usage": "contemporary-player-roster",
+      "file": "assets/identities/corporation-98639548.png",
+      "url": "https://images.evetech.net/corporations/98639548/logo?size=128",
+      "resolvedUrl": "https://images.evetech.net/corporations/98639548/logo?size=128",
+      "contentType": "image/png",
+      "retrievedAt": "2026-09-22T05:39:02.367528+00:00",
+      "httpDate": "Tue, 22 Sep 2026 05:39:02 GMT",
+      "etag": "\"5b57bb1a7543a98eabd63c994c006319\"",
+      "sha256": "e22431e5e8c3ff9fd0ad51e59dc1aac20fef14c46eea10b197285ed817c60394",
+      "bytes": 22470,
+      "historicalAppearanceVerified": false,
+      "sourceIds": [
+        "pol-ucn-2022",
+        "pol-esi-corporations-98639548"
+      ]
+    },
+    {
+      "entityType": "alliance",
+      "id": 99009856,
+      "name": "Ghostbirds",
+      "usage": "contemporary-player-roster",
+      "file": "assets/identities/alliance-99009856.png",
+      "url": "https://images.evetech.net/alliances/99009856/logo?size=128",
+      "resolvedUrl": "https://images.evetech.net/alliances/99009856/logo?size=128",
+      "contentType": "image/png",
+      "retrievedAt": "2026-09-22T05:39:02.680107+00:00",
+      "httpDate": "Tue, 22 Sep 2026 05:39:02 GMT",
+      "etag": "76/7653f71fc2cdb2f1_540c851d2c25f8ac9cff0e97989bfa04",
+      "sha256": "983a49bf29bfec4a17a054a397487eab053071fa610c6ed5254af8ab36e216f1",
+      "bytes": 21202,
+      "historicalAppearanceVerified": false,
+      "sourceIds": [
+        "pol-esi-alliances-99009856"
+      ]
+    },
+    {
+      "entityType": "corporation",
+      "id": 98688951,
+      "name": "Mercury Arms Inc.",
+      "usage": "contemporary-player-roster",
+      "file": "assets/identities/corporation-98688951.png",
+      "url": "https://images.evetech.net/corporations/98688951/logo?size=128",
+      "resolvedUrl": "https://images.evetech.net/corporations/98688951/logo?size=128",
+      "contentType": "image/png",
+      "retrievedAt": "2026-09-22T05:39:03.082052+00:00",
+      "httpDate": "Tue, 22 Sep 2026 05:39:03 GMT",
+      "etag": "\"b64c8d41052e16042db825cdf64de78d\"",
+      "sha256": "473d445715ddf4e85920231376077001aed7b7c7cbcf8b4c49e0daee8f33e817",
+      "bytes": 12320,
+      "historicalAppearanceVerified": false,
+      "sourceIds": [
+        "pol-mercury-2024",
+        "pol-esi-corporations-98688951"
+      ]
+    },
+    {
+      "entityType": "alliance",
+      "id": 99011730,
+      "name": "Aideron Robotics.",
+      "usage": "contemporary-player-roster",
+      "file": "assets/identities/alliance-99011730.png",
+      "url": "https://images.evetech.net/alliances/99011730/logo?size=128",
+      "resolvedUrl": "https://images.evetech.net/alliances/99011730/logo?size=128",
+      "contentType": "image/png",
+      "retrievedAt": "2026-09-22T05:39:03.468259+00:00",
+      "httpDate": "Tue, 22 Sep 2026 05:39:03 GMT",
+      "etag": "6b/6b1a911973726c9f_8913981647d02fd06371a5222ab5ec21",
+      "sha256": "2c8389b4534ae88930eaec43eb8cd2b24cb288c2618946b2586faa3aa2b03ca3",
+      "bytes": 10046,
+      "historicalAppearanceVerified": false,
+      "sourceIds": [
+        "pol-esi-alliances-99011730"
+      ]
+    },
+    {
+      "entityType": "corporation",
+      "id": 1894214152,
+      "name": "Aideron Robotics",
+      "usage": "contemporary-player-roster",
+      "file": "assets/identities/corporation-1894214152.png",
+      "url": "https://images.evetech.net/corporations/1894214152/logo?size=128",
+      "resolvedUrl": "https://images.evetech.net/corporations/1894214152/logo?size=128",
+      "contentType": "image/png",
+      "retrievedAt": "2026-09-22T05:39:03.816538+00:00",
+      "httpDate": "Tue, 22 Sep 2026 05:39:03 GMT",
+      "etag": "\"1c6d2a59e913e6bbcf827faca4b68a51\"",
+      "sha256": "a932223f0ee10b40687ec8dd378f32991fab100c858c5f5c36b014bc17645e8d",
+      "bytes": 22390,
+      "historicalAppearanceVerified": false,
+      "sourceIds": [
+        "pol-aideron-2019",
+        "pol-esi-corporations-1894214152"
+      ]
+    },
+    {
+      "entityType": "alliance",
+      "id": 99011952,
+      "name": "Of Essence",
+      "usage": "contemporary-player-roster",
+      "file": "assets/identities/alliance-99011952.png",
+      "url": "https://images.evetech.net/alliances/99011952/logo?size=128",
+      "resolvedUrl": "https://images.evetech.net/alliances/99011952/logo?size=128",
+      "contentType": "image/png",
+      "retrievedAt": "2026-09-22T05:39:04.128497+00:00",
+      "httpDate": "Tue, 22 Sep 2026 05:39:04 GMT",
+      "etag": "6b/6b3c8b19738f48d1_93d2fc2ca45e69c6229264ee4b76ae7b",
+      "sha256": "e49881ec91ed4dc8cfb8919a16975fba50f11fe7d8b4715f39e753c212f4ed73",
+      "bytes": 25190,
+      "historicalAppearanceVerified": false,
+      "sourceIds": [
+        "pol-esi-alliances-99011952"
+      ]
+    },
+    {
+      "entityType": "corporation",
+      "id": 1126669495,
+      "name": "Quantum Cats Syndicate",
+      "usage": "contemporary-player-roster",
+      "file": "assets/identities/corporation-1126669495.png",
+      "url": "https://images.evetech.net/corporations/1126669495/logo?size=128",
+      "resolvedUrl": "https://images.evetech.net/corporations/1126669495/logo?size=128",
+      "contentType": "image/png",
+      "retrievedAt": "2026-09-22T05:39:04.576871+00:00",
+      "httpDate": "Tue, 22 Sep 2026 05:39:04 GMT",
+      "etag": "\"65fb3c1761f62d0f8c13f6676bb52344\"",
+      "sha256": "b70a4e580377acd58a27480808d5367049474d7d9683a02a9a47176c267b40f9",
+      "bytes": 22290,
+      "historicalAppearanceVerified": false,
+      "sourceIds": [
+        "pol-esi-corporations-1126669495"
+      ]
+    },
+    {
+      "entityType": "corporation",
+      "id": 98714140,
+      "name": "Fliet Pizza Delivery",
+      "usage": "contemporary-player-roster",
+      "file": "assets/identities/corporation-98714140.png",
+      "url": "https://images.evetech.net/corporations/98714140/logo?size=128",
+      "resolvedUrl": "https://images.evetech.net/corporations/98714140/logo?size=128",
+      "contentType": "image/png",
+      "retrievedAt": "2026-09-22T05:39:04.990427+00:00",
+      "httpDate": "Tue, 22 Sep 2026 05:39:04 GMT",
+      "etag": "\"8ee43814c399447600c444edd00f3d4e\"",
+      "sha256": "8770099dd49b3fcdc596ec2e7b7be839e4445744ebea8af11845fc51d80c2f0d",
+      "bytes": 21618,
+      "historicalAppearanceVerified": false,
+      "sourceIds": [
+        "pol-esi-corporations-98714140"
+      ]
+    },
+    {
+      "entityType": "corporation",
+      "id": 1000180,
+      "name": "State Protectorate",
+      "usage": "official-NPC-militia",
+      "file": "assets/identities/corporation-1000180.png",
+      "url": "https://images.evetech.net/corporations/1000180/logo?size=128",
+      "resolvedUrl": "https://images.evetech.net/corporations/1000180/logo?size=128",
+      "contentType": "image/png",
+      "retrievedAt": "2026-09-22T05:39:05.300542+00:00",
+      "httpDate": "Tue, 22 Sep 2026 05:39:05 GMT",
+      "etag": "f9/f95b03e28357c4cf_1a185962ec1ae84d3b8f712e4746b8f7",
+      "sha256": "c489a090442537edd449eef15f7e703868a6ed1d3e0e2fda05b140dcbdbef7b6",
+      "bytes": 13720,
+      "historicalAppearanceVerified": false,
+      "sourceIds": [
+        "pol-esi-corporations-1000180"
+      ]
+    },
+    {
+      "entityType": "corporation",
+      "id": 1000181,
+      "name": "Federal Defense Union",
+      "usage": "official-NPC-militia",
+      "file": "assets/identities/corporation-1000181.png",
+      "url": "https://images.evetech.net/corporations/1000181/logo?size=128",
+      "resolvedUrl": "https://images.evetech.net/corporations/1000181/logo?size=128",
+      "contentType": "image/png",
+      "retrievedAt": "2026-09-22T05:39:05.632148+00:00",
+      "httpDate": "Tue, 22 Sep 2026 05:39:05 GMT",
+      "etag": "f9/f95b03e28357c4ce_61f565e30acca4ab8d55e51bea7651f3",
+      "sha256": "aee9f3086a5c752003fce947312702ae678fbb52d7d00c2021b804d216dfe745",
+      "bytes": 21454,
+      "historicalAppearanceVerified": false,
+      "sourceIds": [
+        "pol-esi-corporations-1000181"
+      ]
+    },
+    {
+      "entityType": "character",
+      "id": 2114096575,
+      "name": "Abby Aurilen",
+      "usage": "contemporary-pilot-candidate",
+      "file": "assets/identities/character-2114096575.jpg",
+      "url": "https://images.evetech.net/characters/2114096575/portrait?size=128",
+      "resolvedUrl": "https://images.evetech.net/characters/2114096575/portrait?size=128",
+      "contentType": "image/jpeg",
+      "retrievedAt": "2026-09-22T05:39:06.033694+00:00",
+      "httpDate": "Tue, 22 Sep 2026 05:39:05 GMT",
+      "etag": "\"81dc4c792ac18f984d9f28323d7a186d\"",
+      "sha256": "744904e1bd4d76556999dcb469e4d61fae273f6b029ac335e57a46dc287029fb",
+      "bytes": 5476,
+      "historicalAppearanceVerified": false,
+      "sourceIds": [
+        "pol-brawl-invite-2025",
+        "pol-brawl-aar-2025",
+        "pol-esi-characters-2114096575"
+      ]
+    },
+    {
+      "entityType": "character",
+      "id": 94065445,
+      "name": "Corvus Onzo",
+      "usage": "contemporary-pilot-candidate",
+      "file": "assets/identities/character-94065445.jpg",
+      "url": "https://images.evetech.net/characters/94065445/portrait?size=128",
+      "resolvedUrl": "https://images.evetech.net/characters/94065445/portrait?size=128",
+      "contentType": "image/jpeg",
+      "retrievedAt": "2026-09-22T05:39:06.392652+00:00",
+      "httpDate": "Tue, 22 Sep 2026 05:39:06 GMT",
+      "etag": "\"e017f9e66e7471b2e7b0b55b893c2297\"",
+      "sha256": "1f16375daff61570822e23b2132552e89d691dd57a17c12aec66d4c4377b2a09",
+      "bytes": 4694,
+      "historicalAppearanceVerified": false,
+      "sourceIds": [
+        "pol-brawl-aar-2025",
+        "pol-esi-characters-94065445"
+      ]
+    },
+    {
+      "entityType": "character",
+      "id": 1458891505,
+      "name": "Nayrok Fenix",
+      "usage": "contemporary-pilot-candidate",
+      "file": "assets/identities/character-1458891505.jpg",
+      "url": "https://images.evetech.net/characters/1458891505/portrait?size=128",
+      "resolvedUrl": "https://images.evetech.net/characters/1458891505/portrait?size=128",
+      "contentType": "image/jpeg",
+      "retrievedAt": "2026-09-22T05:39:06.893263+00:00",
+      "httpDate": "Tue, 22 Sep 2026 05:39:06 GMT",
+      "etag": "\"dccf44c483b1c8818d644cc62ffd9328\"",
+      "sha256": "c5a2ef9ec903d44e8c595f841176e8c3626f75ee8a48694f340284d38497b74d",
+      "bytes": 5008,
+      "historicalAppearanceVerified": false,
+      "sourceIds": [
+        "pol-ucn-2022",
+        "pol-esi-characters-1458891505"
+      ]
+    },
+    {
+      "entityType": "character",
+      "id": 2119255339,
+      "name": "Orlais Placide",
+      "usage": "contemporary-pilot-candidate",
+      "file": "assets/identities/character-2119255339.jpg",
+      "url": "https://images.evetech.net/characters/2119255339/portrait?size=128",
+      "resolvedUrl": "https://images.evetech.net/characters/2119255339/portrait?size=128",
+      "contentType": "image/jpeg",
+      "retrievedAt": "2026-09-22T05:39:07.324772+00:00",
+      "httpDate": "Tue, 22 Sep 2026 05:39:07 GMT",
+      "etag": "\"ba078559424b634c27081ad964207a34\"",
+      "sha256": "ec10dba1f444223db464d425b251855523586896ccfae1a6b8388cabd8e340b6",
+      "bytes": 5122,
+      "historicalAppearanceVerified": false,
+      "sourceIds": [
+        "pol-esi-characters-2119255339"
+      ]
+    },
+    {
+      "entityType": "character",
+      "id": 1115505592,
+      "name": "GoingOffRoading",
+      "usage": "contemporary-pilot-candidate",
+      "file": "assets/identities/character-1115505592.jpg",
+      "url": "https://images.evetech.net/characters/1115505592/portrait?size=128",
+      "resolvedUrl": "https://images.evetech.net/characters/1115505592/portrait?size=128",
+      "contentType": "image/jpeg",
+      "retrievedAt": "2026-09-22T05:39:07.763734+00:00",
+      "httpDate": "Tue, 22 Sep 2026 05:39:07 GMT",
+      "etag": "\"92ac959ecccd7c014a7371887754e638\"",
+      "sha256": "240c41bb069eaf726b3ca96c82205587890f6ea5645b2f1253cbecd35348a025",
+      "bytes": 5595,
+      "historicalAppearanceVerified": false,
+      "sourceIds": [
+        "pol-esi-characters-1115505592"
+      ]
+    }
+  ]
+}

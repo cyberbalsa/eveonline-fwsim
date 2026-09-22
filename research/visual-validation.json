@@ -1,0 +1,13 @@
+{
+  "date": "2026-09-22",
+  "tool": "Existing sibling Playwright/Chromium installation",
+  "checks": {
+    "mapStars": 90,
+    "mapGateLines": 110,
+    "galleryImagesDecoded": 16,
+    "galleryDimensions": "128x128",
+    "mobileViewport": "390x844",
+    "mobileHorizontalOverflow": false
+  },
+  "scope": "Static research map rendered as embedded SVG; identity gallery checked desktop and mobile. No gameplay tested."
+}

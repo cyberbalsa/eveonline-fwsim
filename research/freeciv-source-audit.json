@@ -1,0 +1,108 @@
+[
+  {
+    "repository": "https://github.com/freeciv/freeciv",
+    "commit": "709467e08b800c0012a7879b0368bad29984a78c",
+    "observedDate": "2026-09-22",
+    "checkoutPurpose": "Read-only source audit; no build, port, or runtime benchmark performed.",
+    "files": [
+      {
+        "path": "doc/README.rulesets",
+        "sha256": "46c1bf7cdcfdb513cfe807b5dc0f7ef1441505b0d321e1bc46f5d8de88b52bff",
+        "url": "https://github.com/freeciv/freeciv/blob/709467e08b800c0012a7879b0368bad29984a78c/doc/README.rulesets"
+      },
+      {
+        "path": "doc/README.effects",
+        "sha256": "9653b4de3c89be31be6efadc0332a11674131e7acf57648bcecb263e17c054b5",
+        "url": "https://github.com/freeciv/freeciv/blob/709467e08b800c0012a7879b0368bad29984a78c/doc/README.effects"
+      },
+      {
+        "path": "doc/README.actions",
+        "sha256": "eff3c12a049c7aeab2079a7c8fb52d016c87461051096c7f350721e94d57b7f7",
+        "url": "https://github.com/freeciv/freeciv/blob/709467e08b800c0012a7879b0368bad29984a78c/doc/README.actions"
+      },
+      {
+        "path": "doc/README.AI_modules",
+        "sha256": "edd8917220379ee0207ba9e34d30cac127ebea9cf8039d3ec5df39c487657d4c",
+        "url": "https://github.com/freeciv/freeciv/blob/709467e08b800c0012a7879b0368bad29984a78c/doc/README.AI_modules"
+      },
+      {
+        "path": "common/map.h",
+        "sha256": "402cd768247c0e6ce96da1ac4d93c34349a2e54ece87938976305bc5c5614db5",
+        "url": "https://github.com/freeciv/freeciv/blob/709467e08b800c0012a7879b0368bad29984a78c/common/map.h"
+      },
+      {
+        "path": "common/combat.c",
+        "sha256": "b4ef301dc989e8387f535c5da2c52584712a9132eda850e7e31898447b86df99",
+        "url": "https://github.com/freeciv/freeciv/blob/709467e08b800c0012a7879b0368bad29984a78c/common/combat.c"
+      },
+      {
+        "path": "server/srv_main.c",
+        "sha256": "baf2c49e5b440460450956fd794340511c3dac2bd014c6ac02b5c73f257161b8",
+        "url": "https://github.com/freeciv/freeciv/blob/709467e08b800c0012a7879b0368bad29984a78c/server/srv_main.c"
+      },
+      {
+        "path": "server/savegame/savegame3.c",
+        "sha256": "5fdf319040e87152c2a2d27af5ca147f6d324e022cb0972de33b3364684833fb",
+        "url": "https://github.com/freeciv/freeciv/blob/709467e08b800c0012a7879b0368bad29984a78c/server/savegame/savegame3.c"
+      },
+      {
+        "path": "data/classic/actions.ruleset",
+        "sha256": "8910d3b45adde87a193cb7f183239f06e10e4d70ef152ffe05ee9b7c8dcf6cf9",
+        "url": "https://github.com/freeciv/freeciv/blob/709467e08b800c0012a7879b0368bad29984a78c/data/classic/actions.ruleset"
+      },
+      {
+        "path": "data/classic/units.ruleset",
+        "sha256": "77ea31dee72f1a664cc3455ce632f61b1b08a5eef742b2ffc91d385c1542187f",
+        "url": "https://github.com/freeciv/freeciv/blob/709467e08b800c0012a7879b0368bad29984a78c/data/classic/units.ruleset"
+      },
+      {
+        "path": "COPYING",
+        "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643",
+        "url": "https://github.com/freeciv/freeciv/blob/709467e08b800c0012a7879b0368bad29984a78c/COPYING"
+      }
+    ]
+  },
+  {
+    "repository": "https://github.com/freeciv/freeciv-web",
+    "commit": "c19ce060fadc99663f8aba3652ca94b07174467c",
+    "observedDate": "2026-09-22",
+    "checkoutPurpose": "Read-only source audit; no build, port, or runtime benchmark performed.",
+    "files": [
+      {
+        "path": "README.md",
+        "sha256": "d75201d0fa87f77349e10ce05ea97676883e7ea8540d06be81ba01be7192b6dd",
+        "url": "https://github.com/freeciv/freeciv-web/blob/c19ce060fadc99663f8aba3652ca94b07174467c/README.md"
+      },
+      {
+        "path": "LICENSE.txt",
+        "sha256": "7362c6e9dbef8931c4eb3fcbb05fd6e7154ea8e53051fa31eb47642411b50dd5",
+        "url": "https://github.com/freeciv/freeciv-web/blob/c19ce060fadc99663f8aba3652ca94b07174467c/LICENSE.txt"
+      },
+      {
+        "path": "freeciv/version.txt",
+        "sha256": "c854442199a48c661178e048c7605086ce57820a9fddc873d58336bbc9a6128b",
+        "url": "https://github.com/freeciv/freeciv-web/blob/c19ce060fadc99663f8aba3652ca94b07174467c/freeciv/version.txt"
+      },
+      {
+        "path": "freeciv-web/src/main/webapp/javascript/clinet.js",
+        "sha256": "e5007d2ba18e97a582ac590cdc5f2298b5db8710610b9cc337c8820b32fc274f",
+        "url": "https://github.com/freeciv/freeciv-web/blob/c19ce060fadc99663f8aba3652ca94b07174467c/freeciv-web/src/main/webapp/javascript/clinet.js"
+      },
+      {
+        "path": "freeciv-web/src/main/webapp/javascript/savegame.js",
+        "sha256": "ba49a644fc7a61f526fe6b541446afcb2d37ea78c55611dcf00a4887e1caed40",
+        "url": "https://github.com/freeciv/freeciv-web/blob/c19ce060fadc99663f8aba3652ca94b07174467c/freeciv-web/src/main/webapp/javascript/savegame.js"
+      },
+      {
+        "path": "freeciv-web/src/main/webapp/javascript/diplomacy.js",
+        "sha256": "a2a788f77d4438afd6ffebd67571d2116e0afe760e29aa23eae1de167642bbfa",
+        "url": "https://github.com/freeciv/freeciv-web/blob/c19ce060fadc99663f8aba3652ca94b07174467c/freeciv-web/src/main/webapp/javascript/diplomacy.js"
+      },
+      {
+        "path": "freeciv-web/src/main/webapp/javascript/city.js",
+        "sha256": "72ac164d507cff4df437ee488b891e779f37bace8872d01c5f0313af3aa21576",
+        "url": "https://github.com/freeciv/freeciv-web/blob/c19ce060fadc99663f8aba3652ca94b07174467c/freeciv-web/src/main/webapp/javascript/city.js"
+      }
+    ]
+  }
+]

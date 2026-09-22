@@ -1,0 +1,61 @@
+{
+  "copyright": "\u00a9 CCP Games",
+  "files": [
+    {
+      "name": "rifter",
+      "typeID": 587,
+      "file": "assets/ships/rifter.png",
+      "source": "https://images.evetech.net/types/587/render?size=512",
+      "sha256": "2ef61d054033bc2c48006235682a0db2ebd3dac39a3f3b466390404e9d629a49"
+    },
+    {
+      "name": "catalyst",
+      "typeID": 16240,
+      "file": "assets/ships/catalyst.png",
+      "source": "https://images.evetech.net/types/16240/render?size=512",
+      "sha256": "0c580f41c1709be1b1f404547f7c0ade9019e0ecf3296c44af898c12f408e8fa"
+    },
+    {
+      "name": "caracal",
+      "typeID": 621,
+      "file": "assets/ships/caracal.png",
+      "source": "https://images.evetech.net/types/621/render?size=512",
+      "sha256": "9528c2f04453cd18562042ffa8465d53bcaf09be1d40090ef6a7a96630f398bc"
+    },
+    {
+      "name": "drake",
+      "typeID": 24698,
+      "file": "assets/ships/drake.png",
+      "source": "https://images.evetech.net/types/24698/render?size=512",
+      "sha256": "07c04f6d77de980745749fc981c5750e490b44f4839c37a2f97bf8cce31cc07e"
+    },
+    {
+      "name": "dominix",
+      "typeID": 645,
+      "file": "assets/ships/dominix.png",
+      "source": "https://images.evetech.net/types/645/render?size=512",
+      "sha256": "f8e422c1f8f11efec47262c85629835892f4b29950323ac3c6f0cfe418f55638"
+    },
+    {
+      "name": "venture",
+      "typeID": 32880,
+      "file": "assets/ships/venture.png",
+      "source": "https://images.evetech.net/types/32880/render?size=512",
+      "sha256": "f3207cbfeed3cb18bb744bb9cf7a9a5b7d0ec5ed313403a96062522f8e7b3845"
+    },
+    {
+      "name": "providence",
+      "typeID": 20183,
+      "file": "assets/ships/providence.png",
+      "source": "https://images.evetech.net/types/20183/render?size=512",
+      "sha256": "01d19a8a7c15fe78f76c3bfb80c4dc15bd3e2d439e1940379649f01897171fb6"
+    },
+    {
+      "name": "astrahus",
+      "typeID": 35832,
+      "file": "assets/ships/astrahus.png",
+      "source": "https://images.evetech.net/types/35832/render?size=512",
+      "sha256": "11d419b5d7e66b76af13621b11a233e32030833ca1f3854b345423d07cf534ce"
+    }
+  ]
+}

@@ -1,0 +1,539 @@
+{
+  "schemaVersion": 1,
+  "id": "calgal-civ-browser-proposal-v1",
+  "status": "design-only-not-an-executable-engine",
+  "researchDate": "2026-09-22",
+  "fidelityReleaseReady": false,
+  "description": "Original browser-game design data informed by inspected Freeciv ruleset architecture. Not Freeciv syntax; no gameplay handlers are implemented by this file.",
+  "confirmedUserChoices": {
+    "singlePlayer": true,
+    "browserOnly": true,
+    "combat": "strategic-map-doctrine-stance-retreat",
+    "playerRole": "militia-leader-owned-corporation-independent-allies",
+    "campaignLength": "several-evenings-persistent-save",
+    "realNpcNamesAndLogos": true,
+    "freecivApproach": "adapt-ideas-and-suitable-code"
+  },
+  "content": {
+    "snapshot": "../data/warzone-snapshot.json",
+    "identityCatalog": "../research/identity-catalog.json",
+    "assetManifest": "../assets/identities/provenance.json",
+    "sourceRegistry": "../research/sources.json",
+    "freecivAudit": "../research/freeciv-source-audit.json"
+  },
+  "time": {
+    "basis": "design-proposal",
+    "turnHours": 6,
+    "standardTurnLimit": 120,
+    "resolution": "simultaneous-orders-chronological-events",
+    "offlineProgress": false,
+    "timers": "simulated-time-independent-of-rendering",
+    "occupancyBoundary": "separate-scheduled-event-not-assumed-equal-to-end-turn"
+  },
+  "publishedParameters": [
+    {
+      "id": "frontline-lp-multiplier",
+      "value": 1.5,
+      "unit": "multiplier",
+      "status": "published-rule",
+      "sourceRefs": [
+        "fwmech-01"
+      ],
+      "limitation": "Applying it requires validated operational-state classification and site base reward."
+    },
+    {
+      "id": "command-lp-multiplier",
+      "value": 1,
+      "unit": "multiplier",
+      "status": "published-rule",
+      "sourceRefs": [
+        "fwmech-01"
+      ],
+      "limitation": "Does not establish every seasonal site award."
+    },
+    {
+      "id": "rearguard-lp-multiplier",
+      "value": 0.01,
+      "unit": "multiplier",
+      "status": "published-rule",
+      "sourceRefs": [
+        "fwmech-04"
+      ],
+      "limitation": "Supersedes older 0.5 support-page value."
+    },
+    {
+      "id": "battlefield-base-lp-after-july-reversion",
+      "value": 150000,
+      "unit": "LP-published-payout",
+      "status": "published-rule",
+      "sourceRefs": [
+        "fwmech-13"
+      ],
+      "limitation": "Reward eligibility and participant scaling still require the complete site definition."
+    },
+    {
+      "id": "system-vp-threshold",
+      "valueFrom": "snapshot.systems[].victoryPointsThreshold",
+      "unit": "VP",
+      "status": "observed-data",
+      "sourceRefs": [
+        "data-esi-fw"
+      ],
+      "limitation": "Every supplied system reports 75000; retain per-system values rather than asserting a permanent universal constant."
+    }
+  ],
+  "unresolvedParameters": [
+    {
+      "id": "boundary-frontline-classification",
+      "value": null,
+      "status": "requires-verification",
+      "sourceRefs": [
+        "fwmech-01",
+        "fwmech-02"
+      ],
+      "blocks": "verified-access-site-reward-geography"
+    },
+    {
+      "id": "ordinary-site-eligibility-and-reward-matrix",
+      "value": null,
+      "status": "requires-verification",
+      "sourceRefs": [
+        "fwmech-08",
+        "fwmech-09",
+        "fwmech-12",
+        "fwmech-13"
+      ],
+      "blocks": "verified-site-catalog"
+    },
+    {
+      "id": "hub-transfer-exact-boundary-and-buffer",
+      "value": null,
+      "status": "requires-verification",
+      "sourceRefs": [
+        "fwmech-06"
+      ],
+      "blocks": "verified-capture-transition"
+    },
+    {
+      "id": "advantage-cap-decay-and-combination",
+      "value": null,
+      "status": "requires-verification",
+      "sourceRefs": [
+        "fwmech-02",
+        "fwmech-09",
+        "fwmech-15"
+      ],
+      "blocks": "verified-advantage"
+    },
+    {
+      "id": "defensive-stable-system-definition",
+      "value": null,
+      "status": "requires-verification",
+      "sourceRefs": [
+        "fwmech-11"
+      ],
+      "blocks": "verified-defensive-LP-eligibility"
+    },
+    {
+      "id": "selected-doctrine-fits-and-manufacturing-recipes",
+      "value": null,
+      "status": "requires-content-selection",
+      "sourceRefs": [
+        "fwmech-23"
+      ],
+      "blocks": "production-game-catalog"
+    },
+    {
+      "id": "attendance-market-and-combat-coefficients",
+      "value": null,
+      "status": "requires-calibration",
+      "sourceRefs": [],
+      "blocks": "balance-claims"
+    }
+  ],
+  "disabledOverlays": [
+    {
+      "id": "september-22-announced-insurgency-update",
+      "reason": "Opening observation predates deployment; announcement is not observed deployed behavior.",
+      "sourceRefs": [
+        "fwmech-21"
+      ]
+    },
+    {
+      "id": "june-2026-battlefield-loot-freighters",
+      "reason": "Superseded by July reversion in the selected rules chronology.",
+      "sourceRefs": [
+        "fwmech-12",
+        "fwmech-13"
+      ]
+    }
+  ],
+  "resourceModel": {
+    "ISK": {
+      "unit": "ISK",
+      "holders": [
+        "character",
+        "corporation"
+      ],
+      "ledger": "conserved-transfers-plus-explicit-external-sources-and-sinks"
+    },
+    "LP": {
+      "unit": "LP",
+      "holders": [
+        "character",
+        "corporation"
+      ],
+      "partitionBy": "issuerCorporationId",
+      "ledger": "event-rewards-and-conserved-transfers"
+    },
+    "allianceBudget": {
+      "unit": "ISK",
+      "model": "earmarked-custodian-funds",
+      "createsNewBalance": false
+    },
+    "inventory": {
+      "unit": "integer-item-count",
+      "keys": [
+        "ownerId",
+        "locationId",
+        "typeId"
+      ],
+      "reservedSeparately": true
+    },
+    "attendance": {
+      "unit": "person-hours-per-watch",
+      "linkedAltConstraint": true,
+      "status": "synthetic-scenario-state"
+    },
+    "fatigue": {
+      "unit": "bounded-index-0-to-1",
+      "status": "synthetic-scenario-state"
+    },
+    "trust": {
+      "unit": "bounded-index-0-to-1",
+      "keys": [
+        "observerActorId",
+        "otherActorId",
+        "commitmentCategory"
+      ],
+      "status": "synthetic-scenario-state"
+    }
+  },
+  "actorModel": {
+    "playerCorporation": "player-created-organization-by-default",
+    "npcIdentities": "verified-real-catalog-entries",
+    "militia": "coordination-and-affiliation-not-single-wallet",
+    "alliance": "aggregate-diplomacy-layer-no-duplicate-manpower",
+    "corporation": "independent-resources-capacity-and-commitments",
+    "aiInput": "actor-observation-snapshot-only",
+    "aiOutput": "ordinary-validated-orders",
+    "historicalRoleEligibility": "scenario-date-and-affiliation-evidence"
+  },
+  "fleetOrders": {
+    "stances": [
+      "evade",
+      "skirmish",
+      "hold-objective",
+      "commit"
+    ],
+    "standingConditions": [
+      "loss-budget",
+      "hull-loss-retreat-threshold",
+      "minimum-logistics",
+      "escort-priority",
+      "valid-fallback"
+    ],
+    "grouping": {
+      "basis": "design-proposal",
+      "typicalFormationMinShips": 5,
+      "typicalFormationMaxShips": 25,
+      "isOfficialFleetOrRewardLimit": false
+    }
+  },
+  "predicateRegistry": [
+    "known-valid-route",
+    "available-person-hours",
+    "assigned-compatible-hulls",
+    "eligible-site",
+    "enemy-occupancy",
+    "friendly-occupancy",
+    "capture-conditions-satisfied",
+    "funded-budget",
+    "available-origin-stock",
+    "available-cargo-capacity",
+    "valid-destination-access",
+    "character-job-capacity",
+    "blueprint-rights-and-runs",
+    "recipe-inputs-at-job-location",
+    "verified-LP-offer-and-issuer",
+    "available-market-depth",
+    "hub-vulnerable",
+    "named-commitment-feasible",
+    "withdrawal-opportunity",
+    "within-loss-budget",
+    "available-issuer-LP",
+    "valid-market-side-funding-and-stock"
+  ],
+  "handlerRegistry": [
+    "reserve-pilots-and-ships",
+    "schedule-route",
+    "schedule-site-work",
+    "settle-site-VP",
+    "settle-site-LP",
+    "settle-participation",
+    "reserve-items-and-ISK",
+    "schedule-cargo",
+    "settle-cargo",
+    "start-manufacturing-job",
+    "complete-manufacturing-job",
+    "redeem-LP-offer",
+    "settle-market-trade",
+    "schedule-hub-assault",
+    "mark-transfer-pending",
+    "schedule-occupancy-boundary",
+    "record-commitment",
+    "reserve-commitment-resources",
+    "schedule-disengagement",
+    "settle-survivors-and-losses"
+  ],
+  "actions": [
+    {
+      "id": "offensive-plex",
+      "actor": "fleet",
+      "target": "site",
+      "requires": [
+        "known-valid-route",
+        "available-person-hours",
+        "assigned-compatible-hulls",
+        "eligible-site",
+        "enemy-occupancy"
+      ],
+      "handlers": [
+        "reserve-pilots-and-ships",
+        "schedule-route",
+        "schedule-site-work",
+        "settle-site-VP",
+        "settle-site-LP",
+        "settle-participation"
+      ],
+      "status": "design-handler-contract",
+      "sourceRefs": [
+        "fwmech-02",
+        "fwmech-08",
+        "fwmech-11"
+      ]
+    },
+    {
+      "id": "defensive-plex",
+      "actor": "fleet",
+      "target": "site",
+      "requires": [
+        "known-valid-route",
+        "available-person-hours",
+        "assigned-compatible-hulls",
+        "eligible-site",
+        "friendly-occupancy"
+      ],
+      "handlers": [
+        "reserve-pilots-and-ships",
+        "schedule-route",
+        "schedule-site-work",
+        "settle-site-VP",
+        "settle-site-LP",
+        "settle-participation"
+      ],
+      "status": "design-handler-contract",
+      "sourceRefs": [
+        "fwmech-10",
+        "fwmech-11"
+      ]
+    },
+    {
+      "id": "supply-shipment",
+      "actor": "corporation",
+      "target": "location",
+      "requires": [
+        "funded-budget",
+        "available-origin-stock",
+        "available-cargo-capacity",
+        "known-valid-route",
+        "valid-destination-access",
+        "available-person-hours"
+      ],
+      "handlers": [
+        "reserve-items-and-ISK",
+        "schedule-cargo",
+        "settle-cargo"
+      ],
+      "status": "design-handler-contract",
+      "sourceRefs": []
+    },
+    {
+      "id": "manufacture-doctrine-batch",
+      "actor": "corporation",
+      "target": "industry-job",
+      "requires": [
+        "funded-budget",
+        "character-job-capacity",
+        "blueprint-rights-and-runs",
+        "recipe-inputs-at-job-location"
+      ],
+      "handlers": [
+        "reserve-items-and-ISK",
+        "start-manufacturing-job",
+        "complete-manufacturing-job"
+      ],
+      "status": "design-handler-contract",
+      "sourceRefs": [
+        "EV-07"
+      ]
+    },
+    {
+      "id": "redeem-LP",
+      "actor": "LP-holder",
+      "target": "store-offer",
+      "requires": [
+        "verified-LP-offer-and-issuer",
+        "funded-budget",
+        "available-origin-stock",
+        "available-issuer-LP"
+      ],
+      "handlers": [
+        "reserve-items-and-ISK",
+        "redeem-LP-offer"
+      ],
+      "status": "design-handler-contract",
+      "sourceRefs": [
+        "EV-01",
+        "EV-06"
+      ]
+    },
+    {
+      "id": "market-trade",
+      "actor": "wallet-holder",
+      "target": "market-order",
+      "requires": [
+        "valid-market-side-funding-and-stock",
+        "available-market-depth"
+      ],
+      "handlers": [
+        "settle-market-trade"
+      ],
+      "status": "design-handler-contract",
+      "sourceRefs": []
+    },
+    {
+      "id": "hub-assault",
+      "actor": "fleet",
+      "target": "system-hub",
+      "requires": [
+        "hub-vulnerable",
+        "available-person-hours",
+        "known-valid-route",
+        "assigned-compatible-hulls"
+      ],
+      "handlers": [
+        "reserve-pilots-and-ships",
+        "schedule-route",
+        "schedule-hub-assault",
+        "mark-transfer-pending",
+        "schedule-occupancy-boundary"
+      ],
+      "status": "design-handler-contract",
+      "sourceRefs": [
+        "fwmech-06"
+      ]
+    },
+    {
+      "id": "accept-joint-operation",
+      "actor": "corporation",
+      "target": "commitment-offer",
+      "requires": [
+        "named-commitment-feasible",
+        "funded-budget",
+        "available-person-hours"
+      ],
+      "handlers": [
+        "record-commitment",
+        "reserve-commitment-resources"
+      ],
+      "status": "design-handler-contract",
+      "sourceRefs": []
+    },
+    {
+      "id": "retreat",
+      "actor": "fleet",
+      "target": "fallback-location",
+      "requires": [
+        "withdrawal-opportunity",
+        "known-valid-route",
+        "valid-destination-access"
+      ],
+      "handlers": [
+        "schedule-disengagement",
+        "settle-survivors-and-losses",
+        "schedule-route"
+      ],
+      "status": "design-handler-contract",
+      "sourceRefs": [
+        "fwmech-07",
+        "fwmech-23"
+      ]
+    }
+  ],
+  "captureStateContract": {
+    "status": "proposed-state-machine-exact-boundaries-unverified",
+    "states": [
+      "stable",
+      "contested",
+      "vulnerable",
+      "hub-defeated-transfer-pending"
+    ],
+    "transitions": [
+      {
+        "from": "stable",
+        "to": "contested",
+        "event": "legal-offensive-site-completion"
+      },
+      {
+        "from": "contested",
+        "to": "stable",
+        "event": "legal-defense-reduces-pressure-to-zero"
+      },
+      {
+        "from": "contested",
+        "to": "vulnerable",
+        "event": "verified-vulnerability-threshold-reached"
+      },
+      {
+        "from": "vulnerable",
+        "to": "contested",
+        "event": "legal-defense-removes-vulnerability"
+      },
+      {
+        "from": "vulnerable",
+        "to": "hub-defeated-transfer-pending",
+        "event": "legal-hub-defeat"
+      },
+      {
+        "from": "hub-defeated-transfer-pending",
+        "to": "stable",
+        "event": "verified-transfer-boundary-and-new-occupier"
+      }
+    ]
+  },
+  "explanations": {
+    "illegalOrder": "failed-predicate-and-observed-inputs",
+    "forecast": "known-matchup-plus-confidence-range",
+    "afterAction": "causal-event-ledger-no-fake-historical-quotations"
+  },
+  "releaseBlockers": [
+    "No simulation handlers implemented",
+    "Unresolved mechanics above must be verified or explicitly labeled as adaptations",
+    "External navigation routes are not yet supplied beyond boundary gates",
+    "Final fitted doctrine and production recipe catalog absent",
+    "Social, market, combat, and victory parameters not playtested",
+    "No claim of a complete real-world order of battle or private assets"
+  ],
+  "handlerSemantics": "Handler lists name potential event handlers, not unconditional immediate effects. Rewards and transfers run only after legal successful completion; all dynamic requirements are rechecked at execution."
+}

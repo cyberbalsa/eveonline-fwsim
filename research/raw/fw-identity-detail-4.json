@@ -1,0 +1,69 @@
+[
+  {
+    "category": "characters",
+    "id": 1115505592,
+    "url": "https://esi.evetech.net/latest/characters/1115505592/?datasource=tranquility",
+    "data": {
+      "birthday": "2008-06-14T04:54:00Z",
+      "bloodline_id": 8,
+      "corporation_id": 1126669495,
+      "gender": "male",
+      "name": "GoingOffRoading",
+      "race_id": 8,
+      "alliance_id": 99011952,
+      "faction_id": 500004,
+      "description": "<font size=\"13\" color=\"#bfffffff\"></font><font size=\"12\" color=\"#ff6868e1\"><a href=\"joinChannel:-62691731\">Join QCATS </a><br><br></font><font size=\"12\" color=\"#ffffe400\"><loc><a href=\"http://i.imgur.com/aXw3pVd.gifv\">https://i.imgur.com/aXw3pVd.gif</loc>v</a><br><br></font><font size=\"12\" color=\"#bfffffff\">Still waiting for SRP:  </font><font size=\"12\" color=\"#ffd98d00\"><a href=\"killReport:68649305:4fa4bb9030fcc514af7f0406e35d17790c23575c\">Kill: GoingOffRoading (Harbinger)</a></font><font size=\"12\" color=\"#bfffffff\"> </font>",
+      "security_status": -1.9
+    }
+  },
+  {
+    "category": "characters",
+    "id": 2119255339,
+    "url": "https://esi.evetech.net/latest/characters/2119255339/?datasource=tranquility",
+    "data": {
+      "birthday": "2021-10-17T18:32:59Z",
+      "bloodline_id": 8,
+      "corporation_id": 1894214152,
+      "gender": "female",
+      "name": "Orlais Placide",
+      "race_id": 8,
+      "alliance_id": 99011730,
+      "faction_id": 500004,
+      "title": "Director of being a hero.",
+      "description": "Cadets from the Federal Naval Academy represent the face of the Gallente Federation's military wing and are held to the highest standard of professional conduct. ",
+      "security_status": -0.0
+    }
+  },
+  {
+    "category": "corporations",
+    "id": 98714140,
+    "url": "https://esi.evetech.net/latest/corporations/98714140/?datasource=tranquility",
+    "data": {
+      "name": "Fliet Pizza Delivery",
+      "ticker": "-FPD-",
+      "description": "u'<font size=\"14\" color=\"#bfffffff\"><br></font><font size=\"18\" color=\"#ff00ff00\">Bringing Pizza to a battlefield near you.<br><br></font><font size=\"13\" color=\"#bfffffff\">There aren\\u2019t many rules, but they can all be summed up by \\u201cDon\\u2019t be a Dick\\u201d. We\\'re all about having fun, and have no tolerance for toxic language/behaviour including racism, sexism, homophobia etc. We aren\\u2019t precious about our killboard but if you\\u2019re out there losing blingy ships in dumb ways, expect someone to tap you on the shoulder and check in to see if there\\u2019s some way we can help out.<br><br>Rundown:<br></font><font size=\"13\" color=\"#ff00ff00\">* Specialize in Gallente Faction Warfare plex gameplay<br>* Solo/small-gang<br>* Heavy focus on flying Gallente ships<br>* We honor requested 1v1<br>* EVE online tournament: AT XVIII, XIX, and Captain\\'s Cup<br>* Killing blues will get you kicked (AWOX not tolerated)<br>* NO SKILL REQUIREMENTS!<br>* Billions in corp projects for FW actions<br><br></font><font size=\"13\" color=\"#ffffffff\">We are strongest in USTZ, but fleet availability varies a lot based on warzone activity, timezones and peoples real life schedules. We work closely with the wider Galmil community, but be prepared for periods of solo/small gang fighting, and keep your ears out for any larger GalMil fleets/pings. We usually use GalMil Discord for comms as we work in with a variety of corps. We\\u2019re new bro friendly so don\\u2019t hesitate to ask questions and make mistakes.<br><br></font><font size=\"13\" color=\"#bfffffff\">We operate out of GalMil discord exclusively </font><font size=\"13\" color=\"#ffffe400\"><loc><a href=\"http://discord.gg/galmil\">https://discord.gg/galmil</a></loc><br></font><font size=\"13\" color=\"#bfffffff\">FPD discord is only used for interview process </font><font size=\"13\" color=\"#ffffe400\"><loc><a href=\"http://discord.gg/nF3Mwabtpq\">https://discord.gg/nF3Mwabtpq</a></loc><br><br></font><font size=\"13\" color=\"#ff00ffff\">FPD has a 2 month inactive purge<br>Top 100 all time kills are safe from purge (only 70+ kills)<br><br></font><font size=\"18\" color=\"#ffff0000\">NOTE<br></font><font size=\"18\" color=\"#ff00ff00\">microphone is required<br>background change is optional to be accepted to corp</font>'",
+      "url": "https://discord.gg/7vQB8eY4jE",
+      "date_founded": "2022-05-26T01:35:07Z",
+      "ceo_id": 91785706,
+      "creator_id": 2120027682,
+      "alliance_id": 99011952,
+      "faction_id": 500004,
+      "home_station_id": 60015080,
+      "member_count": 66,
+      "tax_rate": 0.05,
+      "shares": 1000,
+      "war_eligible": false
+    }
+  },
+  {
+    "category": "alliances",
+    "id": 99011952,
+    "url": "https://esi.evetech.net/latest/alliances/99011952/corporations/?datasource=tranquility",
+    "data": [
+      98436387,
+      98685228,
+      98714140,
+      1126669495
+    ]
+  }
+]

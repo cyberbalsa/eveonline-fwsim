@@ -1,0 +1,74 @@
+[
+  {
+    "category": "alliances",
+    "id": 99011952,
+    "url": "https://esi.evetech.net/latest/alliances/99011952/?datasource=tranquility",
+    "data": {
+      "creator_corporation_id": 98585050,
+      "creator_id": 93668048,
+      "date_founded": "2022-12-20T12:28:24Z",
+      "executor_corporation_id": 98714140,
+      "faction_id": 500004,
+      "name": "Of Essence",
+      "ticker": "ESSNC"
+    }
+  },
+  {
+    "category": "corporations",
+    "id": 98740953,
+    "url": "https://esi.evetech.net/latest/corporations/98740953/?datasource=tranquility",
+    "data": {
+      "name": "Federation Frontline Fleet",
+      "ticker": "FEDFF",
+      "description": "",
+      "url": "https://federationfrontline.com/",
+      "date_founded": "2023-05-20T19:58:32Z",
+      "ceo_id": 2117589083,
+      "creator_id": 213416202,
+      "alliance_id": 99011306,
+      "home_station_id": 60003760,
+      "member_count": 1,
+      "tax_rate": 0.0,
+      "shares": 1000,
+      "war_eligible": false
+    }
+  },
+  {
+    "category": "corporations",
+    "id": 98773529,
+    "url": "https://esi.evetech.net/latest/corporations/98773529/?datasource=tranquility",
+    "data": {
+      "name": "Battle Toad Brigade",
+      "ticker": "CR0AK",
+      "description": "<font size=\"13\" color=\"#bfffffff\">Having been forgotten and discarded by the very Federation they fought so valiantly for members of the battletoad have turned to flying the pirate flag.<br><br>They continue to fly the colours of the Federation, but no longer answer to the indiscriminate killing. Multiple High Ranking Gallente officials have called for the CEO to be reigned in; or even charged with crimes, but these threats are either just that, or the official makes a sudden disappearance.<br><br>Join today, claim your squid beak, make a difference. EVERY TOAD COUNTS.<br><br><br>Alliance Public Channel:  </font><font size=\"13\" color=\"#ff6868e1\"><a href=\"joinChannel:player_429d27f06b5211ee8f9b00109bd0fda8\">[The Pond]</a><br></font><font size=\"13\" color=\"#bfffffff\">Corp Public Channel:  </font><font size=\"13\" color=\"#ff6868e1\"><a href=\"joinChannel:player_3769860f1d0111efa3263a68dd86f9e7\">BattleToad Public</a><br></font><font size=\"13\" color=\"#bfffffff\">Ribbit Alliance Discord: https://discord.gg/BuuypGBJPj </font>",
+      "url": "http://",
+      "date_founded": "2024-05-27T19:47:27Z",
+      "ceo_id": 1,
+      "creator_id": 2121762553,
+      "home_station_id": 60000001,
+      "member_count": 0,
+      "tax_rate": 0.05,
+      "shares": 1000,
+      "war_eligible": true
+    }
+  },
+  {
+    "category": "alliances",
+    "id": 99000652,
+    "url": "https://esi.evetech.net/latest/alliances/99000652/?datasource=tranquility",
+    "data": {
+      "creator_corporation_id": 98037851,
+      "creator_id": 719658032,
+      "date_founded": "2011-05-02T14:18:00Z",
+      "executor_corporation_id": 1741770561,
+      "name": "RvB - BLUE Republic",
+      "ticker": "RVB-B"
+    }
+  },
+  {
+    "category": "alliances",
+    "id": 99012831,
+    "url": "https://esi.evetech.net/latest/alliances/99012831/corporations/?datasource=tranquility",
+    "data": []
+  }
+]

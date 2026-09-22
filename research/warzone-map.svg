@@ -1,0 +1,438 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1620" height="1330" viewBox="0 0 1620 1330" role="img" aria-labelledby="title desc">
+<title id="title">Caldari–Gallente warzone: 90 systems, 22 September 2026 before downtime</title>
+<desc id="desc">Official 2D positions, 110 internal gate links. Blue is Caldari occupancy and green Gallente. Orange rings indicate frontlines derived from internal adjacency. External routes are not drawn.</desc>
+<rect width="1620" height="1330" fill="#09121c"/>
+<g font-family="system-ui, sans-serif" fill="#e3edf7">
+<text x="55" y="48" font-size="27">CALDARI–GALLENTE / WARZONE RESEARCH</text>
+<text x="55" y="81" font-size="17" fill="#a6b8ca">ESI cache last modified 2026-09-22 05:11 UTC · inherited SDE 3528119 geometry</text>
+<text x="55" y="113" font-size="17"><tspan fill="#63b7ff">● Caldari 56</tspan><tspan dx="28" fill="#66d5a0">● Gallente 34</tspan><tspan dx="28" fill="#f6bb69">○ Derived frontline</tspan></text>
+</g>
+<line x1="1232.0930" y1="311.7442" x2="1269.4186" y2="311.7442" stroke="#30475b" stroke-width="1.7"/>
+<line x1="1232.0930" y1="311.7442" x2="1256.9767" y2="349.0698" stroke="#30475b" stroke-width="1.7"/>
+<line x1="1269.4186" y1="311.7442" x2="1306.7442" y2="311.7442" stroke="#30475b" stroke-width="1.7"/>
+<line x1="1256.9767" y1="349.0698" x2="1294.3023" y2="349.0698" stroke="#30475b" stroke-width="1.7"/>
+<line x1="1294.3023" y1="349.0698" x2="510.4651" y2="299.3023" stroke="#30475b" stroke-width="1.7"/>
+<line x1="908.6047" y1="573.0233" x2="896.1628" y2="535.6977" stroke="#30475b" stroke-width="1.7"/>
+<line x1="896.1628" y1="535.6977" x2="896.1628" y2="498.3721" stroke="#30475b" stroke-width="1.7"/>
+<line x1="896.1628" y1="498.3721" x2="858.8372" y2="523.2558" stroke="#30475b" stroke-width="1.7"/>
+<line x1="896.1628" y1="498.3721" x2="921.0465" y2="473.4884" stroke="#30475b" stroke-width="1.7"/>
+<line x1="896.1628" y1="498.3721" x2="684.6512" y2="1020.9302" stroke="#30475b" stroke-width="1.7"/>
+<line x1="921.0465" y1="473.4884" x2="945.9302" y2="436.1628" stroke="#30475b" stroke-width="1.7"/>
+<line x1="921.0465" y1="473.4884" x2="908.6047" y2="423.7209" stroke="#30475b" stroke-width="1.7"/>
+<line x1="921.0465" y1="473.4884" x2="958.3721" y2="473.4884" stroke="#30475b" stroke-width="1.7"/>
+<line x1="945.9302" y1="436.1628" x2="908.6047" y2="423.7209" stroke="#30475b" stroke-width="1.7"/>
+<line x1="908.6047" y1="423.7209" x2="871.2791" y2="411.2791" stroke="#30475b" stroke-width="1.7"/>
+<line x1="958.3721" y1="473.4884" x2="410.9302" y2="361.5116" stroke="#30475b" stroke-width="1.7"/>
+<line x1="348.7209" y1="585.4651" x2="410.9302" y2="610.3488" stroke="#30475b" stroke-width="1.7"/>
+<line x1="348.7209" y1="585.4651" x2="298.9535" y2="560.5814" stroke="#30475b" stroke-width="1.7"/>
+<line x1="348.7209" y1="585.4651" x2="398.4884" y2="573.0233" stroke="#30475b" stroke-width="1.7"/>
+<line x1="410.9302" y1="610.3488" x2="398.4884" y2="573.0233" stroke="#30475b" stroke-width="1.7"/>
+<line x1="298.9535" y1="560.5814" x2="348.7209" y2="548.1395" stroke="#30475b" stroke-width="1.7"/>
+<line x1="398.4884" y1="573.0233" x2="348.7209" y2="548.1395" stroke="#30475b" stroke-width="1.7"/>
+<line x1="348.7209" y1="548.1395" x2="398.4884" y2="535.6977" stroke="#30475b" stroke-width="1.7"/>
+<line x1="398.4884" y1="535.6977" x2="373.6047" y2="510.8140" stroke="#30475b" stroke-width="1.7"/>
+<line x1="398.4884" y1="535.6977" x2="423.3721" y2="510.8140" stroke="#30475b" stroke-width="1.7"/>
+<line x1="398.4884" y1="535.6977" x2="435.8140" y2="548.1395" stroke="#30475b" stroke-width="1.7"/>
+<line x1="373.6047" y1="510.8140" x2="336.2791" y2="510.8140" stroke="#30475b" stroke-width="1.7"/>
+<line x1="373.6047" y1="510.8140" x2="659.7674" y2="448.6047" stroke="#30475b" stroke-width="1.7"/>
+<line x1="423.3721" y1="510.8140" x2="672.2093" y2="150.0000" stroke="#30475b" stroke-width="1.7"/>
+<line x1="336.2791" y1="510.8140" x2="298.9535" y2="510.8140" stroke="#30475b" stroke-width="1.7"/>
+<line x1="298.9535" y1="510.8140" x2="298.9535" y2="473.4884" stroke="#30475b" stroke-width="1.7"/>
+<line x1="298.9535" y1="510.8140" x2="261.6279" y2="510.8140" stroke="#30475b" stroke-width="1.7"/>
+<line x1="137.2093" y1="510.8140" x2="174.5349" y2="510.8140" stroke="#30475b" stroke-width="1.7"/>
+<line x1="174.5349" y1="510.8140" x2="211.8605" y2="510.8140" stroke="#30475b" stroke-width="1.7"/>
+<line x1="174.5349" y1="510.8140" x2="162.0930" y2="473.4884" stroke="#30475b" stroke-width="1.7"/>
+<line x1="211.8605" y1="510.8140" x2="236.7442" y2="485.9302" stroke="#30475b" stroke-width="1.7"/>
+<line x1="211.8605" y1="510.8140" x2="261.6279" y2="510.8140" stroke="#30475b" stroke-width="1.7"/>
+<line x1="162.0930" y1="473.4884" x2="124.7674" y2="473.4884" stroke="#30475b" stroke-width="1.7"/>
+<line x1="236.7442" y1="485.9302" x2="211.8605" y2="461.0465" stroke="#30475b" stroke-width="1.7"/>
+<line x1="236.7442" y1="485.9302" x2="261.6279" y2="510.8140" stroke="#30475b" stroke-width="1.7"/>
+<line x1="572.6744" y1="1045.8140" x2="647.3256" y2="1020.9302" stroke="#30475b" stroke-width="1.7"/>
+<line x1="572.6744" y1="1045.8140" x2="535.3488" y2="1070.6977" stroke="#30475b" stroke-width="1.7"/>
+<line x1="572.6744" y1="1045.8140" x2="572.6744" y2="1083.1395" stroke="#30475b" stroke-width="1.7"/>
+<line x1="572.6744" y1="1045.8140" x2="485.5814" y2="1045.8140" stroke="#30475b" stroke-width="1.7"/>
+<line x1="647.3256" y1="1020.9302" x2="684.6512" y2="1020.9302" stroke="#30475b" stroke-width="1.7"/>
+<line x1="535.3488" y1="1070.6977" x2="162.0930" y2="1182.6744" stroke="#30475b" stroke-width="1.7"/>
+<line x1="572.6744" y1="1083.1395" x2="410.9302" y2="411.2791" stroke="#30475b" stroke-width="1.7"/>
+<line x1="398.4884" y1="1070.6977" x2="361.1628" y2="1045.8140" stroke="#30475b" stroke-width="1.7"/>
+<line x1="361.1628" y1="1045.8140" x2="485.5814" y2="1045.8140" stroke="#30475b" stroke-width="1.7"/>
+<line x1="162.0930" y1="1182.6744" x2="124.7674" y2="1182.6744" stroke="#30475b" stroke-width="1.7"/>
+<line x1="124.7674" y1="1182.6744" x2="99.8837" y2="1220.0000" stroke="#30475b" stroke-width="1.7"/>
+<line x1="124.7674" y1="1182.6744" x2="137.2093" y2="1145.3488" stroke="#30475b" stroke-width="1.7"/>
+<line x1="99.8837" y1="1220.0000" x2="75.0000" y2="1182.6744" stroke="#30475b" stroke-width="1.7"/>
+<line x1="137.2093" y1="1145.3488" x2="112.3256" y2="1120.4651" stroke="#30475b" stroke-width="1.7"/>
+<line x1="112.3256" y1="1120.4651" x2="75.0000" y2="1095.5814" stroke="#30475b" stroke-width="1.7"/>
+<line x1="75.0000" y1="1095.5814" x2="112.3256" y2="1070.6977" stroke="#30475b" stroke-width="1.7"/>
+<line x1="473.1395" y1="150.0000" x2="547.7907" y2="150.0000" stroke="#30475b" stroke-width="1.7"/>
+<line x1="473.1395" y1="150.0000" x2="410.9302" y2="150.0000" stroke="#30475b" stroke-width="1.7"/>
+<line x1="473.1395" y1="150.0000" x2="473.1395" y2="224.6512" stroke="#30475b" stroke-width="1.7"/>
+<line x1="522.9070" y1="174.8837" x2="547.7907" y2="150.0000" stroke="#30475b" stroke-width="1.7"/>
+<line x1="522.9070" y1="174.8837" x2="498.0233" y2="199.7674" stroke="#30475b" stroke-width="1.7"/>
+<line x1="547.7907" y1="224.6512" x2="547.7907" y2="150.0000" stroke="#30475b" stroke-width="1.7"/>
+<line x1="547.7907" y1="224.6512" x2="473.1395" y2="224.6512" stroke="#30475b" stroke-width="1.7"/>
+<line x1="547.7907" y1="224.6512" x2="634.8837" y2="174.8837" stroke="#30475b" stroke-width="1.7"/>
+<line x1="547.7907" y1="150.0000" x2="585.1163" y2="150.0000" stroke="#30475b" stroke-width="1.7"/>
+<line x1="473.1395" y1="224.6512" x2="498.0233" y2="199.7674" stroke="#30475b" stroke-width="1.7"/>
+<line x1="709.5349" y1="212.2093" x2="672.2093" y2="237.0930" stroke="#30475b" stroke-width="1.7"/>
+<line x1="709.5349" y1="212.2093" x2="709.5349" y2="174.8837" stroke="#30475b" stroke-width="1.7"/>
+<line x1="709.5349" y1="212.2093" x2="634.8837" y2="174.8837" stroke="#30475b" stroke-width="1.7"/>
+<line x1="672.2093" y1="237.0930" x2="634.8837" y2="212.2093" stroke="#30475b" stroke-width="1.7"/>
+<line x1="709.5349" y1="174.8837" x2="634.8837" y2="174.8837" stroke="#30475b" stroke-width="1.7"/>
+<line x1="709.5349" y1="174.8837" x2="672.2093" y2="150.0000" stroke="#30475b" stroke-width="1.7"/>
+<line x1="709.5349" y1="174.8837" x2="784.1860" y2="224.6512" stroke="#30475b" stroke-width="1.7"/>
+<line x1="634.8837" y1="212.2093" x2="634.8837" y2="174.8837" stroke="#30475b" stroke-width="1.7"/>
+<line x1="634.8837" y1="174.8837" x2="672.2093" y2="150.0000" stroke="#30475b" stroke-width="1.7"/>
+<line x1="784.1860" y1="224.6512" x2="771.7442" y2="373.9535" stroke="#30475b" stroke-width="1.7"/>
+<line x1="535.3488" y1="324.1860" x2="597.5581" y2="324.1860" stroke="#30475b" stroke-width="1.7"/>
+<line x1="535.3488" y1="324.1860" x2="510.4651" y2="299.3023" stroke="#30475b" stroke-width="1.7"/>
+<line x1="535.3488" y1="324.1860" x2="485.5814" y2="324.1860" stroke="#30475b" stroke-width="1.7"/>
+<line x1="560.2326" y1="286.8605" x2="597.5581" y2="324.1860" stroke="#30475b" stroke-width="1.7"/>
+<line x1="560.2326" y1="286.8605" x2="510.4651" y2="299.3023" stroke="#30475b" stroke-width="1.7"/>
+<line x1="560.2326" y1="286.8605" x2="572.6744" y2="249.5349" stroke="#30475b" stroke-width="1.7"/>
+<line x1="597.5581" y1="324.1860" x2="634.8837" y2="286.8605" stroke="#30475b" stroke-width="1.7"/>
+<line x1="597.5581" y1="324.1860" x2="510.4651" y2="299.3023" stroke="#30475b" stroke-width="1.7"/>
+<line x1="597.5581" y1="324.1860" x2="597.5581" y2="286.8605" stroke="#30475b" stroke-width="1.7"/>
+<line x1="597.5581" y1="324.1860" x2="634.8837" y2="324.1860" stroke="#30475b" stroke-width="1.7"/>
+<line x1="634.8837" y1="286.8605" x2="597.5581" y2="286.8605" stroke="#30475b" stroke-width="1.7"/>
+<line x1="634.8837" y1="286.8605" x2="634.8837" y2="324.1860" stroke="#30475b" stroke-width="1.7"/>
+<line x1="585.1163" y1="423.7209" x2="634.8837" y2="423.7209" stroke="#30475b" stroke-width="1.7"/>
+<line x1="585.1163" y1="423.7209" x2="610.0000" y2="461.0465" stroke="#30475b" stroke-width="1.7"/>
+<line x1="585.1163" y1="423.7209" x2="659.7674" y2="448.6047" stroke="#30475b" stroke-width="1.7"/>
+<line x1="585.1163" y1="423.7209" x2="485.5814" y2="411.2791" stroke="#30475b" stroke-width="1.7"/>
+<line x1="672.2093" y1="411.2791" x2="634.8837" y2="423.7209" stroke="#30475b" stroke-width="1.7"/>
+<line x1="672.2093" y1="411.2791" x2="721.9767" y2="398.8372" stroke="#30475b" stroke-width="1.7"/>
+<line x1="672.2093" y1="411.2791" x2="659.7674" y2="448.6047" stroke="#30475b" stroke-width="1.7"/>
+<line x1="771.7442" y1="373.9535" x2="721.9767" y2="398.8372" stroke="#30475b" stroke-width="1.7"/>
+<line x1="721.9767" y1="398.8372" x2="659.7674" y2="448.6047" stroke="#30475b" stroke-width="1.7"/>
+<line x1="610.0000" y1="461.0465" x2="659.7674" y2="448.6047" stroke="#30475b" stroke-width="1.7"/>
+<line x1="435.8140" y1="386.3953" x2="410.9302" y2="361.5116" stroke="#30475b" stroke-width="1.7"/>
+<line x1="435.8140" y1="386.3953" x2="386.0465" y2="386.3953" stroke="#30475b" stroke-width="1.7"/>
+<line x1="435.8140" y1="386.3953" x2="485.5814" y2="411.2791" stroke="#30475b" stroke-width="1.7"/>
+<line x1="410.9302" y1="361.5116" x2="410.9302" y2="324.1860" stroke="#30475b" stroke-width="1.7"/>
+<line x1="410.9302" y1="361.5116" x2="386.0465" y2="386.3953" stroke="#30475b" stroke-width="1.7"/>
+<line x1="410.9302" y1="361.5116" x2="485.5814" y2="324.1860" stroke="#30475b" stroke-width="1.7"/>
+<line x1="410.9302" y1="411.2791" x2="386.0465" y2="386.3953" stroke="#30475b" stroke-width="1.7"/>
+<line x1="410.9302" y1="411.2791" x2="485.5814" y2="411.2791" stroke="#30475b" stroke-width="1.7"/>
+<line x1="361.1628" y1="411.2791" x2="386.0465" y2="386.3953" stroke="#30475b" stroke-width="1.7"/>
+<line x1="473.1395" y1="361.5116" x2="510.4651" y2="373.9535" stroke="#30475b" stroke-width="1.7"/>
+<line x1="473.1395" y1="361.5116" x2="485.5814" y2="411.2791" stroke="#30475b" stroke-width="1.7"/>
+<line x1="473.1395" y1="361.5116" x2="485.5814" y2="324.1860" stroke="#30475b" stroke-width="1.7"/>
+<g><title>Abune · Caldari · 9.58% contested</title>
+<circle cx="572.6744" cy="1083.1395" r="8" fill="none" stroke="#f6bb69" stroke-width="1.6"/>
+<circle cx="572.6744" cy="1083.1395" r="4.4" fill="#63b7ff"/>
+</g>
+<g><title>Aivonen · Caldari · 0.00% contested</title>
+<circle cx="771.7442" cy="373.9535" r="4.4" fill="#63b7ff"/>
+</g>
+<g><title>Akidagi · Caldari · 0.00% contested</title>
+<circle cx="721.9767" cy="398.8372" r="8" fill="none" stroke="#f6bb69" stroke-width="1.6"/>
+<circle cx="721.9767" cy="398.8372" r="4.4" fill="#63b7ff"/>
+</g>
+<g><title>Alamel · Gallente · 50.04% contested</title>
+<circle cx="236.7442" cy="485.9302" r="8" fill="none" stroke="#f6bb69" stroke-width="1.6"/>
+<circle cx="236.7442" cy="485.9302" r="4.4" fill="#66d5a0"/>
+</g>
+<g><title>Aldranette · Gallente · 23.52% contested</title>
+<circle cx="373.6047" cy="510.8140" r="8" fill="none" stroke="#f6bb69" stroke-width="1.6"/>
+<circle cx="373.6047" cy="510.8140" r="4.4" fill="#66d5a0"/>
+<text x="282.6047" y="533.8140" font-family="system-ui,sans-serif" font-size="14" fill="#e3edf7" stroke="#09121c" stroke-width="4" paint-order="stroke">Aldranette</text>
+</g>
+<g><title>Alparena · Gallente · 90.64% contested</title>
+<circle cx="137.2093" cy="510.8140" r="8" fill="none" stroke="#f6bb69" stroke-width="1.6"/>
+<circle cx="137.2093" cy="510.8140" r="4.4" fill="#66d5a0"/>
+</g>
+<g><title>Alsavoinon · Caldari · 6.67% contested</title>
+<circle cx="435.8140" cy="548.1395" r="4.4" fill="#63b7ff"/>
+</g>
+<g><title>Anchauttes · Gallente · 38.93% contested</title>
+<circle cx="298.9535" cy="510.8140" r="8" fill="none" stroke="#f6bb69" stroke-width="1.6"/>
+<circle cx="298.9535" cy="510.8140" r="4.4" fill="#66d5a0"/>
+</g>
+<g><title>Arderonne · Caldari · 0.02% contested</title>
+<circle cx="211.8605" cy="510.8140" r="8" fill="none" stroke="#f6bb69" stroke-width="1.6"/>
+<circle cx="211.8605" cy="510.8140" r="4.4" fill="#63b7ff"/>
+</g>
+<g><title>Asakai · Caldari · 0.00% contested</title>
+<circle cx="597.5581" cy="324.1860" r="4.4" fill="#63b7ff"/>
+</g>
+<g><title>Ashitsu · Caldari · 0.00% contested</title>
+<circle cx="473.1395" cy="224.6512" r="4.4" fill="#63b7ff"/>
+</g>
+<g><title>Athounon · Caldari · 0.00% contested</title>
+<circle cx="124.7674" cy="473.4884" r="4.4" fill="#63b7ff"/>
+<text x="135.7674" y="496.4884" font-family="system-ui,sans-serif" font-size="14" fill="#e3edf7" stroke="#09121c" stroke-width="4" paint-order="stroke">Athounon</text>
+</g>
+<g><title>Aubenall · Gallente · 5.53% contested</title>
+<circle cx="298.9535" cy="560.5814" r="8" fill="none" stroke="#f6bb69" stroke-width="1.6"/>
+<circle cx="298.9535" cy="560.5814" r="4.4" fill="#66d5a0"/>
+</g>
+<g><title>Costolle · Gallente · 0.00% contested</title>
+<circle cx="137.2093" cy="1145.3488" r="4.4" fill="#66d5a0"/>
+</g>
+<g><title>Deven · Gallente · 0.00% contested</title>
+<circle cx="684.6512" cy="1020.9302" r="4.4" fill="#66d5a0"/>
+</g>
+<g><title>Eha · Caldari · 0.00% contested</title>
+<circle cx="672.2093" cy="150.0000" r="4.4" fill="#63b7ff"/>
+<text x="683.2093" y="140.0000" font-family="system-ui,sans-serif" font-size="14" fill="#e3edf7" stroke="#09121c" stroke-width="4" paint-order="stroke">Eha</text>
+</g>
+<g><title>Elunala · Caldari · 0.00% contested</title>
+<circle cx="597.5581" cy="286.8605" r="4.4" fill="#63b7ff"/>
+</g>
+<g><title>Enaluri · Caldari · 0.00% contested</title>
+<circle cx="672.2093" cy="411.2791" r="8" fill="none" stroke="#f6bb69" stroke-width="1.6"/>
+<circle cx="672.2093" cy="411.2791" r="4.4" fill="#63b7ff"/>
+</g>
+<g><title>Eranakko · Gallente · 63.49% contested</title>
+<circle cx="945.9302" cy="436.1628" r="4.4" fill="#66d5a0"/>
+</g>
+<g><title>Esesier · Gallente · 8.05% contested</title>
+<circle cx="298.9535" cy="473.4884" r="4.4" fill="#66d5a0"/>
+</g>
+<g><title>Eugales · Gallente · 31.90% contested</title>
+<circle cx="348.7209" cy="585.4651" r="4.4" fill="#66d5a0"/>
+</g>
+<g><title>Evaulon · Gallente · 30.81% contested</title>
+<circle cx="336.2791" cy="510.8140" r="4.4" fill="#66d5a0"/>
+</g>
+<g><title>Fliet · Gallente · 0.00% contested</title>
+<circle cx="647.3256" cy="1020.9302" r="4.4" fill="#66d5a0"/>
+<text x="658.3256" y="1043.9302" font-family="system-ui,sans-serif" font-size="14" fill="#e3edf7" stroke="#09121c" stroke-width="4" paint-order="stroke">Fliet</text>
+</g>
+<g><title>Frarie · Gallente · 22.02% contested</title>
+<circle cx="410.9302" cy="610.3488" r="4.4" fill="#66d5a0"/>
+</g>
+<g><title>Hallanen · Caldari · 0.91% contested</title>
+<circle cx="634.8837" cy="423.7209" r="4.4" fill="#63b7ff"/>
+</g>
+<g><title>Hasama · Caldari · 0.00% contested</title>
+<circle cx="1306.7442" cy="311.7442" r="4.4" fill="#63b7ff"/>
+</g>
+<g><title>Hasmijaala · Caldari · 8.55% contested</title>
+<circle cx="896.1628" cy="535.6977" r="8" fill="none" stroke="#f6bb69" stroke-width="1.6"/>
+<circle cx="896.1628" cy="535.6977" r="4.4" fill="#63b7ff"/>
+</g>
+<g><title>Hevrice · Gallente · 0.00% contested</title>
+<circle cx="75.0000" cy="1095.5814" r="4.4" fill="#66d5a0"/>
+<line x1="75.0000" y1="1095.5814" x2="86.0000" y2="1036.5814" stroke="#6a8296" stroke-width="0.8" stroke-dasharray="2 3"/>
+<text x="86.0000" y="1041.5814" font-family="system-ui,sans-serif" font-size="14" fill="#e3edf7" stroke="#09121c" stroke-width="4" paint-order="stroke">Hevrice</text>
+</g>
+<g><title>Heydieles · Gallente · 3.60% contested</title>
+<circle cx="572.6744" cy="1045.8140" r="8" fill="none" stroke="#f6bb69" stroke-width="1.6"/>
+<circle cx="572.6744" cy="1045.8140" r="4.4" fill="#66d5a0"/>
+<text x="583.6744" y="1068.8140" font-family="system-ui,sans-serif" font-size="14" fill="#e3edf7" stroke="#09121c" stroke-width="4" paint-order="stroke">Heydieles</text>
+</g>
+<g><title>Hikkoken · Caldari · 0.00% contested</title>
+<circle cx="585.1163" cy="423.7209" r="8" fill="none" stroke="#f6bb69" stroke-width="1.6"/>
+<circle cx="585.1163" cy="423.7209" r="4.4" fill="#63b7ff"/>
+<text x="510.1163" y="413.7209" font-family="system-ui,sans-serif" font-size="14" fill="#e3edf7" stroke="#09121c" stroke-width="4" paint-order="stroke">Hikkoken</text>
+</g>
+<g><title>Hirri · Caldari · 0.00% contested</title>
+<circle cx="435.8140" cy="386.3953" r="4.4" fill="#63b7ff"/>
+</g>
+<g><title>Hykanima · Caldari · 0.00% contested</title>
+<circle cx="473.1395" cy="150.0000" r="4.4" fill="#63b7ff"/>
+</g>
+<g><title>Hysera · Caldari · 0.00% contested</title>
+<circle cx="908.6047" cy="573.0233" r="4.4" fill="#63b7ff"/>
+</g>
+<g><title>Ienakkamon · Caldari · 0.00% contested</title>
+<circle cx="498.0233" cy="199.7674" r="4.4" fill="#63b7ff"/>
+</g>
+<g><title>Ikoskio · Caldari · 0.00% contested</title>
+<circle cx="634.8837" cy="324.1860" r="4.4" fill="#63b7ff"/>
+</g>
+<g><title>Immuri · Gallente · 100.46% contested</title>
+<circle cx="610.0000" cy="461.0465" r="8" fill="none" stroke="#f6bb69" stroke-width="1.6"/>
+<circle cx="610.0000" cy="461.0465" r="4.4" fill="#66d5a0"/>
+</g>
+<g><title>Indregulle · Gallente · 0.90% contested</title>
+<circle cx="535.3488" cy="1070.6977" r="4.4" fill="#66d5a0"/>
+</g>
+<g><title>Innia · Caldari · 0.00% contested</title>
+<circle cx="709.5349" cy="174.8837" r="4.4" fill="#63b7ff"/>
+</g>
+<g><title>Iralaja · Caldari · 0.00% contested</title>
+<circle cx="634.8837" cy="212.2093" r="4.4" fill="#63b7ff"/>
+<text x="567.8837" y="202.2093" font-family="system-ui,sans-serif" font-size="14" fill="#e3edf7" stroke="#09121c" stroke-width="4" paint-order="stroke">Iralaja</text>
+</g>
+<g><title>Ishomilken · Caldari · 0.00% contested</title>
+<circle cx="1232.0930" cy="311.7442" r="4.4" fill="#63b7ff"/>
+<text x="1243.0930" y="334.7442" font-family="system-ui,sans-serif" font-size="14" fill="#e3edf7" stroke="#09121c" stroke-width="4" paint-order="stroke">Ishomilken</text>
+</g>
+<g><title>Iwisoda · Caldari · 0.00% contested</title>
+<circle cx="510.4651" cy="373.9535" r="4.4" fill="#63b7ff"/>
+</g>
+<g><title>Jovainnon · Gallente · 0.00% contested</title>
+<circle cx="112.3256" cy="1070.6977" r="4.4" fill="#66d5a0"/>
+</g>
+<g><title>Kedama · Caldari · 0.07% contested</title>
+<circle cx="410.9302" cy="361.5116" r="4.4" fill="#63b7ff"/>
+<text x="351.9302" y="351.5116" font-family="system-ui,sans-serif" font-size="14" fill="#e3edf7" stroke="#09121c" stroke-width="4" paint-order="stroke">Kedama</text>
+</g>
+<g><title>Kehjari · Caldari · 0.03% contested</title>
+<circle cx="547.7907" cy="224.6512" r="4.4" fill="#63b7ff"/>
+</g>
+<g><title>Kinakka · Caldari · 0.03% contested</title>
+<circle cx="709.5349" cy="212.2093" r="4.4" fill="#63b7ff"/>
+</g>
+<g><title>Korasen · Caldari · 0.00% contested</title>
+<circle cx="585.1163" cy="150.0000" r="4.4" fill="#63b7ff"/>
+</g>
+<g><title>Ladistier · Gallente · 0.00% contested</title>
+<circle cx="361.1628" cy="1045.8140" r="4.4" fill="#66d5a0"/>
+</g>
+<g><title>Loes · Gallente · 0.00% contested</title>
+<circle cx="75.0000" cy="1182.6744" r="4.4" fill="#66d5a0"/>
+</g>
+<g><title>Manjonakko · Caldari · 0.00% contested</title>
+<circle cx="1294.3023" cy="349.0698" r="4.4" fill="#63b7ff"/>
+</g>
+<g><title>Mantenault · Gallente · 13.81% contested</title>
+<circle cx="211.8605" cy="461.0465" r="4.4" fill="#66d5a0"/>
+</g>
+<g><title>Martoh · Caldari · 19.75% contested</title>
+<circle cx="634.8837" cy="174.8837" r="4.4" fill="#63b7ff"/>
+</g>
+<g><title>Melmaniel · Gallente · 0.00% contested</title>
+<circle cx="124.7674" cy="1182.6744" r="4.4" fill="#66d5a0"/>
+</g>
+<g><title>Mercomesier · Caldari · 0.00% contested</title>
+<circle cx="162.0930" cy="473.4884" r="4.4" fill="#63b7ff"/>
+</g>
+<g><title>Moclinamaud · Gallente · 3.47% contested</title>
+<circle cx="398.4884" cy="573.0233" r="8" fill="none" stroke="#f6bb69" stroke-width="1.6"/>
+<circle cx="398.4884" cy="573.0233" r="4.4" fill="#66d5a0"/>
+</g>
+<g><title>Muetralle · Gallente · 21.11% contested</title>
+<circle cx="112.3256" cy="1120.4651" r="4.4" fill="#66d5a0"/>
+</g>
+<g><title>Murethand · Gallente · 0.00% contested</title>
+<circle cx="162.0930" cy="1182.6744" r="4.4" fill="#66d5a0"/>
+</g>
+<g><title>Mushikegi · Caldari · 0.00% contested</title>
+<circle cx="510.4651" cy="299.3023" r="4.4" fill="#63b7ff"/>
+</g>
+<g><title>Nagamanen · Gallente · 54.08% contested</title>
+<circle cx="896.1628" cy="498.3721" r="8" fill="none" stroke="#f6bb69" stroke-width="1.6"/>
+<circle cx="896.1628" cy="498.3721" r="4.4" fill="#66d5a0"/>
+<text x="907.1628" y="521.3721" font-family="system-ui,sans-serif" font-size="14" fill="#e3edf7" stroke="#09121c" stroke-width="4" paint-order="stroke">Nagamanen</text>
+</g>
+<g><title>Nennamaila · Gallente · 36.37% contested</title>
+<circle cx="659.7674" cy="448.6047" r="8" fill="none" stroke="#f6bb69" stroke-width="1.6"/>
+<circle cx="659.7674" cy="448.6047" r="4.4" fill="#66d5a0"/>
+<text x="670.7674" y="438.6047" font-family="system-ui,sans-serif" font-size="14" fill="#e3edf7" stroke="#09121c" stroke-width="4" paint-order="stroke">Nennamaila</text>
+</g>
+<g><title>Nikkishina · Caldari · 0.00% contested</title>
+<circle cx="1269.4186" cy="311.7442" r="4.4" fill="#63b7ff"/>
+</g>
+<g><title>Nisuwa · Caldari · 0.07% contested</title>
+<circle cx="386.0465" cy="386.3953" r="4.4" fill="#63b7ff"/>
+<text x="327.0465" y="376.3953" font-family="system-ui,sans-serif" font-size="14" fill="#e3edf7" stroke="#09121c" stroke-width="4" paint-order="stroke">Nisuwa</text>
+</g>
+<g><title>Notoras · Caldari · 0.43% contested</title>
+<circle cx="361.1628" cy="411.2791" r="4.4" fill="#63b7ff"/>
+</g>
+<g><title>Odamia · Caldari · 0.00% contested</title>
+<circle cx="261.6279" cy="510.8140" r="8" fill="none" stroke="#f6bb69" stroke-width="1.6"/>
+<circle cx="261.6279" cy="510.8140" r="4.4" fill="#63b7ff"/>
+</g>
+<g><title>Oicx · Caldari · 0.40% contested</title>
+<circle cx="423.3721" cy="510.8140" r="4.4" fill="#63b7ff"/>
+<text x="434.3721" y="500.8140" font-family="system-ui,sans-serif" font-size="14" fill="#e3edf7" stroke="#09121c" stroke-width="4" paint-order="stroke">Oicx</text>
+</g>
+<g><title>Oinasiken · Caldari · 4.80% contested</title>
+<circle cx="410.9302" cy="411.2791" r="4.4" fill="#63b7ff"/>
+<text x="421.9302" y="434.2791" font-family="system-ui,sans-serif" font-size="14" fill="#e3edf7" stroke="#09121c" stroke-width="4" paint-order="stroke">Oinasiken</text>
+</g>
+<g><title>Okagaiken · Caldari · 3.61% contested</title>
+<circle cx="522.9070" cy="174.8837" r="4.4" fill="#63b7ff"/>
+</g>
+<g><title>Okkamon · Caldari · 0.00% contested</title>
+<circle cx="535.3488" cy="324.1860" r="4.4" fill="#63b7ff"/>
+</g>
+<g><title>Old Man Star · Gallente · 0.00% contested</title>
+<circle cx="485.5814" cy="1045.8140" r="4.4" fill="#66d5a0"/>
+<text x="378.5814" y="1035.8140" font-family="system-ui,sans-serif" font-size="14" fill="#e3edf7" stroke="#09121c" stroke-width="4" paint-order="stroke">Old Man Star</text>
+</g>
+<g><title>Onatoh · Gallente · 11.78% contested</title>
+<circle cx="908.6047" cy="423.7209" r="4.4" fill="#66d5a0"/>
+</g>
+<g><title>Oto · Gallente · 2.38% contested</title>
+<circle cx="858.8372" cy="523.2558" r="4.4" fill="#66d5a0"/>
+</g>
+<g><title>Ouelletta · Gallente · 0.83% contested</title>
+<circle cx="99.8837" cy="1220.0000" r="4.4" fill="#66d5a0"/>
+</g>
+<g><title>Pavanakka · Caldari · 0.00% contested</title>
+<circle cx="784.1860" cy="224.6512" r="4.4" fill="#63b7ff"/>
+</g>
+<g><title>Prism · Caldari · 0.00% contested</title>
+<circle cx="634.8837" cy="286.8605" r="4.4" fill="#63b7ff"/>
+</g>
+<g><title>Pynekastoh · Caldari · 1.03% contested</title>
+<circle cx="485.5814" cy="411.2791" r="4.4" fill="#63b7ff"/>
+<line x1="485.5814" y1="411.2791" x2="496.5814" y2="352.2791" stroke="#6a8296" stroke-width="0.8" stroke-dasharray="2 3"/>
+<text x="496.5814" y="357.2791" font-family="system-ui,sans-serif" font-size="14" fill="#e3edf7" stroke="#09121c" stroke-width="4" paint-order="stroke">Pynekastoh</text>
+</g>
+<g><title>Raihbaka · Caldari · 0.00% contested</title>
+<circle cx="672.2093" cy="237.0930" r="4.4" fill="#63b7ff"/>
+</g>
+<g><title>Rakapas · Caldari · 0.23% contested</title>
+<circle cx="473.1395" cy="361.5116" r="4.4" fill="#63b7ff"/>
+</g>
+<g><title>Reitsato · Caldari · 0.00% contested</title>
+<circle cx="485.5814" cy="324.1860" r="4.4" fill="#63b7ff"/>
+</g>
+<g><title>Renarelle · Caldari · 11.20% contested</title>
+<circle cx="348.7209" cy="548.1395" r="8" fill="none" stroke="#f6bb69" stroke-width="1.6"/>
+<circle cx="348.7209" cy="548.1395" r="4.4" fill="#63b7ff"/>
+</g>
+<g><title>Reschard · Caldari · 0.32% contested</title>
+<circle cx="174.5349" cy="510.8140" r="8" fill="none" stroke="#f6bb69" stroke-width="1.6"/>
+<circle cx="174.5349" cy="510.8140" r="4.4" fill="#63b7ff"/>
+</g>
+<g><title>Sarenemi · Caldari · 0.00% contested</title>
+<circle cx="410.9302" cy="150.0000" r="4.4" fill="#63b7ff"/>
+</g>
+<g><title>Sujarento · Gallente · 0.00% contested</title>
+<circle cx="921.0465" cy="473.4884" r="8" fill="none" stroke="#f6bb69" stroke-width="1.6"/>
+<circle cx="921.0465" cy="473.4884" r="4.4" fill="#66d5a0"/>
+<text x="932.0465" y="496.4884" font-family="system-ui,sans-serif" font-size="14" fill="#e3edf7" stroke="#09121c" stroke-width="4" paint-order="stroke">Sujarento</text>
+</g>
+<g><title>Tama · Caldari · 8.37% contested</title>
+<circle cx="958.3721" cy="473.4884" r="8" fill="none" stroke="#f6bb69" stroke-width="1.6"/>
+<circle cx="958.3721" cy="473.4884" r="4.4" fill="#63b7ff"/>
+<text x="969.3721" y="463.4884" font-family="system-ui,sans-serif" font-size="14" fill="#e3edf7" stroke="#09121c" stroke-width="4" paint-order="stroke">Tama</text>
+</g>
+<g><title>Tannolen · Gallente · 2.51% contested</title>
+<circle cx="871.2791" cy="411.2791" r="4.4" fill="#66d5a0"/>
+</g>
+<g><title>Teimo · Caldari · 0.09% contested</title>
+<circle cx="410.9302" cy="324.1860" r="4.4" fill="#63b7ff"/>
+</g>
+<g><title>Teskanen · Caldari · 0.00% contested</title>
+<circle cx="572.6744" cy="249.5349" r="4.4" fill="#63b7ff"/>
+</g>
+<g><title>Uuna · Caldari · 0.00% contested</title>
+<circle cx="1256.9767" cy="349.0698" r="4.4" fill="#63b7ff"/>
+</g>
+<g><title>Vaaralen · Caldari · 0.00% contested</title>
+<circle cx="560.2326" cy="286.8605" r="4.4" fill="#63b7ff"/>
+</g>
+<g><title>Vifrevaert · Gallente · 0.02% contested</title>
+<circle cx="398.4884" cy="1070.6977" r="4.4" fill="#66d5a0"/>
+</g>
+<g><title>Villasen · Caldari · 0.00% contested</title>
+<circle cx="547.7907" cy="150.0000" r="4.4" fill="#63b7ff"/>
+</g>
+<g><title>Vlillirier · Caldari · 0.00% contested</title>
+<circle cx="398.4884" cy="535.6977" r="8" fill="none" stroke="#f6bb69" stroke-width="1.6"/>
+<circle cx="398.4884" cy="535.6977" r="4.4" fill="#63b7ff"/>
+<line x1="398.4884" y1="535.6977" x2="409.4884" y2="572.6977" stroke="#6a8296" stroke-width="0.8" stroke-dasharray="2 3"/>
+<text x="409.4884" y="577.6977" font-family="system-ui,sans-serif" font-size="14" fill="#e3edf7" stroke="#09121c" stroke-width="4" paint-order="stroke">Vlillirier</text>
+</g>
+<g font-family="system-ui,sans-serif" font-size="15" fill="#a6b8ca">
+<text x="55" y="1272">All 90 stars retain CCP schematic coordinates under one uniform scale and Y reflection.</text>
+<text x="55" y="1300">31 outgoing gates lead outside this diagram. Control is occupancy, not a blockade or a claim of current corporation ownership.</text>
+</g></svg>

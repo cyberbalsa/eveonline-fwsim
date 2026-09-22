@@ -1,0 +1,1035 @@
+{
+  "schemaVersion": 1,
+  "researchDate": "2026-09-22",
+  "note": "Source type and publication date are separate from current state. ESI source records are appended from the identity catalog verification.",
+  "sources": [
+    {
+      "id": "pol-2008-signup",
+      "title": "Empyrean Age and all that - Signing up",
+      "url": "https://www.eveonline.com/news/view/empyrean-age-and-all-that-signing-up",
+      "publisher": "CCP",
+      "publishedDate": null,
+      "accessedDate": "2026-09-22",
+      "kind": "official-design-history",
+      "claims": [
+        "Original militia institutional design."
+      ],
+      "uncertainties": [
+        "Historical rules, not current mechanics."
+      ]
+    },
+    {
+      "id": "pol-2009-distinguished-blade",
+      "title": "Tibus Heth Awards Caldari Militia with National Distinction",
+      "url": "https://universe.eveonline.com/new-eden-news/tibus-heth-awards-caldari-militia-with-national-distinction",
+      "publisher": "CCP / New Eden News",
+      "publishedDate": "2009-06-15",
+      "accessedDate": "2026-09-22",
+      "kind": "official-lore-report",
+      "claims": [
+        "Recognizes Caldari total warzone capture and medal."
+      ],
+      "uncertainties": [
+        "In-universe voice; final capture date only approximate here."
+      ]
+    },
+    {
+      "id": "pol-2013-address",
+      "title": "Federal Defense Union Address - State Of Affairs",
+      "url": "https://forums-archive.eveonline.com/default.aspx?g=posts&t=193011",
+      "publisher": "EVE player forum / Intergalactic Summit",
+      "publishedDate": "2013-01-12",
+      "accessedDate": "2026-09-22",
+      "kind": "participant-roleplay",
+      "claims": [
+        "Participants celebrate a January 11 liberation."
+      ],
+      "uncertainties": [
+        "Fiction and political rhetoric; espionage claims unverified."
+      ]
+    },
+    {
+      "id": "pol-2014-burn",
+      "title": "Burn the Warzone",
+      "url": "https://forums-archive.eveonline.com/topic/369577/",
+      "publisher": "X Gallentius / EVE player forum",
+      "publishedDate": "2014-08-26",
+      "accessedDate": "2026-09-22",
+      "kind": "participant-campaign-report",
+      "claims": [
+        "Reports Gallente total control after an approximately thirteen-day offensive."
+      ],
+      "uncertainties": [
+        "Participant account; causal explanations partisan."
+      ]
+    },
+    {
+      "id": "pol-bloc-2017",
+      "title": "The Bloc: US and EU TZ Caldari Lowsec PVP Corp (FW)",
+      "url": "https://forums.eveonline.com/t/the-bloc-us-and-eu-tz-caldari-lowsec-pvp-corp-fw-100-pilots/16102",
+      "publisher": "Deen Wispa / EVE player forum",
+      "publishedDate": "2017-08-11",
+      "accessedDate": "2026-09-22",
+      "kind": "participant-recruitment-and-AAR",
+      "claims": [
+        "Recruitment services and dated 2016\u20132017 fleet-command case studies."
+      ],
+      "uncertainties": [
+        "Thread includes retrospective reports; combat claims not independently reconstructed."
+      ]
+    },
+    {
+      "id": "pol-wings-2020",
+      "title": "Wings of Valor - Gallente Militia Captures the Warzone",
+      "url": "https://forums.eveonline.com/t/wings-of-valor-gallente-militia-captures-the-warzone/227664",
+      "publisher": "Rinai Vero and participants / EVE player forum",
+      "publishedDate": "2020-03-24",
+      "accessedDate": "2026-09-22",
+      "kind": "participant-roleplay-campaign-report",
+      "claims": [
+        "Reports 101-system victory and credits outside support."
+      ],
+      "uncertainties": [
+        "Roleplay framing and partisan prestige claims; main author is Rinai Vero, not Julianus Soter."
+      ]
+    },
+    {
+      "id": "pol-frontiers-2022",
+      "title": "Empire Frontiers",
+      "url": "https://www.eveonline.com/news/view/empire-frontiers",
+      "publisher": "CCP / EVE Online Team",
+      "publishedDate": "2022-12-01",
+      "accessedDate": "2026-09-22",
+      "kind": "official-event-outcome",
+      "claims": [
+        "Athounon gate race and Intaki/Syndicate geography changes."
+      ],
+      "uncertainties": [
+        "Exceptional narrative event; not general capture mechanics."
+      ]
+    },
+    {
+      "id": "pol-havoc-notes",
+      "title": "Patch Notes - Version 21.06",
+      "url": "https://www.eveonline.com/news/view/patch-notes-version-21-06",
+      "publisher": "CCP",
+      "publishedDate": null,
+      "accessedDate": "2026-09-22",
+      "kind": "official-versioned-patch-notes",
+      "claims": [
+        "November 2023 notes distinguish Guristas and Angel insurgency theaters."
+      ],
+      "uncertainties": [
+        "Long living document; cited subsection is dated 2023-11-23."
+      ]
+    },
+    {
+      "id": "pol-ucn-2022",
+      "title": "United Caldari Navy is Recruiting",
+      "url": "https://forums.eveonline.com/t/calmil-fw-united-caldari-navy-is-recruiting/356580",
+      "publisher": "Nayrok Fenix / EVE player forum",
+      "publishedDate": "2022-04-04",
+      "accessedDate": "2026-09-22",
+      "kind": "firsthand-recruitment",
+      "claims": [
+        "Territorial coordination, daily fleets and hauling advertised."
+      ],
+      "uncertainties": [
+        "Recruitment language; replies contain unverified allegations."
+      ]
+    },
+    {
+      "id": "pol-ucsc-2022",
+      "title": "United Caldari Space Command (Alliance LF corps)",
+      "url": "https://forums.eveonline.com/t/united-caldari-space-command-alliance-lf-corps/357192",
+      "publisher": "Nayrok Fenix / EVE player forum",
+      "publishedDate": "2022-04-08",
+      "accessedDate": "2026-09-22",
+      "kind": "firsthand-recruitment",
+      "claims": [
+        "Alliance unification ambition and free logistics advertised."
+      ],
+      "uncertainties": [
+        "Claim to head all CalMil is promotional, not verified authority."
+      ]
+    },
+    {
+      "id": "pol-ccdm-2022",
+      "title": "CCDM - Caldari Faction Warfare",
+      "url": "https://forums.eveonline.com/t/ccdm-caldari-faction-warfare/368568",
+      "publisher": "Scylus Black / EVE player forum",
+      "publishedDate": "2022-06-29",
+      "accessedDate": "2026-09-22",
+      "kind": "firsthand-recruitment",
+      "claims": [
+        "Templis executor identity, North American activity and development programs."
+      ],
+      "uncertainties": [
+        "Historical programs; author's signature says retired CEO/executor."
+      ]
+    },
+    {
+      "id": "pol-mercury-2024",
+      "title": "Mercury Arms Inc. - EU/USTZ Caldari Faction Warfare PvP",
+      "url": "https://www.reddit.com/r/evejobs/comments/1evy9lp/",
+      "publisher": "Mercury Arms recruiting post / r/evejobs",
+      "publishedDate": "2024-08-19",
+      "accessedDate": "2026-09-22",
+      "kind": "firsthand-recruitment",
+      "claims": [
+        "Experienced small-gang pilots, self-funding and hauling advertised."
+      ],
+      "uncertainties": [
+        "Advertised preference, not a census or verified performance metric."
+      ]
+    },
+    {
+      "id": "pol-aideron-2019",
+      "title": "Join Aideron Robotics a Gallente FW PvP Corp Today!",
+      "url": "https://forums.eveonline.com/t/join-aideron-robotics-a-gallente-fw-pvp-corp-today/208925",
+      "publisher": "youngpuke2 / EVE player forum",
+      "publishedDate": "2019-12-29",
+      "accessedDate": "2026-09-22",
+      "kind": "firsthand-recruitment",
+      "claims": [
+        "Freight, doctrine contracts, industry and mentoring advertised."
+      ],
+      "uncertainties": [
+        "Historical offerings; does not establish current leadership."
+      ]
+    },
+    {
+      "id": "pol-sons-2020",
+      "title": "Sons of Luminaire - Faction War EUTZ - Villore Accords",
+      "url": "https://forums.eveonline.com/t/sons-of-luminaire-faction-war-eutz-small-gang-pvp-villore-accords/259591",
+      "publisher": "Sweet Lane / EVE player forum",
+      "publishedDate": "2020-08-10",
+      "accessedDate": "2026-09-22",
+      "kind": "firsthand-recruitment",
+      "claims": [
+        "Small-gang, self-sufficient and optional strategic-op culture advertised."
+      ],
+      "uncertainties": [
+        "2020 alliance and staging affiliation only."
+      ]
+    },
+    {
+      "id": "pol-rapid-2015",
+      "title": "Corporations in the spotlight: Rapid Withdrawal",
+      "url": "https://universe.eveonline.com/interstellar-correspondents/corporations-in-the-spotlight-rapid-withdrawal",
+      "publisher": "CCP-hosted Interstellar Correspondents",
+      "publishedDate": "2015-06-29",
+      "accessedDate": "2026-09-22",
+      "kind": "official-community-spotlight",
+      "claims": [
+        "Sujarento-based GalMil activity and leadership development."
+      ],
+      "uncertainties": [
+        "Community spotlight is a dated profile, not present affiliation."
+      ]
+    },
+    {
+      "id": "pol-ribbit-2024",
+      "title": "Ribbit Alliance Looking for new Corps to join the Pond",
+      "url": "https://forums.eveonline.com/t/ribbit-alliance-looking-for-new-corps-to-join-the-pond-eu-us/459130",
+      "publisher": "Sam Chadelanne / EVE player forum",
+      "publishedDate": "2024-08-20",
+      "accessedDate": "2026-09-22",
+      "kind": "firsthand-recruitment",
+      "claims": [
+        "LP buyback, FC development and restaging advertised."
+      ],
+      "uncertainties": [
+        "Promotional superlatives unverified; later ESI shows empty alliance."
+      ]
+    },
+    {
+      "id": "pol-toads-2025",
+      "title": "Battle Toads Brigade - Gallente FW - RIBBIT",
+      "url": "https://forums.eveonline.com/t/cr0ak-battle-toads-brigade-gallente-fw-pvp-industry-exploration-ribbit-alliance/486880",
+      "publisher": "Lorin Conn and Sam Chadelanne / EVE player forum",
+      "publishedDate": "2025-05-21",
+      "accessedDate": "2026-09-22",
+      "kind": "firsthand-recruitment-and-campaign-report",
+      "claims": [
+        "Recruitment and June 2025 territorial campaign claims."
+      ],
+      "uncertainties": [
+        "No independently verified casualty or territory totals; ESI exact name is Battle Toad Brigade."
+      ]
+    },
+    {
+      "id": "pol-brawl-invite-2025",
+      "title": "The Third Annual Faction Warfare Blood Brawl",
+      "url": "https://www.reddit.com/r/Eve/comments/1otjun8/the_third_annual_faction_warfare_blood_brawl/",
+      "publisher": "Megaman39 / r/Eve",
+      "publishedDate": null,
+      "accessedDate": "2026-09-22",
+      "kind": "firsthand-event-announcement",
+      "claims": [
+        "Auga event on 2025-12-06, participating contacts and FW Parliament sponsor."
+      ],
+      "uncertainties": [
+        "Publication day not verified; listed contact is not necessarily final on-grid FC."
+      ]
+    },
+    {
+      "id": "pol-brawl-aar-2025",
+      "title": "2025 Faction Warfare Blood Brawl AAR + BR",
+      "url": "https://www.reddit.com/r/Eve/comments/1pg9s8p/2025_faction_warfare_blood_brawl_aar_br/",
+      "publisher": "ellivlok23 / r/Eve",
+      "publishedDate": "2025-12-07",
+      "accessedDate": "2026-09-22",
+      "kind": "participant-AAR",
+      "claims": [
+        "Reports multi-faction brawl, reshipping, organizers and outside fleets."
+      ],
+      "uncertainties": [
+        "Author explicitly notes difficulty assigning battle-report sides."
+      ]
+    },
+    {
+      "id": "pol-awoxing-2026",
+      "title": "Standings & Awoxing Update",
+      "url": "https://www.eveonline.com/news/view/standings-and-awoxing-update",
+      "publisher": "CCP / EVE Online Team",
+      "publishedDate": "2026-03-10",
+      "accessedDate": "2026-09-22",
+      "kind": "official-development-announcement",
+      "claims": [
+        "Announces further FW work and describes entry-barrier concerns."
+      ],
+      "uncertainties": [
+        "Announcement is not sufficient evidence of final shipped values."
+      ]
+    },
+    {
+      "id": "pol-intaki-2026",
+      "title": "Reports from an Intaki Observer",
+      "url": "https://forums.eveonline.com/t/reports-from-an-intaki-observer/514402",
+      "publisher": "Chet-Shi / EVE player forum",
+      "publishedDate": "2026-07-05",
+      "accessedDate": "2026-09-22",
+      "kind": "participant-roleplay",
+      "claims": [
+        "July perspective on Rogue Edge, mining and Placid fighting."
+      ],
+      "uncertainties": [
+        "Mixture of fiction and observation; not a September census."
+      ]
+    },
+    {
+      "id": "pol-support-fw",
+      "title": "Factional Warfare",
+      "url": "https://support.eveonline.com/hc/en-us/articles/203209072-Factional-Warfare",
+      "publisher": "CCP Support",
+      "publishedDate": "2024-05-24",
+      "accessedDate": "2026-09-22",
+      "kind": "official-support",
+      "claims": [
+        "Names official militia corporations and enrollment institutions."
+      ],
+      "uncertainties": [
+        "Page contains legacy allied-war wording; reconcile mechanics with later patch notes."
+      ]
+    },
+    {
+      "id": "pol-sedition-2022",
+      "title": "Sedition. Gallente FW Pirates - Industry - Low-sec - NPC Null",
+      "url": "https://forums.eveonline.com/t/sedition-gallente-fw-pirates-industry-low-sec-npc-null-ustz-eu/371187",
+      "publisher": "youngpuke2 / EVE player forum",
+      "publishedDate": "2022-07-24",
+      "accessedDate": "2026-09-22",
+      "kind": "firsthand-recruitment",
+      "claims": [
+        "Dated Gallente recruitment association for Sedition and author."
+      ],
+      "uncertainties": [
+        "Does not establish current faction enrollment."
+      ]
+    },
+    {
+      "id": "pol-qcats-2011",
+      "title": "Quantum Cats Syndicate (Gallente)",
+      "url": "https://sovereigntywars.wordpress.com/2011/08/26/quantum-cats-syndicate-gallente/",
+      "publisher": "Sovereignty Wars",
+      "publishedDate": "2011-08-26",
+      "accessedDate": "2026-09-22",
+      "kind": "historical-lead-unverified-this-pass",
+      "claims": [
+        "Lead inherited from prior project; current QCATS identity verified through ESI instead."
+      ],
+      "uncertainties": [
+        "Not used for historical leader claims without fresh source inspection."
+      ]
+    },
+    {
+      "id": "pol-ribbit-id",
+      "title": "Battle Toad Briage - Try Not to Croak",
+      "url": "https://forums.eveonline.com/t/battle-toad-briage-try-not-to-croak/451993",
+      "publisher": "Sam Chadelanne / EVE player forum",
+      "publishedDate": "2024-06-10",
+      "accessedDate": "2026-09-22",
+      "kind": "firsthand-recruitment",
+      "claims": [
+        "Links RIBBIT 99012831 and Battle Toad Brigade 98773529."
+      ],
+      "uncertainties": [
+        "Typo in source title; numeric identities separately verified through ESI."
+      ]
+    },
+    {
+      "id": "pol-frog-id-lead",
+      "title": "The Frog Pond - DOTLAN",
+      "url": "https://evemaps.dotlan.net/corp/The_Frog_Pond",
+      "publisher": "DOTLAN",
+      "publishedDate": null,
+      "accessedDate": "2026-09-22",
+      "kind": "secondary-identity-lead",
+      "claims": [
+        "Provided corporation ID 98751878 for primary ESI verification."
+      ],
+      "uncertainties": [
+        "Identity lead only; primary endpoint used for current facts."
+      ]
+    },
+    {
+      "id": "pol-esi-alliances-99001742",
+      "title": "ESI public alliances: Templis CALSF (99001742)",
+      "url": "https://esi.evetech.net/latest/alliances/99001742/?datasource=tranquility",
+      "publisher": "EVE Online ESI",
+      "publishedDate": null,
+      "accessedDate": "2026-09-22",
+      "observedAt": "2026-09-22T05:28:30.061519+00:00",
+      "kind": "official-public-API-observation",
+      "claims": [
+        "Typed identity and the public faction, organization or CEO fields present in this response."
+      ],
+      "uncertainties": [
+        "Not active-pilot counts, historical diplomatic relationships, availability, FC skill, endorsement or private intent. Omitted faction_id is not proof that no member uses direct enlistment."
+      ],
+      "observedFields": {
+        "name": "Templis CALSF",
+        "ticker": "CALSF",
+        "executor_corporation_id": 98107258
+      }
+    },
+    {
+      "id": "pol-esi-alliances-99009845",
+      "title": "ESI public alliances: Sedition. (99009845)",
+      "url": "https://esi.evetech.net/latest/alliances/99009845/?datasource=tranquility",
+      "publisher": "EVE Online ESI",
+      "publishedDate": null,
+      "accessedDate": "2026-09-22",
+      "observedAt": "2026-09-22T05:29:00.526799+00:00",
+      "kind": "official-public-API-observation",
+      "claims": [
+        "Typed identity and the public faction, organization or CEO fields present in this response."
+      ],
+      "uncertainties": [
+        "Not active-pilot counts, historical diplomatic relationships, availability, FC skill, endorsement or private intent. Omitted faction_id is not proof that no member uses direct enlistment."
+      ],
+      "observedFields": {
+        "name": "Sedition.",
+        "ticker": "SEDIT",
+        "executor_corporation_id": 98699596
+      }
+    },
+    {
+      "id": "pol-esi-alliances-99009856",
+      "title": "ESI public alliances: Ghostbirds (99009856)",
+      "url": "https://esi.evetech.net/latest/alliances/99009856/?datasource=tranquility",
+      "publisher": "EVE Online ESI",
+      "publishedDate": null,
+      "accessedDate": "2026-09-22",
+      "observedAt": "2026-09-22T05:29:00.526799+00:00",
+      "kind": "official-public-API-observation",
+      "claims": [
+        "Typed identity and the public faction, organization or CEO fields present in this response."
+      ],
+      "uncertainties": [
+        "Not active-pilot counts, historical diplomatic relationships, availability, FC skill, endorsement or private intent. Omitted faction_id is not proof that no member uses direct enlistment."
+      ],
+      "observedFields": {
+        "name": "Ghostbirds",
+        "ticker": "GBRD.",
+        "faction_id": 500001,
+        "executor_corporation_id": 98688951
+      }
+    },
+    {
+      "id": "pol-esi-alliances-99011489",
+      "title": "ESI public alliances: United Caldari Space Command. (99011489)",
+      "url": "https://esi.evetech.net/latest/alliances/99011489/?datasource=tranquility",
+      "publisher": "EVE Online ESI",
+      "publishedDate": null,
+      "accessedDate": "2026-09-22",
+      "observedAt": "2026-09-22T05:29:00.526799+00:00",
+      "kind": "official-public-API-observation",
+      "claims": [
+        "Typed identity and the public faction, organization or CEO fields present in this response."
+      ],
+      "uncertainties": [
+        "Not active-pilot counts, historical diplomatic relationships, availability, FC skill, endorsement or private intent. Omitted faction_id is not proof that no member uses direct enlistment."
+      ],
+      "observedFields": {
+        "name": "United Caldari Space Command.",
+        "ticker": "UCSC-",
+        "faction_id": 500001,
+        "executor_corporation_id": 98639548
+      }
+    },
+    {
+      "id": "pol-esi-alliances-99011730",
+      "title": "ESI public alliances: Aideron Robotics. (99011730)",
+      "url": "https://esi.evetech.net/latest/alliances/99011730/?datasource=tranquility",
+      "publisher": "EVE Online ESI",
+      "publishedDate": null,
+      "accessedDate": "2026-09-22",
+      "observedAt": "2026-09-22T05:29:00.526799+00:00",
+      "kind": "official-public-API-observation",
+      "claims": [
+        "Typed identity and the public faction, organization or CEO fields present in this response."
+      ],
+      "uncertainties": [
+        "Not active-pilot counts, historical diplomatic relationships, availability, FC skill, endorsement or private intent. Omitted faction_id is not proof that no member uses direct enlistment."
+      ],
+      "observedFields": {
+        "name": "Aideron Robotics.",
+        "ticker": "AIDER",
+        "faction_id": 500004,
+        "executor_corporation_id": 1894214152
+      }
+    },
+    {
+      "id": "pol-esi-alliances-99011952",
+      "title": "ESI public alliances: Of Essence (99011952)",
+      "url": "https://esi.evetech.net/latest/alliances/99011952/?datasource=tranquility",
+      "publisher": "EVE Online ESI",
+      "publishedDate": null,
+      "accessedDate": "2026-09-22",
+      "observedAt": "2026-09-22T05:29:20.770272+00:00",
+      "kind": "official-public-API-observation",
+      "claims": [
+        "Typed identity and the public faction, organization or CEO fields present in this response."
+      ],
+      "uncertainties": [
+        "Not active-pilot counts, historical diplomatic relationships, availability, FC skill, endorsement or private intent. Omitted faction_id is not proof that no member uses direct enlistment."
+      ],
+      "observedFields": {
+        "name": "Of Essence",
+        "ticker": "ESSNC",
+        "faction_id": 500004,
+        "executor_corporation_id": 98714140
+      }
+    },
+    {
+      "id": "pol-esi-alliances-99012831",
+      "title": "ESI public alliances: Ribbit. (99012831)",
+      "url": "https://esi.evetech.net/latest/alliances/99012831/?datasource=tranquility",
+      "publisher": "EVE Online ESI",
+      "publishedDate": null,
+      "accessedDate": "2026-09-22",
+      "observedAt": "2026-09-22T05:28:30.061519+00:00",
+      "kind": "official-public-API-observation",
+      "claims": [
+        "Typed identity and the public faction, organization or CEO fields present in this response."
+      ],
+      "uncertainties": [
+        "Not active-pilot counts, historical diplomatic relationships, availability, FC skill, endorsement or private intent. Omitted faction_id is not proof that no member uses direct enlistment."
+      ],
+      "observedFields": {
+        "name": "Ribbit.",
+        "ticker": "RIBBT",
+        "executor_corporation_id": 98784118
+      }
+    },
+    {
+      "id": "pol-esi-characters-91517843",
+      "title": "ESI public characters: Sam Chadelanne (91517843)",
+      "url": "https://esi.evetech.net/latest/characters/91517843/?datasource=tranquility",
+      "publisher": "EVE Online ESI",
+      "publishedDate": null,
+      "accessedDate": "2026-09-22",
+      "observedAt": "2026-09-22T05:28:30.061519+00:00",
+      "kind": "official-public-API-observation",
+      "claims": [
+        "Typed identity and the public faction, organization or CEO fields present in this response."
+      ],
+      "uncertainties": [
+        "Not active-pilot counts, historical diplomatic relationships, availability, FC skill, endorsement or private intent. Omitted faction_id is not proof that no member uses direct enlistment."
+      ],
+      "observedFields": {
+        "name": "Sam Chadelanne",
+        "faction_id": 500010,
+        "alliance_id": 99015022,
+        "corporation_id": 98834150
+      }
+    },
+    {
+      "id": "pol-esi-characters-94065445",
+      "title": "ESI public characters: Corvus Onzo (94065445)",
+      "url": "https://esi.evetech.net/latest/characters/94065445/?datasource=tranquility",
+      "publisher": "EVE Online ESI",
+      "publishedDate": null,
+      "accessedDate": "2026-09-22",
+      "observedAt": "2026-09-22T05:28:30.061519+00:00",
+      "kind": "official-public-API-observation",
+      "claims": [
+        "Typed identity and the public faction, organization or CEO fields present in this response."
+      ],
+      "uncertainties": [
+        "Not active-pilot counts, historical diplomatic relationships, availability, FC skill, endorsement or private intent. Omitted faction_id is not proof that no member uses direct enlistment."
+      ],
+      "observedFields": {
+        "name": "Corvus Onzo",
+        "faction_id": 500001,
+        "alliance_id": 99009856,
+        "corporation_id": 98688951
+      }
+    },
+    {
+      "id": "pol-esi-characters-755598436",
+      "title": "ESI public characters: Scylus Black (755598436)",
+      "url": "https://esi.evetech.net/latest/characters/755598436/?datasource=tranquility",
+      "publisher": "EVE Online ESI",
+      "publishedDate": null,
+      "accessedDate": "2026-09-22",
+      "observedAt": "2026-09-22T05:28:30.061519+00:00",
+      "kind": "official-public-API-observation",
+      "claims": [
+        "Typed identity and the public faction, organization or CEO fields present in this response."
+      ],
+      "uncertainties": [
+        "Not active-pilot counts, historical diplomatic relationships, availability, FC skill, endorsement or private intent. Omitted faction_id is not proof that no member uses direct enlistment."
+      ],
+      "observedFields": {
+        "name": "Scylus Black",
+        "alliance_id": 99009845,
+        "corporation_id": 98221827
+      }
+    },
+    {
+      "id": "pol-esi-characters-923165274",
+      "title": "ESI public characters: youngpuke2 (923165274)",
+      "url": "https://esi.evetech.net/latest/characters/923165274/?datasource=tranquility",
+      "publisher": "EVE Online ESI",
+      "publishedDate": null,
+      "accessedDate": "2026-09-22",
+      "observedAt": "2026-09-22T05:28:30.061519+00:00",
+      "kind": "official-public-API-observation",
+      "claims": [
+        "Typed identity and the public faction, organization or CEO fields present in this response."
+      ],
+      "uncertainties": [
+        "Not active-pilot counts, historical diplomatic relationships, availability, FC skill, endorsement or private intent. Omitted faction_id is not proof that no member uses direct enlistment."
+      ],
+      "observedFields": {
+        "name": "youngpuke2",
+        "alliance_id": 99009845,
+        "corporation_id": 98326241
+      }
+    },
+    {
+      "id": "pol-esi-characters-1115505592",
+      "title": "ESI public characters: GoingOffRoading (1115505592)",
+      "url": "https://esi.evetech.net/latest/characters/1115505592/?datasource=tranquility",
+      "publisher": "EVE Online ESI",
+      "publishedDate": null,
+      "accessedDate": "2026-09-22",
+      "observedAt": "2026-09-22T05:30:08.163108+00:00",
+      "kind": "official-public-API-observation",
+      "claims": [
+        "Typed identity and the public faction, organization or CEO fields present in this response."
+      ],
+      "uncertainties": [
+        "Not active-pilot counts, historical diplomatic relationships, availability, FC skill, endorsement or private intent. Omitted faction_id is not proof that no member uses direct enlistment."
+      ],
+      "observedFields": {
+        "name": "GoingOffRoading",
+        "faction_id": 500004,
+        "alliance_id": 99011952,
+        "corporation_id": 1126669495
+      }
+    },
+    {
+      "id": "pol-esi-characters-1386146895",
+      "title": "ESI public characters: Julianus Soter (1386146895)",
+      "url": "https://esi.evetech.net/latest/characters/1386146895/?datasource=tranquility",
+      "publisher": "EVE Online ESI",
+      "publishedDate": null,
+      "accessedDate": "2026-09-22",
+      "observedAt": "2026-09-22T05:28:30.061519+00:00",
+      "kind": "official-public-API-observation",
+      "claims": [
+        "Typed identity and the public faction, organization or CEO fields present in this response."
+      ],
+      "uncertainties": [
+        "Not active-pilot counts, historical diplomatic relationships, availability, FC skill, endorsement or private intent. Omitted faction_id is not proof that no member uses direct enlistment."
+      ],
+      "observedFields": {
+        "name": "Julianus Soter",
+        "faction_id": 500010,
+        "corporation_id": 98750246
+      }
+    },
+    {
+      "id": "pol-esi-characters-1458891505",
+      "title": "ESI public characters: Nayrok Fenix (1458891505)",
+      "url": "https://esi.evetech.net/latest/characters/1458891505/?datasource=tranquility",
+      "publisher": "EVE Online ESI",
+      "publishedDate": null,
+      "accessedDate": "2026-09-22",
+      "observedAt": "2026-09-22T05:28:30.061519+00:00",
+      "kind": "official-public-API-observation",
+      "claims": [
+        "Typed identity and the public faction, organization or CEO fields present in this response."
+      ],
+      "uncertainties": [
+        "Not active-pilot counts, historical diplomatic relationships, availability, FC skill, endorsement or private intent. Omitted faction_id is not proof that no member uses direct enlistment."
+      ],
+      "observedFields": {
+        "name": "Nayrok Fenix",
+        "faction_id": 500001,
+        "alliance_id": 99011489,
+        "corporation_id": 98639548
+      }
+    },
+    {
+      "id": "pol-esi-characters-1535015364",
+      "title": "ESI public characters: Rinai Vero (1535015364)",
+      "url": "https://esi.evetech.net/latest/characters/1535015364/?datasource=tranquility",
+      "publisher": "EVE Online ESI",
+      "publishedDate": null,
+      "accessedDate": "2026-09-22",
+      "observedAt": "2026-09-22T05:28:30.061519+00:00",
+      "kind": "official-public-API-observation",
+      "claims": [
+        "Typed identity and the public faction, organization or CEO fields present in this response."
+      ],
+      "uncertainties": [
+        "Not active-pilot counts, historical diplomatic relationships, availability, FC skill, endorsement or private intent. Omitted faction_id is not proof that no member uses direct enlistment."
+      ],
+      "observedFields": {
+        "name": "Rinai Vero",
+        "faction_id": 500010,
+        "corporation_id": 98750246
+      }
+    },
+    {
+      "id": "pol-esi-characters-2114096575",
+      "title": "ESI public characters: Abby Aurilen (2114096575)",
+      "url": "https://esi.evetech.net/latest/characters/2114096575/?datasource=tranquility",
+      "publisher": "EVE Online ESI",
+      "publishedDate": null,
+      "accessedDate": "2026-09-22",
+      "observedAt": "2026-09-22T05:28:30.061519+00:00",
+      "kind": "official-public-API-observation",
+      "claims": [
+        "Typed identity and the public faction, organization or CEO fields present in this response."
+      ],
+      "uncertainties": [
+        "Not active-pilot counts, historical diplomatic relationships, availability, FC skill, endorsement or private intent. Omitted faction_id is not proof that no member uses direct enlistment."
+      ],
+      "observedFields": {
+        "name": "Abby Aurilen",
+        "faction_id": 500001,
+        "alliance_id": 99011489,
+        "corporation_id": 98639548
+      }
+    },
+    {
+      "id": "pol-esi-characters-2119255339",
+      "title": "ESI public characters: Orlais Placide (2119255339)",
+      "url": "https://esi.evetech.net/latest/characters/2119255339/?datasource=tranquility",
+      "publisher": "EVE Online ESI",
+      "publishedDate": null,
+      "accessedDate": "2026-09-22",
+      "observedAt": "2026-09-22T05:30:08.163108+00:00",
+      "kind": "official-public-API-observation",
+      "claims": [
+        "Typed identity and the public faction, organization or CEO fields present in this response."
+      ],
+      "uncertainties": [
+        "Not active-pilot counts, historical diplomatic relationships, availability, FC skill, endorsement or private intent. Omitted faction_id is not proof that no member uses direct enlistment."
+      ],
+      "observedFields": {
+        "name": "Orlais Placide",
+        "faction_id": 500004,
+        "alliance_id": 99011730,
+        "corporation_id": 1894214152
+      }
+    },
+    {
+      "id": "pol-esi-corporations-1000180",
+      "title": "ESI public corporations: State Protectorate (1000180)",
+      "url": "https://esi.evetech.net/latest/corporations/1000180/?datasource=tranquility",
+      "publisher": "EVE Online ESI",
+      "publishedDate": null,
+      "accessedDate": "2026-09-22",
+      "observedAt": "2026-09-22T05:28:30.061519+00:00",
+      "kind": "official-public-API-observation",
+      "claims": [
+        "Typed identity and the public faction, organization or CEO fields present in this response."
+      ],
+      "uncertainties": [
+        "Not active-pilot counts, historical diplomatic relationships, availability, FC skill, endorsement or private intent. Omitted faction_id is not proof that no member uses direct enlistment."
+      ],
+      "observedFields": {
+        "name": "State Protectorate",
+        "ticker": "SPROT",
+        "faction_id": 500001,
+        "ceo_id": 3018995,
+        "member_count": 49360
+      }
+    },
+    {
+      "id": "pol-esi-corporations-1000181",
+      "title": "ESI public corporations: Federal Defense Union (1000181)",
+      "url": "https://esi.evetech.net/latest/corporations/1000181/?datasource=tranquility",
+      "publisher": "EVE Online ESI",
+      "publishedDate": null,
+      "accessedDate": "2026-09-22",
+      "observedAt": "2026-09-22T05:28:30.061519+00:00",
+      "kind": "official-public-API-observation",
+      "claims": [
+        "Typed identity and the public faction, organization or CEO fields present in this response."
+      ],
+      "uncertainties": [
+        "Not active-pilot counts, historical diplomatic relationships, availability, FC skill, endorsement or private intent. Omitted faction_id is not proof that no member uses direct enlistment."
+      ],
+      "observedFields": {
+        "name": "Federal Defense Union",
+        "ticker": "FEDEF",
+        "faction_id": 500004,
+        "ceo_id": 3018997,
+        "member_count": 38962
+      }
+    },
+    {
+      "id": "pol-esi-corporations-98107258",
+      "title": "ESI public corporations: Caldari Colonial Defense Ministry (98107258)",
+      "url": "https://esi.evetech.net/latest/corporations/98107258/?datasource=tranquility",
+      "publisher": "EVE Online ESI",
+      "publishedDate": null,
+      "accessedDate": "2026-09-22",
+      "observedAt": "2026-09-22T05:28:30.061519+00:00",
+      "kind": "official-public-API-observation",
+      "claims": [
+        "Typed identity and the public faction, organization or CEO fields present in this response."
+      ],
+      "uncertainties": [
+        "Not active-pilot counts, historical diplomatic relationships, availability, FC skill, endorsement or private intent. Omitted faction_id is not proof that no member uses direct enlistment."
+      ],
+      "observedFields": {
+        "name": "Caldari Colonial Defense Ministry",
+        "ticker": "CCDM",
+        "alliance_id": 99001742,
+        "ceo_id": 1875163466,
+        "member_count": 15
+      }
+    },
+    {
+      "id": "pol-esi-corporations-98596389",
+      "title": "ESI public corporations: Sons of Luminaire (98596389)",
+      "url": "https://esi.evetech.net/latest/corporations/98596389/?datasource=tranquility",
+      "publisher": "EVE Online ESI",
+      "publishedDate": null,
+      "accessedDate": "2026-09-22",
+      "observedAt": "2026-09-22T05:28:30.061519+00:00",
+      "kind": "official-public-API-observation",
+      "claims": [
+        "Typed identity and the public faction, organization or CEO fields present in this response."
+      ],
+      "uncertainties": [
+        "Not active-pilot counts, historical diplomatic relationships, availability, FC skill, endorsement or private intent. Omitted faction_id is not proof that no member uses direct enlistment."
+      ],
+      "observedFields": {
+        "name": "Sons of Luminaire",
+        "ticker": "GFSL",
+        "ceo_id": 2114194920,
+        "member_count": 11
+      }
+    },
+    {
+      "id": "pol-esi-corporations-98639548",
+      "title": "ESI public corporations: United Caldari Navy (98639548)",
+      "url": "https://esi.evetech.net/latest/corporations/98639548/?datasource=tranquility",
+      "publisher": "EVE Online ESI",
+      "publishedDate": null,
+      "accessedDate": "2026-09-22",
+      "observedAt": "2026-09-22T05:28:30.061519+00:00",
+      "kind": "official-public-API-observation",
+      "claims": [
+        "Typed identity and the public faction, organization or CEO fields present in this response."
+      ],
+      "uncertainties": [
+        "Not active-pilot counts, historical diplomatic relationships, availability, FC skill, endorsement or private intent. Omitted faction_id is not proof that no member uses direct enlistment."
+      ],
+      "observedFields": {
+        "name": "United Caldari Navy",
+        "ticker": "UCN-",
+        "faction_id": 500001,
+        "alliance_id": 99011489,
+        "ceo_id": 2114096575,
+        "member_count": 103
+      }
+    },
+    {
+      "id": "pol-esi-corporations-98688951",
+      "title": "ESI public corporations: Mercury Arms Inc. (98688951)",
+      "url": "https://esi.evetech.net/latest/corporations/98688951/?datasource=tranquility",
+      "publisher": "EVE Online ESI",
+      "publishedDate": null,
+      "accessedDate": "2026-09-22",
+      "observedAt": "2026-09-22T05:28:30.061519+00:00",
+      "kind": "official-public-API-observation",
+      "claims": [
+        "Typed identity and the public faction, organization or CEO fields present in this response."
+      ],
+      "uncertainties": [
+        "Not active-pilot counts, historical diplomatic relationships, availability, FC skill, endorsement or private intent. Omitted faction_id is not proof that no member uses direct enlistment."
+      ],
+      "observedFields": {
+        "name": "Mercury Arms Inc.",
+        "ticker": "PROHG",
+        "faction_id": 500001,
+        "alliance_id": 99009856,
+        "ceo_id": 94065445,
+        "member_count": 54
+      }
+    },
+    {
+      "id": "pol-esi-corporations-98714140",
+      "title": "ESI public corporations: Fliet Pizza Delivery (98714140)",
+      "url": "https://esi.evetech.net/latest/corporations/98714140/?datasource=tranquility",
+      "publisher": "EVE Online ESI",
+      "publishedDate": null,
+      "accessedDate": "2026-09-22",
+      "observedAt": "2026-09-22T05:30:08.163108+00:00",
+      "kind": "official-public-API-observation",
+      "claims": [
+        "Typed identity and the public faction, organization or CEO fields present in this response."
+      ],
+      "uncertainties": [
+        "Not active-pilot counts, historical diplomatic relationships, availability, FC skill, endorsement or private intent. Omitted faction_id is not proof that no member uses direct enlistment."
+      ],
+      "observedFields": {
+        "name": "Fliet Pizza Delivery",
+        "ticker": "-FPD-",
+        "faction_id": 500004,
+        "alliance_id": 99011952,
+        "ceo_id": 91785706,
+        "member_count": 66
+      }
+    },
+    {
+      "id": "pol-esi-corporations-98751878",
+      "title": "ESI public corporations: The Frog Pond (98751878)",
+      "url": "https://esi.evetech.net/latest/corporations/98751878/?datasource=tranquility",
+      "publisher": "EVE Online ESI",
+      "publishedDate": null,
+      "accessedDate": "2026-09-22",
+      "observedAt": "2026-09-22T05:28:30.061519+00:00",
+      "kind": "official-public-API-observation",
+      "claims": [
+        "Typed identity and the public faction, organization or CEO fields present in this response."
+      ],
+      "uncertainties": [
+        "Not active-pilot counts, historical diplomatic relationships, availability, FC skill, endorsement or private intent. Omitted faction_id is not proof that no member uses direct enlistment."
+      ],
+      "observedFields": {
+        "name": "The Frog Pond",
+        "ticker": "FPOND",
+        "ceo_id": 1,
+        "member_count": 0
+      }
+    },
+    {
+      "id": "pol-esi-corporations-98773529",
+      "title": "ESI public corporations: Battle Toad Brigade (98773529)",
+      "url": "https://esi.evetech.net/latest/corporations/98773529/?datasource=tranquility",
+      "publisher": "EVE Online ESI",
+      "publishedDate": null,
+      "accessedDate": "2026-09-22",
+      "observedAt": "2026-09-22T05:29:20.770272+00:00",
+      "kind": "official-public-API-observation",
+      "claims": [
+        "Typed identity and the public faction, organization or CEO fields present in this response."
+      ],
+      "uncertainties": [
+        "Not active-pilot counts, historical diplomatic relationships, availability, FC skill, endorsement or private intent. Omitted faction_id is not proof that no member uses direct enlistment."
+      ],
+      "observedFields": {
+        "name": "Battle Toad Brigade",
+        "ticker": "CR0AK",
+        "ceo_id": 1,
+        "member_count": 0
+      }
+    },
+    {
+      "id": "pol-esi-corporations-1126669495",
+      "title": "ESI public corporations: Quantum Cats Syndicate (1126669495)",
+      "url": "https://esi.evetech.net/latest/corporations/1126669495/?datasource=tranquility",
+      "publisher": "EVE Online ESI",
+      "publishedDate": null,
+      "accessedDate": "2026-09-22",
+      "observedAt": "2026-09-22T05:29:00.526799+00:00",
+      "kind": "official-public-API-observation",
+      "claims": [
+        "Typed identity and the public faction, organization or CEO fields present in this response."
+      ],
+      "uncertainties": [
+        "Not active-pilot counts, historical diplomatic relationships, availability, FC skill, endorsement or private intent. Omitted faction_id is not proof that no member uses direct enlistment."
+      ],
+      "observedFields": {
+        "name": "Quantum Cats Syndicate",
+        "ticker": "QCATS",
+        "faction_id": 500004,
+        "alliance_id": 99011952,
+        "ceo_id": 1115505592,
+        "member_count": 30
+      }
+    },
+    {
+      "id": "pol-esi-corporations-1894214152",
+      "title": "ESI public corporations: Aideron Robotics (1894214152)",
+      "url": "https://esi.evetech.net/latest/corporations/1894214152/?datasource=tranquility",
+      "publisher": "EVE Online ESI",
+      "publishedDate": null,
+      "accessedDate": "2026-09-22",
+      "observedAt": "2026-09-22T05:28:30.061519+00:00",
+      "kind": "official-public-API-observation",
+      "claims": [
+        "Typed identity and the public faction, organization or CEO fields present in this response."
+      ],
+      "uncertainties": [
+        "Not active-pilot counts, historical diplomatic relationships, availability, FC skill, endorsement or private intent. Omitted faction_id is not proof that no member uses direct enlistment."
+      ],
+      "observedFields": {
+        "name": "Aideron Robotics",
+        "ticker": "AIDER",
+        "faction_id": 500004,
+        "alliance_id": 99011730,
+        "ceo_id": 2119255339,
+        "member_count": 80
+      }
+    },
+    {
+      "id": "pol-esi-ribbit-corporations",
+      "title": "ESI RIBBIT corporation list",
+      "url": "https://esi.evetech.net/latest/alliances/99012831/corporations/?datasource=tranquility",
+      "publisher": "EVE Online ESI",
+      "publishedDate": null,
+      "accessedDate": "2026-09-22",
+      "kind": "official-public-API-observation",
+      "claims": [
+        "Response was an empty list."
+      ],
+      "uncertainties": [
+        "Does not by itself establish exact disband date or historical composition."
+      ],
+      "observedFields": []
+    }
+  ]
+}

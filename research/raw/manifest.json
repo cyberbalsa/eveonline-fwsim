@@ -1,0 +1,76 @@
+{
+  "assembledOn": "2026-09-22",
+  "publicSnapshot": {
+    "url": "https://esi.evetech.net/latest/fw/systems/?datasource=tranquility",
+    "httpDate": "2026-09-22T05:18:11Z",
+    "lastModified": "2026-09-22T05:11:32Z",
+    "expires": "2026-09-22T05:41:32Z",
+    "compatibilityDate": "2020-01-01",
+    "cacheStatus": "HIT",
+    "contentHashMeaning": "SHA-256 of decompressed saved response bytes; HTTP date is server response time, not an assertion of synchronous global state."
+  },
+  "inheritedGeography": {
+    "project": "../eveonline-risk",
+    "warning": "Sibling importer labels assembly time retrievedAt and may read older per-route cache entries; geography is inherited evidence, not a fresh per-gate audit. Raw gates are available for offline consistency checks.",
+    "sdeBuild": 3528119
+  },
+  "files": [
+    {
+      "file": "research/raw/risk-warzone.json",
+      "copiedFrom": "../eveonline-risk/research/warzone.json",
+      "sha256": "78ca3f200c8891a307be4f734c79c83b0d575cd31b451056fe467885ab1044e0",
+      "bytes": 334458
+    },
+    {
+      "file": "research/raw/risk-map-layout.json",
+      "copiedFrom": "../eveonline-risk/research/map-layout.json",
+      "sha256": "09ad46a4d117c09d7be681f1d2d699391b1e1cae24ec5c0bfdcf1d710aa7c22e",
+      "bytes": 27805
+    },
+    {
+      "file": "research/raw/esi-fw-systems-2026-09-22.json",
+      "copiedFrom": "/tmp/fwsim-fw-systems.json",
+      "sha256": "6ee36a5eab53fccab1183e456dd36ed291efa17d3c069159e9c581b8aeb3f721",
+      "bytes": 25984
+    },
+    {
+      "file": "research/raw/esi-fw-systems-2026-09-22.headers.txt",
+      "copiedFrom": "/tmp/fwsim-fw-headers.txt",
+      "sha256": "2877367fa58cd4cd90071c3eed82844e8ef677f72f3bfebc17e86f3d6c533061",
+      "bytes": 950
+    },
+    {
+      "file": "research/raw/fw-identity-detail-2.json",
+      "copiedFrom": "/tmp/fw-identity-detail-2.json",
+      "sha256": "501d3ae7efa7ca3ee99ea7553a7acdd9541d19001e7bac0f127d3908a2d455b0",
+      "bytes": 10366
+    },
+    {
+      "file": "research/raw/fw-identity-detail-3.json",
+      "copiedFrom": "/tmp/fw-identity-detail-3.json",
+      "sha256": "256a8e811f1c4f4e253cef17bb3e73a257ed8e0b429f1fe590e83b530989cefd",
+      "bytes": 3123
+    },
+    {
+      "file": "research/raw/fw-identity-detail-4.json",
+      "copiedFrom": "/tmp/fw-identity-detail-4.json",
+      "sha256": "fee0ea7f8acdcd849e52d04e8a899da0912b9110540c732b7e352448883e9b13",
+      "bytes": 4880
+    },
+    {
+      "file": "research/raw/fw-identity-detail.json",
+      "copiedFrom": "/tmp/fw-identity-detail.json",
+      "sha256": "c2d9e46b1bc30ddf033ae5bcc8b031b5a8230b893a6f6db51e1b60510b7ec79b",
+      "bytes": 31788
+    },
+    {
+      "file": "research/raw/fw-identity-resolutions.json",
+      "copiedFrom": "/tmp/fw-identity-resolutions.json",
+      "sha256": "bc565208eac8d68e5b63849a3ef48f421176834f9e2ca6039c1a5d6668f97e4f",
+      "bytes": 1240
+    }
+  ],
+  "identityEvidence": {
+    "note": "Public ESI identity responses from the political research worker; per-entity observation timestamps and selected fields are in identity-catalog.json. These archives do not preserve complete HTTP response headers. Raw in-game profiles do not establish real-world identity or attendance."
+  }
+}

@@ -1,0 +1,341 @@
+[
+  {
+    "category": "alliances",
+    "id": 99001742,
+    "url": "https://esi.evetech.net/latest/alliances/99001742/?datasource=tranquility",
+    "data": {
+      "creator_corporation_id": 98094258,
+      "creator_id": 927945665,
+      "date_founded": "2012-02-24T21:13:00Z",
+      "executor_corporation_id": 98107258,
+      "name": "Templis CALSF",
+      "ticker": "CALSF"
+    }
+  },
+  {
+    "category": "characters",
+    "id": 923165274,
+    "url": "https://esi.evetech.net/latest/characters/923165274/?datasource=tranquility",
+    "data": {
+      "birthday": "2010-03-06T20:53:00Z",
+      "bloodline_id": 2,
+      "corporation_id": 98326241,
+      "gender": "male",
+      "name": "youngpuke2",
+      "race_id": 1,
+      "alliance_id": 99009845,
+      "description": "<font size=\"15\" color=\"#bfffffff\"></font><font size=\"14\" color=\"#bfffffff\">[15:08:06] Andy Molou &gt; Bully newcomers, fuck your  youngpuke2<br><br>[00:50:45] Saint Lucifer &gt; kinda gay<br><br>[00:51:43] Saint Lucifer &gt; yeah you gonna get my ragnarok or hel everytime from here on out<br>[00:51:52] youngpuke2 &gt; that's going on my bio now<br>[00:51:55] youngpuke2 &gt; thanks for the feed<br>[00:51:56] HC Androidson &gt; can it go in small plx?<br><br>laluger2 &gt; he shot me<br>laluger2 &gt; twats<br><br><br>smokieakm  </font><font size=\"14\" color=\"#ffd98d00\"><a href=\"showinfo:1375//923165274\">youngpuke2</a></font><font size=\"14\" color=\"#bfffffff\"> i left cal mil go away</font>",
+      "security_status": -4.9
+    }
+  },
+  {
+    "category": "characters",
+    "id": 2114096575,
+    "url": "https://esi.evetech.net/latest/characters/2114096575/?datasource=tranquility",
+    "data": {
+      "birthday": "2018-05-11T18:23:01Z",
+      "bloodline_id": 2,
+      "corporation_id": 98639548,
+      "gender": "female",
+      "name": "Abby Aurilen",
+      "race_id": 1,
+      "alliance_id": 99011489,
+      "faction_id": 500001,
+      "description": "\"Stupidmongo i socially engineered that conversation to get you to confirm it was infact an omega spending 2.4 billion isk dam im playing 4d chess with a group of checkers players.\" - BirdDog",
+      "security_status": -3.8
+    }
+  },
+  {
+    "category": "characters",
+    "id": 94065445,
+    "url": "https://esi.evetech.net/latest/characters/94065445/?datasource=tranquility",
+    "data": {
+      "birthday": "2013-11-28T04:23:24Z",
+      "bloodline_id": 2,
+      "corporation_id": 98688951,
+      "gender": "male",
+      "name": "Corvus Onzo",
+      "race_id": 1,
+      "alliance_id": 99009856,
+      "faction_id": 500001,
+      "title": "CEO",
+      "description": "<font size=\"13\" color=\"#bfffffff\"></font><font size=\"18\" color=\"#ff007fff\"><b>ENLIST TODAY//<br></font><font size=\"18\" color=\"#ffd98d00\"><a href=\"recruitmentAd:98688951//163809\">Mercury Arms Inc. - State Sanctioned Supremacy</a></font><font size=\"18\" color=\"#ff007fff\"> <br><br></font><font size=\"18\" color=\"#ffffffff\">HALL OF FAME//<br></font><font size=\"18\" color=\"#ffd98d00\"><a href=\"killReport:95388836:086939e2117698c13ee0a37132382521fd579d79\">Kill: Gendrome (Stratios)</a></font><font size=\"18\" color=\"#bfffffff\"> <br></font><font size=\"18\" color=\"#ffd98d00\"><a href=\"killReport:74237121:c3edaabce4a943bfa8e61761bdefa450f37cee82\">Kill: Alex Arthy (Orthrus)</a></font><font size=\"18\" color=\"#bfffffff\"> <br></font><font size=\"18\" color=\"#ffd98d00\"><a href=\"killReport:84351726:8b41436dd3a7e0d9e82b859d16e1ff4a7555e603\">Kill: MrBalena (Phantasm)</a><br><a href=\"killReport:84169985:2584ff76116964fd481cdb3cabbf4c11d615d095\">Kill: Tom Catt (Curse)</a><a href=\"killReport:72061207:220168d7406de6de8ec915014171429dd7f341cf\"> </a><br><a href=\"killReport:90720558:bd367b9f53e7d1bf587c0c54eaf6d65c0d689a53\">Kill: Dark Borro (Tengu)</a><a href=\"killReport:72061207:220168d7406de6de8ec915014171429dd7f341cf\"> </a><br><a href=\"killReport:99112062:a9bc6e84eade39c182c183ef91c5e95f0c7a77e2\">Kill: Claire Ya (Ikitursa)</a><a href=\"killReport:72061207:220168d7406de6de8ec915014171429dd7f341cf\"> </a><br><br></font><font size=\"18\" color=\"#ff00ffff\">HISTORY//<br></font><font size=\"18\" color=\"#ffd98d00\"><a href=\"showinfo:16159//99004127\">The Bloc</a><br><a href=\"showinfo:16159//495729389\">Shadow Cartel</a><a href=\"showinfo:16159//99004127\"> </a><br><a href=\"showinfo:16159//99001742\">Templis CALSF</a><a href=\"showinfo:16159//99004127\"> </a><br><a href=\"showinfo:16159//99009856\">Ghostbirds</a><a href=\"showinfo:16159//99004127\"> </a><br><a href=\"showinfo:16159//99004295\">A Band Apart.</a><a href=\"showinfo:16159//99004127\"> </a></b></font>",
+      "security_status": -1.9
+    }
+  },
+  {
+    "category": "characters",
+    "id": 1458891505,
+    "url": "https://esi.evetech.net/latest/characters/1458891505/?datasource=tranquility",
+    "data": {
+      "birthday": "2008-09-24T15:45:00Z",
+      "bloodline_id": 1,
+      "corporation_id": 98639548,
+      "gender": "male",
+      "name": "Nayrok Fenix",
+      "race_id": 1,
+      "alliance_id": 99011489,
+      "faction_id": 500001,
+      "description": "u'<font size=\"14\" color=\"#bfffffff\"></font><font size=\"24\" color=\"#bfffffff\">Loyalty to the State \\u2261\\u2605\\u2261</font>'",
+      "security_status": 0.5
+    }
+  },
+  {
+    "category": "characters",
+    "id": 755598436,
+    "url": "https://esi.evetech.net/latest/characters/755598436/?datasource=tranquility",
+    "data": {
+      "birthday": "2010-02-20T17:29:00Z",
+      "bloodline_id": 2,
+      "corporation_id": 98221827,
+      "gender": "male",
+      "name": "Scylus Black",
+      "race_id": 1,
+      "alliance_id": 99009845,
+      "description": "<font size=\"13\" color=\"#bfffffff\"></font><font size=\"12\" color=\"#ffd98d00\"><a href=\"killReport:37374540:401e304936fdcdf01c3fc860d68fd7083e489820\">Kill: HasSpleng (Vargur)</a></font><font size=\"12\" color=\"#bfffffff\"> <br><br>\"I tip my hat off to Templis CALSF (Dragonaors). Despite losing the system, they fought with tenacity and ferocity. Those are two qualities lacking in many CalMil corps nowadays.\"<br><br></font><font size=\"12\" color=\"#ffd98d00\"><a href=\"showinfo:1384//379456901\">Deen Wispa</a></font><font size=\"12\" color=\"#bfffffff\"> -  </font><font size=\"12\" color=\"#ffd98d00\"><a href=\"showinfo:2//98125391\">Justified Chaos</a><br></font><font size=\"12\" color=\"#bfffffff\"><i>Comment from article about Innia</i><br><br>\"I will say this about CALSF. They never give up. Doesn't matter how many times you kill them, how many systems you kick them out of. They just keep coming back, again and again. Over the years I might have had some shit to talk about the piloting of some of their dudes, but I've never questioned their heart. o7 Would fight again... and again.\"<br><br></font><font size=\"12\" color=\"#ffd98d00\"><a href=\"showinfo:1378//1093296114\">Mirana Niranne</a></font><font size=\"12\" color=\"#bfffffff\"> (DJ Funky Bacon / The Mittani) -  </font><font size=\"12\" color=\"#ffd98d00\"><a href=\"showinfo:16159//99001795\">Monkeys with Guns</a><br></font><font size=\"12\" color=\"#bfffffff\"><i>Comment from article about the Fall of Innia on TMC</i><br><br></font><font size=\"12\" color=\"#ffb2b2b2\">Article on</font><font size=\"12\" color=\"#ffffa600\"> Crossing Zebras (GalMil) </font><font size=\"12\" color=\"#ffb2b2b2\">about Templis:<br></font><font size=\"12\" color=\"#ffffe400\"><loc><a href=\"http://crossingzebras.com/caldari-militia/\">http://crossingzebras.com/caldari-militia</loc>/</a><br><br></font><font size=\"12\" color=\"#99ffffff\">CSM XII Candidate: Scylus Black<br></font><font size=\"12\" color=\"#ffffe400\"><loc><a href=\"http://forums-archive.eveonline.com/topic/510503/\">https://forums-archive.eveonline.com/topic/510503/</a></loc><br><br></font><font size=\"12\" color=\"#ffb2b2b2\">[04:41:45] Super Chair &gt; test is bad, borg has ADHD, templis is drunk, and were lazy :D</font>",
+      "security_status": -8.0
+    }
+  },
+  {
+    "category": "characters",
+    "id": 91517843,
+    "url": "https://esi.evetech.net/latest/characters/91517843/?datasource=tranquility",
+    "data": {
+      "birthday": "2011-12-24T01:30:34Z",
+      "bloodline_id": 7,
+      "corporation_id": 98834150,
+      "gender": "female",
+      "name": "Sam Chadelanne",
+      "race_id": 8,
+      "alliance_id": 99015022,
+      "faction_id": 500010,
+      "description": "<font size=\"14\" color=\"#bfffffff\"></font><font size=\"12\" color=\"#ffd98d00\"><a href=\"killReport:45259663:43d1d6c44bc3620312ef3cd51aeecd11019f3959\">Kill: Dabragones (Hawk)</a><br><br><a href=\"killReport:62666896:823b3ad5c06653b221d2263064165fc486903008\">Kill: Ogdo Llacer (Caracal)</a><a href=\"killReport:45259663:43d1d6c44bc3620312ef3cd51aeecd11019f3959\"> </a><br><br><a href=\"killReport:45716225:492eebb62a2409c3705381a758c2d29a6da37f29\">Kill: Tenjii (Wyvern) </a><br><a href=\"killReport:48554742:97cfa494c0f31190e6b2ed90fb655b6de0ab5103\">Kill: Ataxio (Archon)</a><a href=\"killReport:45716225:492eebb62a2409c3705381a758c2d29a6da37f29\"> </a><br><br><a href=\"killReport:79562501:ce5f546c028c2ca462008751cafe062686b5ae29\">Kill: Vor Atriedies (Loki)</a><a href=\"killReport:45716225:492eebb62a2409c3705381a758c2d29a6da37f29\"> </a></font><font size=\"12\" color=\"#bfffffff\">  -salt mine<br><br></font><font size=\"12\" color=\"#ffd98d00\"><a href=\"killReport:49325234:20d06780423e7dce144da29ecde5f91c40b50d2f\">Kill: Ron Mexxico (Proteus)</a><a href=\"killReport:45716225:492eebb62a2409c3705381a758c2d29a6da37f29\">  </a><a href=\"killReport:49325259:4d6fc7f373714e7fe27d5fd52b1611932f2289ae\">Kill: Doomchinchilla (Legion)</a><br><br><a href=\"killReport:120324663:ec8279f29f0b7846e4520207a69ca707b6a8d75f\">Kill: Vortex the Monger (Capsule)</a><a href=\"killReport:45716225:492eebb62a2409c3705381a758c2d29a6da37f29\"> </a><br><br><a href=\"killReport:122666991:f66624b47098ce7f8754c17d3e8d39d9fc7bcb17\">Kill: Vortex the Monger (Myrmidon Navy Issue)</a><a href=\"killReport:45716225:492eebb62a2409c3705381a758c2d29a6da37f29\"> -</a></font><font size=\"12\" color=\"#bfffffff\"> I'd have tanked with links<br><br></font><font size=\"12\" color=\"#ffd98d00\"><a href=\"killReport:104480026:e3ea0c24c9ea95629f7e00650a16e0c33cd3ddf3\">Kill: JSSix (Marshal)</a><a href=\"killReport:45716225:492eebb62a2409c3705381a758c2d29a6da37f29\"> </a><br></font><font size=\"18\" color=\"#ffff0000\">[02:45:35] Sam Chadelanne &gt; how come people always remember me?<br><br>[02:45:45] Azilar Z'ress &gt; cause you're a loud mouth<br><br>Corvus Onzo &gt; For the Record, I would have probably let you guys run the site if Sam kept his mouth shut</font>",
+      "security_status": 0.1
+    }
+  },
+  {
+    "category": "characters",
+    "id": 1535015364,
+    "url": "https://esi.evetech.net/latest/characters/1535015364/?datasource=tranquility",
+    "data": {
+      "birthday": "2007-09-23T23:09:00Z",
+      "bloodline_id": 7,
+      "corporation_id": 98750246,
+      "gender": "female",
+      "name": "Rinai Vero",
+      "race_id": 8,
+      "faction_id": 500010,
+      "title": "Director of Operations, Luminaire Generalissmo",
+      "description": "I've never trusted the Caldari State, and I never will. I don't think I can ever forgive them for following Heth down his insane path to war. Even now, years after his regime collapsed, they have no interest in seeking peace. The Intaki tried appeasing them, and look what it got them. Monastaries in flames. Children maimed and killed by Lai Dai mines even after we chased them out of the system. <br><br>Our choice now must be to bring the megacorporate oligarchs to their knees. There is no price in Caldari blood that they are unwilling to pay to maintain their power, and the cost to the Federation to bring this war to a final end will be terrible beyond reckoning. But it must be done. <br><br><i>Excerpt: Personal Log; Rinai Vero</i>",
+      "security_status": -4.1
+    }
+  },
+  {
+    "category": "characters",
+    "id": 1386146895,
+    "url": "https://esi.evetech.net/latest/characters/1386146895/?datasource=tranquility",
+    "data": {
+      "birthday": "2007-09-05T04:06:00Z",
+      "bloodline_id": 7,
+      "corporation_id": 98750246,
+      "gender": "male",
+      "name": "Julianus Soter",
+      "race_id": 8,
+      "faction_id": 500010,
+      "title": "El Presidente",
+      "description": "u'<font size=\"13\" color=\"#b3ffffff\"></font><font size=\"12\" color=\"#bfffffff\"><b>Federal Capsuleer Database. . .</b><br><i>Declassified Service Record Follows </i><br><br>[Luminaire General Julianus Soter, formerly of Sixth Division, Black Rise Expedition, formerly attached to FOOM mercenary corporation.]<br><br>[Founder of the Synenose Accord, which is tasked with the investigation of the Sleeper AI lifeforms in Anoikis and assessing the threat they and their technology pose to humanity]<br><br>[Founder of Moira. Architect of </font><font size=\"12\" color=\"#ffd98d00\"><a href=\"showinfo:4327\">Project Trinity</a></font><font size=\"12\" color=\"#bfffffff\">, Lead of the </font><font size=\"12\" color=\"#ffffe400\"><a href=\"http://wiki.eveonline.com/wikiEN/index.php?title=Arek\\'Jaalan:_Multidisciplinary\">Multidisciplinary Division of Arek\\'Jaalan</a></font><font size=\"12\" color=\"#bfffffff\">. Figure behind many military campaigns in Placid, Black Rise, Syndicate, Sinq Laison, Metropolis, Curse, Geminate, Vale of the Silent, and Fountain.]<br><br>[FEDUP][XMETA] CaseyLP<br>Who cares what Soter thinks lol<br>he\\'s the kind of guy to say \"I HAVE ACTIVATED MY WARP SCRAMBLER ON THE HOSTILE TARGET\"<br><br>\\u2588\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2588<br>\\u2588\\u2591\\u2591\\u2591\\u2588\\u2588\\u2591\\u2591\\u2588\\u2588\\u2588\\u2588\\u2591\\u2591\\u2591\\u2588\\u2588\\u2591\\u2591\\u2591\\u2588<br>\\u2588\\u2591\\u2591\\u2588\\u2588\\u2588\\u2588\\u2591\\u2591\\u2588\\u2588\\u2588\\u2591\\u2591\\u2588\\u2588\\u2588\\u2588\\u2591\\u2591\\u2588<br>\\u2588\\u2591\\u2591\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2591\\u2591\\u2588<br>\\u2588\\u2591\\u2591\\u2588\\u2588\\u2588\\u2588\\u2588\\u2591\\u2588\\u2588\\u2588\\u2591\\u2588\\u2588\\u2588\\u2588\\u2588\\u2591\\u2591\\u2588<br>\\u2588\\u2591\\u2591\\u2588\\u2591\\u2588\\u2588\\u2591\\u2591\\u2591\\u2588\\u2591\\u2591\\u2591\\u2588\\u2588\\u2591\\u2588\\u2591\\u2591\\u2588<br>\\u2588\\u2591\\u2591\\u2588\\u2591\\u2588\\u2591\\u2591\\u2588\\u2588\\u2588\\u2588\\u2588\\u2591\\u2591\\u2588\\u2591\\u2588\\u2591\\u2591\\u2588<br>\\u2588\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2588\\u2588\\u2591\\u2588\\u2591\\u2588\\u2588\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2588<br>\\u2588\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2588\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2588<br>\\u2588\\u2588\\u2588\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2588\\u2588\\u2588</font>'",
+      "security_status": -7.3
+    }
+  },
+  {
+    "category": "corporations",
+    "id": 1000181,
+    "url": "https://esi.evetech.net/latest/corporations/1000181/?datasource=tranquility",
+    "data": {
+      "name": "Federal Defense Union",
+      "ticker": "FEDEF",
+      "description": "The Federation has awoken to the threat, and now its strength shall be tried. We wanted peace, and now we are faced with war, provoked by the destructive Caldari. We need brave pilots to fly into the fray and protect not only the ideals for which we stand, but the Federation that upholds them in these dark times. Join us, capsuleer. With your strength and your conviction we shall endure.",
+      "url": "",
+      "ceo_id": 3018997,
+      "creator_id": 1,
+      "faction_id": 500004,
+      "home_station_id": 60015088,
+      "member_count": 38962,
+      "tax_rate": 0.0,
+      "shares": 0,
+      "war_eligible": false
+    }
+  },
+  {
+    "category": "corporations",
+    "id": 98639548,
+    "url": "https://esi.evetech.net/latest/corporations/98639548/?datasource=tranquility",
+    "data": {
+      "name": "United Caldari Navy",
+      "ticker": "UCN-",
+      "description": "u'<font size=\"13\" color=\"#bfffffff\"></font><font size=\"13\" color=\"#99ffffff\">The </font><font size=\"13\" color=\"#ffd98d00\"><loc><a href=\"showinfo:2//98639548\">United Caldari Navy</a></loc></font><font size=\"13\" color=\"#99ffffff\"> Is now recruiting!<br>Joining Requirements:<br>\\u2022 Discord and Mic required<br>\\u2022 English speaking skills<br>\\u2022 No drama/egos<br><br>We offer:<br>\\u2022 Active and experienced leadership<br>\\u2022 Friendly and engaged community<br>\\u2022 Content all the time<br>\\u2022 PVP of all shapes and sizes through Faction Warfare<br>\\u2022 Daily PvP Fleet Ops<br>\\u2022 Corp hauling available<br>\\u2022 Corp provided ships for Fleet Ops<br>\\u2022 Unlimited Gallente frozen corpses<br><br>Want to know more?<br>Hit us up on Discord or In-game!<br>Discord: </font><font size=\"13\" color=\"#ffffe400\"><loc><a href=\"https://discord.gg/32h7bNDUU7\">https://discord.gg/32h7bNDUU7</a></loc></font>'",
+      "url": "https://discord.gg/32h7bNDUU7",
+      "date_founded": "2020-04-22T07:11:38Z",
+      "ceo_id": 2114096575,
+      "creator_id": 1906201112,
+      "alliance_id": 99011489,
+      "faction_id": 500001,
+      "home_station_id": 60015070,
+      "member_count": 103,
+      "tax_rate": 0.0,
+      "shares": 1000,
+      "war_eligible": true
+    }
+  },
+  {
+    "category": "corporations",
+    "id": 98192633,
+    "url": "https://esi.evetech.net/latest/corporations/98192633/?datasource=tranquility",
+    "data": {
+      "name": "United Caldari Space Command",
+      "ticker": "UC.SC",
+      "description": "Geben Sie hier eine Beschreibung Ihrer Corporation ein.",
+      "url": "http://",
+      "date_founded": "2013-04-09T21:17:59Z",
+      "ceo_id": 92708600,
+      "creator_id": 91967772,
+      "home_station_id": 60012667,
+      "member_count": 6,
+      "tax_rate": 0.0,
+      "shares": 1000,
+      "war_eligible": false
+    }
+  },
+  {
+    "category": "corporations",
+    "id": 98107258,
+    "url": "https://esi.evetech.net/latest/corporations/98107258/?datasource=tranquility",
+    "data": {
+      "name": "Caldari Colonial Defense Ministry",
+      "ticker": "CCDM",
+      "description": "<font size=\"14\" color=\"#bfffffff\"></font><font size=\"14\" color=\"#ffffffff\">Please reach out to </font><font size=\"14\" color=\"#ffd98d00\"><loc><a href=\"showinfo:1380//1875163466\">TheLastSparton</a></loc></font><font size=\"14\" color=\"#ffffffff\"> or </font><font size=\"14\" color=\"#ffd98d00\"><loc><a href=\"showinfo:1386//90083728\">Auroraqual</a></loc></font><font size=\"14\" color=\"#ffffffff\"> for any diplomatic matters.<br><br>Public Chat:</font><font size=\"14\" color=\"#ff00ff00\"> </font><font size=\"14\" color=\"#ff6868e1\"><a href=\"joinChannel:-20988457//98107258//102782\">CCDM Public Channel</a></font><font size=\"14\" color=\"#ffffffff\"> <br><br>CCDM is currently closed to open recruitment but if you are interested please reach out to </font><font size=\"14\" color=\"#ffd98d00\"><loc><a href=\"showinfo:1380//1875163466\">TheLastSparton</a></loc></font><font size=\"14\" color=\"#ffffffff\"> or </font><font size=\"14\" color=\"#ffd98d00\"><loc><a href=\"showinfo:1386//90083728\">Auroraqual</a></loc></font><font size=\"14\" color=\"#ffffffff\">.</font>",
+      "url": "https://www.templis.net",
+      "date_founded": "2012-04-10T06:36:00Z",
+      "ceo_id": 1875163466,
+      "creator_id": 742379408,
+      "alliance_id": 99001742,
+      "home_station_id": 60015079,
+      "member_count": 15,
+      "tax_rate": 0.0,
+      "shares": 1000,
+      "war_eligible": true
+    }
+  },
+  {
+    "category": "corporations",
+    "id": 98688951,
+    "url": "https://esi.evetech.net/latest/corporations/98688951/?datasource=tranquility",
+    "data": {
+      "name": "Mercury Arms Inc.",
+      "ticker": "PROHG",
+      "description": "<font size=\"13\" color=\"#bfffffff\"></font><font size=\"14\" color=\"#ffffffff\">Mercury Arms Inc. is the lead corporation for Ghostbirds, a Caldari Faction Warfare alliance, formed and operated by experienced Faction Warfare players.<br><br><br>Our community is a small group of tight knit, highly skilled pilots. We lead from the front and operate by one philosophy; \"Quality over quantity\".<br><br><br>We focus on small gang PvP content with an emphasise on individual pilot skill.<br><br><br>Speak to a recruiter in </font><font size=\"14\" color=\"#ff6868e1\"><a href=\"joinChannel:player_122fea8015a511eca3dc9abe94f5a39b\">PROHG Public</a></font><font size=\"14\" color=\"#ffffffff\"> <br></font><font size=\"14\" color=\"#ffd98d00\"><a href=\"recruitmentAd:98688951//163809\">Mercury Arms Inc. - State Sanctioned Supremacy</a></font><font size=\"14\" color=\"#ffffffff\"> <br><br></font><font size=\"14\" color=\"#ff007fff\"><b><i>WE ARE THE TIP OF THE SPEAR</b></i></font>",
+      "url": "http://",
+      "date_founded": "2021-07-21T21:33:44Z",
+      "ceo_id": 94065445,
+      "creator_id": 94065445,
+      "alliance_id": 99009856,
+      "faction_id": 500001,
+      "home_station_id": 60015078,
+      "member_count": 54,
+      "tax_rate": 0.05,
+      "shares": 1000,
+      "war_eligible": false
+    }
+  },
+  {
+    "category": "corporations",
+    "id": 1894214152,
+    "url": "https://esi.evetech.net/latest/corporations/1894214152/?datasource=tranquility",
+    "data": {
+      "name": "Aideron Robotics",
+      "ticker": "AIDER",
+      "description": "u'<font size=\"14\" color=\"#bfffffff\"></font><font size=\"8\" color=\"#ff00ff00\"> \\u2588\\u2588\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2588\\u2588 <br>\\u2588\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2588 <br>\\u2588\\u2591\\u2591\\u2591\\u2588\\u2588\\u2591\\u2591\\u2588\\u2588\\u2588\\u2588\\u2591\\u2591\\u2591\\u2588\\u2588\\u2591\\u2591\\u2591\\u2588 <br>\\u2588\\u2591\\u2591\\u2588\\u2588\\u2588\\u2588\\u2591\\u2591\\u2588\\u2588\\u2588\\u2591\\u2591\\u2588\\u2588\\u2588\\u2588\\u2591\\u2591\\u2588 <br>\\u2588\\u2591\\u2591\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2591\\u2591\\u2588<br>\\u2588\\u2591\\u2591\\u2588\\u2588\\u2588\\u2588\\u2588\\u2591\\u2588\\u2588\\u2588\\u2591\\u2588\\u2588\\u2588\\u2588\\u2588\\u2591\\u2591\\u2588<br>\\u2588\\u2591\\u2591\\u2588\\u2591\\u2588\\u2588\\u2591\\u2591\\u2591\\u2588\\u2591\\u2591\\u2591\\u2588\\u2588\\u2591\\u2588\\u2591\\u2591\\u2588<br>\\u2588\\u2591\\u2591\\u2588\\u2591\\u2588\\u2591\\u2591\\u2588\\u2588\\u2588\\u2588\\u2588\\u2591\\u2591\\u2588\\u2591\\u2588\\u2591\\u2591\\u2588<br>\\u2588\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2588\\u2588\\u2591\\u2588\\u2591\\u2588\\u2588\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2588<br>\\u2588\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2588\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2588<br> \\u2588\\u2588\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2588\\u2588<br><br></font><font size=\"12\" color=\"#ff00ff00\"><b><u>About</b></u><br></font><font size=\"12\" color=\"#ffb2b2b2\">Aideron Robotics is a Faction Warfare corporation fighting for the Gallente Militia, one of the older corporations in GalMil and well known for mature and respectful gameplay,<br>Aideron Robotics caters to pilots in all time zones but primarily USTZ. Based in the low-sec warzone, Aideron Robotics welcomes pilots of all skill levels. With a mix of new and veteran pilots, we are a perfect corp for pilots new to PvP and alpha clone pilots, as well as experienced mature pilots keen to help train and develop others. With close ties to the rest of the Gallente Militia, Aideron Robotics pilots are always welcomed in PvP fleets militia-wide, providing an expansive range of gameplay and experiences.<br><br>Doctrine fits start with a basic three-day program that lets brand new pilots fly in AIDER fleets quickly.<br><br>While we are fundamentally a PvP corp, we also offer guidance on profitable industry and planetary interaction programs as alternative income sources, and engage in PvE to help keep things fresh.<br><br></font><font size=\"12\" color=\"#ff00ff00\"><b><u>What do we do</b></u><br></font><font size=\"12\" color=\"#bfffffff\">Small gang PvP<br>Specialized in Plex Warfare<br><br></font><font size=\"12\" color=\"#ff00ff00\"><b><u>COMS</b></u><br></font><font size=\"12\" color=\"#ffffffff\">Our Discord is the best place to get information and talk to a recruiter or diplomat.<br></font><font size=\"12\" color=\"#ffffe400\"><loc><a href=\"http://discord.com/invite/2qx87ENdSQ\">https://discord.com/invite/2qx87ENdSQ</a></loc><br></font><font size=\"12\" color=\"#ffffffff\">To find out more information about Aideron Robotics, visit </font><font size=\"12\" color=\"#ffffe400\"><a href=\"http://aideron.org\">aideron.org</a><br><br></font><font size=\"18\" color=\"#ffff0000\">Online application is required<br></font><font size=\"14\" color=\"#ffffe400\"><loc><a href=\"http://www.aideron.org/hr/apply\">www.aideron.org/hr/apply</a></loc><br><br></font><font size=\"12\" color=\"#ff00ff00\"><b><u>Before Applying</b></u><br></font><font size=\"12\" color=\"#ffff0000\">* Move Your Assets</font><font size=\"12\" color=\"#ffffffff\"> from Caldari (Calamari aka Squid) space<br>- why? you will be shot by NPC faction police in Squid Space<br>- where? </font><font size=\"12\" color=\"#ffd98d00\"><a href=\"showinfo:5//30002659\">Dodixie</a></font><font size=\"12\" color=\"#ffffffff\">, </font><font size=\"12\" color=\"#ffd98d00\"><a href=\"showinfo:5//30004975\">Mesybier</a></font><font size=\"12\" color=\"#ffffffff\">, or nearby<br></font><font size=\"12\" color=\"#ffff0000\">* Move Your Death Clone<br></font><font size=\"12\" color=\"#ffffffff\">- why? after getting poded you could wake up in a hostile space<br>- where?</font><font size=\"12\" color=\"#ffd98d00\"><loc><a href=\"showinfo:3868//60015080\"> Fliet III </a></loc><br></font><font size=\"12\" color=\"#ffff0000\">* Add Gate Camped Solar Systems to Avoid List<br></font><font size=\"12\" color=\"#ffffffff\">- </font><font size=\"12\" color=\"#ffd98d00\"><a href=\"showinfo:5//30001376\">Nourvukaiken</a><br></font><font size=\"12\" color=\"#ffffffff\">- </font><font size=\"12\" color=\"#ffd98d00\"><a href=\"showinfo:5//30004993\">Villore</a></font><font size=\"12\" color=\"#ffffffff\"> <br>- </font><font size=\"12\" color=\"#ffd98d00\"><loc><a href=\"showinfo:5//30003833\">Oulley</a></loc><br><br><br></font><font size=\"12\" color=\"#ff00ff00\"><b><u>Contacts</u><br></font><font size=\"12\" color=\"#ffffffff\">For recruitment, join discord.<br></font><font size=\"12\" color=\"#ff007fff\">Diplomat: </font><font size=\"12\" color=\"#ffd98d00\"><loc><a href=\"showinfo:1377//97198202\">Krel Orlenard</a></loc></b></font>'",
+      "url": "https://www.aideron.org",
+      "date_founded": "2009-04-20T03:21:00Z",
+      "ceo_id": 2119255339,
+      "creator_id": 1979087900,
+      "alliance_id": 99011730,
+      "faction_id": 500004,
+      "home_station_id": 60015080,
+      "member_count": 80,
+      "tax_rate": 0.03,
+      "shares": 4100,
+      "war_eligible": true
+    }
+  },
+  {
+    "category": "corporations",
+    "id": 98596389,
+    "url": "https://esi.evetech.net/latest/corporations/98596389/?datasource=tranquility",
+    "data": {
+      "name": "Sons of Luminaire",
+      "ticker": "GFSL",
+      "description": "<font size=\"13\" color=\"#bfffffff\"></font><font size=\"13\" color=\"#ffbfbfbf\"><i>The </font><font size=\"13\" color=\"#ffd98d00\"><a href=\"recruitmentAd:98596389//169480\">Sons of Luminaire</a></font><font size=\"13\" color=\"#ffbfbfbf\"> are a pirate and terrorist organisation operating in the interests of the Gallente Federation, and wanted for crimes against the Caldari State, Minmatar Republic and Amarr Empire including: piracy, terrorism, sabotage, espionage, and the wilful and continued destruction of both civilian and Naval assets and infrastructure. <br><br>CONCORD advises civilian and Naval assets to only engage with overwhelming force and to disengage in all other cases.</i><br><br><b>- </font><font size=\"13\" color=\"#ffd98d00\"><loc><a href=\"showinfo:2//1000125\">CONCORD</a></loc></font><font size=\"13\" color=\"#ffbfbfbf\"> Security Directive, YC121 30.03</b></font>",
+      "url": "http://discord.gg/4z5Cfnh",
+      "date_founded": "2019-03-30T21:52:55Z",
+      "ceo_id": 2114194920,
+      "creator_id": 2114194920,
+      "home_station_id": 60011749,
+      "member_count": 11,
+      "tax_rate": 0.01,
+      "shares": 1000,
+      "war_eligible": false
+    }
+  },
+  {
+    "category": "corporations",
+    "id": 1000180,
+    "url": "https://esi.evetech.net/latest/corporations/1000180/?datasource=tranquility",
+    "data": {
+      "name": "State Protectorate",
+      "ticker": "SPROT",
+      "description": "We are the State, and we have claimed our long-lost homeland. Now we are at war; united, whole and full of fire and purpose. The State calls you, capsuleer, for it needs your strength and your leadership to fend off the encroaching Gallente menace. The State will not fall. Join us. Fight. Conquer.",
+      "url": "",
+      "ceo_id": 3018995,
+      "creator_id": 1,
+      "faction_id": 500001,
+      "home_station_id": 60015070,
+      "member_count": 49360,
+      "tax_rate": 0.0,
+      "shares": 0,
+      "war_eligible": false
+    }
+  },
+  {
+    "category": "alliances",
+    "id": 99012831,
+    "url": "https://esi.evetech.net/latest/alliances/99012831/?datasource=tranquility",
+    "data": {
+      "creator_corporation_id": 98059330,
+      "creator_id": 1386025588,
+      "date_founded": "2023-12-08T09:27:43Z",
+      "executor_corporation_id": 98784118,
+      "name": "Ribbit.",
+      "ticker": "RIBBT"
+    }
+  },
+  {
+    "category": "corporations",
+    "id": 98751878,
+    "url": "https://esi.evetech.net/latest/corporations/98751878/?datasource=tranquility",
+    "data": {
+      "name": "The Frog Pond",
+      "ticker": "FPOND",
+      "description": "<font size=\"13\" color=\"#bfffffff\">The Frog Pond is a premier Faction Warfare training corporation led by Gallente militia veterans. Our goal is to arm you with both the ships and the knowledge to make an impact on the battlefields of New Eden from day one.<br><br>We offer:<br><br>- Leadership made of Gallente militia veterans who know all the ins and outs of the Faction Warfare<br>- Curated fittings and skill training plans<br>- Free ships that you can use both solo and for fleet content<br>- Experienced Fleet Commanders who will show you the ropes<br>- Guides covering various topics ranging from basics of combat to making money to sustain your career<br>- Support of various GalMil groups - you will be free to use existing infrastructure of the established alliances<br>- Low tax rates that do not impact your source of income while allowing us to provide free ships<br><br>Hop onto our </font><font size=\"13\" color=\"#ffffe400\"><loc><a href=\"https://discord.frogpond.space/\">Discord </a></loc></font><font size=\"13\" color=\"#bfffffff\">server to learn how to join our ranks!</font>",
+      "url": "https://discord.frogpond.space/",
+      "date_founded": "2023-10-08T21:08:48Z",
+      "ceo_id": 1,
+      "creator_id": 298313416,
+      "home_station_id": 60000001,
+      "member_count": 0,
+      "tax_rate": 0.0,
+      "shares": 101000,
+      "war_eligible": false
+    }
+  }
+]

@@ -1,0 +1,55 @@
+{
+  "sources": {
+    "eve": {
+      "owner": "CCP Games",
+      "recorder": "Mad_Guns22",
+      "source": "https://www.reddit.com/r/Eve/comments/2r3pwl/eve_online_audio_warning_and_training_completed/",
+      "archive": "https://www.mediafire.com/file/axi2yh02onyrig7/EVE_Online_Audio_Warnings_and_Chimes_v2.7z/file",
+      "terms": "https://support.eveonline.com/hc/en-us/articles/8563917741084-EVE-Online-Content-Creation-Terms-of-Use",
+      "processing": "CCP in-game audio recorded by the source author. Trimmed and faded; no synthesized imitation or voice cloning. Not public domain."
+    }
+  },
+  "encoding": "Mono 44.1kHz 96kbps MP3; five genuine EVE cues copied byte-identically from sibling project.",
+  "files": [
+    {
+      "file": "assets/sounds/interface.mp3",
+      "source": "eve",
+      "original": "EVE Online - Cargo Warning.mp3",
+      "duration": 0.88,
+      "originalSHA256": "fa8bdd98eac97ec55f492271abac411e594243af10749125feab6654c60e180c",
+      "sha256": "20eb140bba35cb86223c277c7a98e77a0ab2f7144e256a24c0dad0339c7336e4"
+    },
+    {
+      "file": "assets/sounds/notification.mp3",
+      "source": "eve",
+      "original": "EVE Online - Notification Ping.mp3",
+      "duration": 3.96,
+      "originalSHA256": "4c1bab9219a3cba0e28424c5551953fec3ebaec8341a95f222823ed798bcdc66",
+      "sha256": "c9c0c38b43e22f220229d62a877ff8880db16e68e2a3a3b782b8f0d29b49ea46"
+    },
+    {
+      "file": "assets/sounds/complete.mp3",
+      "source": "eve",
+      "original": "EVE Online - Skill Completed Chime [wo Aura].mp3",
+      "duration": 4,
+      "originalSHA256": "14cc2ce3cb283e0210e40b321ef9f1d2ef6e02f4ca43cb86c6c3b770584e6fa3",
+      "sha256": "31765703ae42cdd5191af458ccdb90a18e36982c038d3c931f51f401cfe2817f"
+    },
+    {
+      "file": "assets/sounds/capacitor.mp3",
+      "source": "eve",
+      "original": "EVE Online - Capacitor Warning.mp3",
+      "duration": 1.17,
+      "originalSHA256": "419962a6bb8c3f238ca15462a5a38e1392d7e4eba56fc22ade74bf6a31b2122f",
+      "sha256": "68fec9b9c21337126a5565e3fe0f75610972ac5f951c02095af42ce27ea4ddb5"
+    },
+    {
+      "file": "assets/sounds/structure.mp3",
+      "source": "eve",
+      "original": "EVE Online - Structure Warning.mp3",
+      "duration": 1.84,
+      "originalSHA256": "be409f57d4a1eabf35157e7df808ca7a8db269707cccdd6da0accb32981f2787",
+      "sha256": "ccf88f32817985edd00b936c378f8d8be8464566f2802925342e587afeb8696e"
+    }
+  ]
+}

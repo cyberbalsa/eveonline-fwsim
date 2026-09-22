@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#101720" />
+    <meta name="description" content="A single-player, turn-based fleet command game set in EVE Online's Caldari–Gallente Faction Warfare warzone." />
+    <title>War Council — Faction Warfare Command</title>
+    <link rel="icon" href="./assets/identities/corporation-1000180.png" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./map.css" />
+    <link rel="stylesheet" href="./game-ui.css" />
+  </head>
+  <body data-pane="map">
+    <div id="boot-screen" class="boot-screen" role="status">
+      <img src="./assets/identities/corporation-1000180.png" width="64" height="64" alt="" />
+      <div class="boot-title">WAR COUNCIL</div>
+      <span class="boot-progress" aria-hidden="true"></span>
+      <p>Establishing connection to the warzone…</p>
+    </div>
+
+    <main id="setup-screen" class="setup-screen" hidden>
+      <div class="setup-atmosphere" aria-hidden="true"></div>
+      <header class="setup-topline">
+        <span class="connection-status"><span class="status-light"></span> SINGLE PLAYER · COMMAND SIMULATION</span>
+        <a href="./research/README.md" target="_blank" rel="noopener">WARZONE ARCHIVES <span aria-hidden="true">↗</span></a>
+      </header>
+      <div class="setup-grid">
+        <section class="enlistment">
+          <div class="eyebrow"><span class="small-rule"></span> CALDARI–GALLENTE FACTION WARFARE</div>
+          <h1>WAR <span>COUNCIL</span></h1>
+          <p class="setup-description">Command the fleet. Supply the front.<br />Give your pilots a reason to undock.</p>
+
+          <form id="setup-form" class="enlistment-form">
+            <div class="panel-header"><span class="window-mark" aria-hidden="true"></span><h2>ESTABLISH YOUR COMMAND</h2><span class="panel-header-detail">NEW CAMPAIGN</span></div>
+            <div class="enlistment-body">
+              <fieldset class="faction-fieldset">
+                <legend class="section-label">ALLEGIANCE</legend>
+                <div class="faction-options">
+                  <label class="faction-option faction-caldari">
+                    <input type="radio" name="faction" value="caldari" checked />
+                    <img src="./assets/identities/corporation-1000180.png" width="52" height="52" alt="State Protectorate insignia" />
+                    <span><strong>CALDARI STATE</strong><small>State Protectorate</small></span>
+                    <span class="selection-indicator" aria-hidden="true"></span>
+                  </label>
+                  <label class="faction-option faction-gallente">
+                    <input type="radio" name="faction" value="gallente" />
+                    <img src="./assets/identities/corporation-1000181.png" width="52" height="52" alt="Federal Defense Union insignia" />
+                    <span><strong>GALLENTE FEDERATION</strong><small>Federal Defense Union</small></span>
+                    <span class="selection-indicator" aria-hidden="true"></span>
+                  </label>
+                </div>
+              </fieldset>
+              <div class="setup-fields">
+                <label class="form-field" for="commander-name"><span>COMMANDER</span><input class="input" id="commander-name" name="commander" maxlength="40" value="Commander" autocomplete="nickname" required /></label>
+                <label class="form-field" for="corporation-name"><span>CORPORATION</span><input class="input" id="corporation-name" name="corporation" maxlength="50" value="Independent Operations" autocomplete="organization" required /></label>
+              </div>
+              <label class="form-field campaign-length-field" for="campaign-length"><span>CAMPAIGN DURATION</span><select id="campaign-length" class="select" name="length"><option value="48">Short operation · 48 watches</option><option value="120" selected>Standard campaign · 120 watches</option><option value="180">Long campaign · 180 watches</option></select></label>
+              <p class="enlistment-note">One watch is six hours. Issue orders, then resolve the watch. Your campaign saves in this browser.</p>
+              <div class="setup-actions"><button id="start-campaign" class="button primary enlist-button" type="submit"><img src="./assets/icons/undock.png" alt="" width="24" height="24" /> ENTER THE WARZONE <span aria-hidden="true">›</span></button><button id="resume-campaign" class="button" type="button" hidden>RESUME COMMAND</button></div>
+            </div>
+          </form>
+          <p class="setup-gameplay">A persistent strategy campaign of fleets, industry, and independent allies.</p>
+        </section>
+        <aside class="setup-scene" aria-label="Caracal-class Caldari cruiser">
+          <div class="scene-coordinates">BLACK RISE / PLACID / ESSENCE / VERGE VENDOR</div>
+          <div class="ship-orbit" aria-hidden="true"></div>
+          <img class="setup-ship" src="./assets/ships/caracal.png" alt="Caracal cruiser from EVE Online" fetchpriority="high" />
+          <div class="ship-designation"><span class="target-bracket" aria-hidden="true"></span><div><span class="caption">CALDARI STATE · CRUISER</span><strong>CARACAL</strong><span class="muted">Missile platform / fleet support</span></div></div>
+          <div class="scene-note"><span class="status-light"></span><span>THE WARZONE IS WAITING.<br /><strong>MAKE YOUR NEXT WATCH COUNT.</strong></span></div>
+        </aside>
+      </div>
+      <footer class="setup-footer"><span>An unofficial EVE Online fan project. EVE imagery © CCP Games.</span><nav aria-label="Project information"><a href="./PRD.md" target="_blank" rel="noopener">Campaign design</a><a href="./research/README.md" target="_blank" rel="noopener">Research &amp; sources</a><a href="./assets/identities/provenance.json" target="_blank" rel="noopener">Identity provenance</a></nav></footer>
+    </main>
+
+    <main id="app" class="command-shell" aria-label="Faction Warfare command" hidden>
+      <header class="command-header">
+        <div class="brand"><span class="brand-emblem" aria-hidden="true">W</span><div><strong>WAR COUNCIL</strong><span id="top-faction">MILITIA COMMAND</span></div></div>
+        <div class="campaign-clock"><span class="caption">CAMPAIGN WATCH</span><span id="campaign-date"></span></div>
+        <div class="header-tools"><button id="audio-toggle" class="toolbar-button" type="button" title="Toggle EVE interface audio" aria-label="Toggle EVE interface audio" aria-pressed="false">AUDIO OFF</button><span class="tool-separator" aria-hidden="true"></span><button id="save-game" class="toolbar-button" type="button">SAVE</button><button id="export-game" class="toolbar-button" type="button">EXPORT</button><button id="import-game" class="toolbar-button" type="button">IMPORT</button><button id="new-game" class="toolbar-button" type="button">NEW</button><input id="import-file" type="file" accept=".json,application/json" hidden /></div>
+      </header>
+
+      <nav id="neocom" class="neocom" aria-label="Command departments">
+        <div class="neocom-cap" aria-hidden="true"><span></span><span></span><span></span></div>
+        <button class="neocom-button selected" type="button" data-view="overview" title="Operations overview" aria-label="Operations overview"><img src="./assets/icons/navigation.png" width="32" height="32" alt="" /><span>OPS</span></button>
+        <button class="neocom-button" type="button" data-view="industry" title="Industry and logistics" aria-label="Industry and logistics"><img src="./assets/icons/industry.png" width="32" height="32" alt="" /><span>INDUSTRY</span></button>
+        <button class="neocom-button" type="button" data-view="council" title="Militia council" aria-label="Militia council"><img src="./assets/icons/local.png" width="32" height="32" alt="" /><span>COUNCIL</span></button>
+        <button class="neocom-button" type="button" data-view="doctrines" title="Fleet doctrines" aria-label="Fleet doctrines"><img src="./assets/icons/security.png" width="32" height="32" alt="" /><span>DOCTRINE</span></button>
+        <button class="neocom-button" type="button" data-view="log" title="Combat and campaign log" aria-label="Combat and campaign log"><img src="./assets/icons/mail.png" width="32" height="32" alt="" /><span>JOURNAL</span></button>
+        <div class="neocom-spacer"></div>
+        <button class="neocom-button" type="button" data-view="manual" title="Commander's field manual" aria-label="Commander's field manual"><img src="./assets/icons/contracts.png" width="32" height="32" alt="" /><span>MANUAL</span></button>
+      </nav>
+
+      <section class="ledger" aria-label="Corporation resources"><div id="resource-bar" class="resource-bar"></div></section>
+
+      <nav class="mobile-switcher" aria-label="Warzone panels"><button type="button" class="tab-button" data-mobile-panel="fleets">FLEETS</button><button type="button" class="tab-button" data-mobile-panel="map">WARZONE</button><button type="button" class="tab-button" data-mobile-panel="system">INTEL</button></nav>
+
+      <aside class="panel fleet-window" aria-label="Fleet operations">
+        <header class="panel-header"><span class="window-mark" aria-hidden="true"></span><h2>FLEET OPERATIONS</h2><span class="panel-chrome" aria-hidden="true">▱</span></header>
+        <div class="fleet-list-heading"><span>FORMATION / CURRENT ORDERS</span></div>
+        <div id="fleets-list" class="fleets-list"></div>
+        <section class="watch-briefing" aria-label="Watch briefing"><header class="briefing-heading"><img src="./assets/icons/mail.png" width="20" height="20" alt="" /><h3>WATCH BRIEFING</h3><span class="status-light"></span></header><div id="briefing-summary" class="briefing-summary"></div></section>
+      </aside>
+
+      <section class="map-pane" aria-label="Caldari–Gallente warzone star map">
+        <div class="map-toolbar"><div class="map-title"><span class="map-live-dot" aria-hidden="true"></span><span>WARZONE</span><small>TACTICAL MAP</small></div><label class="map-search-wrap"><span class="sr-only">Search solar systems</span><input id="map-search" class="input" type="search" placeholder="Find a system…" autocomplete="off" aria-label="Search solar systems" /></label><label class="map-layer-wrap"><span class="sr-only">Map layer</span><select id="map-layer" class="select" aria-label="Map layer"><option value="occupancy">Occupancy</option><option value="frontline">Frontlines</option><option value="supply">Supply</option></select></label></div>
+        <div id="map-container" class="map-container"></div>
+        <div class="map-controls" aria-label="Map navigation"><button id="map-zoom-in" type="button" class="map-control" title="Zoom in" aria-label="Zoom in">+</button><button id="map-zoom-out" type="button" class="map-control" title="Zoom out" aria-label="Zoom out">−</button><button id="map-fit" type="button" class="map-control map-fit" title="Fit the full warzone" aria-label="Fit the full warzone">FIT</button></div>
+        <div class="map-legend"><span><i class="legend-dot caldari-dot"></i>Caldari</span><span><i class="legend-dot gallente-dot"></i>Gallente</span><span><i class="legend-dot frontline-dot"></i>Frontline</span></div>
+        <div class="map-instructions">DRAG TO PAN · SCROLL TO ZOOM · SELECT A SYSTEM</div>
+      </section>
+
+      <aside class="panel inspector-window" aria-label="Selected system and fleet intelligence">
+        <header class="panel-header"><span class="window-mark" aria-hidden="true"></span><h2>LOCAL INTELLIGENCE</h2><span class="panel-chrome" aria-hidden="true">▱</span></header>
+        <div class="inspector-scroll"><div id="system-panel" class="system-panel"></div><div class="ship-viewer"><div class="ship-viewer-heading"><span class="section-label">ACTIVE DOCTRINE</span><span class="viewer-brackets" aria-hidden="true">⌖</span></div><div id="ship-preview" class="ship-preview"><img src="./assets/ships/caracal.png" alt="Selected fleet's ship" /></div><div id="selected-ship-label" class="selected-ship-label"></div></div><div id="fleet-panel" class="fleet-panel"></div></div>
+      </aside>
+
+      <section class="orders-window" aria-label="Fleet commands"><div class="orders-area"><div class="orders-heading"><span class="section-label">FLEET COMMAND</span><span class="caption">ORDERS RESOLVE AT END OF WATCH</span></div><div id="command-bar" class="command-bar"></div></div><button id="end-turn" class="end-turn button primary" type="button"><span class="end-turn-caption">COMMIT ORDERS</span><strong>END WATCH <span aria-hidden="true">»</span></strong><span class="end-turn-duration">ADVANCE 6 HOURS</span></button></section>
+
+      <footer class="command-footer"><span class="connection-status"><span class="status-light"></span>LOCAL SIMULATION</span><span id="status-message" role="status" aria-live="polite"></span><span class="footer-credit">EVE ONLINE FAN PROJECT · CCP GAMES IMAGERY</span></footer>
+    </main>
+    <div id="modal-root"></div>
+    <div id="toast-root" class="toast-root" role="status" aria-live="polite"></div>
+    <script type="module" src="./game.js"></script>
+  </body>
+</html>

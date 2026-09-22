@@ -1,0 +1,17 @@
+{
+  "name": "eveonline-war-council",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "A browser-only fleet command and coalition strategy game on EVE's Caldari–Gallente warzone.",
+  "scripts": {
+    "serve": "python3 -m http.server 8091",
+    "build:pages": "node scripts/build-pages.mjs",
+    "test": "node --test tests/*.test.js",
+    "test:e2e": "playwright test",
+    "validate:research": "python3 scripts/validate-research.py"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.63.0"
+  }
+}

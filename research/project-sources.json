@@ -1,0 +1,438 @@
+[
+  {
+    "id": "data-esi-fw",
+    "title": "ESI public faction warfare systems",
+    "url": "https://esi.evetech.net/latest/fw/systems/?datasource=tranquility",
+    "publisher": "CCP ESI",
+    "publishedDate": null,
+    "accessedDate": "2026-09-22",
+    "kind": "primary-api-observation",
+    "claims": [
+      "Opening occupancy and per-system VP threshold; archived response/headers."
+    ],
+    "uncertainties": [
+      "See the report for scope and observation/interpretation distinctions."
+    ]
+  },
+  {
+    "id": "data-map-docs",
+    "title": "Map Data",
+    "url": "https://developers.eveonline.com/docs/guides/map-data/",
+    "publisher": "CCP-hosted ESI documentation",
+    "publishedDate": null,
+    "accessedDate": "2026-09-22",
+    "kind": "primary-technical-documentation",
+    "claims": [
+      "Schematic and geographic positions and orientation."
+    ],
+    "uncertainties": [
+      "See the report for scope and observation/interpretation distinctions."
+    ]
+  },
+  {
+    "id": "data-route-docs",
+    "title": "Route Calculation",
+    "url": "https://developers.eveonline.com/docs/guides/route-calculation/",
+    "publisher": "CCP-hosted ESI documentation",
+    "publishedDate": null,
+    "accessedDate": "2026-09-22",
+    "kind": "primary-technical-documentation",
+    "claims": [
+      "Routing uses a graph and preferences; external links matter."
+    ],
+    "uncertainties": [
+      "See the report for scope and observation/interpretation distinctions."
+    ]
+  },
+  {
+    "id": "data-esi-versioning",
+    "title": "ESI Overview and Versioning",
+    "url": "https://developers.eveonline.com/docs/services/esi/overview/",
+    "publisher": "CCP-hosted ESI documentation",
+    "publishedDate": null,
+    "accessedDate": "2026-09-22",
+    "kind": "primary-technical-documentation",
+    "claims": [
+      "Compatibility-date behavior and API boundary."
+    ],
+    "uncertainties": [
+      "See the report for scope and observation/interpretation distinctions."
+    ]
+  },
+  {
+    "id": "data-esi-limits",
+    "title": "ESI Rate Limiting",
+    "url": "https://developers.eveonline.com/docs/services/esi/rate-limiting/",
+    "publisher": "CCP-hosted ESI documentation",
+    "publishedDate": null,
+    "accessedDate": "2026-09-22",
+    "kind": "primary-technical-documentation",
+    "claims": [
+      "Respect response cache/limit headers and backoff."
+    ],
+    "uncertainties": [
+      "See the report for scope and observation/interpretation distinctions."
+    ]
+  },
+  {
+    "id": "data-campaign-api",
+    "title": "Military Campaigns on ESI: joining the war effort",
+    "url": "https://developers.eveonline.com/blog/military-campaigns-on-esi-joining-the-war-effort",
+    "publisher": "ESI Development Team",
+    "publishedDate": "2026-08-04",
+    "accessedDate": "2026-09-22",
+    "kind": "primary-developer-announcement",
+    "claims": [
+      "Public objective/campaign state; separate counts; SDE joins and lag."
+    ],
+    "uncertainties": [
+      "See the report for scope and observation/interpretation distinctions."
+    ]
+  },
+  {
+    "id": "design-civ-overview",
+    "title": "Civilization VI official overview",
+    "url": "https://civilization.2k.com/en-GB/civ-vi/",
+    "publisher": "2K / Firaxis",
+    "publishedDate": null,
+    "accessedDate": "2026-09-22",
+    "kind": "primary-product-description",
+    "claims": [
+      "Development, research, civics and leader agendas as design reference."
+    ],
+    "uncertainties": [
+      "See the report for scope and observation/interpretation distinctions."
+    ]
+  },
+  {
+    "id": "design-interesting-decisions",
+    "title": "Interesting Decisions \u2014 Sid Meier, GDC 2012",
+    "url": "https://www.gdcvault.com/play/1016165/Interesting",
+    "publisher": "GDC / Sid Meier",
+    "publishedDate": "2012",
+    "accessedDate": "2026-09-22",
+    "kind": "primary-designer-talk",
+    "claims": [
+      "Decision-centered design reference; talk listing inspected, not claimed transcript analysis."
+    ],
+    "uncertainties": [
+      "See the report for scope and observation/interpretation distinctions."
+    ]
+  },
+  {
+    "id": "assets-toolkit",
+    "title": "EVE Content Creation Toolkit",
+    "url": "https://community.eveonline.com/community/content-creation/toolkit/",
+    "publisher": "CCP Games",
+    "publishedDate": null,
+    "accessedDate": "2026-09-22",
+    "kind": "primary-asset-documentation",
+    "claims": [
+      "Official current portraits and corporation/alliance images use the image service."
+    ],
+    "uncertainties": [
+      "See the report for scope and observation/interpretation distinctions."
+    ]
+  },
+  {
+    "id": "assets-terms",
+    "title": "EVE Online Content Creation Terms of Use",
+    "url": "https://support.eveonline.com/hc/en-us/articles/8563917741084-EVE-Online-Content-Creation-Terms-of-Use",
+    "publisher": "EVE Online Support",
+    "publishedDate": null,
+    "accessedDate": "2026-09-22",
+    "kind": "primary-terms",
+    "claims": [
+      "CCP content remains under its terms, with attribution and unchanged trademarks."
+    ],
+    "uncertainties": [
+      "See the report for scope and observation/interpretation distinctions."
+    ],
+    "updatedDate": "2026-06-10"
+  },
+  {
+    "id": "license-agpl",
+    "title": "GNU Affero General Public License v3",
+    "url": "https://www.gnu.org/licenses/agpl-3.0.de.html",
+    "publisher": "Free Software Foundation",
+    "publishedDate": null,
+    "accessedDate": "2026-09-22",
+    "kind": "primary-license",
+    "claims": [
+      "Source and network-interaction obligations of covered modified software."
+    ],
+    "uncertainties": [
+      "See the report for scope and observation/interpretation distinctions."
+    ]
+  },
+  {
+    "id": "code-freeciv-01",
+    "title": "freeciv: doc/README.rulesets",
+    "url": "https://github.com/freeciv/freeciv/blob/709467e08b800c0012a7879b0368bad29984a78c/doc/README.rulesets",
+    "publisher": "Freeciv contributors",
+    "publishedDate": null,
+    "accessedDate": "2026-09-22",
+    "kind": "primary-source-code",
+    "claims": [
+      "Actual inspected source; commit and content hash recorded in freeciv-source-audit.json."
+    ],
+    "uncertainties": [
+      "Inspection only; not built or benchmarked."
+    ]
+  },
+  {
+    "id": "code-freeciv-02",
+    "title": "freeciv: doc/README.effects",
+    "url": "https://github.com/freeciv/freeciv/blob/709467e08b800c0012a7879b0368bad29984a78c/doc/README.effects",
+    "publisher": "Freeciv contributors",
+    "publishedDate": null,
+    "accessedDate": "2026-09-22",
+    "kind": "primary-source-code",
+    "claims": [
+      "Actual inspected source; commit and content hash recorded in freeciv-source-audit.json."
+    ],
+    "uncertainties": [
+      "Inspection only; not built or benchmarked."
+    ]
+  },
+  {
+    "id": "code-freeciv-03",
+    "title": "freeciv: doc/README.actions",
+    "url": "https://github.com/freeciv/freeciv/blob/709467e08b800c0012a7879b0368bad29984a78c/doc/README.actions",
+    "publisher": "Freeciv contributors",
+    "publishedDate": null,
+    "accessedDate": "2026-09-22",
+    "kind": "primary-source-code",
+    "claims": [
+      "Actual inspected source; commit and content hash recorded in freeciv-source-audit.json."
+    ],
+    "uncertainties": [
+      "Inspection only; not built or benchmarked."
+    ]
+  },
+  {
+    "id": "code-freeciv-04",
+    "title": "freeciv: doc/README.AI_modules",
+    "url": "https://github.com/freeciv/freeciv/blob/709467e08b800c0012a7879b0368bad29984a78c/doc/README.AI_modules",
+    "publisher": "Freeciv contributors",
+    "publishedDate": null,
+    "accessedDate": "2026-09-22",
+    "kind": "primary-source-code",
+    "claims": [
+      "Actual inspected source; commit and content hash recorded in freeciv-source-audit.json."
+    ],
+    "uncertainties": [
+      "Inspection only; not built or benchmarked."
+    ]
+  },
+  {
+    "id": "code-freeciv-05",
+    "title": "freeciv: common/map.h",
+    "url": "https://github.com/freeciv/freeciv/blob/709467e08b800c0012a7879b0368bad29984a78c/common/map.h",
+    "publisher": "Freeciv contributors",
+    "publishedDate": null,
+    "accessedDate": "2026-09-22",
+    "kind": "primary-source-code",
+    "claims": [
+      "Actual inspected source; commit and content hash recorded in freeciv-source-audit.json."
+    ],
+    "uncertainties": [
+      "Inspection only; not built or benchmarked."
+    ]
+  },
+  {
+    "id": "code-freeciv-06",
+    "title": "freeciv: common/combat.c",
+    "url": "https://github.com/freeciv/freeciv/blob/709467e08b800c0012a7879b0368bad29984a78c/common/combat.c",
+    "publisher": "Freeciv contributors",
+    "publishedDate": null,
+    "accessedDate": "2026-09-22",
+    "kind": "primary-source-code",
+    "claims": [
+      "Actual inspected source; commit and content hash recorded in freeciv-source-audit.json."
+    ],
+    "uncertainties": [
+      "Inspection only; not built or benchmarked."
+    ]
+  },
+  {
+    "id": "code-freeciv-07",
+    "title": "freeciv: server/srv_main.c",
+    "url": "https://github.com/freeciv/freeciv/blob/709467e08b800c0012a7879b0368bad29984a78c/server/srv_main.c",
+    "publisher": "Freeciv contributors",
+    "publishedDate": null,
+    "accessedDate": "2026-09-22",
+    "kind": "primary-source-code",
+    "claims": [
+      "Actual inspected source; commit and content hash recorded in freeciv-source-audit.json."
+    ],
+    "uncertainties": [
+      "Inspection only; not built or benchmarked."
+    ]
+  },
+  {
+    "id": "code-freeciv-08",
+    "title": "freeciv: server/savegame/savegame3.c",
+    "url": "https://github.com/freeciv/freeciv/blob/709467e08b800c0012a7879b0368bad29984a78c/server/savegame/savegame3.c",
+    "publisher": "Freeciv contributors",
+    "publishedDate": null,
+    "accessedDate": "2026-09-22",
+    "kind": "primary-source-code",
+    "claims": [
+      "Actual inspected source; commit and content hash recorded in freeciv-source-audit.json."
+    ],
+    "uncertainties": [
+      "Inspection only; not built or benchmarked."
+    ]
+  },
+  {
+    "id": "code-freeciv-09",
+    "title": "freeciv: data/classic/actions.ruleset",
+    "url": "https://github.com/freeciv/freeciv/blob/709467e08b800c0012a7879b0368bad29984a78c/data/classic/actions.ruleset",
+    "publisher": "Freeciv contributors",
+    "publishedDate": null,
+    "accessedDate": "2026-09-22",
+    "kind": "primary-source-code",
+    "claims": [
+      "Actual inspected source; commit and content hash recorded in freeciv-source-audit.json."
+    ],
+    "uncertainties": [
+      "Inspection only; not built or benchmarked."
+    ]
+  },
+  {
+    "id": "code-freeciv-10",
+    "title": "freeciv: data/classic/units.ruleset",
+    "url": "https://github.com/freeciv/freeciv/blob/709467e08b800c0012a7879b0368bad29984a78c/data/classic/units.ruleset",
+    "publisher": "Freeciv contributors",
+    "publishedDate": null,
+    "accessedDate": "2026-09-22",
+    "kind": "primary-source-code",
+    "claims": [
+      "Actual inspected source; commit and content hash recorded in freeciv-source-audit.json."
+    ],
+    "uncertainties": [
+      "Inspection only; not built or benchmarked."
+    ]
+  },
+  {
+    "id": "code-freeciv-11",
+    "title": "freeciv: COPYING",
+    "url": "https://github.com/freeciv/freeciv/blob/709467e08b800c0012a7879b0368bad29984a78c/COPYING",
+    "publisher": "Freeciv contributors",
+    "publishedDate": null,
+    "accessedDate": "2026-09-22",
+    "kind": "primary-source-code",
+    "claims": [
+      "Actual inspected source; commit and content hash recorded in freeciv-source-audit.json."
+    ],
+    "uncertainties": [
+      "Inspection only; not built or benchmarked."
+    ]
+  },
+  {
+    "id": "code-freeciv-web-01",
+    "title": "freeciv-web: README.md",
+    "url": "https://github.com/freeciv/freeciv-web/blob/c19ce060fadc99663f8aba3652ca94b07174467c/README.md",
+    "publisher": "Freeciv contributors",
+    "publishedDate": null,
+    "accessedDate": "2026-09-22",
+    "kind": "primary-source-code",
+    "claims": [
+      "Actual inspected source; commit and content hash recorded in freeciv-source-audit.json."
+    ],
+    "uncertainties": [
+      "Inspection only; not built or benchmarked."
+    ]
+  },
+  {
+    "id": "code-freeciv-web-02",
+    "title": "freeciv-web: LICENSE.txt",
+    "url": "https://github.com/freeciv/freeciv-web/blob/c19ce060fadc99663f8aba3652ca94b07174467c/LICENSE.txt",
+    "publisher": "Freeciv contributors",
+    "publishedDate": null,
+    "accessedDate": "2026-09-22",
+    "kind": "primary-source-code",
+    "claims": [
+      "Actual inspected source; commit and content hash recorded in freeciv-source-audit.json."
+    ],
+    "uncertainties": [
+      "Inspection only; not built or benchmarked."
+    ]
+  },
+  {
+    "id": "code-freeciv-web-03",
+    "title": "freeciv-web: freeciv/version.txt",
+    "url": "https://github.com/freeciv/freeciv-web/blob/c19ce060fadc99663f8aba3652ca94b07174467c/freeciv/version.txt",
+    "publisher": "Freeciv contributors",
+    "publishedDate": null,
+    "accessedDate": "2026-09-22",
+    "kind": "primary-source-code",
+    "claims": [
+      "Actual inspected source; commit and content hash recorded in freeciv-source-audit.json."
+    ],
+    "uncertainties": [
+      "Inspection only; not built or benchmarked."
+    ]
+  },
+  {
+    "id": "code-freeciv-web-04",
+    "title": "freeciv-web: freeciv-web/src/main/webapp/javascript/clinet.js",
+    "url": "https://github.com/freeciv/freeciv-web/blob/c19ce060fadc99663f8aba3652ca94b07174467c/freeciv-web/src/main/webapp/javascript/clinet.js",
+    "publisher": "Freeciv contributors",
+    "publishedDate": null,
+    "accessedDate": "2026-09-22",
+    "kind": "primary-source-code",
+    "claims": [
+      "Actual inspected source; commit and content hash recorded in freeciv-source-audit.json."
+    ],
+    "uncertainties": [
+      "Inspection only; not built or benchmarked."
+    ]
+  },
+  {
+    "id": "code-freeciv-web-05",
+    "title": "freeciv-web: freeciv-web/src/main/webapp/javascript/savegame.js",
+    "url": "https://github.com/freeciv/freeciv-web/blob/c19ce060fadc99663f8aba3652ca94b07174467c/freeciv-web/src/main/webapp/javascript/savegame.js",
+    "publisher": "Freeciv contributors",
+    "publishedDate": null,
+    "accessedDate": "2026-09-22",
+    "kind": "primary-source-code",
+    "claims": [
+      "Actual inspected source; commit and content hash recorded in freeciv-source-audit.json."
+    ],
+    "uncertainties": [
+      "Inspection only; not built or benchmarked."
+    ]
+  },
+  {
+    "id": "code-freeciv-web-06",
+    "title": "freeciv-web: freeciv-web/src/main/webapp/javascript/diplomacy.js",
+    "url": "https://github.com/freeciv/freeciv-web/blob/c19ce060fadc99663f8aba3652ca94b07174467c/freeciv-web/src/main/webapp/javascript/diplomacy.js",
+    "publisher": "Freeciv contributors",
+    "publishedDate": null,
+    "accessedDate": "2026-09-22",
+    "kind": "primary-source-code",
+    "claims": [
+      "Actual inspected source; commit and content hash recorded in freeciv-source-audit.json."
+    ],
+    "uncertainties": [
+      "Inspection only; not built or benchmarked."
+    ]
+  },
+  {
+    "id": "code-freeciv-web-07",
+    "title": "freeciv-web: freeciv-web/src/main/webapp/javascript/city.js",
+    "url": "https://github.com/freeciv/freeciv-web/blob/c19ce060fadc99663f8aba3652ca94b07174467c/freeciv-web/src/main/webapp/javascript/city.js",
+    "publisher": "Freeciv contributors",
+    "publishedDate": null,
+    "accessedDate": "2026-09-22",
+    "kind": "primary-source-code",
+    "claims": [
+      "Actual inspected source; commit and content hash recorded in freeciv-source-audit.json."
+    ],
+    "uncertainties": [
+      "Inspection only; not built or benchmarked."
+    ]
+  }
+]

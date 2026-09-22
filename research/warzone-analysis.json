@@ -1,0 +1,1009 @@
+{
+  "systems": 90,
+  "internalUndirectedEdges": 110,
+  "constellations": 15,
+  "regions": 5,
+  "connectedComponents": 1,
+  "externalDirectedGates": 31,
+  "uniqueExternalDestinations": 27,
+  "occupancy": {
+    "Caldari": 56,
+    "Gallente": 34
+  },
+  "originalFaction": {
+    "Gallente": 36,
+    "Caldari": 54
+  },
+  "derivedOperationalStates": {
+    "frontline": 22,
+    "command": 21,
+    "rearguard": 47
+  },
+  "vpThresholds": {
+    "75000": 90
+  },
+  "diameterInternalHops": 21,
+  "meanShortestPathInternalHops": 8.723845,
+  "topBetweenness": [
+    {
+      "id": 30045353,
+      "name": "Pynekastoh",
+      "score": 0.543752128
+    },
+    {
+      "id": 30045338,
+      "name": "Hikkoken",
+      "score": 0.505575417
+    },
+    {
+      "id": 30045344,
+      "name": "Nennamaila",
+      "score": 0.502468505
+    },
+    {
+      "id": 30003837,
+      "name": "Aldranette",
+      "score": 0.409644195
+    },
+    {
+      "id": 30004979,
+      "name": "Heydieles",
+      "score": 0.272301668
+    },
+    {
+      "id": 30045347,
+      "name": "Oinasiken",
+      "score": 0.268939394
+    },
+    {
+      "id": 30003836,
+      "name": "Vlillirier",
+      "score": 0.26664113
+    },
+    {
+      "id": 30045354,
+      "name": "Reitsato",
+      "score": 0.258512087
+    },
+    {
+      "id": 30004984,
+      "name": "Abune",
+      "score": 0.244850187
+    },
+    {
+      "id": 30045330,
+      "name": "Okkamon",
+      "score": 0.235955056
+    },
+    {
+      "id": 30045346,
+      "name": "Kedama",
+      "score": 0.213781069
+    },
+    {
+      "id": 30045349,
+      "name": "Rakapas",
+      "score": 0.204204971
+    }
+  ],
+  "articulationSystems": [
+    {
+      "id": 30002756,
+      "name": "Ishomilken",
+      "componentSizesWithoutNode": [
+        87,
+        2
+      ]
+    },
+    {
+      "id": 30002757,
+      "name": "Nikkishina",
+      "componentSizesWithoutNode": [
+        88,
+        1
+      ]
+    },
+    {
+      "id": 30002759,
+      "name": "Uuna",
+      "componentSizesWithoutNode": [
+        86,
+        3
+      ]
+    },
+    {
+      "id": 30002760,
+      "name": "Manjonakko",
+      "componentSizesWithoutNode": [
+        85,
+        4
+      ]
+    },
+    {
+      "id": 30002806,
+      "name": "Hasmijaala",
+      "componentSizesWithoutNode": [
+        88,
+        1
+      ]
+    },
+    {
+      "id": 30002807,
+      "name": "Nagamanen",
+      "componentSizesWithoutNode": [
+        86,
+        2,
+        1
+      ]
+    },
+    {
+      "id": 30002809,
+      "name": "Sujarento",
+      "componentSizesWithoutNode": [
+        86,
+        3
+      ]
+    },
+    {
+      "id": 30002811,
+      "name": "Onatoh",
+      "componentSizesWithoutNode": [
+        88,
+        1
+      ]
+    },
+    {
+      "id": 30003829,
+      "name": "Renarelle",
+      "componentSizesWithoutNode": [
+        85,
+        4
+      ]
+    },
+    {
+      "id": 30003836,
+      "name": "Vlillirier",
+      "componentSizesWithoutNode": [
+        83,
+        5,
+        1
+      ]
+    },
+    {
+      "id": 30003837,
+      "name": "Aldranette",
+      "componentSizesWithoutNode": [
+        78,
+        11
+      ]
+    },
+    {
+      "id": 30003839,
+      "name": "Evaulon",
+      "componentSizesWithoutNode": [
+        79,
+        10
+      ]
+    },
+    {
+      "id": 30003840,
+      "name": "Anchauttes",
+      "componentSizesWithoutNode": [
+        80,
+        8,
+        1
+      ]
+    },
+    {
+      "id": 30003851,
+      "name": "Reschard",
+      "componentSizesWithoutNode": [
+        86,
+        2,
+        1
+      ]
+    },
+    {
+      "id": 30003852,
+      "name": "Arderonne",
+      "componentSizesWithoutNode": [
+        85,
+        4
+      ]
+    },
+    {
+      "id": 30003853,
+      "name": "Mercomesier",
+      "componentSizesWithoutNode": [
+        88,
+        1
+      ]
+    },
+    {
+      "id": 30003854,
+      "name": "Alamel",
+      "componentSizesWithoutNode": [
+        88,
+        1
+      ]
+    },
+    {
+      "id": 30003857,
+      "name": "Odamia",
+      "componentSizesWithoutNode": [
+        82,
+        7
+      ]
+    },
+    {
+      "id": 30004979,
+      "name": "Heydieles",
+      "componentSizesWithoutNode": [
+        77,
+        9,
+        3
+      ]
+    },
+    {
+      "id": 30004982,
+      "name": "Indregulle",
+      "componentSizesWithoutNode": [
+        81,
+        8
+      ]
+    },
+    {
+      "id": 30004999,
+      "name": "Ladistier",
+      "componentSizesWithoutNode": [
+        88,
+        1
+      ]
+    },
+    {
+      "id": 30005000,
+      "name": "Old Man Star",
+      "componentSizesWithoutNode": [
+        87,
+        2
+      ]
+    },
+    {
+      "id": 30005295,
+      "name": "Murethand",
+      "componentSizesWithoutNode": [
+        82,
+        7
+      ]
+    },
+    {
+      "id": 30005296,
+      "name": "Melmaniel",
+      "componentSizesWithoutNode": [
+        83,
+        4,
+        2
+      ]
+    },
+    {
+      "id": 30005297,
+      "name": "Ouelletta",
+      "componentSizesWithoutNode": [
+        88,
+        1
+      ]
+    },
+    {
+      "id": 30005298,
+      "name": "Costolle",
+      "componentSizesWithoutNode": [
+        86,
+        3
+      ]
+    },
+    {
+      "id": 30005299,
+      "name": "Muetralle",
+      "componentSizesWithoutNode": [
+        87,
+        2
+      ]
+    },
+    {
+      "id": 30005320,
+      "name": "Hevrice",
+      "componentSizesWithoutNode": [
+        88,
+        1
+      ]
+    },
+    {
+      "id": 30045306,
+      "name": "Hykanima",
+      "componentSizesWithoutNode": [
+        88,
+        1
+      ]
+    },
+    {
+      "id": 30045308,
+      "name": "Kehjari",
+      "componentSizesWithoutNode": [
+        82,
+        7
+      ]
+    },
+    {
+      "id": 30045309,
+      "name": "Villasen",
+      "componentSizesWithoutNode": [
+        88,
+        1
+      ]
+    },
+    {
+      "id": 30045318,
+      "name": "Martoh",
+      "componentSizesWithoutNode": [
+        81,
+        8
+      ]
+    },
+    {
+      "id": 30045330,
+      "name": "Okkamon",
+      "componentSizesWithoutNode": [
+        77,
+        12
+      ]
+    },
+    {
+      "id": 30045331,
+      "name": "Vaaralen",
+      "componentSizesWithoutNode": [
+        88,
+        1
+      ]
+    },
+    {
+      "id": 30045332,
+      "name": "Asakai",
+      "componentSizesWithoutNode": [
+        86,
+        3
+      ]
+    },
+    {
+      "id": 30045334,
+      "name": "Mushikegi",
+      "componentSizesWithoutNode": [
+        84,
+        5
+      ]
+    },
+    {
+      "id": 30045338,
+      "name": "Hikkoken",
+      "componentSizesWithoutNode": [
+        48,
+        41
+      ]
+    },
+    {
+      "id": 30045346,
+      "name": "Kedama",
+      "componentSizesWithoutNode": [
+        88,
+        1
+      ]
+    },
+    {
+      "id": 30045349,
+      "name": "Rakapas",
+      "componentSizesWithoutNode": [
+        88,
+        1
+      ]
+    },
+    {
+      "id": 30045352,
+      "name": "Nisuwa",
+      "componentSizesWithoutNode": [
+        88,
+        1
+      ]
+    },
+    {
+      "id": 30045353,
+      "name": "Pynekastoh",
+      "componentSizesWithoutNode": [
+        47,
+        42
+      ]
+    },
+    {
+      "id": 30045354,
+      "name": "Reitsato",
+      "componentSizesWithoutNode": [
+        76,
+        13
+      ]
+    }
+  ],
+  "bridgeEdges": [
+    {
+      "ids": [
+        30002756,
+        30002757
+      ],
+      "names": [
+        "Ishomilken",
+        "Nikkishina"
+      ],
+      "componentSizesWithoutEdge": [
+        88,
+        2
+      ]
+    },
+    {
+      "ids": [
+        30002756,
+        30002759
+      ],
+      "names": [
+        "Ishomilken",
+        "Uuna"
+      ],
+      "componentSizesWithoutEdge": [
+        87,
+        3
+      ]
+    },
+    {
+      "ids": [
+        30002757,
+        30002758
+      ],
+      "names": [
+        "Nikkishina",
+        "Hasama"
+      ],
+      "componentSizesWithoutEdge": [
+        89,
+        1
+      ]
+    },
+    {
+      "ids": [
+        30002759,
+        30002760
+      ],
+      "names": [
+        "Uuna",
+        "Manjonakko"
+      ],
+      "componentSizesWithoutEdge": [
+        86,
+        4
+      ]
+    },
+    {
+      "ids": [
+        30002760,
+        30045334
+      ],
+      "names": [
+        "Manjonakko",
+        "Mushikegi"
+      ],
+      "componentSizesWithoutEdge": [
+        85,
+        5
+      ]
+    },
+    {
+      "ids": [
+        30002796,
+        30002806
+      ],
+      "names": [
+        "Hysera",
+        "Hasmijaala"
+      ],
+      "componentSizesWithoutEdge": [
+        89,
+        1
+      ]
+    },
+    {
+      "ids": [
+        30002806,
+        30002807
+      ],
+      "names": [
+        "Hasmijaala",
+        "Nagamanen"
+      ],
+      "componentSizesWithoutEdge": [
+        88,
+        2
+      ]
+    },
+    {
+      "ids": [
+        30002807,
+        30002808
+      ],
+      "names": [
+        "Nagamanen",
+        "Oto"
+      ],
+      "componentSizesWithoutEdge": [
+        89,
+        1
+      ]
+    },
+    {
+      "ids": [
+        30002811,
+        30002812
+      ],
+      "names": [
+        "Onatoh",
+        "Tannolen"
+      ],
+      "componentSizesWithoutEdge": [
+        89,
+        1
+      ]
+    },
+    {
+      "ids": [
+        30003829,
+        30003836
+      ],
+      "names": [
+        "Renarelle",
+        "Vlillirier"
+      ],
+      "componentSizesWithoutEdge": [
+        85,
+        5
+      ]
+    },
+    {
+      "ids": [
+        30003836,
+        30003841
+      ],
+      "names": [
+        "Vlillirier",
+        "Alsavoinon"
+      ],
+      "componentSizesWithoutEdge": [
+        89,
+        1
+      ]
+    },
+    {
+      "ids": [
+        30003837,
+        30003839
+      ],
+      "names": [
+        "Aldranette",
+        "Evaulon"
+      ],
+      "componentSizesWithoutEdge": [
+        79,
+        11
+      ]
+    },
+    {
+      "ids": [
+        30003839,
+        30003840
+      ],
+      "names": [
+        "Evaulon",
+        "Anchauttes"
+      ],
+      "componentSizesWithoutEdge": [
+        80,
+        10
+      ]
+    },
+    {
+      "ids": [
+        30003840,
+        30003842
+      ],
+      "names": [
+        "Anchauttes",
+        "Esesier"
+      ],
+      "componentSizesWithoutEdge": [
+        89,
+        1
+      ]
+    },
+    {
+      "ids": [
+        30003840,
+        30003857
+      ],
+      "names": [
+        "Anchauttes",
+        "Odamia"
+      ],
+      "componentSizesWithoutEdge": [
+        82,
+        8
+      ]
+    },
+    {
+      "ids": [
+        30003850,
+        30003851
+      ],
+      "names": [
+        "Alparena",
+        "Reschard"
+      ],
+      "componentSizesWithoutEdge": [
+        89,
+        1
+      ]
+    },
+    {
+      "ids": [
+        30003851,
+        30003852
+      ],
+      "names": [
+        "Reschard",
+        "Arderonne"
+      ],
+      "componentSizesWithoutEdge": [
+        86,
+        4
+      ]
+    },
+    {
+      "ids": [
+        30003851,
+        30003853
+      ],
+      "names": [
+        "Reschard",
+        "Mercomesier"
+      ],
+      "componentSizesWithoutEdge": [
+        88,
+        2
+      ]
+    },
+    {
+      "ids": [
+        30003853,
+        30003856
+      ],
+      "names": [
+        "Mercomesier",
+        "Athounon"
+      ],
+      "componentSizesWithoutEdge": [
+        89,
+        1
+      ]
+    },
+    {
+      "ids": [
+        30003854,
+        30003855
+      ],
+      "names": [
+        "Alamel",
+        "Mantenault"
+      ],
+      "componentSizesWithoutEdge": [
+        89,
+        1
+      ]
+    },
+    {
+      "ids": [
+        30004979,
+        30004982
+      ],
+      "names": [
+        "Heydieles",
+        "Indregulle"
+      ],
+      "componentSizesWithoutEdge": [
+        81,
+        9
+      ]
+    },
+    {
+      "ids": [
+        30004979,
+        30005000
+      ],
+      "names": [
+        "Heydieles",
+        "Old Man Star"
+      ],
+      "componentSizesWithoutEdge": [
+        87,
+        3
+      ]
+    },
+    {
+      "ids": [
+        30004982,
+        30005295
+      ],
+      "names": [
+        "Indregulle",
+        "Murethand"
+      ],
+      "componentSizesWithoutEdge": [
+        82,
+        8
+      ]
+    },
+    {
+      "ids": [
+        30004997,
+        30004999
+      ],
+      "names": [
+        "Vifrevaert",
+        "Ladistier"
+      ],
+      "componentSizesWithoutEdge": [
+        89,
+        1
+      ]
+    },
+    {
+      "ids": [
+        30004999,
+        30005000
+      ],
+      "names": [
+        "Ladistier",
+        "Old Man Star"
+      ],
+      "componentSizesWithoutEdge": [
+        88,
+        2
+      ]
+    },
+    {
+      "ids": [
+        30005295,
+        30005296
+      ],
+      "names": [
+        "Murethand",
+        "Melmaniel"
+      ],
+      "componentSizesWithoutEdge": [
+        83,
+        7
+      ]
+    },
+    {
+      "ids": [
+        30005296,
+        30005297
+      ],
+      "names": [
+        "Melmaniel",
+        "Ouelletta"
+      ],
+      "componentSizesWithoutEdge": [
+        88,
+        2
+      ]
+    },
+    {
+      "ids": [
+        30005296,
+        30005298
+      ],
+      "names": [
+        "Melmaniel",
+        "Costolle"
+      ],
+      "componentSizesWithoutEdge": [
+        86,
+        4
+      ]
+    },
+    {
+      "ids": [
+        30005297,
+        30005300
+      ],
+      "names": [
+        "Ouelletta",
+        "Loes"
+      ],
+      "componentSizesWithoutEdge": [
+        89,
+        1
+      ]
+    },
+    {
+      "ids": [
+        30005298,
+        30005299
+      ],
+      "names": [
+        "Costolle",
+        "Muetralle"
+      ],
+      "componentSizesWithoutEdge": [
+        87,
+        3
+      ]
+    },
+    {
+      "ids": [
+        30005299,
+        30005320
+      ],
+      "names": [
+        "Muetralle",
+        "Hevrice"
+      ],
+      "componentSizesWithoutEdge": [
+        88,
+        2
+      ]
+    },
+    {
+      "ids": [
+        30005320,
+        30005321
+      ],
+      "names": [
+        "Hevrice",
+        "Jovainnon"
+      ],
+      "componentSizesWithoutEdge": [
+        89,
+        1
+      ]
+    },
+    {
+      "ids": [
+        30045306,
+        30045310
+      ],
+      "names": [
+        "Hykanima",
+        "Sarenemi"
+      ],
+      "componentSizesWithoutEdge": [
+        89,
+        1
+      ]
+    },
+    {
+      "ids": [
+        30045308,
+        30045318
+      ],
+      "names": [
+        "Kehjari",
+        "Martoh"
+      ],
+      "componentSizesWithoutEdge": [
+        82,
+        8
+      ]
+    },
+    {
+      "ids": [
+        30045309,
+        30045312
+      ],
+      "names": [
+        "Villasen",
+        "Korasen"
+      ],
+      "componentSizesWithoutEdge": [
+        89,
+        1
+      ]
+    },
+    {
+      "ids": [
+        30045330,
+        30045354
+      ],
+      "names": [
+        "Okkamon",
+        "Reitsato"
+      ],
+      "componentSizesWithoutEdge": [
+        77,
+        13
+      ]
+    },
+    {
+      "ids": [
+        30045331,
+        30045335
+      ],
+      "names": [
+        "Vaaralen",
+        "Teskanen"
+      ],
+      "componentSizesWithoutEdge": [
+        89,
+        1
+      ]
+    },
+    {
+      "ids": [
+        30045338,
+        30045353
+      ],
+      "names": [
+        "Hikkoken",
+        "Pynekastoh"
+      ],
+      "componentSizesWithoutEdge": [
+        48,
+        42
+      ]
+    },
+    {
+      "ids": [
+        30045346,
+        30045350
+      ],
+      "names": [
+        "Kedama",
+        "Teimo"
+      ],
+      "componentSizesWithoutEdge": [
+        89,
+        1
+      ]
+    },
+    {
+      "ids": [
+        30045348,
+        30045352
+      ],
+      "names": [
+        "Notoras",
+        "Nisuwa"
+      ],
+      "componentSizesWithoutEdge": [
+        89,
+        1
+      ]
+    },
+    {
+      "ids": [
+        30045349,
+        30045351
+      ],
+      "names": [
+        "Rakapas",
+        "Iwisoda"
+      ],
+      "componentSizesWithoutEdge": [
+        89,
+        1
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "jsonFilesParsed": 32,
+  "sourceRecords": 130,
+  "uniqueSourceUrls": 124,
+  "rawHashesVerified": 9,
+  "systemsVerified": 90,
+  "svgGateLinksVerified": 110,
+  "typedIdentities": 28,
+  "localIdentityAssetsVerified": 16,
+  "designActionContracts": 9,
+  "markdownLocalLinksVerified": 86,
+  "scope": "Research consistency and file integrity only; no game engine, real-time rules conformance, or campaign balance tested."
+}

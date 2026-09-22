@@ -1,0 +1,77 @@
+{
+  "copyright": "\u00a9 CCP Games",
+  "files": [
+    {
+      "name": "rifter",
+      "typeID": 587,
+      "file": "assets/models/rifter.glb",
+      "sha256": "a3434e009115a0d8edc2bcfcb4b9ffe48362fc87e3084a106cbcb1514dc0c14d",
+      "copyright": "EVE Online geometry \u00a9 CCP Games; limited fan-content permission. Conversion source: EstamelGG / iDea SP1.",
+      "source": "https://raw.githubusercontent.com/EstamelGG/EVE_Model_Gallery/951c041d363ce184886a194fef67f0ae1ee5f33f/docs/models/587_lite.glb",
+      "materials": "Project-authored unpainted tactical finish; not the EVE client shader."
+    },
+    {
+      "name": "catalyst",
+      "typeID": 16240,
+      "file": "assets/models/catalyst.glb",
+      "sha256": "f18f69606c84caaf4de78e5df64ed15af7eb69fb7f2fbeab5bc77204949d894f",
+      "copyright": "EVE Online geometry \u00a9 CCP Games; limited fan-content permission. Conversion source: EstamelGG / iDea SP1.",
+      "source": "https://raw.githubusercontent.com/EstamelGG/EVE_Model_Gallery/951c041d363ce184886a194fef67f0ae1ee5f33f/docs/models/16240_lite.glb",
+      "materials": "Project-authored unpainted tactical finish; not the EVE client shader."
+    },
+    {
+      "name": "caracal",
+      "typeID": 621,
+      "file": "assets/models/caracal.glb",
+      "sha256": "9cddcd82f3be02c16253cd120882826512d73fb8bddefd125abfa0c63a61a372",
+      "copyright": "EVE Online geometry \u00a9 CCP Games; limited fan-content permission. Conversion source: EstamelGG / iDea SP1.",
+      "source": "https://raw.githubusercontent.com/EstamelGG/EVE_Model_Gallery/951c041d363ce184886a194fef67f0ae1ee5f33f/docs/models/621_lite.glb",
+      "materials": "Project-authored unpainted tactical finish; not the EVE client shader."
+    },
+    {
+      "name": "drake",
+      "typeID": 24698,
+      "file": "assets/models/drake.glb",
+      "sha256": "5f1930ce2bb1091fcd51598410c0fe5e15817e306ce32826439278cc76f7ba56",
+      "copyright": "EVE Online geometry \u00a9 CCP Games; limited fan-content permission. Conversion source: EstamelGG / iDea SP1.",
+      "source": "https://raw.githubusercontent.com/EstamelGG/EVE_Model_Gallery/951c041d363ce184886a194fef67f0ae1ee5f33f/docs/models/24698_lite.glb",
+      "materials": "Project-authored unpainted tactical finish; not the EVE client shader."
+    },
+    {
+      "name": "dominix",
+      "typeID": 645,
+      "file": "assets/models/dominix.glb",
+      "sha256": "9b984a5c0c5f686399c917f9f2a9f3f7b61555fd6e1cefea6674b92d644797a5",
+      "copyright": "EVE Online geometry \u00a9 CCP Games; limited fan-content permission. Conversion source: EstamelGG / iDea SP1.",
+      "source": "https://raw.githubusercontent.com/EstamelGG/EVE_Model_Gallery/951c041d363ce184886a194fef67f0ae1ee5f33f/docs/models/645_lite.glb",
+      "materials": "Project-authored unpainted tactical finish; not the EVE client shader."
+    },
+    {
+      "name": "venture",
+      "typeID": 32880,
+      "file": "assets/models/venture.glb",
+      "sha256": "15f58e1db06101f8167f6500d5352c5e5901963d6d78586acb499ef393016322",
+      "copyright": "EVE Online geometry \u00a9 CCP Games; limited fan-content permission. Conversion source: EstamelGG / iDea SP1.",
+      "source": "https://raw.githubusercontent.com/EstamelGG/EVE_Model_Gallery/951c041d363ce184886a194fef67f0ae1ee5f33f/docs/models/32880_lite.glb",
+      "materials": "Project-authored unpainted tactical finish; not the EVE client shader."
+    },
+    {
+      "name": "providence",
+      "typeID": 20183,
+      "file": "assets/models/providence.glb",
+      "sha256": "3d1e0add444bfc4863479c91d46022e1e2e01bcba5ce23eec68ddba0fa3bc84d",
+      "copyright": "EVE Online geometry \u00a9 CCP Games; limited fan-content permission. Conversion source: EstamelGG / iDea SP1.",
+      "source": "https://raw.githubusercontent.com/EstamelGG/EVE_Model_Gallery/951c041d363ce184886a194fef67f0ae1ee5f33f/docs/models/20183_lite.glb",
+      "materials": "Project-authored unpainted tactical finish; not the EVE client shader."
+    },
+    {
+      "name": "astrahus",
+      "typeID": 35832,
+      "file": "assets/models/astrahus.glb",
+      "sha256": "ce2ad634b19d55e3b58eea9b49fe0ca39d5a09020a27bfcfba7db9e447546928",
+      "copyright": "EVE Online geometry \u00a9 CCP Games; limited fan-content permission. Conversion source: EstamelGG / iDea SP1.",
+      "source": "https://raw.githubusercontent.com/EstamelGG/EVE_Model_Gallery/951c041d363ce184886a194fef67f0ae1ee5f33f/docs/extra_models/35832_lite.glb",
+      "materials": "Project-authored unpainted tactical finish; not the EVE client shader."
+    }
+  ]
+}

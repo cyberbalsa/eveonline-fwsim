@@ -1,0 +1,76 @@
+{
+  "alliances": [
+    {
+      "id": 99001742,
+      "name": "Templis CALSF"
+    }
+  ],
+  "characters": [
+    {
+      "id": 923165274,
+      "name": "youngpuke2"
+    },
+    {
+      "id": 2114096575,
+      "name": "Abby Aurilen"
+    },
+    {
+      "id": 94065445,
+      "name": "Corvus Onzo"
+    },
+    {
+      "id": 1458891505,
+      "name": "Nayrok Fenix"
+    },
+    {
+      "id": 755598436,
+      "name": "Scylus Black"
+    },
+    {
+      "id": 91517843,
+      "name": "Sam Chadelanne"
+    },
+    {
+      "id": 1535015364,
+      "name": "Rinai Vero"
+    },
+    {
+      "id": 1386146895,
+      "name": "Julianus Soter"
+    }
+  ],
+  "corporations": [
+    {
+      "id": 1000181,
+      "name": "Federal Defense Union"
+    },
+    {
+      "id": 98639548,
+      "name": "United Caldari Navy"
+    },
+    {
+      "id": 98192633,
+      "name": "United Caldari Space Command"
+    },
+    {
+      "id": 98107258,
+      "name": "Caldari Colonial Defense Ministry"
+    },
+    {
+      "id": 98688951,
+      "name": "Mercury Arms Inc."
+    },
+    {
+      "id": 1894214152,
+      "name": "Aideron Robotics"
+    },
+    {
+      "id": 98596389,
+      "name": "Sons of Luminaire"
+    },
+    {
+      "id": 1000180,
+      "name": "State Protectorate"
+    }
+  ]
+}
